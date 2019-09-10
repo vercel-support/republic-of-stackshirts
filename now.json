@@ -4,23 +4,27 @@
   "public": true,
   "build": {
     "env": {
-      "NPM_TOKEN": "@npm-token"
+      "NPM_TOKEN": "@npm-token",
+      "NODE_ENV": "production"
     }
   },
   "builds": [
     {
-      "src": "api/build/**/*.json",
-      "use": "@now/static"
+      "src": "api/package.json",
+      "use": "@now/static-build",
+      "config": {
+        "distDir": "build"
+      }
     }
   ],
   "routes": [
     {
       "src": "api/(?<type>[^\\/]+)/(?<id>\\d[^\\/]+)",
-      "dest": "api/build/$type/$id/$id.json"
+      "dest": "api/$type/$id/$id.json"
     },
     {
       "src": "api/(?<type>[^\\/]+)/(?<id>(?<letter>[^\\/])[^\\/]+)",
-      "dest": "api/build/$type/$letter/$id/$id.json"
+      "dest": "api/$type/$letter/$id/$id.json"
     }
   ]
 }
