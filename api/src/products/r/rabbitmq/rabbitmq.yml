@@ -1,0 +1,33 @@
+id: rabbitmq
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: RabbitMQ
+  url: 'http://www.rabbitmq.com/'
+  colors:
+    - hex: '#fc6404'
+      rgb:
+        r: 252
+        g: 100
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: rabbitmq
+      relativeUrl: products/r/rabbitmq/logos/rabbitmq.svg
+      width: 256
+      height: 271
+  icons:
+    - id: rabbitmq
+      relativeUrl: products/r/rabbitmq/icons/rabbitmq.svg
+      width: 256
+      height: 271
+relationships:
+  productLabels:
+    messageQueue:
+      id: messageQueue
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

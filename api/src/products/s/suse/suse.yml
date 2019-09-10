@@ -1,0 +1,38 @@
+id: suse
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Suse
+  url: 'https://www.suse.com/'
+  colors:
+    - hex: '#74bc24'
+      rgb:
+        r: 116
+        g: 188
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: suse
+      relativeUrl: products/s/suse/logos/suse.svg
+      width: 256
+      height: 167
+  icons:
+    - id: suse
+      relativeUrl: products/s/suse/icons/suse.svg
+      width: 256
+      height: 167
+relationships:
+  productLabels:
+    operationalSystem:
+      id: operationalSystem
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    linux:
+      id: linux
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

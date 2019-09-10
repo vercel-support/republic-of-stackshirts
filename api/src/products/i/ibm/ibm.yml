@@ -1,0 +1,33 @@
+id: ibm
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: IBM
+  url: 'https://www.ibm.com/'
+  colors:
+    - hex: '#1f70c1'
+      rgb:
+        r: 31
+        g: 112
+        b: 193
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: ibm
+      relativeUrl: products/i/ibm/logos/ibm.svg
+      width: 512
+      height: 205
+  icons:
+    - id: ibm
+      relativeUrl: products/i/ibm/icons/ibm.svg
+      width: 512
+      height: 205
+relationships:
+  productLabels:
+    operationalSystem:
+      id: operationalSystem
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

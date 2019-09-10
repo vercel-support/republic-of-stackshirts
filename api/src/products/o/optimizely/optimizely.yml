@@ -1,0 +1,33 @@
+id: optimizely
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Optimizely
+  url: 'https://www.optimizely.com/'
+  colors:
+    - hex: '#747474'
+      rgb:
+        r: 116
+        g: 116
+        b: 116
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: optimizely
+      relativeUrl: products/o/optimizely/logos/optimizely.svg
+      width: 512
+      height: 110
+  icons:
+    - id: optimizely
+      relativeUrl: products/o/optimizely/icons/optimizely.svg
+      width: 512
+      height: 110
+relationships:
+  productLabels:
+    abTesting:
+      id: abTesting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

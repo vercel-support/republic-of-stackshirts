@@ -1,0 +1,43 @@
+id: herokuRedis
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Heroku Redis
+  url: 'https://www.heroku.com/redis'
+  colors:
+    - hex: '#2c3474'
+      rgb:
+        r: 44
+        g: 52
+        b: 116
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: herokuRedis
+      relativeUrl: products/h/herokuRedis/logos/herokuRedis.svg
+      width: 256
+      height: 304
+  icons:
+    - id: herokuRedis
+      relativeUrl: products/h/herokuRedis/icons/herokuRedis.svg
+      width: 256
+      height: 304
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    redis:
+      id: redis
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    codeHosting:
+      id: codeHosting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

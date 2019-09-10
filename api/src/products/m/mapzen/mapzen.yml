@@ -1,0 +1,38 @@
+id: mapzen
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Mapzen
+  url: 'https://mapzen.com/'
+  colors:
+    - hex: '#e1e9d2'
+      rgb:
+        r: 225
+        g: 233
+        b: 210
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mapzen
+      relativeUrl: products/m/mapzen/logos/mapzen.svg
+      width: 256
+      height: 256
+  icons:
+    - id: mapzen
+      relativeUrl: products/m/mapzen/icons/mapzen.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    maps:
+      id: maps
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mappingApi:
+      id: mappingApi
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

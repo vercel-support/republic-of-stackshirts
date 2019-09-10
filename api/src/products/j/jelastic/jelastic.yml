@@ -1,0 +1,38 @@
+id: jelastic
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Jelastic
+  url: 'http://jelastic.com/'
+  colors:
+    - hex: '#36a1f1'
+      rgb:
+        r: 54
+        g: 161
+        b: 241
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: jelastic
+      relativeUrl: products/j/jelastic/logos/jelastic.svg
+      width: 256
+      height: 292
+  icons:
+    - id: jelastic
+      relativeUrl: products/j/jelastic/icons/jelastic.svg
+      width: 256
+      height: 292
+relationships:
+  productLabels:
+    cloudComputing:
+      id: cloudComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    paas:
+      id: paas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: tunein
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: TuneIn
+  url: 'http://tunein.com/'
+  colors:
+    - hex: '#2cb4a4'
+      rgb:
+        r: 44
+        g: 180
+        b: 164
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: tunein
+      relativeUrl: products/t/tunein/logos/tunein.svg
+      width: 256
+      height: 275
+  icons:
+    - id: tunein
+      relativeUrl: products/t/tunein/icons/tunein.svg
+      width: 256
+      height: 275
+relationships:
+  productLabels:
+    onlineRadio:
+      id: onlineRadio
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobileApp:
+      id: mobileApp
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

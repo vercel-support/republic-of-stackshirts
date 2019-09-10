@@ -1,0 +1,38 @@
+id: apiary
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Apiary
+  url: 'https://apiary.io/'
+  colors:
+    - hex: '#5fbbae'
+      rgb:
+        r: 95
+        g: 187
+        b: 174
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: apiary
+      relativeUrl: products/a/apiary/logos/apiary.svg
+      width: 256
+      height: 259
+  icons:
+    - id: apiary
+      relativeUrl: products/a/apiary/icons/apiary.svg
+      width: 256
+      height: 259
+relationships:
+  productLabels:
+    documentation:
+      id: documentation
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    apiTools:
+      id: apiTools
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: groovehq
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Groove
+  url: 'https://www.groovehq.com/'
+  colors:
+    - hex: '#eecdba'
+      rgb:
+        r: 238
+        g: 205
+        b: 186
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: groovehq
+      relativeUrl: products/g/groovehq/logos/groovehq.svg
+      width: 256
+      height: 222
+  icons:
+    - id: groovehq
+      relativeUrl: products/g/groovehq/icons/groovehq.svg
+      width: 256
+      height: 222
+relationships:
+  productLabels:
+    helpDesk:
+      id: helpDesk
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    customerSupport:
+      id: customerSupport
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: librato
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Librato
+  url: 'https://www.librato.com/'
+  colors:
+    - hex: '#0c84ac'
+      rgb:
+        r: 12
+        g: 132
+        b: 172
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: librato
+      relativeUrl: products/l/librato/logos/librato.svg
+      width: 256
+      height: 194
+  icons:
+    - id: librato
+      relativeUrl: products/l/librato/icons/librato.svg
+      width: 256
+      height: 194
+relationships:
+  productLabels:
+    monitoring:
+      id: monitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    performanceMonitoring:
+      id: performanceMonitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

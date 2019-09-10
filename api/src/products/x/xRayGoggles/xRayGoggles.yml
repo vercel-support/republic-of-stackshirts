@@ -1,0 +1,38 @@
+id: xRayGoggles
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: X-Ray Goggles
+  url: 'https://webmaker.org/goggles'
+  colors:
+    - hex: '#3b9fd4'
+      rgb:
+        r: 59
+        g: 159
+        b: 212
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: xRayGoggles
+      relativeUrl: products/x/xRayGoggles/logos/xRayGoggles.svg
+      width: 256
+      height: 196
+  icons:
+    - id: xRayGoggles
+      relativeUrl: products/x/xRayGoggles/icons/xRayGoggles.svg
+      width: 256
+      height: 196
+relationships:
+  productLabels:
+    webInspector:
+      id: webInspector
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mozilla:
+      id: mozilla
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

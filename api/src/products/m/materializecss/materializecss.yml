@@ -1,0 +1,43 @@
+id: materializecss
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Materialize
+  url: 'http://materializecss.com/'
+  colors:
+    - hex: '#eb7077'
+      rgb:
+        r: 235
+        g: 112
+        b: 119
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: materializecss
+      relativeUrl: products/m/materializecss/logos/materializecss.svg
+      width: 256
+      height: 131
+  icons:
+    - id: materializecss
+      relativeUrl: products/m/materializecss/icons/materializecss.svg
+      width: 256
+      height: 131
+relationships:
+  productLabels:
+    frontEndFramework:
+      id: frontEndFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    css:
+      id: css
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    materialDesign:
+      id: materialDesign
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

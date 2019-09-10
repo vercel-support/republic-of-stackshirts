@@ -1,0 +1,33 @@
+id: bowtie
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Bowtie
+  url: 'https://bowtie.io/'
+  colors:
+    - hex: '#343434'
+      rgb:
+        r: 52
+        g: 52
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: bowtie
+      relativeUrl: products/b/bowtie/logos/bowtie.svg
+      width: 256
+      height: 250
+  icons:
+    - id: bowtie
+      relativeUrl: products/b/bowtie/icons/bowtie.svg
+      width: 256
+      height: 250
+relationships:
+  productLabels:
+    staticSiteGenerator:
+      id: staticSiteGenerator
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: coursera
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: coursera
+  url: 'https://www.coursera.org/'
+  colors:
+    - hex: '#747474'
+      rgb:
+        r: 116
+        g: 116
+        b: 116
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: coursera
+      relativeUrl: products/c/coursera/logos/coursera.svg
+      width: 512
+      height: 72
+  icons:
+    - id: coursera
+      relativeUrl: products/c/coursera/icons/coursera.svg
+      width: 512
+      height: 72
+relationships:
+  productLabels:
+    learning:
+      id: learning
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    courses:
+      id: courses
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

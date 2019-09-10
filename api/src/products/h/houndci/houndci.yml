@@ -1,0 +1,38 @@
+id: houndci
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Hound
+  url: 'https://houndci.com/'
+  colors:
+    - hex: '#ac74d4'
+      rgb:
+        r: 172
+        g: 116
+        b: 212
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: houndci
+      relativeUrl: products/h/houndci/logos/houndci.svg
+      width: 256
+      height: 251
+  icons:
+    - id: houndci
+      relativeUrl: products/h/houndci/icons/houndci.svg
+      width: 256
+      height: 251
+relationships:
+  productLabels:
+    github:
+      id: github
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    codeReview:
+      id: codeReview
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

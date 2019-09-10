@@ -1,0 +1,33 @@
+id: memcached
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Memcached
+  url: 'http://memcached.org/'
+  colors:
+    - hex: '#6b5e5b'
+      rgb:
+        r: 107
+        g: 94
+        b: 91
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: memcached
+      relativeUrl: products/m/memcached/logos/memcached.svg
+      width: 254
+      height: 254
+  icons:
+    - id: memcached
+      relativeUrl: products/m/memcached/icons/memcached.svg
+      width: 254
+      height: 254
+relationships:
+  productLabels:
+    objectCache:
+      id: objectCache
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

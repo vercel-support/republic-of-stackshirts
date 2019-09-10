@@ -1,0 +1,38 @@
+id: undertow
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Undertow
+  url: 'http://undertow.io/'
+  colors:
+    - hex: '#8c9494'
+      rgb:
+        r: 140
+        g: 148
+        b: 148
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: undertow
+      relativeUrl: products/u/undertow/logos/undertow.svg
+      width: 256
+      height: 146
+  icons:
+    - id: undertow
+      relativeUrl: products/u/undertow/icons/undertow.svg
+      width: 256
+      height: 146
+relationships:
+  productLabels:
+    webServer:
+      id: webServer
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    java:
+      id: java
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

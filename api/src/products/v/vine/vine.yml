@@ -1,0 +1,33 @@
+id: vine
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Vine
+  url: 'https://vine.co/'
+  colors:
+    - hex: '#04ac7c'
+      rgb:
+        r: 4
+        g: 172
+        b: 124
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: vine
+      relativeUrl: products/v/vine/logos/vine.svg
+      width: 512
+      height: 198
+  icons:
+    - id: vine
+      relativeUrl: products/v/vine/icons/vine.svg
+      width: 512
+      height: 198
+relationships:
+  productLabels:
+    videoSharing:
+      id: videoSharing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

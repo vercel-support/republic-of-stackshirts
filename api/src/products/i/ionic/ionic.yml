@@ -1,0 +1,53 @@
+id: ionic
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Ionic
+  url: 'http://ionicframework.com/'
+  colors:
+    - hex: '#4c8cf4'
+      rgb:
+        r: 76
+        g: 140
+        b: 244
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: ionic
+      relativeUrl: products/i/ionic/logos/ionic.svg
+      width: 512
+      height: 179
+  icons:
+    - id: ionic
+      relativeUrl: products/i/ionic/icons/ionic.svg
+      width: 512
+      height: 179
+relationships:
+  productLabels:
+    crossPlatform:
+      id: crossPlatform
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    applicationFramework:
+      id: applicationFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

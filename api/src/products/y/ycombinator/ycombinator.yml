@@ -1,0 +1,33 @@
+id: ycombinator
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: YCombinator
+  url: 'http://www.ycombinator.com/'
+  colors:
+    - hex: '#fc641c'
+      rgb:
+        r: 252
+        g: 100
+        b: 28
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: ycombinator
+      relativeUrl: products/y/ycombinator/logos/ycombinator.svg
+      width: 256
+      height: 256
+  icons:
+    - id: ycombinator
+      relativeUrl: products/y/ycombinator/icons/ycombinator.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    socialNews:
+      id: socialNews
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

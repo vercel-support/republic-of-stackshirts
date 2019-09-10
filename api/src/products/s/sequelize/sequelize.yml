@@ -1,0 +1,48 @@
+id: sequelize
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Sequelize
+  url: 'http://sequelizejs.com/'
+  colors:
+    - hex: '#2b446c'
+      rgb:
+        r: 43
+        g: 68
+        b: 108
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: sequelize
+      relativeUrl: products/s/sequelize/logos/sequelize.svg
+      width: 256
+      height: 296
+  icons:
+    - id: sequelize
+      relativeUrl: products/s/sequelize/icons/sequelize.svg
+      width: 256
+      height: 296
+relationships:
+  productLabels:
+    orm:
+      id: orm
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    sql:
+      id: sql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

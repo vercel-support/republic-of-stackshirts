@@ -1,0 +1,38 @@
+id: vernemq
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: VerneMQ
+  url: 'https://verne.mq/'
+  colors:
+    - hex: '#397a9b'
+      rgb:
+        r: 57
+        g: 122
+        b: 155
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: vernemq
+      relativeUrl: products/v/vernemq/logos/vernemq.svg
+      width: 256
+      height: 230
+  icons:
+    - id: vernemq
+      relativeUrl: products/v/vernemq/icons/vernemq.svg
+      width: 256
+      height: 230
+relationships:
+  productLabels:
+    messageQueue:
+      id: messageQueue
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mqtt:
+      id: mqtt
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: reduxObservable
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: redux-observable
+  url: 'https://github.com/redux-observable/redux-observable'
+  colors:
+    - hex: '#D6268B'
+      rgb:
+        r: 214
+        g: 38
+        b: 139
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: reduxObservable
+      relativeUrl: products/r/reduxObservable/logos/reduxObservable.svg
+      width: 256
+      height: 250
+  icons:
+    - id: reduxObservable
+      relativeUrl: products/r/reduxObservable/icons/reduxObservable.svg
+      width: 256
+      height: 250
+relationships:
+  productLabels:
+    react:
+      id: react
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    reactive:
+      id: reactive
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    rxjs:
+      id: rxjs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

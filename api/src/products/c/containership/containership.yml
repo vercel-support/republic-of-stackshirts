@@ -1,0 +1,48 @@
+id: containership
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: ContainerShip
+  url: 'https://containership.io/'
+  colors:
+    - hex: '#24d4bc'
+      rgb:
+        r: 36
+        g: 212
+        b: 188
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: containership
+      relativeUrl: products/c/containership/logos/containership.svg
+      width: 256
+      height: 296
+  icons:
+    - id: containership
+      relativeUrl: products/c/containership/icons/containership.svg
+      width: 256
+      height: 296
+relationships:
+  productLabels:
+    codeDeployment:
+      id: codeDeployment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    docker:
+      id: docker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    containers:
+      id: containers
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    caas:
+      id: caas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

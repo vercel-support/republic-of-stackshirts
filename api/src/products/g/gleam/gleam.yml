@@ -1,0 +1,33 @@
+id: gleam
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Gleam
+  url: 'https://gleam.io/'
+  colors:
+    - hex: '#d1d146'
+      rgb:
+        r: 209
+        g: 209
+        b: 70
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: gleam
+      relativeUrl: products/g/gleam/logos/gleam.svg
+      width: 256
+      height: 256
+  icons:
+    - id: gleam
+      relativeUrl: products/g/gleam/icons/gleam.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    businessGrowth:
+      id: businessGrowth
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

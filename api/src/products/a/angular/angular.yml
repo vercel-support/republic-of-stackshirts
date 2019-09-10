@@ -1,0 +1,46 @@
+id: angular
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Angular
+  url: 'https://angular.io/'
+  colors:
+    - hex: '#c22e34'
+      rgb:
+        r: 194
+        g: 46
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: angularShort
+      relativeUrl: products/a/angular/logos/angularShort.svg
+      width: 256
+      height: 272
+    - id: angular
+      relativeUrl: products/a/angular/logos/angular.svg
+      width: 512
+      height: 139
+  icons:
+    - id: angularShort
+      relativeUrl: products/a/angular/icons/angularShort.svg
+      width: 256
+      height: 272
+    - id: angular
+      relativeUrl: products/a/angular/icons/angular.svg
+      width: 512
+      height: 139
+relationships:
+  productLabels:
+    mvcFramework:
+      id: mvcFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

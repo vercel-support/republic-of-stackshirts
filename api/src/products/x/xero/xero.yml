@@ -1,0 +1,33 @@
+id: xero
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Xero
+  url: 'https://www.xero.com/'
+  colors:
+    - hex: '#1cc3e4'
+      rgb:
+        r: 28
+        g: 195
+        b: 228
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: xero
+      relativeUrl: products/x/xero/logos/xero.svg
+      width: 256
+      height: 256
+  icons:
+    - id: xero
+      relativeUrl: products/x/xero/icons/xero.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    accounting:
+      id: accounting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

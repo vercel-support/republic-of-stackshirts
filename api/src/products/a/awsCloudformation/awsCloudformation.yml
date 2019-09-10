@@ -1,0 +1,38 @@
+id: awsCloudformation
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AWS CloudFormation
+  url: 'https://aws.amazon.com/cloudformation/'
+  colors:
+    - hex: '#4b622c'
+      rgb:
+        r: 75
+        g: 98
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: awsCloudformation
+      relativeUrl: products/a/awsCloudformation/logos/awsCloudformation.svg
+      width: 256
+      height: 312
+  icons:
+    - id: awsCloudformation
+      relativeUrl: products/a/awsCloudformation/icons/awsCloudformation.svg
+      width: 256
+      height: 312
+relationships:
+  productLabels:
+    cloudManagement:
+      id: cloudManagement
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

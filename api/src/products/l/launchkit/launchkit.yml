@@ -1,0 +1,38 @@
+id: launchkit
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: LaunchKit
+  url: 'https://launchkit.io/'
+  colors:
+    - hex: '#0494f4'
+      rgb:
+        r: 4
+        g: 148
+        b: 244
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: launchkit
+      relativeUrl: products/l/launchkit/logos/launchkit.svg
+      width: 256
+      height: 342
+  icons:
+    - id: launchkit
+      relativeUrl: products/l/launchkit/icons/launchkit.svg
+      width: 256
+      height: 342
+relationships:
+  productLabels:
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    marketing:
+      id: marketing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

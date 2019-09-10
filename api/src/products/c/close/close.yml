@@ -1,0 +1,33 @@
+id: close
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Close
+  url: 'http://close.io/'
+  colors:
+    - hex: '#f8bb64'
+      rgb:
+        r: 248
+        g: 187
+        b: 100
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: close
+      relativeUrl: products/c/close/logos/close.svg
+      width: 256
+      height: 256
+  icons:
+    - id: close
+      relativeUrl: products/c/close/icons/close.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    crm:
+      id: crm
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

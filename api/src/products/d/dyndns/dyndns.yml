@@ -1,0 +1,33 @@
+id: dyndns
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Dyn
+  url: 'http://dyn.com/dns/'
+  colors:
+    - hex: '#fbf369'
+      rgb:
+        r: 251
+        g: 243
+        b: 105
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: dyndns
+      relativeUrl: products/d/dyndns/logos/dyndns.svg
+      width: 257
+      height: 256
+  icons:
+    - id: dyndns
+      relativeUrl: products/d/dyndns/icons/dyndns.svg
+      width: 257
+      height: 256
+relationships:
+  productLabels:
+    dns:
+      id: dns
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

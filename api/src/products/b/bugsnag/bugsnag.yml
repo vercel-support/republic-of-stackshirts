@@ -1,0 +1,38 @@
+id: bugsnag
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Bugsnag
+  url: 'https://bugsnag.com/'
+  colors:
+    - hex: '#3474a4'
+      rgb:
+        r: 52
+        g: 116
+        b: 164
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: bugsnag
+      relativeUrl: products/b/bugsnag/logos/bugsnag.svg
+      width: 256
+      height: 176
+  icons:
+    - id: bugsnag
+      relativeUrl: products/b/bugsnag/icons/bugsnag.svg
+      width: 256
+      height: 176
+relationships:
+  productLabels:
+    exceptionTracker:
+      id: exceptionTracker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    monitoring:
+      id: monitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

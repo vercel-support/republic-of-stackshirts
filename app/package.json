@@ -1,0 +1,37 @@
+{
+  "name": "app",
+  "version": "1.2.1",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "test": "node scripts/test",
+    "dev": "next",
+    "temp": "node scripts/build",
+    "build": "rm -rf build && node scripts/build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^0.10.0",
+    "@zeit/next-mdx": "^1.1.0",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "bluebird": "^3.5.1",
+    "get-image-colors": "^1.8.1",
+    "get-svg-colors": "^1.4.0",
+    "glob": "^7.1.2",
+    "js-yaml-loader": "^0.1.0",
+    "lodash": "^4.17.10",
+    "micro": "^9.3.2",
+    "next": "^8.0.4",
+    "next-compose-plugins": "^2.1.1",
+    "next-optimized-images": "^2.4.0",
+    "nodemon": "^1.17.5",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-medium-image-zoom": "^3.0.12"
+  },
+  "devDependencies": {
+    "inline-svg-register": "^1.0.0",
+    "webpack-manifest-plugin": "^2.0.4",
+    "webpack-node-externals": "^1.7.2"
+  }
+}

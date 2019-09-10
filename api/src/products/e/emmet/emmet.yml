@@ -1,0 +1,43 @@
+id: emmet
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Emmet
+  url: 'http://emmet.io/'
+  colors:
+    - hex: '#1c1c23'
+      rgb:
+        r: 28
+        g: 28
+        b: 35
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: emmet
+      relativeUrl: products/e/emmet/logos/emmet.svg
+      width: 256
+      height: 256
+  icons:
+    - id: emmet
+      relativeUrl: products/e/emmet/icons/emmet.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    snippets:
+      id: snippets
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    html:
+      id: html
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    css:
+      id: css
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

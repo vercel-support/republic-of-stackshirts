@@ -1,0 +1,43 @@
+id: rum
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Rum
+  url: 'https://github.com/tonsky/rum'
+  colors:
+    - hex: '#810404'
+      rgb:
+        r: 129
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: rum
+      relativeUrl: products/r/rum/logos/rum.svg
+      width: 256
+      height: 256
+  icons:
+    - id: rum
+      relativeUrl: products/r/rum/icons/rum.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    clojureScriptFramework:
+      id: clojureScriptFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    clojure:
+      id: clojure
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    react:
+      id: react
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

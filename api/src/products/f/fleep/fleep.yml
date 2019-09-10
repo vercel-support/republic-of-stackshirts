@@ -1,0 +1,38 @@
+id: fleep
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Fleep
+  url: 'https://fleep.io/'
+  colors:
+    - hex: '#34a4a4'
+      rgb:
+        r: 52
+        g: 164
+        b: 164
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: fleep
+      relativeUrl: products/f/fleep/logos/fleep.svg
+      width: 256
+      height: 291
+  icons:
+    - id: fleep
+      relativeUrl: products/f/fleep/icons/fleep.svg
+      width: 256
+      height: 291
+relationships:
+  productLabels:
+    groupChat:
+      id: groupChat
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    teamCollaboration:
+      id: teamCollaboration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

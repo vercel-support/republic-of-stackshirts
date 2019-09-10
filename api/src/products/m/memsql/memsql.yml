@@ -1,0 +1,38 @@
+id: memsql
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: MemSQL
+  url: 'http://www.memsql.com/'
+  colors:
+    - hex: '#348ccc'
+      rgb:
+        r: 52
+        g: 140
+        b: 204
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: memsql
+      relativeUrl: products/m/memsql/logos/memsql.svg
+      width: 256
+      height: 235
+  icons:
+    - id: memsql
+      relativeUrl: products/m/memsql/icons/memsql.svg
+      width: 256
+      height: 235
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    inMemory:
+      id: inMemory
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

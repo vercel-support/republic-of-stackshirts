@@ -1,0 +1,38 @@
+id: remergr
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Remergr
+  url: 'https://remergr.io/'
+  colors:
+    - hex: '#2c549c'
+      rgb:
+        r: 44
+        g: 84
+        b: 156
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: remergr
+      relativeUrl: products/r/remergr/logos/remergr.svg
+      width: 256
+      height: 165
+  icons:
+    - id: remergr
+      relativeUrl: products/r/remergr/icons/remergr.svg
+      width: 256
+      height: 165
+relationships:
+  productLabels:
+    github:
+      id: github
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    githubTools:
+      id: githubTools
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: keystonejs
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: KeystoneJS
+  url: 'http://keystonejs.com/'
+  colors:
+    - hex: '#3c91d4'
+      rgb:
+        r: 60
+        g: 145
+        b: 212
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: keystonejs
+      relativeUrl: products/k/keystonejs/logos/keystonejs.svg
+      width: 256
+      height: 260
+  icons:
+    - id: keystonejs
+      relativeUrl: products/k/keystonejs/icons/keystonejs.svg
+      width: 256
+      height: 260
+relationships:
+  productLabels:
+    contentManager:
+      id: contentManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    webAppFramework:
+      id: webAppFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

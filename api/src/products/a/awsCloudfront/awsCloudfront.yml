@@ -1,0 +1,38 @@
+id: awsCloudfront
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AWS CloudFront
+  url: 'https://aws.amazon.com/cloudfront/'
+  colors:
+    - hex: '#8d3424'
+      rgb:
+        r: 141
+        g: 52
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: awsCloudfront
+      relativeUrl: products/a/awsCloudfront/logos/awsCloudfront.svg
+      width: 256
+      height: 308
+  icons:
+    - id: awsCloudfront
+      relativeUrl: products/a/awsCloudfront/icons/awsCloudfront.svg
+      width: 256
+      height: 308
+relationships:
+  productLabels:
+    cdn:
+      id: cdn
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

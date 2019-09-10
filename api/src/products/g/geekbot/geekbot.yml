@@ -1,0 +1,43 @@
+id: geekbot
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: geekbot
+  url: 'https://geekbot.io/'
+  colors:
+    - hex: '#5c928d'
+      rgb:
+        r: 92
+        g: 146
+        b: 141
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: geekbot
+      relativeUrl: products/g/geekbot/logos/geekbot.svg
+      width: 256
+      height: 284
+  icons:
+    - id: geekbot
+      relativeUrl: products/g/geekbot/icons/geekbot.svg
+      width: 256
+      height: 284
+relationships:
+  productLabels:
+    teamCollaboration:
+      id: teamCollaboration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    standup:
+      id: standup
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    slack:
+      id: slack
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

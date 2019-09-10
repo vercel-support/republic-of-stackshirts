@@ -1,0 +1,38 @@
+id: canjs
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: CanJS
+  url: 'http://canjs.com/'
+  colors:
+    - hex: '#1c1c1c'
+      rgb:
+        r: 28
+        g: 28
+        b: 28
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: canjs
+      relativeUrl: products/c/canjs/logos/canjs.svg
+      width: 256
+      height: 102
+  icons:
+    - id: canjs
+      relativeUrl: products/c/canjs/icons/canjs.svg
+      width: 256
+      height: 102
+relationships:
+  productLabels:
+    mvcFramework:
+      id: mvcFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

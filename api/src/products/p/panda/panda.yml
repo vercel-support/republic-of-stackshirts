@@ -1,0 +1,33 @@
+id: panda
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Panda
+  url: 'http://usepanda.com/'
+  colors:
+    - hex: '#0e0e0e'
+      rgb:
+        r: 14
+        g: 14
+        b: 14
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: panda
+      relativeUrl: products/p/panda/logos/panda.svg
+      width: 256
+      height: 203
+  icons:
+    - id: panda
+      relativeUrl: products/p/panda/icons/panda.svg
+      width: 256
+      height: 203
+relationships:
+  productLabels:
+    newsfeedReader:
+      id: newsfeedReader
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: asana
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Asana
+  url: 'https://asana.com/'
+  colors:
+    - hex: '#fc6676'
+      rgb:
+        r: 252
+        g: 102
+        b: 118
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: asana
+      relativeUrl: products/a/asana/logos/asana.svg
+      width: 256
+      height: 169
+  icons:
+    - id: asana
+      relativeUrl: products/a/asana/icons/asana.svg
+      width: 256
+      height: 169
+relationships:
+  productLabels:
+    projectManager:
+      id: projectManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    teamCollaboration:
+      id: teamCollaboration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

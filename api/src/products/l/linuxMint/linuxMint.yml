@@ -1,0 +1,38 @@
+id: linuxMint
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Linux Mint
+  url: 'http://www.linuxmint.com/'
+  colors:
+    - hex: '#99d75b'
+      rgb:
+        r: 153
+        g: 215
+        b: 91
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: linuxMint
+      relativeUrl: products/l/linuxMint/logos/linuxMint.svg
+      width: 256
+      height: 230
+  icons:
+    - id: linuxMint
+      relativeUrl: products/l/linuxMint/icons/linuxMint.svg
+      width: 256
+      height: 230
+relationships:
+  productLabels:
+    operationalSystem:
+      id: operationalSystem
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    linux:
+      id: linux
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

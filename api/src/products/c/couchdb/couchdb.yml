@@ -1,0 +1,38 @@
+id: couchdb
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: CouchDB
+  url: 'http://couchdb.apache.org/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: couchdb
+      relativeUrl: products/c/couchdb/logos/couchdb.svg
+      width: 256
+      height: 204
+  icons:
+    - id: couchdb
+      relativeUrl: products/c/couchdb/icons/couchdb.svg
+      width: 256
+      height: 204
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nosql:
+      id: nosql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

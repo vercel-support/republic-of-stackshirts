@@ -1,0 +1,38 @@
+id: olark
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Olark
+  url: 'https://www.olark.com/'
+  colors:
+    - hex: '#c44d2e'
+      rgb:
+        r: 196
+        g: 77
+        b: 46
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: olark
+      relativeUrl: products/o/olark/logos/olark.svg
+      width: 256
+      height: 165
+  icons:
+    - id: olark
+      relativeUrl: products/o/olark/icons/olark.svg
+      width: 256
+      height: 165
+relationships:
+  productLabels:
+    customerSupport:
+      id: customerSupport
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    liveChat:
+      id: liveChat
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,48 @@
+id: kontena
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Kontena
+  url: 'http://www.kontena.io/'
+  colors:
+    - hex: '#6a834d'
+      rgb:
+        r: 106
+        g: 131
+        b: 77
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: kontena
+      relativeUrl: products/k/kontena/logos/kontena.svg
+      width: 256
+      height: 299
+  icons:
+    - id: kontena
+      relativeUrl: products/k/kontena/icons/kontena.svg
+      width: 256
+      height: 299
+relationships:
+  productLabels:
+    docker:
+      id: docker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    containers:
+      id: containers
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    paas:
+      id: paas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ruby:
+      id: ruby
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

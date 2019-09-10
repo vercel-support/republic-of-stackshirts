@@ -1,0 +1,38 @@
+id: bash
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Bash
+  url: 'https://www.gnu.org/software/bash/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: bash
+      relativeUrl: products/b/bash/logos/bash.svg
+      width: 256
+      height: 190
+  icons:
+    - id: bash
+      relativeUrl: products/b/bash/icons/bash.svg
+      width: 256
+      height: 190
+relationships:
+  productLabels:
+    unixShell:
+      id: unixShell
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

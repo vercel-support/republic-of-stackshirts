@@ -1,0 +1,33 @@
+id: brandfolder
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Brandfolder
+  url: 'http://brandfolder.com/'
+  colors:
+    - hex: '#44d4f4'
+      rgb:
+        r: 68
+        g: 212
+        b: 244
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: brandfolder
+      relativeUrl: products/b/brandfolder/logos/brandfolder.svg
+      width: 256
+      height: 241
+  icons:
+    - id: brandfolder
+      relativeUrl: products/b/brandfolder/icons/brandfolder.svg
+      width: 256
+      height: 241
+relationships:
+  productLabels:
+    assetManager:
+      id: assetManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

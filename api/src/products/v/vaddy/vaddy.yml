@@ -1,0 +1,33 @@
+id: vaddy
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: VAddy
+  url: 'http://vaddy.net/'
+  colors:
+    - hex: '#63af3b'
+      rgb:
+        r: 99
+        g: 175
+        b: 59
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: vaddy
+      relativeUrl: products/v/vaddy/logos/vaddy.svg
+      width: 256
+      height: 254
+  icons:
+    - id: vaddy
+      relativeUrl: products/v/vaddy/icons/vaddy.svg
+      width: 256
+      height: 254
+relationships:
+  productLabels:
+    security:
+      id: security
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

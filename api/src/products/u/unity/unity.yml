@@ -1,0 +1,33 @@
+id: unity
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Unity
+  url: 'https://unity3d.com/'
+  colors:
+    - hex: '#242c34'
+      rgb:
+        r: 36
+        g: 44
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: unity
+      relativeUrl: products/u/unity/logos/unity.svg
+      width: 256
+      height: 263
+  icons:
+    - id: unity
+      relativeUrl: products/u/unity/icons/unity.svg
+      width: 256
+      height: 263
+relationships:
+  productLabels:
+    gameEngine:
+      id: gameEngine
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

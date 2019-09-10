@@ -1,0 +1,38 @@
+id: webrtc
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: WebRTC
+  url: 'http://www.webrtc.org/'
+  colors:
+    - hex: '#d42b05'
+      rgb:
+        r: 212
+        g: 43
+        b: 5
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: webrtc
+      relativeUrl: products/w/webrtc/logos/webrtc.svg
+      width: 256
+      height: 249
+  icons:
+    - id: webrtc
+      relativeUrl: products/w/webrtc/icons/webrtc.svg
+      width: 256
+      height: 249
+relationships:
+  productLabels:
+    realTimeCommunication:
+      id: realTimeCommunication
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    w3C:
+      id: w3C
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

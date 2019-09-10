@@ -1,0 +1,33 @@
+id: peer5
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Peer 5
+  url: 'https://www.peer5.com/'
+  colors:
+    - hex: '#e44d26'
+      rgb:
+        r: 228
+        g: 77
+        b: 38
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: peer5
+      relativeUrl: products/p/peer5/logos/peer5.svg
+      width: 256
+      height: 291
+  icons:
+    - id: peer5
+      relativeUrl: products/p/peer5/icons/peer5.svg
+      width: 256
+      height: 291
+relationships:
+  productLabels:
+    cdn:
+      id: cdn
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

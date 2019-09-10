@@ -1,0 +1,33 @@
+id: contentful
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Contentful
+  url: 'https://www.contentful.com/'
+  colors:
+    - hex: '#fae501'
+      rgb:
+        r: 250
+        g: 229
+        b: 1
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: contentful
+      relativeUrl: products/c/contentful/logos/contentful.svg
+      width: 256
+      height: 289
+  icons:
+    - id: contentful
+      relativeUrl: products/c/contentful/icons/contentful.svg
+      width: 256
+      height: 289
+relationships:
+  productLabels:
+    cms:
+      id: cms
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

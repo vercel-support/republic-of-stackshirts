@@ -1,0 +1,38 @@
+id: awsCloudsearch
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AWS CloudSearch
+  url: 'https://aws.amazon.com/cloudsearch/'
+  colors:
+    - hex: '#dda648'
+      rgb:
+        r: 221
+        g: 166
+        b: 72
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: awsCloudsearch
+      relativeUrl: products/a/awsCloudsearch/logos/awsCloudsearch.svg
+      width: 256
+      height: 310
+  icons:
+    - id: awsCloudsearch
+      relativeUrl: products/a/awsCloudsearch/icons/awsCloudsearch.svg
+      width: 256
+      height: 310
+relationships:
+  productLabels:
+    searchService:
+      id: searchService
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

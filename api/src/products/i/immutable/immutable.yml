@@ -1,0 +1,48 @@
+id: immutable
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Immutable
+  url: 'https://facebook.github.io/immutable-js/'
+  colors:
+    - hex: '#2c3c53'
+      rgb:
+        r: 44
+        g: 60
+        b: 83
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: immutable
+      relativeUrl: products/i/immutable/logos/immutable.svg
+      width: 512
+      height: 73
+  icons:
+    - id: immutable
+      relativeUrl: products/i/immutable/icons/immutable.svg
+      width: 512
+      height: 73
+relationships:
+  productLabels:
+    immutableObject:
+      id: immutableObject
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    react:
+      id: react
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    facebook:
+      id: facebook
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: stash
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Stash
+  url: 'https://www.atlassian.com/software/stash'
+  colors:
+    - hex: '#244c74'
+      rgb:
+        r: 36
+        g: 76
+        b: 116
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: stash
+      relativeUrl: products/s/stash/logos/stash.svg
+      width: 256
+      height: 253
+  icons:
+    - id: stash
+      relativeUrl: products/s/stash/icons/stash.svg
+      width: 256
+      height: 253
+relationships:
+  productLabels:
+    git:
+      id: git
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    codeManager:
+      id: codeManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    enterprise:
+      id: enterprise
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

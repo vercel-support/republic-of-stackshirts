@@ -1,0 +1,43 @@
+id: hapi
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: hapi
+  url: 'http://hapijs.com/'
+  colors:
+    - hex: '#dba25c'
+      rgb:
+        r: 219
+        g: 162
+        b: 92
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: hapi
+      relativeUrl: products/h/hapi/logos/hapi.svg
+      width: 256
+      height: 194
+  icons:
+    - id: hapi
+      relativeUrl: products/h/hapi/icons/hapi.svg
+      width: 256
+      height: 194
+relationships:
+  productLabels:
+    webAppFramework:
+      id: webAppFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    microframework:
+      id: microframework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

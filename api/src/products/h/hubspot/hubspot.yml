@@ -1,0 +1,38 @@
+id: hubspot
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Hubspot
+  url: 'http://www.hubspot.com/'
+  colors:
+    - hex: '#44545c'
+      rgb:
+        r: 68
+        g: 84
+        b: 92
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: hubspot
+      relativeUrl: products/h/hubspot/logos/hubspot.svg
+      width: 512
+      height: 149
+  icons:
+    - id: hubspot
+      relativeUrl: products/h/hubspot/icons/hubspot.svg
+      width: 512
+      height: 149
+relationships:
+  productLabels:
+    inboundMarketing:
+      id: inboundMarketing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    marketing:
+      id: marketing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

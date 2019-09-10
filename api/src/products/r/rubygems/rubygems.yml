@@ -1,0 +1,38 @@
+id: rubygems
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: RubyGems
+  url: 'https://rubygems.org/'
+  colors:
+    - hex: '#d44434'
+      rgb:
+        r: 212
+        g: 68
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: rubygems
+      relativeUrl: products/r/rubygems/logos/rubygems.svg
+      width: 256
+      height: 293
+  icons:
+    - id: rubygems
+      relativeUrl: products/r/rubygems/icons/rubygems.svg
+      width: 256
+      height: 293
+relationships:
+  productLabels:
+    packageManager:
+      id: packageManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ruby:
+      id: ruby
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

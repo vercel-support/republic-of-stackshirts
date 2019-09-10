@@ -1,0 +1,38 @@
+id: nodebots
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: NodeBots
+  url: 'http://nodebots.io/'
+  colors:
+    - hex: '#f3db1c'
+      rgb:
+        r: 243
+        g: 219
+        b: 28
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: nodebots
+      relativeUrl: products/n/nodebots/logos/nodebots.svg
+      width: 256
+      height: 256
+  icons:
+    - id: nodebots
+      relativeUrl: products/n/nodebots/icons/nodebots.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    hardwareController:
+      id: hardwareController
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

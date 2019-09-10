@@ -1,0 +1,43 @@
+id: phoenix
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Phoenix
+  url: 'http://www.phoenixframework.org/'
+  colors:
+    - hex: '#fc4c04'
+      rgb:
+        r: 252
+        g: 76
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: phoenix
+      relativeUrl: products/p/phoenix/logos/phoenix.svg
+      width: 256
+      height: 175
+  icons:
+    - id: phoenix
+      relativeUrl: products/p/phoenix/icons/phoenix.svg
+      width: 256
+      height: 175
+relationships:
+  productLabels:
+    fullStackFramework:
+      id: fullStackFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    elixir:
+      id: elixir
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    erlang:
+      id: erlang
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

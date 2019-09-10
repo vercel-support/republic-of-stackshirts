@@ -1,0 +1,43 @@
+id: docker
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: docker
+  url: 'https://www.docker.com/'
+  colors:
+    - hex: '#334951'
+      rgb:
+        r: 51
+        g: 73
+        b: 81
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: docker
+      relativeUrl: products/d/docker/logos/docker.svg
+      width: 256
+      height: 215
+  icons:
+    - id: docker
+      relativeUrl: products/d/docker/icons/docker.svg
+      width: 256
+      height: 215
+relationships:
+  productLabels:
+    codeDeployment:
+      id: codeDeployment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    containers:
+      id: containers
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

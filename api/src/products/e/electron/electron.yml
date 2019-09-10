@@ -1,0 +1,48 @@
+id: electron
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Electron
+  url: 'http://electron.atom.io/'
+  colors:
+    - hex: '#44848c'
+      rgb:
+        r: 68
+        g: 132
+        b: 140
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: electron
+      relativeUrl: products/e/electron/logos/electron.svg
+      width: 512
+      height: 79
+  icons:
+    - id: electron
+      relativeUrl: products/e/electron/icons/electron.svg
+      width: 512
+      height: 79
+relationships:
+  productLabels:
+    crossPlatform:
+      id: crossPlatform
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    applicationFramework:
+      id: applicationFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    desktopApp:
+      id: desktopApp
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    framework:
+      id: framework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

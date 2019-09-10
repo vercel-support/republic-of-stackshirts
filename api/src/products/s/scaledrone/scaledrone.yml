@@ -1,0 +1,38 @@
+id: scaledrone
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Scaledrone
+  url: 'https://www.scaledrone.com/'
+  colors:
+    - hex: '#6466bb'
+      rgb:
+        r: 100
+        g: 102
+        b: 187
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: scaledrone
+      relativeUrl: products/s/scaledrone/logos/scaledrone.svg
+      width: 256
+      height: 256
+  icons:
+    - id: scaledrone
+      relativeUrl: products/s/scaledrone/icons/scaledrone.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    realTime:
+      id: realTime
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

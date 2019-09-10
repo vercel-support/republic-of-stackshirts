@@ -1,0 +1,53 @@
+id: codebeat
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: codebeat
+  url: 'https://codebeat.co/'
+  colors:
+    - hex: '#24ace4'
+      rgb:
+        r: 36
+        g: 172
+        b: 228
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: codebeat
+      relativeUrl: products/c/codebeat/logos/codebeat.svg
+      width: 256
+      height: 256
+  icons:
+    - id: codebeat
+      relativeUrl: products/c/codebeat/icons/codebeat.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    codeReview:
+      id: codeReview
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    swift:
+      id: swift
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    go:
+      id: go
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ruby:
+      id: ruby
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    python:
+      id: python
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

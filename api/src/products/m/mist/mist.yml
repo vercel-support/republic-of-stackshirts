@@ -1,0 +1,33 @@
+id: mist
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Mist.io
+  url: 'https://mist.io/'
+  colors:
+    - hex: '#e9e9e9'
+      rgb:
+        r: 233
+        g: 233
+        b: 233
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mist
+      relativeUrl: products/m/mist/logos/mist.svg
+      width: 256
+      height: 256
+  icons:
+    - id: mist
+      relativeUrl: products/m/mist/icons/mist.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    cloudManagement:
+      id: cloudManagement
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

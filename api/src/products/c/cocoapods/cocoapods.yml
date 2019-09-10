@@ -1,0 +1,43 @@
+id: cocoapods
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: CocoaPods
+  url: 'https://cocoapods.org/'
+  colors:
+    - hex: '#fc2c04'
+      rgb:
+        r: 252
+        g: 44
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: cocoapods
+      relativeUrl: products/c/cocoapods/logos/cocoapods.svg
+      width: 256
+      height: 256
+  icons:
+    - id: cocoapods
+      relativeUrl: products/c/cocoapods/icons/cocoapods.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    packageManager:
+      id: packageManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    swift:
+      id: swift
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    objectiveC:
+      id: objectiveC
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

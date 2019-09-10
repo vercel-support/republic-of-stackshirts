@@ -1,0 +1,43 @@
+id: zoho
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Zoho
+  url: 'http://www.zoho.com/'
+  colors:
+    - hex: '#d6ca46'
+      rgb:
+        r: 214
+        g: 202
+        b: 70
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: zoho
+      relativeUrl: products/z/zoho/logos/zoho.svg
+      width: 512
+      height: 177
+  icons:
+    - id: zoho
+      relativeUrl: products/z/zoho/icons/zoho.svg
+      width: 512
+      height: 177
+relationships:
+  productLabels:
+    crm:
+      id: crm
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    projectManager:
+      id: projectManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    helpDesk:
+      id: helpDesk
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

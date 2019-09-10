@@ -1,0 +1,38 @@
+id: semaphore
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Semaphore
+  url: 'https://semaphoreci.com/'
+  colors:
+    - hex: '#8cb43c'
+      rgb:
+        r: 140
+        g: 180
+        b: 60
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: semaphore
+      relativeUrl: products/s/semaphore/logos/semaphore.svg
+      width: 256
+      height: 332
+  icons:
+    - id: semaphore
+      relativeUrl: products/s/semaphore/icons/semaphore.svg
+      width: 256
+      height: 332
+relationships:
+  productLabels:
+    codeDeployment:
+      id: codeDeployment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    continuousIntegration:
+      id: continuousIntegration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

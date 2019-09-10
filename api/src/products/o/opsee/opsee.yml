@@ -1,0 +1,38 @@
+id: opsee
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Opsee
+  url: 'https://opsee.com/'
+  colors:
+    - hex: '#34342c'
+      rgb:
+        r: 52
+        g: 52
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: opsee
+      relativeUrl: products/o/opsee/logos/opsee.svg
+      width: 512
+      height: 294
+  icons:
+    - id: opsee
+      relativeUrl: products/o/opsee/icons/opsee.svg
+      width: 512
+      height: 294
+relationships:
+  productLabels:
+    monitoring:
+      id: monitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    serverMonitoring:
+      id: serverMonitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

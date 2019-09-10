@@ -1,0 +1,38 @@
+id: aerospike
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Aerospike
+  url: 'http://www.aerospike.com/'
+  colors:
+    - hex: '#b4242c'
+      rgb:
+        r: 180
+        g: 36
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: aerospike
+      relativeUrl: products/a/aerospike/logos/aerospike.svg
+      width: 256
+      height: 256
+  icons:
+    - id: aerospike
+      relativeUrl: products/a/aerospike/icons/aerospike.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nosql:
+      id: nosql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

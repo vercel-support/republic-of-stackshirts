@@ -1,0 +1,48 @@
+id: hasura
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Hasura
+  url: 'https://hasura.io/'
+  colors:
+    - hex: '#ffc627'
+      rgb:
+        r: 255
+        g: 198
+        b: 39
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: hasura
+      relativeUrl: products/h/hasura/logos/hasura.svg
+      width: 256
+      height: 305
+  icons:
+    - id: hasura
+      relativeUrl: products/h/hasura/icons/hasura.svg
+      width: 256
+      height: 305
+relationships:
+  productLabels:
+    paas:
+      id: paas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    baas:
+      id: baas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    postgres:
+      id: postgres
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    kubbernets:
+      id: kubbernets
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

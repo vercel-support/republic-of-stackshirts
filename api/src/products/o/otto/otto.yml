@@ -1,0 +1,38 @@
+id: otto
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Otto
+  url: 'https://ottoproject.io/'
+  colors:
+    - hex: '#f56a3c'
+      rgb:
+        r: 245
+        g: 106
+        b: 60
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: otto
+      relativeUrl: products/o/otto/logos/otto.svg
+      width: 256
+      height: 256
+  icons:
+    - id: otto
+      relativeUrl: products/o/otto/icons/otto.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    codeDeployment:
+      id: codeDeployment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    virtualMachine:
+      id: virtualMachine
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

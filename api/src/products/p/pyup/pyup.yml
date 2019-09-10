@@ -1,0 +1,38 @@
+id: pyup
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Pyup
+  url: 'https://pyup.io/'
+  colors:
+    - hex: '#2c6474'
+      rgb:
+        r: 44
+        g: 100
+        b: 116
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: pyup
+      relativeUrl: products/p/pyup/logos/pyup.svg
+      width: 256
+      height: 296
+  icons:
+    - id: pyup
+      relativeUrl: products/p/pyup/icons/pyup.svg
+      width: 256
+      height: 296
+relationships:
+  productLabels:
+    buildTool:
+      id: buildTool
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    python:
+      id: python
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,48 @@
+id: magneto
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Magneto
+  url: 'http://getmagneto.com/'
+  colors:
+    - hex: '#40306f'
+      rgb:
+        r: 64
+        g: 48
+        b: 111
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: magneto
+      relativeUrl: products/m/magneto/logos/magneto.svg
+      width: 256
+      height: 371
+  icons:
+    - id: magneto
+      relativeUrl: products/m/magneto/icons/magneto.svg
+      width: 256
+      height: 371
+relationships:
+  productLabels:
+    testingFramework:
+      id: testingFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    android:
+      id: android
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    python:
+      id: python
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: circleci
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: CircleCI
+  url: 'https://circleci.com/'
+  colors:
+    - hex: '#343434'
+      rgb:
+        r: 52
+        g: 52
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: circleci
+      relativeUrl: products/c/circleci/logos/circleci.svg
+      width: 256
+      height: 259
+  icons:
+    - id: circleci
+      relativeUrl: products/c/circleci/icons/circleci.svg
+      width: 256
+      height: 259
+relationships:
+  productLabels:
+    continuousIntegration:
+      id: continuousIntegration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

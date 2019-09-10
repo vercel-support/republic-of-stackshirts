@@ -1,0 +1,33 @@
+id: crossbrowsertesting
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Cross Browser Testing
+  url: 'http://crossbrowsertesting.com/'
+  colors:
+    - hex: '#cc242c'
+      rgb:
+        r: 204
+        g: 36
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: crossbrowsertesting
+      relativeUrl: products/c/crossbrowsertesting/logos/crossbrowsertesting.svg
+      width: 256
+      height: 256
+  icons:
+    - id: crossbrowsertesting
+      relativeUrl: products/c/crossbrowsertesting/icons/crossbrowsertesting.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    crossBrowserTesting:
+      id: crossBrowserTesting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

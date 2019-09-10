@@ -1,0 +1,38 @@
+id: desk
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Desk.com
+  url: 'http://www.desk.com/'
+  colors:
+    - hex: '#249cdc'
+      rgb:
+        r: 36
+        g: 156
+        b: 220
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: desk
+      relativeUrl: products/d/desk/logos/desk.svg
+      width: 256
+      height: 106
+  icons:
+    - id: desk
+      relativeUrl: products/d/desk/icons/desk.svg
+      width: 256
+      height: 106
+relationships:
+  productLabels:
+    customerSupport:
+      id: customerSupport
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    helpDesk:
+      id: helpDesk
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

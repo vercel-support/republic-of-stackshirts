@@ -1,0 +1,33 @@
+id: googleDrive
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Google Drive
+  url: 'https://www.google.com/drive/'
+  colors:
+    - hex: '#0ca25d'
+      rgb:
+        r: 12
+        g: 162
+        b: 93
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: googleDrive
+      relativeUrl: products/g/googleDrive/logos/googleDrive.svg
+      width: 256
+      height: 222
+  icons:
+    - id: googleDrive
+      relativeUrl: products/g/googleDrive/icons/googleDrive.svg
+      width: 256
+      height: 222
+relationships:
+  productLabels:
+    cloudStorage:
+      id: cloudStorage
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

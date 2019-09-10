@@ -1,0 +1,38 @@
+id: cloudcraft
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Cloudcraft
+  url: 'https://cloudcraft.co/'
+  colors:
+    - hex: '#2a567a'
+      rgb:
+        r: 42
+        g: 86
+        b: 122
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: cloudcraft
+      relativeUrl: products/c/cloudcraft/logos/cloudcraft.svg
+      width: 256
+      height: 399
+  icons:
+    - id: cloudcraft
+      relativeUrl: products/c/cloudcraft/icons/cloudcraft.svg
+      width: 256
+      height: 399
+relationships:
+  productLabels:
+    architecture:
+      id: architecture
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    architectureTool:
+      id: architectureTool
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

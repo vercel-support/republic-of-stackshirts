@@ -1,0 +1,43 @@
+id: smashingmagazine
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Smashing Magazine
+  url: 'http://www.smashingmagazine.com/'
+  colors:
+    - hex: '#f47d3c'
+      rgb:
+        r: 244
+        g: 125
+        b: 60
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: smashingmagazine
+      relativeUrl: products/s/smashingmagazine/logos/smashingmagazine.svg
+      width: 256
+      height: 256
+  icons:
+    - id: smashingmagazine
+      relativeUrl: products/s/smashingmagazine/icons/smashingmagazine.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    tutorials:
+      id: tutorials
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    blog:
+      id: blog
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    reference:
+      id: reference
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

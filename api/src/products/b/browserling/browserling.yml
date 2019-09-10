@@ -1,0 +1,38 @@
+id: browserling
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Browserling
+  url: 'https://www.browserling.com/'
+  colors:
+    - hex: '#5484b4'
+      rgb:
+        r: 84
+        g: 132
+        b: 180
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: browserling
+      relativeUrl: products/b/browserling/logos/browserling.svg
+      width: 256
+      height: 229
+  icons:
+    - id: browserling
+      relativeUrl: products/b/browserling/icons/browserling.svg
+      width: 256
+      height: 229
+relationships:
+  productLabels:
+    crossBrowserTesting:
+      id: crossBrowserTesting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

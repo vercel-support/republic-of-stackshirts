@@ -1,0 +1,38 @@
+id: nanonets
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Nanonets
+  url: 'https://nanonets.com/'
+  colors:
+    - hex: '#3e7ebc'
+      rgb:
+        r: 62
+        g: 126
+        b: 188
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: nanonets
+      relativeUrl: products/n/nanonets/logos/nanonets.svg
+      width: 256
+      height: 206
+  icons:
+    - id: nanonets
+      relativeUrl: products/n/nanonets/icons/nanonets.svg
+      width: 256
+      height: 206
+relationships:
+  productLabels:
+    mlaas:
+      id: mlaas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    dataProcessing:
+      id: dataProcessing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

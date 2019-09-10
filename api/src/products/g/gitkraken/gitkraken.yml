@@ -1,0 +1,38 @@
+id: gitkraken
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: GitKraken
+  url: 'https://www.gitkraken.com/'
+  colors:
+    - hex: '#14847c'
+      rgb:
+        r: 20
+        g: 132
+        b: 124
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: gitkraken
+      relativeUrl: products/g/gitkraken/logos/gitkraken.svg
+      width: 256
+      height: 224
+  icons:
+    - id: gitkraken
+      relativeUrl: products/g/gitkraken/icons/gitkraken.svg
+      width: 256
+      height: 224
+relationships:
+  productLabels:
+    git:
+      id: git
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    desktopApp:
+      id: desktopApp
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

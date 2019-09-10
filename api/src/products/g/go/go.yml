@@ -1,0 +1,33 @@
+id: go
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Go
+  url: 'https://golang.org/'
+  colors:
+    - hex: '#f6d2a2'
+      rgb:
+        r: 246
+        g: 210
+        b: 162
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: gopher
+      relativeUrl: products/g/go/logos/gopher.svg
+      width: 256
+      height: 348
+  icons:
+    - id: gopher
+      relativeUrl: products/g/go/icons/gopher.svg
+      width: 256
+      height: 348
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

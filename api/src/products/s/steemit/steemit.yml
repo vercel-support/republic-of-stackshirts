@@ -1,0 +1,33 @@
+id: steemit
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Steemit
+  url: 'https://steemit.com/'
+  colors:
+    - hex: '#1a5099'
+      rgb:
+        r: 26
+        g: 80
+        b: 153
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: steemit
+      relativeUrl: products/s/steemit/logos/steemit.svg
+      width: 256
+      height: 270
+  icons:
+    - id: steemit
+      relativeUrl: products/s/steemit/icons/steemit.svg
+      width: 256
+      height: 270
+relationships:
+  productLabels:
+    socialNews:
+      id: socialNews
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

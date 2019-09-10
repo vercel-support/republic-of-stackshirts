@@ -1,0 +1,43 @@
+id: sensu
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: sensu
+  url: 'https://sensuapp.org/'
+  colors:
+    - hex: '#94c42c'
+      rgb:
+        r: 148
+        g: 196
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: sensu
+      relativeUrl: products/s/sensu/logos/sensu.svg
+      width: 256
+      height: 151
+  icons:
+    - id: sensu
+      relativeUrl: products/s/sensu/icons/sensu.svg
+      width: 256
+      height: 151
+relationships:
+  productLabels:
+    monitoring:
+      id: monitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    serverMonitoring:
+      id: serverMonitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    openSource:
+      id: openSource
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

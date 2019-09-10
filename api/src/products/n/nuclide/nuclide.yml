@@ -1,0 +1,43 @@
+id: nuclide
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Nuclide
+  url: 'http://nuclide.io/'
+  colors:
+    - hex: '#5b2c7b'
+      rgb:
+        r: 91
+        g: 44
+        b: 123
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: nuclide
+      relativeUrl: products/n/nuclide/logos/nuclide.svg
+      width: 256
+      height: 308
+  icons:
+    - id: nuclide
+      relativeUrl: products/n/nuclide/icons/nuclide.svg
+      width: 256
+      height: 308
+relationships:
+  productLabels:
+    codeEditor:
+      id: codeEditor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ide:
+      id: ide
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    facebook:
+      id: facebook
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

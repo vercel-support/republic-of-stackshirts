@@ -1,0 +1,38 @@
+id: fedora
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: fedora
+  url: 'https://getfedora.org/'
+  colors:
+    - hex: '#2e497d'
+      rgb:
+        r: 46
+        g: 73
+        b: 125
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: fedora
+      relativeUrl: products/f/fedora/logos/fedora.svg
+      width: 256
+      height: 256
+  icons:
+    - id: fedora
+      relativeUrl: products/f/fedora/icons/fedora.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    operationalSystem:
+      id: operationalSystem
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    linux:
+      id: linux
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

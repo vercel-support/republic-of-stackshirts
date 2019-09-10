@@ -1,0 +1,38 @@
+id: sassDoc
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: SassDoc
+  url: 'http://sassdoc.com/'
+  colors:
+    - hex: '#dc5c6c'
+      rgb:
+        r: 220
+        g: 92
+        b: 108
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: sassDoc
+      relativeUrl: products/s/sassDoc/logos/sassDoc.svg
+      width: 256
+      height: 216
+  icons:
+    - id: sassDoc
+      relativeUrl: products/s/sassDoc/icons/sassDoc.svg
+      width: 256
+      height: 216
+relationships:
+  productLabels:
+    sass:
+      id: sass
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    documentation:
+      id: documentation
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

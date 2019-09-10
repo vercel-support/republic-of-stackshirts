@@ -1,0 +1,38 @@
+id: lookback
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Lookback
+  url: 'https://lookback.io/'
+  colors:
+    - hex: '#bc1c24'
+      rgb:
+        r: 188
+        g: 28
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: lookback
+      relativeUrl: products/l/lookback/logos/lookback.svg
+      width: 256
+      height: 121
+  icons:
+    - id: lookback
+      relativeUrl: products/l/lookback/icons/lookback.svg
+      width: 256
+      height: 121
+relationships:
+  productLabels:
+    uxTesting:
+      id: uxTesting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    userFeedback:
+      id: userFeedback
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

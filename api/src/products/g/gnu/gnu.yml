@@ -1,0 +1,38 @@
+id: gnu
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: GNU
+  url: 'https://www.gnu.org/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: gnu
+      relativeUrl: products/g/gnu/logos/gnu.svg
+      width: 256
+      height: 251
+  icons:
+    - id: gnu
+      relativeUrl: products/g/gnu/icons/gnu.svg
+      width: 256
+      height: 251
+relationships:
+  productLabels:
+    openSource:
+      id: openSource
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

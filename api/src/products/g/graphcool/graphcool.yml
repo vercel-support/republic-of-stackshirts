@@ -1,0 +1,38 @@
+id: graphcool
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Graphcool
+  url: 'https://www.graph.cool/'
+  colors:
+    - hex: '#27ae60'
+      rgb:
+        r: 39
+        g: 174
+        b: 96
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: graphcool
+      relativeUrl: products/g/graphcool/logos/graphcool.svg
+      width: 256
+      height: 300
+  icons:
+    - id: graphcool
+      relativeUrl: products/g/graphcool/icons/graphcool.svg
+      width: 256
+      height: 300
+relationships:
+  productLabels:
+    graphql:
+      id: graphql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    saas:
+      id: saas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

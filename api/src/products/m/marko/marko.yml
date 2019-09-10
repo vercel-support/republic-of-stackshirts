@@ -1,0 +1,48 @@
+id: marko
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Marko
+  url: 'http://markojs.com/'
+  colors:
+    - hex: '#272525'
+      rgb:
+        r: 39
+        g: 37
+        b: 37
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: marko
+      relativeUrl: products/m/marko/logos/marko.svg
+      width: 256
+      height: 214
+  icons:
+    - id: marko
+      relativeUrl: products/m/marko/icons/marko.svg
+      width: 256
+      height: 214
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    uiFramework:
+      id: uiFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    template:
+      id: template
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ebay:
+      id: ebay
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

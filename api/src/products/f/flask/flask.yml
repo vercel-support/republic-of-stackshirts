@@ -1,0 +1,43 @@
+id: flask
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Flask
+  url: 'http://flask.pocoo.org/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: flask
+      relativeUrl: products/f/flask/logos/flask.svg
+      width: 256
+      height: 329
+  icons:
+    - id: flask
+      relativeUrl: products/f/flask/icons/flask.svg
+      width: 256
+      height: 329
+relationships:
+  productLabels:
+    webFramework:
+      id: webFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    microframework:
+      id: microframework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    python:
+      id: python
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,48 @@
+id: protactor
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Protactor
+  url: 'http://www.protractortest.org/'
+  colors:
+    - hex: '#c92f34'
+      rgb:
+        r: 201
+        g: 47
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: protactor
+      relativeUrl: products/p/protactor/logos/protactor.svg
+      width: 256
+      height: 256
+  icons:
+    - id: protactor
+      relativeUrl: products/p/protactor/icons/protactor.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    testingFramework:
+      id: testingFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    unitTesting:
+      id: unitTesting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    crossBrowserTesting:
+      id: crossBrowserTesting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    angular:
+      id: angular
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

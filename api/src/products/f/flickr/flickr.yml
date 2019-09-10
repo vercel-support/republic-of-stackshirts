@@ -1,0 +1,41 @@
+id: flickr
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: flickr
+  url: 'https://www.flickr.com/'
+  colors:
+    - hex: '#dc2474'
+      rgb:
+        r: 220
+        g: 36
+        b: 116
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: flickrShort
+      relativeUrl: products/f/flickr/logos/flickrShort.svg
+      width: 256
+      height: 256
+    - id: flickr
+      relativeUrl: products/f/flickr/logos/flickr.svg
+      width: 512
+      height: 155
+  icons:
+    - id: flickrShort
+      relativeUrl: products/f/flickr/icons/flickrShort.svg
+      width: 256
+      height: 256
+    - id: flickr
+      relativeUrl: products/f/flickr/icons/flickr.svg
+      width: 512
+      height: 155
+relationships:
+  productLabels:
+    photos:
+      id: photos
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

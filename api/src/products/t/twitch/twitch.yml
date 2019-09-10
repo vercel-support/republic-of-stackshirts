@@ -1,0 +1,38 @@
+id: twitch
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Twitch
+  url: 'http://www.twitch.tv/'
+  colors:
+    - hex: '#5c3c84'
+      rgb:
+        r: 92
+        g: 60
+        b: 132
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: twitch
+      relativeUrl: products/t/twitch/logos/twitch.svg
+      width: 256
+      height: 268
+  icons:
+    - id: twitch
+      relativeUrl: products/t/twitch/icons/twitch.svg
+      width: 256
+      height: 268
+relationships:
+  productLabels:
+    video:
+      id: video
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    socialNetwork:
+      id: socialNetwork
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

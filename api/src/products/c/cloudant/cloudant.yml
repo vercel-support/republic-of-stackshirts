@@ -1,0 +1,43 @@
+id: cloudant
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Cloudant
+  url: 'https://cloudant.com/'
+  colors:
+    - hex: '#74c3e3'
+      rgb:
+        r: 116
+        g: 195
+        b: 227
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: cloudant
+      relativeUrl: products/c/cloudant/logos/cloudant.svg
+      width: 256
+      height: 249
+  icons:
+    - id: cloudant
+      relativeUrl: products/c/cloudant/icons/cloudant.svg
+      width: 256
+      height: 249
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nosql:
+      id: nosql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    dbaas:
+      id: dbaas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

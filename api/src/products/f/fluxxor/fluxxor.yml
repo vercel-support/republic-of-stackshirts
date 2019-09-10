@@ -1,0 +1,43 @@
+id: fluxxor
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Fluxxor
+  url: 'http://fluxxor.com/'
+  colors:
+    - hex: '#c6c6c6'
+      rgb:
+        r: 198
+        g: 198
+        b: 198
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: fluxxor
+      relativeUrl: products/f/fluxxor/logos/fluxxor.svg
+      width: 256
+      height: 322
+  icons:
+    - id: fluxxor
+      relativeUrl: products/f/fluxxor/icons/fluxxor.svg
+      width: 256
+      height: 322
+relationships:
+  productLabels:
+    flux:
+      id: flux
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    react:
+      id: react
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

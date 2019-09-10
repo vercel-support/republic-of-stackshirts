@@ -1,0 +1,38 @@
+id: rackspace
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Rackspace
+  url: 'http://www.rackspace.com/'
+  colors:
+    - hex: '#bc0414'
+      rgb:
+        r: 188
+        g: 4
+        b: 20
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: rackspace
+      relativeUrl: products/r/rackspace/logos/rackspace.svg
+      width: 256
+      height: 263
+  icons:
+    - id: rackspace
+      relativeUrl: products/r/rackspace/icons/rackspace.svg
+      width: 256
+      height: 263
+relationships:
+  productLabels:
+    cloudComputing:
+      id: cloudComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

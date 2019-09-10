@@ -1,0 +1,33 @@
+id: loggly
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: loggly
+  url: 'http://loggly.com/'
+  colors:
+    - hex: '#0c0c0c'
+      rgb:
+        r: 12
+        g: 12
+        b: 12
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: loggly
+      relativeUrl: products/l/loggly/logos/loggly.svg
+      width: 512
+      height: 171
+  icons:
+    - id: loggly
+      relativeUrl: products/l/loggly/icons/loggly.svg
+      width: 512
+      height: 171
+relationships:
+  productLabels:
+    logManager:
+      id: logManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

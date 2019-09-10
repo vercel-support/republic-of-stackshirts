@@ -1,0 +1,33 @@
+id: aurous
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Aurous
+  url: 'https://aurous.me/'
+  colors:
+    - hex: '#56e7cc'
+      rgb:
+        r: 86
+        g: 231
+        b: 204
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: aurous
+      relativeUrl: products/a/aurous/logos/aurous.svg
+      width: 256
+      height: 286
+  icons:
+    - id: aurous
+      relativeUrl: products/a/aurous/icons/aurous.svg
+      width: 256
+      height: 286
+relationships:
+  productLabels:
+    musicSharing:
+      id: musicSharing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

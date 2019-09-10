@@ -1,0 +1,38 @@
+id: flight
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Flight
+  url: 'https://flightjs.github.io/'
+  colors:
+    - hex: '#04acec'
+      rgb:
+        r: 4
+        g: 172
+        b: 236
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: flight
+      relativeUrl: products/f/flight/logos/flight.svg
+      width: 256
+      height: 353
+  icons:
+    - id: flight
+      relativeUrl: products/f/flight/icons/flight.svg
+      width: 256
+      height: 353
+relationships:
+  productLabels:
+    mvcFramework:
+      id: mvcFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

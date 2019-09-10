@@ -1,0 +1,33 @@
+id: haskell
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Haskell
+  url: 'https://www.haskell.org/'
+  colors:
+    - hex: '#fc7c2c'
+      rgb:
+        r: 252
+        g: 124
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: haskell
+      relativeUrl: products/h/haskell/logos/haskell.svg
+      width: 256
+      height: 181
+  icons:
+    - id: haskell
+      relativeUrl: products/h/haskell/icons/haskell.svg
+      width: 256
+      height: 181
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

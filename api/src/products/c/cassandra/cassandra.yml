@@ -1,0 +1,43 @@
+id: cassandra
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Cassandra
+  url: 'http://cassandra.apache.org/'
+  colors:
+    - hex: '#343637'
+      rgb:
+        r: 52
+        g: 54
+        b: 55
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: cassandra
+      relativeUrl: products/c/cassandra/logos/cassandra.svg
+      width: 256
+      height: 169
+  icons:
+    - id: cassandra
+      relativeUrl: products/c/cassandra/icons/cassandra.svg
+      width: 256
+      height: 169
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nosql:
+      id: nosql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    storage:
+      id: storage
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

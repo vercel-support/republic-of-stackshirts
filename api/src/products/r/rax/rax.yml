@@ -1,0 +1,38 @@
+id: rax
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Rax
+  url: 'http://rax.taobaofed.org/'
+  colors:
+    - hex: '#f76927'
+      rgb:
+        r: 247
+        g: 105
+        b: 39
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: rax
+      relativeUrl: products/r/rax/logos/rax.svg
+      width: 256
+      height: 257
+  icons:
+    - id: rax
+      relativeUrl: products/r/rax/icons/rax.svg
+      width: 256
+      height: 257
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    uiFramework:
+      id: uiFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: googleDevelopers
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Google Developers
+  url: 'https://developers.google.com/'
+  colors:
+    - hex: '#c4ccd4'
+      rgb:
+        r: 196
+        g: 204
+        b: 212
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: googleDevelopers
+      relativeUrl: products/g/googleDevelopers/logos/googleDevelopers.svg
+      width: 256
+      height: 205
+  icons:
+    - id: googleDevelopers
+      relativeUrl: products/g/googleDevelopers/icons/googleDevelopers.svg
+      width: 256
+      height: 205
+relationships:
+  productLabels:
+    reference:
+      id: reference
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

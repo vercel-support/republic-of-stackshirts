@@ -1,0 +1,38 @@
+id: craft
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Craft
+  url: 'https://craftcms.com/'
+  colors:
+    - hex: '#cc5444'
+      rgb:
+        r: 204
+        g: 84
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: craft
+      relativeUrl: products/c/craft/logos/craft.svg
+      width: 512
+      height: 269
+  icons:
+    - id: craft
+      relativeUrl: products/c/craft/icons/craft.svg
+      width: 512
+      height: 269
+relationships:
+  productLabels:
+    contentManager:
+      id: contentManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    blogPlatform:
+      id: blogPlatform
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

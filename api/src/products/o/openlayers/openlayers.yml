@@ -1,0 +1,43 @@
+id: openlayers
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: OpenLayers
+  url: 'http://openlayers.org/'
+  colors:
+    - hex: '#40bfcf'
+      rgb:
+        r: 64
+        g: 191
+        b: 207
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: openlayers
+      relativeUrl: products/o/openlayers/logos/openlayers.svg
+      width: 256
+      height: 259
+  icons:
+    - id: openlayers
+      relativeUrl: products/o/openlayers/icons/openlayers.svg
+      width: 256
+      height: 259
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    library:
+      id: library
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    maps:
+      id: maps
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

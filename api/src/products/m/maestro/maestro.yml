@@ -1,0 +1,38 @@
+id: maestro
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Maestro
+  url: 'http://www.maestrocard.com/'
+  colors:
+    - hex: '#6c6bbd'
+      rgb:
+        r: 108
+        g: 107
+        b: 189
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: maestro
+      relativeUrl: products/m/maestro/logos/maestro.svg
+      width: 256
+      height: 199
+  icons:
+    - id: maestro
+      relativeUrl: products/m/maestro/icons/maestro.svg
+      width: 256
+      height: 199
+relationships:
+  productLabels:
+    debitCard:
+      id: debitCard
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    finance:
+      id: finance
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

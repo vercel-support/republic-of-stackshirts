@@ -1,0 +1,43 @@
+id: websocket
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: WebSocket
+  url: 'https://www.w3.org/TR/websockets/'
+  colors:
+    - hex: '#241c24'
+      rgb:
+        r: 36
+        g: 28
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: websocket
+      relativeUrl: products/w/websocket/logos/websocket.svg
+      width: 256
+      height: 193
+  icons:
+    - id: websocket
+      relativeUrl: products/w/websocket/icons/websocket.svg
+      width: 256
+      height: 193
+relationships:
+  productLabels:
+    realTimeCommunication:
+      id: realTimeCommunication
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    protocol:
+      id: protocol
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    technology:
+      id: technology
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

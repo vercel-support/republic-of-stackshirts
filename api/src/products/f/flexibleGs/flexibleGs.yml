@@ -1,0 +1,48 @@
+id: flexibleGs
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: flexible.gs
+  url: 'http://flexible.gs/'
+  colors:
+    - hex: '#242424'
+      rgb:
+        r: 36
+        g: 36
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: flexibleGs
+      relativeUrl: products/f/flexibleGs/logos/flexibleGs.svg
+      width: 256
+      height: 256
+  icons:
+    - id: flexibleGs
+      relativeUrl: products/f/flexibleGs/icons/flexibleGs.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    frontEndFramework:
+      id: frontEndFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    css:
+      id: css
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    grid:
+      id: grid
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ui:
+      id: ui
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: apollostack
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Apollo
+  url: 'http://www.apollostack.com/'
+  colors:
+    - hex: '#142c4c'
+      rgb:
+        r: 20
+        g: 44
+        b: 76
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: apollostack
+      relativeUrl: products/a/apollostack/logos/apollostack.svg
+      width: 256
+      height: 256
+  icons:
+    - id: apollostack
+      relativeUrl: products/a/apollostack/icons/apollostack.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    graphql:
+      id: graphql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    react:
+      id: react
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    redux:
+      id: redux
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

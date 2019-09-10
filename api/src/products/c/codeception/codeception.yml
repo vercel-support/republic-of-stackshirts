@@ -1,0 +1,43 @@
+id: codeception
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Codeception
+  url: 'http://codeception.com/'
+  colors:
+    - hex: '#078a99'
+      rgb:
+        r: 7
+        g: 138
+        b: 153
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: codeception
+      relativeUrl: products/c/codeception/logos/codeception.svg
+      width: 256
+      height: 190
+  icons:
+    - id: codeception
+      relativeUrl: products/c/codeception/icons/codeception.svg
+      width: 256
+      height: 190
+relationships:
+  productLabels:
+    testingFramework:
+      id: testingFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    bdd:
+      id: bdd
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    php:
+      id: php
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

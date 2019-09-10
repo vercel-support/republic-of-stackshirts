@@ -1,0 +1,38 @@
+id: leankit
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Leankit
+  url: 'http://leankit.com/'
+  colors:
+    - hex: '#94c43c'
+      rgb:
+        r: 148
+        g: 196
+        b: 60
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: leankit
+      relativeUrl: products/l/leankit/logos/leankit.svg
+      width: 256
+      height: 296
+  icons:
+    - id: leankit
+      relativeUrl: products/l/leankit/icons/leankit.svg
+      width: 256
+      height: 296
+relationships:
+  productLabels:
+    projectManager:
+      id: projectManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    kanban:
+      id: kanban
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

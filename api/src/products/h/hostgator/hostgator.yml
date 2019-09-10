@@ -1,0 +1,33 @@
+id: hostgator
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: HostGator
+  url: 'https://www.hostgator.com/'
+  colors:
+    - hex: '#2b5596'
+      rgb:
+        r: 43
+        g: 85
+        b: 150
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: hostgator
+      relativeUrl: products/h/hostgator/logos/hostgator.svg
+      width: 256
+      height: 348
+  icons:
+    - id: hostgator
+      relativeUrl: products/h/hostgator/icons/hostgator.svg
+      width: 256
+      height: 348
+relationships:
+  productLabels:
+    webHosting:
+      id: webHosting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

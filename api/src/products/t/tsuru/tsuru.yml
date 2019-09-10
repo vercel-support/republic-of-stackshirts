@@ -1,0 +1,38 @@
+id: tsuru
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: tsuru
+  url: 'https://tsuru.io/'
+  colors:
+    - hex: '#34dc9c'
+      rgb:
+        r: 52
+        g: 220
+        b: 156
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: tsuru
+      relativeUrl: products/t/tsuru/logos/tsuru.svg
+      width: 256
+      height: 193
+  icons:
+    - id: tsuru
+      relativeUrl: products/t/tsuru/icons/tsuru.svg
+      width: 256
+      height: 193
+relationships:
+  productLabels:
+    paas:
+      id: paas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    openSource:
+      id: openSource
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

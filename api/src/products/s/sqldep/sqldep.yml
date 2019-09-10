@@ -1,0 +1,38 @@
+id: sqldep
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: SQLdep
+  url: 'https://sqldep.com/'
+  colors:
+    - hex: '#04ccdc'
+      rgb:
+        r: 4
+        g: 204
+        b: 220
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: sqldep
+      relativeUrl: products/s/sqldep/logos/sqldep.svg
+      width: 512
+      height: 140
+  icons:
+    - id: sqldep
+      relativeUrl: products/s/sqldep/icons/sqldep.svg
+      width: 512
+      height: 140
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    sql:
+      id: sql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

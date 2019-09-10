@@ -1,0 +1,38 @@
+id: unionpay
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: UnionPay
+  url: 'http://www.unionpayintl.com/'
+  colors:
+    - hex: '#e21836'
+      rgb:
+        r: 226
+        g: 24
+        b: 54
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: unionpay
+      relativeUrl: products/u/unionpay/logos/unionpay.svg
+      width: 256
+      height: 160
+  icons:
+    - id: unionpay
+      relativeUrl: products/u/unionpay/icons/unionpay.svg
+      width: 256
+      height: 160
+relationships:
+  productLabels:
+    creditCard:
+      id: creditCard
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    finance:
+      id: finance
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

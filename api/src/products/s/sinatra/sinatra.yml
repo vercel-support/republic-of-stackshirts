@@ -1,0 +1,43 @@
+id: sinatra
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Sinatra
+  url: 'http://www.sinatrarb.com/'
+  colors:
+    - hex: '#d8d2c9'
+      rgb:
+        r: 216
+        g: 210
+        b: 201
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: sinatra
+      relativeUrl: products/s/sinatra/logos/sinatra.svg
+      width: 256
+      height: 174
+  icons:
+    - id: sinatra
+      relativeUrl: products/s/sinatra/icons/sinatra.svg
+      width: 256
+      height: 174
+relationships:
+  productLabels:
+    webFramework:
+      id: webFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    microframework:
+      id: microframework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ruby:
+      id: ruby
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: ello
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: ello
+  url: 'https://ello.co/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: ello
+      relativeUrl: products/e/ello/logos/ello.svg
+      width: 256
+      height: 256
+  icons:
+    - id: ello
+      relativeUrl: products/e/ello/icons/ello.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    socialNetwork:
+      id: socialNetwork
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

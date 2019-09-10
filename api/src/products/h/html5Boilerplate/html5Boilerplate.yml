@@ -1,0 +1,38 @@
+id: html5Boilerplate
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: HTML5 Boilerplate
+  url: 'https://html5boilerplate.com/'
+  colors:
+    - hex: '#e28324'
+      rgb:
+        r: 226
+        g: 131
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: html5Boilerplate
+      relativeUrl: products/h/html5Boilerplate/logos/html5Boilerplate.svg
+      width: 256
+      height: 256
+  icons:
+    - id: html5Boilerplate
+      relativeUrl: products/h/html5Boilerplate/icons/html5Boilerplate.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    html:
+      id: html
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    boilerplate:
+      id: boilerplate
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

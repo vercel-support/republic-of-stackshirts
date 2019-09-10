@@ -1,0 +1,38 @@
+id: require
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: RequireJS
+  url: 'http://requirejs.org/'
+  colors:
+    - hex: '#44a3eb'
+      rgb:
+        r: 68
+        g: 163
+        b: 235
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: require
+      relativeUrl: products/r/require/logos/require.svg
+      width: 256
+      height: 283
+  icons:
+    - id: require
+      relativeUrl: products/r/require/icons/require.svg
+      width: 256
+      height: 283
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    moduleLoader:
+      id: moduleLoader
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

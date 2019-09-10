@@ -1,0 +1,38 @@
+id: apiAi
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: api.ai
+  url: 'https://api.ai/'
+  colors:
+    - hex: '#ec6c24'
+      rgb:
+        r: 236
+        g: 108
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: apiAi
+      relativeUrl: products/a/apiAi/logos/apiAi.svg
+      width: 256
+      height: 313
+  icons:
+    - id: apiAi
+      relativeUrl: products/a/apiAi/icons/apiAi.svg
+      width: 256
+      height: 313
+relationships:
+  productLabels:
+    voice:
+      id: voice
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    speech:
+      id: speech
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: googleGmail
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Google Gmail
+  url: 'http://gmail.com/'
+  colors:
+    - hex: '#d1d0d0'
+      rgb:
+        r: 209
+        g: 208
+        b: 208
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: googleGmail
+      relativeUrl: products/g/googleGmail/logos/googleGmail.svg
+      width: 256
+      height: 194
+  icons:
+    - id: googleGmail
+      relativeUrl: products/g/googleGmail/icons/googleGmail.svg
+      width: 256
+      height: 194
+relationships:
+  productLabels:
+    emailService:
+      id: emailService
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

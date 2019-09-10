@@ -1,0 +1,33 @@
+id: typeform
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Typeform
+  url: 'http://www.typeform.com/'
+  colors:
+    - hex: '#8cc4bc'
+      rgb:
+        r: 140
+        g: 196
+        b: 188
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: typeform
+      relativeUrl: products/t/typeform/logos/typeform.svg
+      width: 256
+      height: 407
+  icons:
+    - id: typeform
+      relativeUrl: products/t/typeform/icons/typeform.svg
+      width: 256
+      height: 407
+relationships:
+  productLabels:
+    forms:
+      id: forms
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: behance
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Bēhance
+  url: 'https://www.behance.net/'
+  colors:
+    - hex: '#0c0c0c'
+      rgb:
+        r: 12
+        g: 12
+        b: 12
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: behance
+      relativeUrl: products/b/behance/logos/behance.svg
+      width: 512
+      height: 95
+  icons:
+    - id: behance
+      relativeUrl: products/b/behance/icons/behance.svg
+      width: 512
+      height: 95
+relationships:
+  productLabels:
+    socialNetwork:
+      id: socialNetwork
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    portfolio:
+      id: portfolio
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    showcase:
+      id: showcase
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

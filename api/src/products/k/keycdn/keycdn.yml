@@ -1,0 +1,33 @@
+id: keycdn
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: KeyCDN
+  url: 'https://www.keycdn.com/'
+  colors:
+    - hex: '#5b5b5b'
+      rgb:
+        r: 91
+        g: 91
+        b: 91
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: keycdn
+      relativeUrl: products/k/keycdn/logos/keycdn.svg
+      width: 256
+      height: 247
+  icons:
+    - id: keycdn
+      relativeUrl: products/k/keycdn/icons/keycdn.svg
+      width: 256
+      height: 247
+relationships:
+  productLabels:
+    cdn:
+      id: cdn
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: dashlane
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Dashlane
+  url: 'https://www.dashlane.com/'
+  colors:
+    - hex: '#246474'
+      rgb:
+        r: 36
+        g: 100
+        b: 116
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: dashlane
+      relativeUrl: products/d/dashlane/logos/dashlane.svg
+      width: 512
+      height: 151
+  icons:
+    - id: dashlane
+      relativeUrl: products/d/dashlane/icons/dashlane.svg
+      width: 512
+      height: 151
+relationships:
+  productLabels:
+    passwordManager:
+      id: passwordManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    desktopApp:
+      id: desktopApp
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobileApp:
+      id: mobileApp
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

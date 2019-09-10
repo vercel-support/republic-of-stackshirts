@@ -1,0 +1,38 @@
+id: alfresco
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Alfresco
+  url: 'https://www.alfresco.com/'
+  colors:
+    - hex: '#82c243'
+      rgb:
+        r: 130
+        g: 194
+        b: 67
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: alfresco
+      relativeUrl: products/a/alfresco/logos/alfresco.svg
+      width: 256
+      height: 255
+  icons:
+    - id: alfresco
+      relativeUrl: products/a/alfresco/icons/alfresco.svg
+      width: 256
+      height: 255
+relationships:
+  productLabels:
+    ecm:
+      id: ecm
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    bpm:
+      id: bpm
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

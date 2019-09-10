@@ -1,0 +1,48 @@
+id: coderwall
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: coderwall
+  url: 'https://coderwall.com/'
+  colors:
+    - hex: '#3c8ccc'
+      rgb:
+        r: 60
+        g: 140
+        b: 204
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: coderwall
+      relativeUrl: products/c/coderwall/logos/coderwall.svg
+      width: 256
+      height: 256
+  icons:
+    - id: coderwall
+      relativeUrl: products/c/coderwall/icons/coderwall.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    community:
+      id: community
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    reference:
+      id: reference
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    teams:
+      id: teams
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    professionalNetworking:
+      id: professionalNetworking
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: heap
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Heap
+  url: 'https://heapanalytics.com/'
+  colors:
+    - hex: '#ed4c5c'
+      rgb:
+        r: 237
+        g: 76
+        b: 92
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: heap
+      relativeUrl: products/h/heap/logos/heap.svg
+      width: 256
+      height: 296
+  icons:
+    - id: heap
+      relativeUrl: products/h/heap/icons/heap.svg
+      width: 256
+      height: 296
+relationships:
+  productLabels:
+    funnelAnalytics:
+      id: funnelAnalytics
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    analytics:
+      id: analytics
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

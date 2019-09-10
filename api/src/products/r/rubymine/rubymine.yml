@@ -1,0 +1,48 @@
+id: rubymine
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: RubyMine
+  url: 'https://www.jetbrains.com/ruby/'
+  colors:
+    - hex: '#f15444'
+      rgb:
+        r: 241
+        g: 84
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: rubymine
+      relativeUrl: products/r/rubymine/logos/rubymine.svg
+      width: 256
+      height: 256
+  icons:
+    - id: rubymine
+      relativeUrl: products/r/rubymine/icons/rubymine.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    codeEditor:
+      id: codeEditor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ide:
+      id: ide
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ruby:
+      id: ruby
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    jetbrains:
+      id: jetbrains
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: maxcdn
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: MaxCDN
+  url: 'https://www.maxcdn.com/'
+  colors:
+    - hex: '#fc6404'
+      rgb:
+        r: 252
+        g: 100
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: maxcdn
+      relativeUrl: products/m/maxcdn/logos/maxcdn.svg
+      width: 512
+      height: 117
+  icons:
+    - id: maxcdn
+      relativeUrl: products/m/maxcdn/icons/maxcdn.svg
+      width: 512
+      height: 117
+relationships:
+  productLabels:
+    cdn:
+      id: cdn
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

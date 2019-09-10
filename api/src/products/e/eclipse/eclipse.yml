@@ -1,0 +1,38 @@
+id: eclipse
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Eclipse
+  url: 'https://eclipse.org/'
+  colors:
+    - hex: '#2e2659'
+      rgb:
+        r: 46
+        g: 38
+        b: 89
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: eclipse
+      relativeUrl: products/e/eclipse/logos/eclipse.svg
+      width: 256
+      height: 240
+  icons:
+    - id: eclipse
+      relativeUrl: products/e/eclipse/icons/eclipse.svg
+      width: 256
+      height: 240
+relationships:
+  productLabels:
+    codeEditor:
+      id: codeEditor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ide:
+      id: ide
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

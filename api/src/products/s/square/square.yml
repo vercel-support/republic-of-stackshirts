@@ -1,0 +1,33 @@
+id: square
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Square
+  url: 'https://squareup.com/'
+  colors:
+    - hex: '#2c3c4c'
+      rgb:
+        r: 44
+        g: 60
+        b: 76
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: square
+      relativeUrl: products/s/square/logos/square.svg
+      width: 256
+      height: 256
+  icons:
+    - id: square
+      relativeUrl: products/s/square/icons/square.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    paymentService:
+      id: paymentService
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

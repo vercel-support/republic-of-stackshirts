@@ -1,0 +1,33 @@
+id: soundcloud
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: soundcloud
+  url: 'https://soundcloud.com/'
+  colors:
+    - hex: '#f35d23'
+      rgb:
+        r: 243
+        g: 93
+        b: 35
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: soundcloud
+      relativeUrl: products/s/soundcloud/logos/soundcloud.svg
+      width: 256
+      height: 145
+  icons:
+    - id: soundcloud
+      relativeUrl: products/s/soundcloud/icons/soundcloud.svg
+      width: 256
+      height: 145
+relationships:
+  productLabels:
+    musicSharing:
+      id: musicSharing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

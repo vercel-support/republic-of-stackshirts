@@ -1,0 +1,38 @@
+id: workboard
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Workboard
+  url: 'http://www.workboard.com/'
+  colors:
+    - hex: '#54bcd4'
+      rgb:
+        r: 84
+        g: 188
+        b: 212
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: workboard
+      relativeUrl: products/w/workboard/logos/workboard.svg
+      width: 256
+      height: 256
+  icons:
+    - id: workboard
+      relativeUrl: products/w/workboard/icons/workboard.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    teamManagement:
+      id: teamManagement
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    teamCollaboration:
+      id: teamCollaboration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

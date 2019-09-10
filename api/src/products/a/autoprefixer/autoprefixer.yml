@@ -1,0 +1,38 @@
+id: autoprefixer
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Autoprefixer
+  url: 'https://github.com/postcss/autoprefixer'
+  colors:
+    - hex: '#dc3c34'
+      rgb:
+        r: 220
+        g: 60
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: autoprefixer
+      relativeUrl: products/a/autoprefixer/logos/autoprefixer.svg
+      width: 256
+      height: 193
+  icons:
+    - id: autoprefixer
+      relativeUrl: products/a/autoprefixer/icons/autoprefixer.svg
+      width: 256
+      height: 193
+relationships:
+  productLabels:
+    css:
+      id: css
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    transformer:
+      id: transformer
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

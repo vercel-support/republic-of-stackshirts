@@ -1,0 +1,38 @@
+id: shippable
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Shippable
+  url: 'https://www.shippable.com/'
+  colors:
+    - hex: '#b44424'
+      rgb:
+        r: 180
+        g: 68
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: shippable
+      relativeUrl: products/s/shippable/logos/shippable.svg
+      width: 512
+      height: 118
+  icons:
+    - id: shippable
+      relativeUrl: products/s/shippable/icons/shippable.svg
+      width: 512
+      height: 118
+relationships:
+  productLabels:
+    continuousIntegration:
+      id: continuousIntegration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    codeDeployment:
+      id: codeDeployment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

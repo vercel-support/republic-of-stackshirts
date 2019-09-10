@@ -1,0 +1,38 @@
+id: twilio
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Twilio
+  url: 'https://www.twilio.com/'
+  colors:
+    - hex: '#cc242c'
+      rgb:
+        r: 204
+        g: 36
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: twilio
+      relativeUrl: products/t/twilio/logos/twilio.svg
+      width: 256
+      height: 256
+  icons:
+    - id: twilio
+      relativeUrl: products/t/twilio/icons/twilio.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    cloudCommunication:
+      id: cloudCommunication
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

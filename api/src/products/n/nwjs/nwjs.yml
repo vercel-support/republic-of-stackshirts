@@ -1,0 +1,33 @@
+id: nwjs
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: NW.js a.k.a. Nodewebkit
+  url: 'http://nwjs.io/'
+  colors:
+    - hex: '#3d3b47'
+      rgb:
+        r: 61
+        g: 59
+        b: 71
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: nodewebkit
+      relativeUrl: products/n/nwjs/logos/nodewebkit.svg
+      width: 256
+      height: 290
+  icons:
+    - id: nodewebkit
+      relativeUrl: products/n/nwjs/icons/nodewebkit.svg
+      width: 256
+      height: 290
+relationships:
+  productLabels:
+    desktopAppFramework:
+      id: desktopAppFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: whatwg
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: WHATWG
+  url: 'https://whatwg.org/'
+  colors:
+    - hex: '#3c7c0c'
+      rgb:
+        r: 60
+        g: 124
+        b: 12
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: whatwg
+      relativeUrl: products/w/whatwg/logos/whatwg.svg
+      width: 256
+      height: 256
+  icons:
+    - id: whatwg
+      relativeUrl: products/w/whatwg/icons/whatwg.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    community:
+      id: community
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    reference:
+      id: reference
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

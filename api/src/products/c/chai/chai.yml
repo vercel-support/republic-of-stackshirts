@@ -1,0 +1,53 @@
+id: chai
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Chai
+  url: 'http://chaijs.com/'
+  colors:
+    - hex: '#f7f3ec'
+      rgb:
+        r: 247
+        g: 243
+        b: 236
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: chai
+      relativeUrl: products/c/chai/logos/chai.svg
+      width: 256
+      height: 296
+  icons:
+    - id: chai
+      relativeUrl: products/c/chai/icons/chai.svg
+      width: 256
+      height: 296
+relationships:
+  productLabels:
+    assertionLibrary:
+      id: assertionLibrary
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    bdd:
+      id: bdd
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    tdd:
+      id: tdd
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    testing:
+      id: testing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

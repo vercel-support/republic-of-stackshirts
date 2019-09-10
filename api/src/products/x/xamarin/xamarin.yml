@@ -1,0 +1,53 @@
+id: xamarin
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Xamarin
+  url: 'http://xamarin.com/'
+  colors:
+    - hex: '#349cdc'
+      rgb:
+        r: 52
+        g: 156
+        b: 220
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: xamarin
+      relativeUrl: products/x/xamarin/logos/xamarin.svg
+      width: 256
+      height: 228
+  icons:
+    - id: xamarin
+      relativeUrl: products/x/xamarin/icons/xamarin.svg
+      width: 256
+      height: 228
+relationships:
+  productLabels:
+    crossPlatform:
+      id: crossPlatform
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    applicationFramework:
+      id: applicationFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    c:
+      id: c
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ide:
+      id: ide
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

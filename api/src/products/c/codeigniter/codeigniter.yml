@@ -1,0 +1,38 @@
+id: codeigniter
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: CodeIgniter
+  url: 'http://www.codeigniter.com/'
+  colors:
+    - hex: '#ec4424'
+      rgb:
+        r: 236
+        g: 68
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: codeigniter
+      relativeUrl: products/c/codeigniter/logos/codeigniter.svg
+      width: 256
+      height: 304
+  icons:
+    - id: codeigniter
+      relativeUrl: products/c/codeigniter/icons/codeigniter.svg
+      width: 256
+      height: 304
+relationships:
+  productLabels:
+    fullStackFramework:
+      id: fullStackFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    php:
+      id: php
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

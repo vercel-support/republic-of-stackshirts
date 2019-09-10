@@ -1,0 +1,38 @@
+id: quobyte
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: quobyte
+  url: 'http://www.quobyte.com/'
+  colors:
+    - hex: '#244c84'
+      rgb:
+        r: 36
+        g: 76
+        b: 132
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: quobyte
+      relativeUrl: products/q/quobyte/logos/quobyte.svg
+      width: 256
+      height: 257
+  icons:
+    - id: quobyte
+      relativeUrl: products/q/quobyte/icons/quobyte.svg
+      width: 256
+      height: 257
+relationships:
+  productLabels:
+    cloudComputing:
+      id: cloudComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cloudStorage:
+      id: cloudStorage
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

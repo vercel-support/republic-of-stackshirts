@@ -1,0 +1,33 @@
+id: morpheus
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Morpheus
+  url: 'https://www.morpheusdata.com'
+  colors:
+    - hex: '#78c5e1'
+      rgb:
+        r: 120
+        g: 197
+        b: 225
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: morpheus
+      relativeUrl: products/m/morpheus/logos/morpheus.svg
+      width: 512
+      height: 106
+  icons:
+    - id: morpheus
+      relativeUrl: products/m/morpheus/icons/morpheus.svg
+      width: 512
+      height: 106
+relationships:
+  productLabels:
+    cloudManagement:
+      id: cloudManagement
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

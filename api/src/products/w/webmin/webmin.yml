@@ -1,0 +1,38 @@
+id: webmin
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Webmin
+  url: 'http://www.webmin.com/'
+  colors:
+    - hex: '#97beef'
+      rgb:
+        r: 151
+        g: 190
+        b: 239
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: webmin
+      relativeUrl: products/w/webmin/logos/webmin.svg
+      width: 256
+      height: 281
+  icons:
+    - id: webmin
+      relativeUrl: products/w/webmin/icons/webmin.svg
+      width: 256
+      height: 281
+relationships:
+  productLabels:
+    linux:
+      id: linux
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    configurationManager:
+      id: configurationManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

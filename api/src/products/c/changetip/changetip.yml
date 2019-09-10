@@ -1,0 +1,43 @@
+id: changetip
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: ChangeTip
+  url: 'https://www.changetip.com/'
+  colors:
+    - hex: '#045494'
+      rgb:
+        r: 4
+        g: 84
+        b: 148
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: changetip
+      relativeUrl: products/c/changetip/logos/changetip.svg
+      width: 256
+      height: 263
+  icons:
+    - id: changetip
+      relativeUrl: products/c/changetip/icons/changetip.svg
+      width: 256
+      height: 263
+relationships:
+  productLabels:
+    micropayment:
+      id: micropayment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    bitcoin:
+      id: bitcoin
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    donation:
+      id: donation
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

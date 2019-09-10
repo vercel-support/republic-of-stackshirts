@@ -1,0 +1,43 @@
+id: phalcon
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Phalcon
+  url: 'https://phalconphp.com/'
+  colors:
+    - hex: '#95cbad'
+      rgb:
+        r: 149
+        g: 203
+        b: 173
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: phalcon
+      relativeUrl: products/p/phalcon/logos/phalcon.svg
+      width: 256
+      height: 292
+  icons:
+    - id: phalcon
+      relativeUrl: products/p/phalcon/icons/phalcon.svg
+      width: 256
+      height: 292
+relationships:
+  productLabels:
+    fullStackFramework:
+      id: fullStackFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    php:
+      id: php
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    c:
+      id: c
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: mootools
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: MooTools
+  url: 'http://mootools.net/'
+  colors:
+    - hex: '#6c7c8c'
+      rgb:
+        r: 108
+        g: 124
+        b: 140
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mootools
+      relativeUrl: products/m/mootools/logos/mootools.svg
+      width: 512
+      height: 109
+  icons:
+    - id: mootools
+      relativeUrl: products/m/mootools/icons/mootools.svg
+      width: 512
+      height: 109
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    library:
+      id: library
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

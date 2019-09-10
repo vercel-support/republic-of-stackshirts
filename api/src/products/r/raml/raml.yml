@@ -1,0 +1,38 @@
+id: raml
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: RAML
+  url: 'http://raml.org/'
+  colors:
+    - hex: '#74cce4'
+      rgb:
+        r: 116
+        g: 204
+        b: 228
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: raml
+      relativeUrl: products/r/raml/logos/raml.svg
+      width: 512
+      height: 147
+  icons:
+    - id: raml
+      relativeUrl: products/r/raml/icons/raml.svg
+      width: 512
+      height: 147
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    apiTools:
+      id: apiTools
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

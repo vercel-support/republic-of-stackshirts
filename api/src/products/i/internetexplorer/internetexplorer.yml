@@ -1,0 +1,33 @@
+id: internetexplorer
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Internet Explorer
+  url: 'http://windows.microsoft.com/en-us/internet-explorer/'
+  colors:
+    - hex: '#1cbcec'
+      rgb:
+        r: 28
+        g: 188
+        b: 236
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: internetexplorer
+      relativeUrl: products/i/internetexplorer/logos/internetexplorer.svg
+      width: 256
+      height: 252
+  icons:
+    - id: internetexplorer
+      relativeUrl: products/i/internetexplorer/icons/internetexplorer.svg
+      width: 256
+      height: 252
+relationships:
+  productLabels:
+    browser:
+      id: browser
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

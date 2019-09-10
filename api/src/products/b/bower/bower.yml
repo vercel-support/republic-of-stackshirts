@@ -1,0 +1,43 @@
+id: bower
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Bower
+  url: 'http://bower.io/'
+  colors:
+    - hex: '#4f432c'
+      rgb:
+        r: 79
+        g: 67
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: bower
+      relativeUrl: products/b/bower/logos/bower.svg
+      width: 256
+      height: 225
+  icons:
+    - id: bower
+      relativeUrl: products/b/bower/icons/bower.svg
+      width: 256
+      height: 225
+relationships:
+  productLabels:
+    packageManager:
+      id: packageManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    css:
+      id: css
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: autocode
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: autocode
+  url: 'http://autocode.crystal.sh/'
+  colors:
+    - hex: '#cac9e2'
+      rgb:
+        r: 202
+        g: 201
+        b: 226
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: autocode
+      relativeUrl: products/a/autocode/logos/autocode.svg
+      width: 256
+      height: 241
+  icons:
+    - id: autocode
+      relativeUrl: products/a/autocode/icons/autocode.svg
+      width: 256
+      height: 241
+relationships:
+  productLabels:
+    scaffolding:
+      id: scaffolding
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    generator:
+      id: generator
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

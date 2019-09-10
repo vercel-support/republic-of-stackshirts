@@ -1,0 +1,33 @@
+id: webtask
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Webtask
+  url: 'https://webtask.io/'
+  colors:
+    - hex: '#5f3237'
+      rgb:
+        r: 95
+        g: 50
+        b: 55
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: webtask
+      relativeUrl: products/w/webtask/logos/webtask.svg
+      width: 256
+      height: 256
+  icons:
+    - id: webtask
+      relativeUrl: products/w/webtask/icons/webtask.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    taskProcessor:
+      id: taskProcessor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

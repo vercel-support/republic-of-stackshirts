@@ -1,0 +1,38 @@
+id: wix
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Wix
+  url: 'http://www.wix.com/'
+  colors:
+    - hex: '#fac33c'
+      rgb:
+        r: 250
+        g: 195
+        b: 60
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: wix
+      relativeUrl: products/w/wix/logos/wix.svg
+      width: 256
+      height: 300
+  icons:
+    - id: wix
+      relativeUrl: products/w/wix/icons/wix.svg
+      width: 256
+      height: 300
+relationships:
+  productLabels:
+    contentManager:
+      id: contentManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    websiteBuilder:
+      id: websiteBuilder
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

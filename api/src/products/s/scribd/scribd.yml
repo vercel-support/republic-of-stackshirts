@@ -1,0 +1,33 @@
+id: scribd
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Scribd
+  url: 'https://www.scribd.com/'
+  colors:
+    - hex: '#444444'
+      rgb:
+        r: 68
+        g: 68
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: scribd
+      relativeUrl: products/s/scribd/logos/scribd.svg
+      width: 512
+      height: 131
+  icons:
+    - id: scribd
+      relativeUrl: products/s/scribd/icons/scribd.svg
+      width: 512
+      height: 131
+relationships:
+  productLabels:
+    books:
+      id: books
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

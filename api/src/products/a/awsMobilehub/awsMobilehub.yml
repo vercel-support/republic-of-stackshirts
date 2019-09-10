@@ -1,0 +1,53 @@
+id: awsMobilehub
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AWS Mobile Hub
+  url: 'http://aws.amazon.com/mobile/'
+  colors:
+    - hex: '#d95e3a'
+      rgb:
+        r: 217
+        g: 94
+        b: 58
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: awsMobilehub
+      relativeUrl: products/a/awsMobilehub/logos/awsMobilehub.svg
+      width: 256
+      height: 280
+  icons:
+    - id: awsMobilehub
+      relativeUrl: products/a/awsMobilehub/icons/awsMobilehub.svg
+      width: 256
+      height: 280
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    pushNotification:
+      id: pushNotification
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cloudStorage:
+      id: cloudStorage
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    testing:
+      id: testing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

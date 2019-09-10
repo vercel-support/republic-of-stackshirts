@@ -1,0 +1,38 @@
+id: airbnb
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Airbnb
+  url: 'https://www.airbnb.com/'
+  colors:
+    - hex: '#e4545c'
+      rgb:
+        r: 228
+        g: 84
+        b: 92
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: airbnb
+      relativeUrl: products/a/airbnb/logos/airbnb.svg
+      width: 256
+      height: 276
+  icons:
+    - id: airbnb
+      relativeUrl: products/a/airbnb/icons/airbnb.svg
+      width: 256
+      height: 276
+relationships:
+  productLabels:
+    lodging:
+      id: lodging
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    marketplace:
+      id: marketplace
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

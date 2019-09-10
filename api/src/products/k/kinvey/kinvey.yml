@@ -1,0 +1,33 @@
+id: kinvey
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Kinvey
+  url: 'http://www.kinvey.com/'
+  colors:
+    - hex: '#dc5424'
+      rgb:
+        r: 220
+        g: 84
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: kinvey
+      relativeUrl: products/k/kinvey/logos/kinvey.svg
+      width: 256
+      height: 180
+  icons:
+    - id: kinvey
+      relativeUrl: products/k/kinvey/icons/kinvey.svg
+      width: 256
+      height: 180
+relationships:
+  productLabels:
+    mbaas:
+      id: mbaas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

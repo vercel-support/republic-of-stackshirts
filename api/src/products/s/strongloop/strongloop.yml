@@ -1,0 +1,48 @@
+id: strongloop
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: StrongLoop
+  url: 'https://strongloop.com/'
+  colors:
+    - hex: '#7bbb34'
+      rgb:
+        r: 123
+        g: 187
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: strongloop
+      relativeUrl: products/s/strongloop/logos/strongloop.svg
+      width: 256
+      height: 210
+  icons:
+    - id: strongloop
+      relativeUrl: products/s/strongloop/icons/strongloop.svg
+      width: 256
+      height: 210
+relationships:
+  productLabels:
+    library:
+      id: library
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mbaas:
+      id: mbaas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: openGraph
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Open Graph
+  url: 'http://ogp.me/'
+  colors:
+    - hex: '#7399c0'
+      rgb:
+        r: 115
+        g: 153
+        b: 192
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: openGraph
+      relativeUrl: products/o/openGraph/logos/openGraph.svg
+      width: 256
+      height: 209
+  icons:
+    - id: openGraph
+      relativeUrl: products/o/openGraph/icons/openGraph.svg
+      width: 256
+      height: 209
+relationships:
+  productLabels:
+    socialSharing:
+      id: socialSharing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

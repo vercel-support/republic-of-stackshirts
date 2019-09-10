@@ -1,0 +1,43 @@
+id: wercker
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Wercker
+  url: 'http://wercker.com/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: wercker
+      relativeUrl: products/w/wercker/logos/wercker.svg
+      width: 256
+      height: 342
+  icons:
+    - id: wercker
+      relativeUrl: products/w/wercker/icons/wercker.svg
+      width: 256
+      height: 342
+relationships:
+  productLabels:
+    codeDeployment:
+      id: codeDeployment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    contentDelivery:
+      id: contentDelivery
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    docker:
+      id: docker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

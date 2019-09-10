@@ -1,0 +1,43 @@
+id: bosun
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Bosun
+  url: 'https://bosun.org/'
+  colors:
+    - hex: '#275fa2'
+      rgb:
+        r: 39
+        g: 95
+        b: 162
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: bosun
+      relativeUrl: products/b/bosun/logos/bosun.svg
+      width: 256
+      height: 256
+  icons:
+    - id: bosun
+      relativeUrl: products/b/bosun/icons/bosun.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    monitoring:
+      id: monitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    serverMonitoring:
+      id: serverMonitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    openSource:
+      id: openSource
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

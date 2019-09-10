@@ -1,0 +1,43 @@
+id: react
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: React
+  url: 'https://facebook.github.io/react/'
+  colors:
+    - hex: '#d3eff7'
+      rgb:
+        r: 211
+        g: 239
+        b: 247
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: react
+      relativeUrl: products/r/react/logos/react.svg
+      width: 256
+      height: 230
+  icons:
+    - id: react
+      relativeUrl: products/r/react/icons/react.svg
+      width: 256
+      height: 230
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    uiFramework:
+      id: uiFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    facebook:
+      id: facebook
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: haxe
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Haxe
+  url: 'http://haxe.org/'
+  colors:
+    - hex: '#f58512'
+      rgb:
+        r: 245
+        g: 133
+        b: 18
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: haxe
+      relativeUrl: products/h/haxe/logos/haxe.svg
+      width: 256
+      height: 256
+  icons:
+    - id: haxe
+      relativeUrl: products/h/haxe/icons/haxe.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    crossPlatform:
+      id: crossPlatform
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    applicationFramework:
+      id: applicationFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: elasticsearch
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Elasticsearch
+  url: 'https://www.elastic.co/products/elasticsearch'
+  colors:
+    - hex: '#3cbbb3'
+      rgb:
+        r: 60
+        g: 187
+        b: 179
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: elasticsearch
+      relativeUrl: products/e/elasticsearch/logos/elasticsearch.svg
+      width: 256
+      height: 256
+  icons:
+    - id: elasticsearch
+      relativeUrl: products/e/elasticsearch/icons/elasticsearch.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    searchServer:
+      id: searchServer
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    lucene:
+      id: lucene
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

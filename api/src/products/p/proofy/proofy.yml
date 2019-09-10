@@ -1,0 +1,33 @@
+id: proofy
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Proofy
+  url: 'http://proofy.io/'
+  colors:
+    - hex: '#13c779'
+      rgb:
+        r: 19
+        g: 199
+        b: 121
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: proofy
+      relativeUrl: products/p/proofy/logos/proofy.svg
+      width: 256
+      height: 261
+  icons:
+    - id: proofy
+      relativeUrl: products/p/proofy/icons/proofy.svg
+      width: 256
+      height: 261
+relationships:
+  productLabels:
+    emailTools:
+      id: emailTools
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: podio
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Podio
+  url: 'https://podio.com/'
+  colors:
+    - hex: '#548cac'
+      rgb:
+        r: 84
+        g: 140
+        b: 172
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: podio
+      relativeUrl: products/p/podio/logos/podio.svg
+      width: 256
+      height: 303
+  icons:
+    - id: podio
+      relativeUrl: products/p/podio/icons/podio.svg
+      width: 256
+      height: 303
+relationships:
+  productLabels:
+    projectManager:
+      id: projectManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

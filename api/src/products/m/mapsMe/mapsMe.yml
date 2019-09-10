@@ -1,0 +1,43 @@
+id: mapsMe
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: MAPS.ME
+  url: 'http://maps.me/'
+  colors:
+    - hex: '#4cdc64'
+      rgb:
+        r: 76
+        g: 220
+        b: 100
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mapsMe
+      relativeUrl: products/m/mapsMe/logos/mapsMe.svg
+      width: 256
+      height: 256
+  icons:
+    - id: mapsMe
+      relativeUrl: products/m/mapsMe/icons/mapsMe.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    mappingApi:
+      id: mappingApi
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    openStreetMap:
+      id: openStreetMap
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

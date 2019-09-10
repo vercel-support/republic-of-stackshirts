@@ -1,0 +1,33 @@
+id: apache
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Apache
+  url: 'http://www.apache.org/'
+  colors:
+    - hex: '#cd2e5d'
+      rgb:
+        r: 205
+        g: 46
+        b: 93
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: apache
+      relativeUrl: products/a/apache/logos/apache.svg
+      width: 2392.5
+      height: 4226.6
+  icons:
+    - id: apache
+      relativeUrl: products/a/apache/icons/apache.svg
+      width: 2111
+      height: 4227
+relationships:
+  productLabels:
+    webServer:
+      id: webServer
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

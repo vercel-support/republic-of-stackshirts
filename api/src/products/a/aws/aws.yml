@@ -1,0 +1,48 @@
+id: aws
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AWS
+  url: 'https://aws.amazon.com/'
+  colors:
+    - hex: '#fc9c04'
+      rgb:
+        r: 252
+        g: 156
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: aws
+      relativeUrl: products/a/aws/logos/aws.svg
+      width: 256
+      height: 100
+  icons:
+    - id: aws
+      relativeUrl: products/a/aws/icons/aws.svg
+      width: 256
+      height: 100
+relationships:
+  productLabels:
+    cloudComputing:
+      id: cloudComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    codeDeployment:
+      id: codeDeployment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    contentDelivery:
+      id: contentDelivery
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

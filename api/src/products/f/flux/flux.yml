@@ -1,0 +1,43 @@
+id: flux
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Flux
+  url: 'https://facebook.github.io/flux/'
+  colors:
+    - hex: '#44b44c'
+      rgb:
+        r: 68
+        g: 180
+        b: 76
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: flux
+      relativeUrl: products/f/flux/logos/flux.svg
+      width: 256
+      height: 102
+  icons:
+    - id: flux
+      relativeUrl: products/f/flux/icons/flux.svg
+      width: 256
+      height: 102
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    architecture:
+      id: architecture
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    facebook:
+      id: facebook
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

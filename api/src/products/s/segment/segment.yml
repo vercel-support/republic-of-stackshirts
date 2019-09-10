@@ -1,0 +1,38 @@
+id: segment
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Segment
+  url: 'https://segment.com/'
+  colors:
+    - hex: '#242424'
+      rgb:
+        r: 36
+        g: 36
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: segment
+      relativeUrl: products/s/segment/logos/segment.svg
+      width: 512
+      height: 125
+  icons:
+    - id: segment
+      relativeUrl: products/s/segment/icons/segment.svg
+      width: 512
+      height: 125
+relationships:
+  productLabels:
+    analytics:
+      id: analytics
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    serviceIntegration:
+      id: serviceIntegration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

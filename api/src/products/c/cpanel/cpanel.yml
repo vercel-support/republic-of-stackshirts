@@ -1,0 +1,38 @@
+id: cpanel
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: cPanel
+  url: 'http://cpanel.com/'
+  colors:
+    - hex: '#fc6c2c'
+      rgb:
+        r: 252
+        g: 108
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: cpanel
+      relativeUrl: products/c/cpanel/logos/cpanel.svg
+      width: 512
+      height: 114
+  icons:
+    - id: cpanel
+      relativeUrl: products/c/cpanel/icons/cpanel.svg
+      width: 512
+      height: 114
+relationships:
+  productLabels:
+    webHosting:
+      id: webHosting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    controlPanel:
+      id: controlPanel
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

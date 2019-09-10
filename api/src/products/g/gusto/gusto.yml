@@ -1,0 +1,43 @@
+id: gusto
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Gusto
+  url: 'https://gusto.com/'
+  colors:
+    - hex: '#ef0000'
+      rgb:
+        r: 239
+        g: 0
+        b: 0
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: gusto
+      relativeUrl: products/g/gusto/logos/gusto.svg
+      width: 256
+      height: 250
+  icons:
+    - id: gusto
+      relativeUrl: products/g/gusto/icons/gusto.svg
+      width: 256
+      height: 250
+relationships:
+  productLabels:
+    payroll:
+      id: payroll
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    benefits:
+      id: benefits
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    backOffice:
+      id: backOffice
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

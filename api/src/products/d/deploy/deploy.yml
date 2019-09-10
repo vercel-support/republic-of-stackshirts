@@ -1,0 +1,33 @@
+id: deploy
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Deploy
+  url: 'https://www.deployhq.com/'
+  colors:
+    - hex: '#9cc45c'
+      rgb:
+        r: 156
+        g: 196
+        b: 92
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: deploy
+      relativeUrl: products/d/deploy/logos/deploy.svg
+      width: 512
+      height: 152
+  icons:
+    - id: deploy
+      relativeUrl: products/d/deploy/icons/deploy.svg
+      width: 512
+      height: 152
+relationships:
+  productLabels:
+    codeDeployment:
+      id: codeDeployment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: python
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Python
+  url: 'https://www.python.org/'
+  colors:
+    - hex: '#3473a6'
+      rgb:
+        r: 52
+        g: 115
+        b: 166
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: python
+      relativeUrl: products/p/python/logos/python.svg
+      width: 256
+      height: 255
+  icons:
+    - id: python
+      relativeUrl: products/p/python/icons/python.svg
+      width: 256
+      height: 255
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

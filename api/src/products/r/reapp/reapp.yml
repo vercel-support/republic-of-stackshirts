@@ -1,0 +1,48 @@
+id: reapp
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Reapp
+  url: 'http://reapp.io/'
+  colors:
+    - hex: '#24ccf4'
+      rgb:
+        r: 36
+        g: 204
+        b: 244
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: reapp
+      relativeUrl: products/r/reapp/logos/reapp.svg
+      width: 256
+      height: 338
+  icons:
+    - id: reapp
+      relativeUrl: products/r/reapp/icons/reapp.svg
+      width: 256
+      height: 338
+relationships:
+  productLabels:
+    mobileFramework:
+      id: mobileFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ios:
+      id: ios
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    facebook:
+      id: facebook
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

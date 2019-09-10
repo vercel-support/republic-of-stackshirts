@@ -1,0 +1,33 @@
+id: buffer
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Buffer
+  url: 'https://buffer.com/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: buffer
+      relativeUrl: products/b/buffer/logos/buffer.svg
+      width: 256
+      height: 262
+  icons:
+    - id: buffer
+      relativeUrl: products/b/buffer/icons/buffer.svg
+      width: 256
+      height: 262
+relationships:
+  productLabels:
+    sociaMediaTools:
+      id: sociaMediaTools
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: mageia
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: mageia
+  url: 'https://www.mageia.org/'
+  colors:
+    - hex: '#2494d4'
+      rgb:
+        r: 36
+        g: 148
+        b: 212
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mageia
+      relativeUrl: products/m/mageia/logos/mageia.svg
+      width: 512
+      height: 158
+  icons:
+    - id: mageia
+      relativeUrl: products/m/mageia/icons/mageia.svg
+      width: 512
+      height: 158
+relationships:
+  productLabels:
+    operationalSystem:
+      id: operationalSystem
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    linux:
+      id: linux
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: oauth
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: OAuth
+  url: 'http://oauth.net/'
+  colors:
+    - hex: '#050505'
+      rgb:
+        r: 5
+        g: 5
+        b: 5
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: oauth
+      relativeUrl: products/o/oauth/logos/oauth.svg
+      width: 256
+      height: 256
+  icons:
+    - id: oauth
+      relativeUrl: products/o/oauth/icons/oauth.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    authentication:
+      id: authentication
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    security:
+      id: security
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

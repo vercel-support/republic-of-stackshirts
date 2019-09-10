@@ -1,0 +1,33 @@
+id: bugherd
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: BugHerd
+  url: 'http://bugherd.com/'
+  colors:
+    - hex: '#242424'
+      rgb:
+        r: 36
+        g: 36
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: bugherd
+      relativeUrl: products/b/bugherd/logos/bugherd.svg
+      width: 256
+      height: 256
+  icons:
+    - id: bugherd
+      relativeUrl: products/b/bugherd/icons/bugherd.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    bugTracker:
+      id: bugTracker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

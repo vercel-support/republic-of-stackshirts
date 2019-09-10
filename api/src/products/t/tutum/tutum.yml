@@ -1,0 +1,48 @@
+id: tutum
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Tutum
+  url: 'https://www.tutum.co/'
+  colors:
+    - hex: '#0494e4'
+      rgb:
+        r: 4
+        g: 148
+        b: 228
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: tutum
+      relativeUrl: products/t/tutum/logos/tutum.svg
+      width: 256
+      height: 175
+  icons:
+    - id: tutum
+      relativeUrl: products/t/tutum/icons/tutum.svg
+      width: 256
+      height: 175
+relationships:
+  productLabels:
+    codeDeployment:
+      id: codeDeployment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    docker:
+      id: docker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    containers:
+      id: containers
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    caas:
+      id: caas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

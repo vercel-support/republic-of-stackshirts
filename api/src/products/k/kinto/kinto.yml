@@ -1,0 +1,38 @@
+id: kinto
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Kinto
+  url: 'http://www.kinto-storage.org/'
+  colors:
+    - hex: '#bf8c0b'
+      rgb:
+        r: 191
+        g: 140
+        b: 11
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: kinto
+      relativeUrl: products/k/kinto/logos/kinto.svg
+      width: 256
+      height: 122
+  icons:
+    - id: kinto
+      relativeUrl: products/k/kinto/icons/kinto.svg
+      width: 256
+      height: 122
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    realTime:
+      id: realTime
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,48 @@
+id: doctrine
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Doctrine
+  url: 'http://www.doctrine-project.org/'
+  colors:
+    - hex: '#fc843c'
+      rgb:
+        r: 252
+        g: 132
+        b: 60
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: doctrine
+      relativeUrl: products/d/doctrine/logos/doctrine.svg
+      width: 256
+      height: 339
+  icons:
+    - id: doctrine
+      relativeUrl: products/d/doctrine/icons/doctrine.svg
+      width: 256
+      height: 339
+relationships:
+  productLabels:
+    orm:
+      id: orm
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    sql:
+      id: sql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    php:
+      id: php
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: webplatform
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: WebPlatform
+  url: 'https://www.webplatform.org/'
+  colors:
+    - hex: '#2cb3c3'
+      rgb:
+        r: 44
+        g: 179
+        b: 195
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: webplatform
+      relativeUrl: products/w/webplatform/logos/webplatform.svg
+      width: 256
+      height: 253.9
+  icons:
+    - id: webplatform
+      relativeUrl: products/w/webplatform/icons/webplatform.svg
+      width: 256
+      height: 253.9
+relationships:
+  productLabels:
+    reference:
+      id: reference
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

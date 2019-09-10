@@ -1,0 +1,43 @@
+id: joomla
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Joomla
+  url: 'http://www.joomla.org/'
+  colors:
+    - hex: '#fcac44'
+      rgb:
+        r: 252
+        g: 172
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: joomla
+      relativeUrl: products/j/joomla/logos/joomla.svg
+      width: 256
+      height: 258
+  icons:
+    - id: joomla
+      relativeUrl: products/j/joomla/icons/joomla.svg
+      width: 256
+      height: 258
+relationships:
+  productLabels:
+    contentManager:
+      id: contentManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    php:
+      id: php
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mysql:
+      id: mysql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

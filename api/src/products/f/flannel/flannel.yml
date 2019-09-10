@@ -1,0 +1,43 @@
+id: flannel
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: flannel
+  url: 'https://github.com/coreos/flannel'
+  colors:
+    - hex: '#54a4dc'
+      rgb:
+        r: 84
+        g: 164
+        b: 220
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: flannel
+      relativeUrl: products/f/flannel/logos/flannel.svg
+      width: 256
+      height: 477
+  icons:
+    - id: flannel
+      relativeUrl: products/f/flannel/icons/flannel.svg
+      width: 256
+      height: 477
+relationships:
+  productLabels:
+    coreos:
+      id: coreos
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    containers:
+      id: containers
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    virtualNetwork:
+      id: virtualNetwork
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

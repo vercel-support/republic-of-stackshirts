@@ -1,0 +1,33 @@
+id: shogun
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Shogun
+  url: 'https://getshogun.com/'
+  colors:
+    - hex: '#24a4fc'
+      rgb:
+        r: 36
+        g: 164
+        b: 252
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: shogun
+      relativeUrl: products/s/shogun/logos/shogun.svg
+      width: 256
+      height: 121
+  icons:
+    - id: shogun
+      relativeUrl: products/s/shogun/icons/shogun.svg
+      width: 256
+      height: 121
+relationships:
+  productLabels:
+    websiteBuilder:
+      id: websiteBuilder
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: gwt
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: GWT
+  url: 'http://www.gwtproject.org/'
+  colors:
+    - hex: '#fc3434'
+      rgb:
+        r: 252
+        g: 52
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: gwt
+      relativeUrl: products/g/gwt/logos/gwt.svg
+      width: 256
+      height: 270
+  icons:
+    - id: gwt
+      relativeUrl: products/g/gwt/icons/gwt.svg
+      width: 256
+      height: 270
+relationships:
+  productLabels:
+    developmentToolkit:
+      id: developmentToolkit
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    java:
+      id: java
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: ios
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: iOS
+  url: 'https://www.apple.com/ios/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: ios
+      relativeUrl: products/i/ios/logos/ios.svg
+      width: 256
+      height: 163
+  icons:
+    - id: ios
+      relativeUrl: products/i/ios/icons/ios.svg
+      width: 256
+      height: 163
+relationships:
+  productLabels:
+    operationalSystem:
+      id: operationalSystem
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

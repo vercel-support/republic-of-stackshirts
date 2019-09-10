@@ -1,0 +1,38 @@
+id: pixelapse
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Pixelapse
+  url: 'https://www.pixelapse.com/'
+  colors:
+    - hex: '#2c84d4'
+      rgb:
+        r: 44
+        g: 132
+        b: 212
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: pixelapse
+      relativeUrl: products/p/pixelapse/logos/pixelapse.svg
+      width: 256
+      height: 256
+  icons:
+    - id: pixelapse
+      relativeUrl: products/p/pixelapse/icons/pixelapse.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    versionControl:
+      id: versionControl
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ui:
+      id: ui
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

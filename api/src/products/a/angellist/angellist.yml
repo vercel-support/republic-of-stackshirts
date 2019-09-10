@@ -1,0 +1,38 @@
+id: angellist
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AngelList
+  url: 'https://angel.co/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: angellist
+      relativeUrl: products/a/angellist/logos/angellist.svg
+      width: 256
+      height: 369
+  icons:
+    - id: angellist
+      relativeUrl: products/a/angellist/icons/angellist.svg
+      width: 256
+      height: 369
+relationships:
+  productLabels:
+    startups:
+      id: startups
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    investment:
+      id: investment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

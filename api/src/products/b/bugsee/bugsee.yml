@@ -1,0 +1,38 @@
+id: bugsee
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Bugsee
+  url: 'https://www.bugsee.com/'
+  colors:
+    - hex: '#fc5252'
+      rgb:
+        r: 252
+        g: 82
+        b: 82
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: bugsee
+      relativeUrl: products/b/bugsee/logos/bugsee.svg
+      width: 256
+      height: 131
+  icons:
+    - id: bugsee
+      relativeUrl: products/b/bugsee/icons/bugsee.svg
+      width: 256
+      height: 131
+relationships:
+  productLabels:
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    videoMonitoring:
+      id: videoMonitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

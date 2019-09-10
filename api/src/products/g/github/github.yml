@@ -1,0 +1,59 @@
+id: github
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Github
+  url: 'https://github.com/'
+  colors:
+    - hex: '#14140c'
+      rgb:
+        r: 20
+        g: 20
+        b: 12
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: githubShort
+      relativeUrl: products/g/github/logos/githubShort.svg
+      width: 256
+      height: 250
+    - id: github
+      relativeUrl: products/g/github/logos/github.svg
+      width: 512
+      height: 139
+    - id: githubOctocat
+      relativeUrl: products/g/github/logos/githubOctocat.svg
+      width: 256
+      height: 259.3
+  icons:
+    - id: githubShort
+      relativeUrl: products/g/github/icons/githubShort.svg
+      width: 256
+      height: 250
+    - id: github
+      relativeUrl: products/g/github/icons/github.svg
+      width: 512
+      height: 139
+    - id: githubOctocat
+      relativeUrl: products/g/github/icons/githubOctocat.svg
+      width: 256
+      height: 259.3
+relationships:
+  productLabels:
+    git:
+      id: git
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    codeManager:
+      id: codeManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    issueTracker:
+      id: issueTracker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

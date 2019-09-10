@@ -1,0 +1,33 @@
+id: dart
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Dart
+  url: 'https://www.dartlang.org/'
+  colors:
+    - hex: '#04d3bb'
+      rgb:
+        r: 4
+        g: 211
+        b: 187
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: dart
+      relativeUrl: products/d/dart/logos/dart.svg
+      width: 256
+      height: 256
+  icons:
+    - id: dart
+      relativeUrl: products/d/dart/icons/dart.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

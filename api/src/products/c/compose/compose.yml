@@ -1,0 +1,53 @@
+id: compose
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Compose
+  url: 'https://www.compose.io/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: compose
+      relativeUrl: products/c/compose/logos/compose.svg
+      width: 256
+      height: 148
+  icons:
+    - id: compose
+      relativeUrl: products/c/compose/icons/compose.svg
+      width: 256
+      height: 148
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    dbaas:
+      id: dbaas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mongodb:
+      id: mongodb
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    redis:
+      id: redis
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    rethinkdb:
+      id: rethinkdb
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

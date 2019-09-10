@@ -1,0 +1,38 @@
+id: dotnet
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: .NET
+  url: 'http://www.microsoft.com/net'
+  colors:
+    - hex: '#167dbf'
+      rgb:
+        r: 22
+        g: 125
+        b: 191
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: dotnet
+      relativeUrl: products/d/dotnet/logos/dotnet.svg
+      width: 256
+      height: 244
+  icons:
+    - id: dotnet
+      relativeUrl: products/d/dotnet/icons/dotnet.svg
+      width: 256
+      height: 244
+relationships:
+  productLabels:
+    fullStackFramework:
+      id: fullStackFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    framework:
+      id: framework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

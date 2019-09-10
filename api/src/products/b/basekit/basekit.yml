@@ -1,0 +1,38 @@
+id: basekit
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: BaseKit
+  url: 'http://www.basekit.com/'
+  colors:
+    - hex: '#146ccc'
+      rgb:
+        r: 20
+        g: 108
+        b: 204
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: basekit
+      relativeUrl: products/b/basekit/logos/basekit.svg
+      width: 509
+      height: 122
+  icons:
+    - id: basekit
+      relativeUrl: products/b/basekit/icons/basekit.svg
+      width: 509
+      height: 122
+relationships:
+  productLabels:
+    contentManager:
+      id: contentManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    websiteBuilder:
+      id: websiteBuilder
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

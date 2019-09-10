@@ -1,0 +1,38 @@
+id: quora
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Quora
+  url: 'https://www.quora.com/'
+  colors:
+    - hex: '#bc2c24'
+      rgb:
+        r: 188
+        g: 44
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: quora
+      relativeUrl: products/q/quora/logos/quora.svg
+      width: 512
+      height: 142
+  icons:
+    - id: quora
+      relativeUrl: products/q/quora/icons/quora.svg
+      width: 512
+      height: 142
+relationships:
+  productLabels:
+    community:
+      id: community
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    questionAndAnswer:
+      id: questionAndAnswer
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

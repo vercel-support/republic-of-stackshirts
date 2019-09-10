@@ -1,0 +1,38 @@
+id: campaignmonitor
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Campaign Monitor
+  url: 'https://www.campaignmonitor.com/'
+  colors:
+    - hex: '#2c2c34'
+      rgb:
+        r: 44
+        g: 44
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: campaignmonitor
+      relativeUrl: products/c/campaignmonitor/logos/campaignmonitor.svg
+      width: 256
+      height: 175
+  icons:
+    - id: campaignmonitor
+      relativeUrl: products/c/campaignmonitor/icons/campaignmonitor.svg
+      width: 256
+      height: 175
+relationships:
+  productLabels:
+    emailMarketing:
+      id: emailMarketing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    marketing:
+      id: marketing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

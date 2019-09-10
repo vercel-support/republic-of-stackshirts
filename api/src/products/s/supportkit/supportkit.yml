@@ -1,0 +1,43 @@
+id: supportkit
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: supportkit
+  url: 'https://supportkit.io/'
+  colors:
+    - hex: '#962589'
+      rgb:
+        r: 150
+        g: 37
+        b: 137
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: supportkit
+      relativeUrl: products/s/supportkit/logos/supportkit.svg
+      width: 256
+      height: 192
+  icons:
+    - id: supportkit
+      relativeUrl: products/s/supportkit/icons/supportkit.svg
+      width: 256
+      height: 192
+relationships:
+  productLabels:
+    customerSupport:
+      id: customerSupport
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    liveChat:
+      id: liveChat
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

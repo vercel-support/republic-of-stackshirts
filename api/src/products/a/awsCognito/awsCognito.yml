@@ -1,0 +1,43 @@
+id: awsCognito
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AWS Cognito
+  url: 'https://aws.amazon.com/cognito/'
+  colors:
+    - hex: '#c37c9c'
+      rgb:
+        r: 195
+        g: 124
+        b: 156
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: awsCognito
+      relativeUrl: products/a/awsCognito/logos/awsCognito.svg
+      width: 256
+      height: 299
+  icons:
+    - id: awsCognito
+      relativeUrl: products/a/awsCognito/icons/awsCognito.svg
+      width: 256
+      height: 299
+relationships:
+  productLabels:
+    userManagement:
+      id: userManagement
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    authentication:
+      id: authentication
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    baas:
+      id: baas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

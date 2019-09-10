@@ -1,0 +1,38 @@
+id: dotcloud
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: dotCloud
+  url: 'https://www.dotcloud.com/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: dotcloud
+      relativeUrl: products/d/dotcloud/logos/dotcloud.svg
+      width: 256
+      height: 169
+  icons:
+    - id: dotcloud
+      relativeUrl: products/d/dotcloud/icons/dotcloud.svg
+      width: 256
+      height: 169
+relationships:
+  productLabels:
+    cloudComputing:
+      id: cloudComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    paas:
+      id: paas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

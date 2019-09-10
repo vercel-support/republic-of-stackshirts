@@ -1,0 +1,38 @@
+id: glimmerjs
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Glimmer
+  url: 'https://glimmerjs.com'
+  colors:
+    - hex: '#f8835a'
+      rgb:
+        r: 248
+        g: 131
+        b: 90
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: glimmerjs
+      relativeUrl: products/g/glimmerjs/logos/glimmerjs.svg
+      width: 256
+      height: 256
+  icons:
+    - id: glimmerjs
+      relativeUrl: products/g/glimmerjs/icons/glimmerjs.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    uiFramework:
+      id: uiFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

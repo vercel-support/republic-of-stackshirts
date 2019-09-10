@@ -1,0 +1,33 @@
+id: googleHangouts
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Google Hangouts
+  url: 'http://hangouts.google.com/'
+  colors:
+    - hex: '#759A55'
+      rgb:
+        r: 117
+        g: 154
+        b: 85
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: googleHangouts
+      relativeUrl: products/g/googleHangouts/logos/googleHangouts.svg
+      width: 256
+      height: 194
+  icons:
+    - id: googleHangouts
+      relativeUrl: products/g/googleHangouts/icons/googleHangouts.svg
+      width: 256
+      height: 194
+relationships:
+  productLabels:
+    emailService:
+      id: videoConference
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

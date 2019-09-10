@@ -1,0 +1,53 @@
+id: steroids
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Steroids
+  url: 'http://www.appgyver.com/steroids'
+  colors:
+    - hex: '#b8d0db'
+      rgb:
+        r: 184
+        g: 208
+        b: 219
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: steroids
+      relativeUrl: products/s/steroids/logos/steroids.svg
+      width: 256
+      height: 272
+  icons:
+    - id: steroids
+      relativeUrl: products/s/steroids/icons/steroids.svg
+      width: 256
+      height: 272
+relationships:
+  productLabels:
+    crossPlatform:
+      id: crossPlatform
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    applicationFramework:
+      id: applicationFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ionic:
+      id: ionic
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cordova:
+      id: cordova
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

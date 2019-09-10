@@ -1,0 +1,33 @@
+id: kraken
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Kraken
+  url: 'https://kraken.io/'
+  colors:
+    - hex: '#dc3224'
+      rgb:
+        r: 220
+        g: 50
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: kraken
+      relativeUrl: products/k/kraken/logos/kraken.svg
+      width: 256
+      height: 229
+  icons:
+    - id: kraken
+      relativeUrl: products/k/kraken/icons/kraken.svg
+      width: 256
+      height: 229
+relationships:
+  productLabels:
+    imageOptimization:
+      id: imageOptimization
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

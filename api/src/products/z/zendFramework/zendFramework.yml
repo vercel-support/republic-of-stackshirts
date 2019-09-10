@@ -1,0 +1,38 @@
+id: zendFramework
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Zend Framework
+  url: 'http://framework.zend.com/'
+  colors:
+    - hex: '#6cb444'
+      rgb:
+        r: 108
+        g: 180
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: zendFramework
+      relativeUrl: products/z/zendFramework/logos/zendFramework.svg
+      width: 256
+      height: 124
+  icons:
+    - id: zendFramework
+      relativeUrl: products/z/zendFramework/icons/zendFramework.svg
+      width: 256
+      height: 124
+relationships:
+  productLabels:
+    fullStackFramework:
+      id: fullStackFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    php:
+      id: php
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

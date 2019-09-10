@@ -1,0 +1,43 @@
+id: deliciousdb
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: DeliciousDB
+  url: 'http://deliciousdb.com/'
+  colors:
+    - hex: '#bb791d'
+      rgb:
+        r: 187
+        g: 121
+        b: 29
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: deliciousBurger
+      relativeUrl: products/d/deliciousdb/logos/deliciousBurger.svg
+      width: 256
+      height: 228
+  icons:
+    - id: deliciousBurger
+      relativeUrl: products/d/deliciousdb/icons/deliciousBurger.svg
+      width: 256
+      height: 228
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    sql:
+      id: sql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nosql:
+      id: nosql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

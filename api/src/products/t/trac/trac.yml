@@ -1,0 +1,33 @@
+id: trac
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Trac
+  url: 'http://trac.edgewall.org/'
+  colors:
+    - hex: '#c40404'
+      rgb:
+        r: 196
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: trac
+      relativeUrl: products/t/trac/logos/trac.svg
+      width: 256
+      height: 307
+  icons:
+    - id: trac
+      relativeUrl: products/t/trac/icons/trac.svg
+      width: 256
+      height: 307
+relationships:
+  productLabels:
+    issueTracker:
+      id: issueTracker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

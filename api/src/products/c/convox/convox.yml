@@ -1,0 +1,43 @@
+id: convox
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Convox
+  url: 'http://convox.com/'
+  colors:
+    - hex: '#1474bb'
+      rgb:
+        r: 20
+        g: 116
+        b: 187
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: convox
+      relativeUrl: products/c/convox/logos/convox.svg
+      width: 256
+      height: 256
+  icons:
+    - id: convox
+      relativeUrl: products/c/convox/icons/convox.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    cloudComputing:
+      id: cloudComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    paas:
+      id: paas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

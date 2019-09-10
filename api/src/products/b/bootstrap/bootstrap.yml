@@ -1,0 +1,48 @@
+id: bootstrap
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Bootstrap
+  url: 'http://getbootstrap.com/'
+  colors:
+    - hex: '#543c7c'
+      rgb:
+        r: 84
+        g: 60
+        b: 124
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: bootstrap
+      relativeUrl: products/b/bootstrap/logos/bootstrap.svg
+      width: 256
+      height: 256
+  icons:
+    - id: bootstrap
+      relativeUrl: products/b/bootstrap/icons/bootstrap.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    frontEndFramework:
+      id: frontEndFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    css:
+      id: css
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    sass:
+      id: sass
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ui:
+      id: ui
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: xplenty
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Xplenty
+  url: 'https://www.xplenty.com/'
+  colors:
+    - hex: '#0db4e4'
+      rgb:
+        r: 13
+        g: 180
+        b: 228
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: xplenty
+      relativeUrl: products/x/xplenty/logos/xplenty.svg
+      width: 256
+      height: 256
+  icons:
+    - id: xplenty
+      relativeUrl: products/x/xplenty/icons/xplenty.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    serviceIntegration:
+      id: serviceIntegration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    dataTransformation:
+      id: dataTransformation
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    bigData:
+      id: bigData
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

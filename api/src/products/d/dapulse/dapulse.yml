@@ -1,0 +1,33 @@
+id: dapulse
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: dapulse
+  url: 'https://dapulse.com/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: dapulse
+      relativeUrl: products/d/dapulse/logos/dapulse.svg
+      width: 256
+      height: 253
+  icons:
+    - id: dapulse
+      relativeUrl: products/d/dapulse/icons/dapulse.svg
+      width: 256
+      height: 253
+relationships:
+  productLabels:
+    projectManager:
+      id: projectManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

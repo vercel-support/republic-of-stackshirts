@@ -1,0 +1,33 @@
+id: mixmax
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Mixmax
+  url: 'https://mixmax.com/'
+  colors:
+    - hex: '#e35bfb'
+      rgb:
+        r: 227
+        g: 91
+        b: 251
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mixmax
+      relativeUrl: products/m/mixmax/logos/mixmax.svg
+      width: 256
+      height: 203
+  icons:
+    - id: mixmax
+      relativeUrl: products/m/mixmax/icons/mixmax.svg
+      width: 256
+      height: 203
+relationships:
+  productLabels:
+    emailTools:
+      id: emailTools
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

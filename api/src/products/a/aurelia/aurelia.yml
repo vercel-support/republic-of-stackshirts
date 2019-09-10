@@ -1,0 +1,38 @@
+id: aurelia
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Aurelia
+  url: 'http://aurelia.io/'
+  colors:
+    - hex: '#7d3482'
+      rgb:
+        r: 125
+        g: 52
+        b: 130
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: aurelia
+      relativeUrl: products/a/aurelia/logos/aurelia.svg
+      width: 256
+      height: 249
+  icons:
+    - id: aurelia
+      relativeUrl: products/a/aurelia/icons/aurelia.svg
+      width: 256
+      height: 249
+relationships:
+  productLabels:
+    mvcFramework:
+      id: mvcFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

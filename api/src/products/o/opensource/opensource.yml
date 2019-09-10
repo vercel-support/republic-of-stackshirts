@@ -1,0 +1,38 @@
+id: opensource
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Open Source Initiative
+  url: 'http://opensource.org/'
+  colors:
+    - hex: '#3ca33b'
+      rgb:
+        r: 60
+        g: 163
+        b: 59
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: opensource
+      relativeUrl: products/o/opensource/logos/opensource.svg
+      width: 256
+      height: 248
+  icons:
+    - id: opensource
+      relativeUrl: products/o/opensource/icons/opensource.svg
+      width: 256
+      height: 248
+relationships:
+  productLabels:
+    openSource:
+      id: openSource
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    association:
+      id: association
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

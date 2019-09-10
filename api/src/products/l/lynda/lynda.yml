@@ -1,0 +1,38 @@
+id: lynda
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: lynda.com
+  url: 'http://www.lynda.com/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: lynda
+      relativeUrl: products/l/lynda/logos/lynda.svg
+      width: 256
+      height: 256
+  icons:
+    - id: lynda
+      relativeUrl: products/l/lynda/icons/lynda.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    learning:
+      id: learning
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    courses:
+      id: courses
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

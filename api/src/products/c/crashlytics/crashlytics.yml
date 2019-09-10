@@ -1,0 +1,38 @@
+id: crashlytics
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Crashlytics
+  url: 'https://try.crashlytics.com/'
+  colors:
+    - hex: '#9c1c1c'
+      rgb:
+        r: 156
+        g: 28
+        b: 28
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: crashlytics
+      relativeUrl: products/c/crashlytics/logos/crashlytics.svg
+      width: 256
+      height: 276
+  icons:
+    - id: crashlytics
+      relativeUrl: products/c/crashlytics/icons/crashlytics.svg
+      width: 256
+      height: 276
+relationships:
+  productLabels:
+    mobileCrashReporter:
+      id: mobileCrashReporter
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

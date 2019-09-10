@@ -1,0 +1,43 @@
+id: ramda
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Ramda
+  url: 'http://ramdajs.com/'
+  colors:
+    - hex: '#14140c'
+      rgb:
+        r: 20
+        g: 20
+        b: 12
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: ramda
+      relativeUrl: products/r/ramda/logos/ramda.svg
+      width: 256
+      height: 306
+  icons:
+    - id: ramda
+      relativeUrl: products/r/ramda/icons/ramda.svg
+      width: 256
+      height: 306
+relationships:
+  productLabels:
+    functional:
+      id: functional
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    library:
+      id: library
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

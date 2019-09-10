@@ -1,0 +1,48 @@
+id: redhat
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: RedHat
+  url: 'http://www.redhat.com/'
+  colors:
+    - hex: '#cb0404'
+      rgb:
+        r: 203
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: redhat
+      relativeUrl: products/r/redhat/logos/redhat.svg
+      width: 256
+      height: 256
+  icons:
+    - id: redhat
+      relativeUrl: products/r/redhat/icons/redhat.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    technology:
+      id: technology
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    company:
+      id: company
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    linux:
+      id: linux
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

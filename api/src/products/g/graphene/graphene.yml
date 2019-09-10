@@ -1,0 +1,38 @@
+id: graphene
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Graphene
+  url: 'http://graphene-python.org/'
+  colors:
+    - hex: '#e45c44'
+      rgb:
+        r: 228
+        g: 92
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: graphene
+      relativeUrl: products/g/graphene/logos/graphene.svg
+      width: 256
+      height: 290
+  icons:
+    - id: graphene
+      relativeUrl: products/g/graphene/icons/graphene.svg
+      width: 256
+      height: 290
+relationships:
+  productLabels:
+    graphql:
+      id: graphql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    python:
+      id: python
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

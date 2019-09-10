@@ -1,0 +1,38 @@
+id: twitter
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Twitter
+  url: 'https://twitter.com/'
+  colors:
+    - hex: '#54acec'
+      rgb:
+        r: 84
+        g: 172
+        b: 236
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: twitter
+      relativeUrl: products/t/twitter/logos/twitter.svg
+      width: 256
+      height: 209
+  icons:
+    - id: twitter
+      relativeUrl: products/t/twitter/icons/twitter.svg
+      width: 256
+      height: 209
+relationships:
+  productLabels:
+    microblog:
+      id: microblog
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    socialNetwork:
+      id: socialNetwork
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

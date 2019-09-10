@@ -1,0 +1,33 @@
+id: concourse
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Concourse
+  url: 'https://concourse.ci/'
+  colors:
+    - hex: '#4cace4'
+      rgb:
+        r: 76
+        g: 172
+        b: 228
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: concourse
+      relativeUrl: products/c/concourse/logos/concourse.svg
+      width: 256
+      height: 254
+  icons:
+    - id: concourse
+      relativeUrl: products/c/concourse/icons/concourse.svg
+      width: 256
+      height: 254
+relationships:
+  productLabels:
+    continuousIntegration:
+      id: continuousIntegration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

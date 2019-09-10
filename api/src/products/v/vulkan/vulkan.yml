@@ -1,0 +1,43 @@
+id: vulkan
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Vulkan
+  url: 'https://www.khronos.org/vulkan/'
+  colors:
+    - hex: '#a41e22'
+      rgb:
+        r: 164
+        g: 30
+        b: 34
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: vulkan
+      relativeUrl: products/v/vulkan/logos/vulkan.svg
+      width: 512
+      height: 147
+  icons:
+    - id: vulkan
+      relativeUrl: products/v/vulkan/icons/vulkan.svg
+      width: 512
+      height: 147
+relationships:
+  productLabels:
+    crossPlatform:
+      id: crossPlatform
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    3D:
+      id: 3D
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    gpu:
+      id: gpu
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

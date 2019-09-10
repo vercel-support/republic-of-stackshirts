@@ -1,0 +1,33 @@
+id: ruby
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Ruby
+  url: 'https://www.ruby-lang.org/'
+  colors:
+    - hex: '#a21207'
+      rgb:
+        r: 162
+        g: 18
+        b: 7
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: ruby
+      relativeUrl: products/r/ruby/logos/ruby.svg
+      width: 256
+      height: 255
+  icons:
+    - id: ruby
+      relativeUrl: products/r/ruby/icons/ruby.svg
+      width: 256
+      height: 255
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

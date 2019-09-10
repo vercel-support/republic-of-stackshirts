@@ -1,0 +1,33 @@
+id: emacs
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Emacs
+  url: 'http://www.gnu.org/software/emacs/'
+  colors:
+    - hex: '#1d1b1e'
+      rgb:
+        r: 29
+        g: 27
+        b: 30
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: emacs
+      relativeUrl: products/e/emacs/logos/emacs.svg
+      width: 256
+      height: 216
+  icons:
+    - id: emacs
+      relativeUrl: products/e/emacs/icons/emacs.svg
+      width: 256
+      height: 216
+relationships:
+  productLabels:
+    codeEditor:
+      id: codeEditor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

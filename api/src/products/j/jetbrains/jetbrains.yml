@@ -1,0 +1,43 @@
+id: jetbrains
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: JetBrains
+  url: 'https://www.jetbrains.com/'
+  colors:
+    - hex: '#050505'
+      rgb:
+        r: 5
+        g: 5
+        b: 5
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: jetbrains
+      relativeUrl: products/j/jetbrains/logos/jetbrains.svg
+      width: 256
+      height: 214
+  icons:
+    - id: jetbrains
+      relativeUrl: products/j/jetbrains/icons/jetbrains.svg
+      width: 256
+      height: 214
+relationships:
+  productLabels:
+    codeEditor:
+      id: codeEditor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ide:
+      id: ide
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    jetbrains:
+      id: jetbrains
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

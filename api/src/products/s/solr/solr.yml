@@ -1,0 +1,38 @@
+id: solr
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Solr
+  url: 'http://lucene.apache.org/solr/'
+  colors:
+    - hex: '#c4432c'
+      rgb:
+        r: 196
+        g: 67
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: solr
+      relativeUrl: products/s/solr/logos/solr.svg
+      width: 256
+      height: 130
+  icons:
+    - id: solr
+      relativeUrl: products/s/solr/icons/solr.svg
+      width: 256
+      height: 130
+relationships:
+  productLabels:
+    searchServer:
+      id: searchServer
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    lucene:
+      id: lucene
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

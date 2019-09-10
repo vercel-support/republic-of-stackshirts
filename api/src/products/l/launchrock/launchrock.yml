@@ -1,0 +1,38 @@
+id: launchrock
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Launchrock
+  url: 'https://www.launchrock.com/'
+  colors:
+    - hex: '#dc0404'
+      rgb:
+        r: 220
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: launchrock
+      relativeUrl: products/l/launchrock/logos/launchrock.svg
+      width: 256
+      height: 271
+  icons:
+    - id: launchrock
+      relativeUrl: products/l/launchrock/icons/launchrock.svg
+      width: 256
+      height: 271
+relationships:
+  productLabels:
+    landingPages:
+      id: landingPages
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    marketing:
+      id: marketing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

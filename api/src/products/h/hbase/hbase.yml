@@ -1,0 +1,38 @@
+id: hbase
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: HBase
+  url: 'http://hbase.apache.org/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: hbase
+      relativeUrl: products/h/hbase/logos/hbase.svg
+      width: 256
+      height: 202
+  icons:
+    - id: hbase
+      relativeUrl: products/h/hbase/icons/hbase.svg
+      width: 256
+      height: 202
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    hadoop:
+      id: hadoop
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

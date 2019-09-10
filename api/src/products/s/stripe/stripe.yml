@@ -1,0 +1,33 @@
+id: stripe
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Stripe
+  url: 'https://stripe.com/'
+  colors:
+    - hex: '#2380cb'
+      rgb:
+        r: 35
+        g: 128
+        b: 203
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: stripe
+      relativeUrl: products/s/stripe/logos/stripe.svg
+      width: 256
+      height: 256
+  icons:
+    - id: stripe
+      relativeUrl: products/s/stripe/icons/stripe.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    paymentService:
+      id: paymentService
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

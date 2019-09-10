@@ -1,0 +1,38 @@
+id: oreilly
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: O'Reilly
+  url: 'http://www.oreilly.com/'
+  colors:
+    - hex: '#d41444'
+      rgb:
+        r: 212
+        g: 20
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: oreilly
+      relativeUrl: products/o/oreilly/logos/oreilly.svg
+      width: 512
+      height: 93
+  icons:
+    - id: oreilly
+      relativeUrl: products/o/oreilly/icons/oreilly.svg
+      width: 512
+      height: 93
+relationships:
+  productLabels:
+    books:
+      id: books
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    publisher:
+      id: publisher
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: etcd
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: etcd
+  url: 'https://github.com/coreos/etcd'
+  colors:
+    - hex: '#449cdc'
+      rgb:
+        r: 68
+        g: 156
+        b: 220
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: etcd
+      relativeUrl: products/e/etcd/logos/etcd.svg
+      width: 256
+      height: 248
+  icons:
+    - id: etcd
+      relativeUrl: products/e/etcd/icons/etcd.svg
+      width: 256
+      height: 248
+relationships:
+  productLabels:
+    serviceDiscovery:
+      id: serviceDiscovery
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    storage:
+      id: storage
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    coreos:
+      id: coreos
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

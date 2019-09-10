@@ -1,0 +1,43 @@
+id: jsdelivr
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: jsDelivr
+  url: 'http://www.jsdelivr.com/'
+  colors:
+    - hex: '#e44434'
+      rgb:
+        r: 228
+        g: 68
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: jsdelivr
+      relativeUrl: products/j/jsdelivr/logos/jsdelivr.svg
+      width: 256
+      height: 273
+  icons:
+    - id: jsdelivr
+      relativeUrl: products/j/jsdelivr/icons/jsdelivr.svg
+      width: 256
+      height: 273
+relationships:
+  productLabels:
+    openSource:
+      id: openSource
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cdn:
+      id: cdn
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

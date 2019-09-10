@@ -1,0 +1,48 @@
+id: titon
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Titon
+  url: 'http://titon.io/en/toolkit'
+  colors:
+    - hex: '#eae8e8'
+      rgb:
+        r: 234
+        g: 232
+        b: 232
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: titon
+      relativeUrl: products/t/titon/logos/titon.svg
+      width: 256
+      height: 257
+  icons:
+    - id: titon
+      relativeUrl: products/t/titon/icons/titon.svg
+      width: 256
+      height: 257
+relationships:
+  productLabels:
+    components:
+      id: components
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    css:
+      id: css
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ui:
+      id: ui
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: refactor
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Refactor.io
+  url: 'https://www.refactor.io/'
+  colors:
+    - hex: '#14a484'
+      rgb:
+        r: 20
+        g: 164
+        b: 132
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: refactor
+      relativeUrl: products/r/refactor/logos/refactor.svg
+      width: 256
+      height: 256
+  icons:
+    - id: refactor
+      relativeUrl: products/r/refactor/icons/refactor.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    codeReview:
+      id: codeReview
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    community:
+      id: community
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

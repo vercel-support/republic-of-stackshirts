@@ -1,0 +1,43 @@
+id: grape
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Grape
+  url: 'http://intridea.github.io/grape/'
+  colors:
+    - hex: '#602365'
+      rgb:
+        r: 96
+        g: 35
+        b: 101
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: grape
+      relativeUrl: products/g/grape/logos/grape.svg
+      width: 256
+      height: 256
+  icons:
+    - id: grape
+      relativeUrl: products/g/grape/icons/grape.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    apiFramework:
+      id: apiFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    microframework:
+      id: microframework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ruby:
+      id: ruby
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

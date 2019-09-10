@@ -1,0 +1,48 @@
+id: io
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: io.js
+  url: 'https://iojs.org/'
+  colors:
+    - hex: '#2c2c24'
+      rgb:
+        r: 44
+        g: 44
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: io
+      relativeUrl: products/i/io/logos/io.svg
+      width: 256
+      height: 291
+  icons:
+    - id: io
+      relativeUrl: products/i/io/icons/io.svg
+      width: 256
+      height: 291
+relationships:
+  productLabels:
+    fullStackFramework:
+      id: fullStackFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

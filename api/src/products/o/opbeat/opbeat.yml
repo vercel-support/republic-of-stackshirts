@@ -1,0 +1,38 @@
+id: opbeat
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: opbeat
+  url: 'https://opbeat.com/'
+  colors:
+    - hex: '#3464a4'
+      rgb:
+        r: 52
+        g: 100
+        b: 164
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: opbeat
+      relativeUrl: products/o/opbeat/logos/opbeat.svg
+      width: 256
+      height: 241
+  icons:
+    - id: opbeat
+      relativeUrl: products/o/opbeat/icons/opbeat.svg
+      width: 256
+      height: 241
+relationships:
+  productLabels:
+    exceptionTracker:
+      id: exceptionTracker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,48 @@
+id: phpstorm
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: PhpStorm
+  url: 'https://www.jetbrains.com/phpstorm/'
+  colors:
+    - hex: '#a24af3'
+      rgb:
+        r: 162
+        g: 74
+        b: 243
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: phpstorm
+      relativeUrl: products/p/phpstorm/logos/phpstorm.svg
+      width: 256
+      height: 256
+  icons:
+    - id: phpstorm
+      relativeUrl: products/p/phpstorm/icons/phpstorm.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    codeEditor:
+      id: codeEditor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ide:
+      id: ide
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    php:
+      id: php
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    jetbrains:
+      id: jetbrains
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

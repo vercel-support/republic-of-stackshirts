@@ -1,0 +1,38 @@
+id: awsLambda
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AWS Lambda
+  url: 'https://aws.amazon.com/lambda/'
+  colors:
+    - hex: '#f38334'
+      rgb:
+        r: 243
+        g: 131
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: awsLambda
+      relativeUrl: products/a/awsLambda/logos/awsLambda.svg
+      width: 256
+      height: 310
+  icons:
+    - id: awsLambda
+      relativeUrl: products/a/awsLambda/icons/awsLambda.svg
+      width: 256
+      height: 310
+relationships:
+  productLabels:
+    taskProcessor:
+      id: taskProcessor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

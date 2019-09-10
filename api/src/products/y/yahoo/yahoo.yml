@@ -1,0 +1,33 @@
+id: yahoo
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Yahoo!
+  url: 'https://search.yahoo.com/'
+  colors:
+    - hex: '#5104b0'
+      rgb:
+        r: 81
+        g: 4
+        b: 176
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: yahoo
+      relativeUrl: products/y/yahoo/logos/yahoo.svg
+      width: 512
+      height: 119
+  icons:
+    - id: yahoo
+      relativeUrl: products/y/yahoo/icons/yahoo.svg
+      width: 512
+      height: 119
+relationships:
+  productLabels:
+    searchEngine:
+      id: searchEngine
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

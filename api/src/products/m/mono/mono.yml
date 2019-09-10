@@ -1,0 +1,43 @@
+id: mono
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Mono
+  url: 'http://www.mono-project.com/'
+  colors:
+    - hex: '#1c1c1c'
+      rgb:
+        r: 28
+        g: 28
+        b: 28
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mono
+      relativeUrl: products/m/mono/logos/mono.svg
+      width: 256
+      height: 329
+  icons:
+    - id: mono
+      relativeUrl: products/m/mono/icons/mono.svg
+      width: 256
+      height: 329
+relationships:
+  productLabels:
+    crossPlatform:
+      id: crossPlatform
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    applicationFramework:
+      id: applicationFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    dotnet:
+      id: dotnet
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

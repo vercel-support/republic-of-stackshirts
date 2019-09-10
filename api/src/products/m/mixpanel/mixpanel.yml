@@ -1,0 +1,43 @@
+id: mixpanel
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Mixpanel
+  url: 'https://mixpanel.com/'
+  colors:
+    - hex: '#34547c'
+      rgb:
+        r: 52
+        g: 84
+        b: 124
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mixpanel
+      relativeUrl: products/m/mixpanel/logos/mixpanel.svg
+      width: 512
+      height: 168
+  icons:
+    - id: mixpanel
+      relativeUrl: products/m/mixpanel/icons/mixpanel.svg
+      width: 512
+      height: 168
+relationships:
+  productLabels:
+    funnelAnalytics:
+      id: funnelAnalytics
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    analytics:
+      id: analytics
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    saas:
+      id: saas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

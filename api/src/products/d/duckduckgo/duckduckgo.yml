@@ -1,0 +1,33 @@
+id: duckduckgo
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: DuckDuckGo
+  url: 'https://duckduckgo.com/'
+  colors:
+    - hex: '#db5c34'
+      rgb:
+        r: 219
+        g: 92
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: duckduckgo
+      relativeUrl: products/d/duckduckgo/logos/duckduckgo.svg
+      width: 256
+      height: 255
+  icons:
+    - id: duckduckgo
+      relativeUrl: products/d/duckduckgo/icons/duckduckgo.svg
+      width: 256
+      height: 255
+relationships:
+  productLabels:
+    searchEngine:
+      id: searchEngine
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

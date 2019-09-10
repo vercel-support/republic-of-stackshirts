@@ -1,0 +1,46 @@
+id: android
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Android
+  url: 'https://www.android.com/'
+  colors:
+    - hex: '#74c45c'
+      rgb:
+        r: 116
+        g: 196
+        b: 92
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: androidShort
+      relativeUrl: products/a/android/logos/androidShort.svg
+      width: 256
+      height: 301
+    - id: android
+      relativeUrl: products/a/android/logos/android.svg
+      width: 512
+      height: 111
+  icons:
+    - id: androidShort
+      relativeUrl: products/a/android/icons/androidShort.svg
+      width: 256
+      height: 301
+    - id: android
+      relativeUrl: products/a/android/icons/android.svg
+      width: 512
+      height: 111
+relationships:
+  productLabels:
+    operationalSystem:
+      id: operationalSystem
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

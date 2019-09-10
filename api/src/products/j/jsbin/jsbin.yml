@@ -1,0 +1,33 @@
+id: jsbin
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: jsbin
+  url: 'https://jsbin.com/'
+  colors:
+    - hex: '#98a6ae'
+      rgb:
+        r: 152
+        g: 166
+        b: 174
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: jsbin
+      relativeUrl: products/j/jsbin/logos/jsbin.svg
+      width: 256
+      height: 358
+  icons:
+    - id: jsbin
+      relativeUrl: products/j/jsbin/icons/jsbin.svg
+      width: 256
+      height: 358
+relationships:
+  productLabels:
+    codePlayground:
+      id: codePlayground
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

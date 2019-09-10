@@ -1,0 +1,46 @@
+id: mailchimp
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Mailchimp
+  url: 'http://mailchimp.com/'
+  colors:
+    - hex: '#0c0c0c'
+      rgb:
+        r: 12
+        g: 12
+        b: 12
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mailchimpFreddie
+      relativeUrl: products/m/mailchimp/logos/mailchimpFreddie.svg
+      width: 256
+      height: 291
+    - id: mailchimp
+      relativeUrl: products/m/mailchimp/logos/mailchimp.svg
+      width: 512
+      height: 126
+  icons:
+    - id: mailchimpFreddie
+      relativeUrl: products/m/mailchimp/icons/mailchimpFreddie.svg
+      width: 256
+      height: 291
+    - id: mailchimp
+      relativeUrl: products/m/mailchimp/icons/mailchimp.svg
+      width: 512
+      height: 126
+relationships:
+  productLabels:
+    emailMarketing:
+      id: emailMarketing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    marketing:
+      id: marketing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

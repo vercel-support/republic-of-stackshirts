@@ -1,0 +1,38 @@
+id: precursor
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Precursor
+  url: 'https://precursorapp.com/'
+  colors:
+    - hex: '#343434'
+      rgb:
+        r: 52
+        g: 52
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: precursor
+      relativeUrl: products/p/precursor/logos/precursor.svg
+      width: 256
+      height: 299
+  icons:
+    - id: precursor
+      relativeUrl: products/p/precursor/icons/precursor.svg
+      width: 256
+      height: 299
+relationships:
+  productLabels:
+    prototyping:
+      id: prototyping
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ui:
+      id: ui
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

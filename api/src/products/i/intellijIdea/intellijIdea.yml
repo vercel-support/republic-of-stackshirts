@@ -1,0 +1,48 @@
+id: intellijIdea
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: IntelliJ IDEA
+  url: 'https://www.jetbrains.com/idea/'
+  colors:
+    - hex: '#2777e0'
+      rgb:
+        r: 39
+        g: 119
+        b: 224
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: intellijIdea
+      relativeUrl: products/i/intellijIdea/logos/intellijIdea.svg
+      width: 256
+      height: 256
+  icons:
+    - id: intellijIdea
+      relativeUrl: products/i/intellijIdea/icons/intellijIdea.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    codeEditor:
+      id: codeEditor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ide:
+      id: ide
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    java:
+      id: java
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    jetbrains:
+      id: jetbrains
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

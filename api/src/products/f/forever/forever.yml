@@ -1,0 +1,43 @@
+id: forever
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Forever
+  url: 'https://github.com/foreverjs/forever'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: forever
+      relativeUrl: products/f/forever/logos/forever.svg
+      width: 256
+      height: 127
+  icons:
+    - id: forever
+      relativeUrl: products/f/forever/icons/forever.svg
+      width: 256
+      height: 127
+relationships:
+  productLabels:
+    scriptRunner:
+      id: scriptRunner
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

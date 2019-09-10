@@ -1,0 +1,43 @@
+id: gradle
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Gradle
+  url: 'https://gradle.org/'
+  colors:
+    - hex: '#84bc14'
+      rgb:
+        r: 132
+        g: 188
+        b: 20
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: gradle
+      relativeUrl: products/g/gradle/logos/gradle.svg
+      width: 256
+      height: 257
+  icons:
+    - id: gradle
+      relativeUrl: products/g/gradle/icons/gradle.svg
+      width: 256
+      height: 257
+relationships:
+  productLabels:
+    java:
+      id: java
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    c:
+      id: c
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    buildTool:
+      id: buildTool
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

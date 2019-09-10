@@ -1,0 +1,38 @@
+id: spark
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Spark
+  url: 'http://sparkjava.com/'
+  colors:
+    - hex: '#fca44c'
+      rgb:
+        r: 252
+        g: 164
+        b: 76
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: spark
+      relativeUrl: products/s/spark/logos/spark.svg
+      width: 256
+      height: 258
+  icons:
+    - id: spark
+      relativeUrl: products/s/spark/icons/spark.svg
+      width: 256
+      height: 258
+relationships:
+  productLabels:
+    webAppFramework:
+      id: webAppFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    java:
+      id: java
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: awsApiGateway
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AWS API Gateway
+  url: 'https://aws.amazon.com/api-gateway/'
+  colors:
+    - hex: '#dba343'
+      rgb:
+        r: 219
+        g: 163
+        b: 67
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: awsApiGateway
+      relativeUrl: products/a/awsApiGateway/logos/awsApiGateway.svg
+      width: 256
+      height: 310
+  icons:
+    - id: awsApiGateway
+      relativeUrl: products/a/awsApiGateway/icons/awsApiGateway.svg
+      width: 256
+      height: 310
+relationships:
+  productLabels:
+    apiFramework:
+      id: apiFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

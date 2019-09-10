@@ -1,0 +1,38 @@
+id: drift
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Drift
+  url: 'https://www.drift.com/'
+  colors:
+    - hex: '#3b8af0'
+      rgb:
+        r: 59
+        g: 138
+        b: 240
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: drift
+      relativeUrl: products/d/drift/logos/drift.svg
+      width: 256
+      height: 256
+  icons:
+    - id: drift
+      relativeUrl: products/d/drift/icons/drift.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    customerSupport:
+      id: customerSupport
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    chat:
+      id: chat
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

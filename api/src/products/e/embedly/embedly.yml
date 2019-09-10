@@ -1,0 +1,33 @@
+id: embedly
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Embedly
+  url: 'http://embed.ly/'
+  colors:
+    - hex: '#4cc4e4'
+      rgb:
+        r: 76
+        g: 196
+        b: 228
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: embedly
+      relativeUrl: products/e/embedly/logos/embedly.svg
+      width: 256
+      height: 292
+  icons:
+    - id: embedly
+      relativeUrl: products/e/embedly/icons/embedly.svg
+      width: 256
+      height: 292
+relationships:
+  productLabels:
+    embeding:
+      id: embeding
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

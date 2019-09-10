@@ -1,0 +1,38 @@
+id: bourbon
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: bourbon
+  url: 'http://bourbon.io/'
+  colors:
+    - hex: '#f6f3e1'
+      rgb:
+        r: 246
+        g: 243
+        b: 225
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: bourbon
+      relativeUrl: products/b/bourbon/logos/bourbon.svg
+      width: 256
+      height: 252
+  icons:
+    - id: bourbon
+      relativeUrl: products/b/bourbon/icons/bourbon.svg
+      width: 256
+      height: 252
+relationships:
+  productLabels:
+    sass:
+      id: sass
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    library:
+      id: library
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

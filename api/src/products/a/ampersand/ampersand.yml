@@ -1,0 +1,38 @@
+id: ampersand
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Ampersand.js
+  url: 'https://ampersandjs.com/'
+  colors:
+    - hex: '#e3148b'
+      rgb:
+        r: 227
+        g: 20
+        b: 139
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: ampersand
+      relativeUrl: products/a/ampersand/logos/ampersand.svg
+      width: 256
+      height: 298
+  icons:
+    - id: ampersand
+      relativeUrl: products/a/ampersand/icons/ampersand.svg
+      width: 256
+      height: 298
+relationships:
+  productLabels:
+    mvcFramework:
+      id: mvcFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

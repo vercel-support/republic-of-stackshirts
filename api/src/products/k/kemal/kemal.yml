@@ -1,0 +1,38 @@
+id: kemal
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Kemal
+  url: 'http://kemalcr.com/'
+  colors:
+    - hex: '#fc4b4b'
+      rgb:
+        r: 252
+        g: 75
+        b: 75
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: kemal
+      relativeUrl: products/k/kemal/logos/kemal.svg
+      width: 256
+      height: 174
+  icons:
+    - id: kemal
+      relativeUrl: products/k/kemal/icons/kemal.svg
+      width: 256
+      height: 174
+relationships:
+  productLabels:
+    webFramework:
+      id: webFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    crystal:
+      id: crystal
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

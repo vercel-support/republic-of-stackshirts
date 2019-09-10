@@ -1,0 +1,43 @@
+id: passport
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Passport
+  url: 'http://passportjs.org/'
+  colors:
+    - hex: '#34e47c'
+      rgb:
+        r: 52
+        g: 228
+        b: 124
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: passport
+      relativeUrl: products/p/passport/logos/passport.svg
+      width: 256
+      height: 320
+  icons:
+    - id: passport
+      relativeUrl: products/p/passport/icons/passport.svg
+      width: 256
+      height: 320
+relationships:
+  productLabels:
+    authentication:
+      id: authentication
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    security:
+      id: security
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

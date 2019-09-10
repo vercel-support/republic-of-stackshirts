@@ -1,0 +1,33 @@
+id: mercurial
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Mercurial
+  url: 'https://mercurial.selenic.com/'
+  colors:
+    - hex: '#a1a1a1'
+      rgb:
+        r: 161
+        g: 161
+        b: 161
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mercurial
+      relativeUrl: products/m/mercurial/logos/mercurial.svg
+      width: 256
+      height: 329
+  icons:
+    - id: mercurial
+      relativeUrl: products/m/mercurial/icons/mercurial.svg
+      width: 256
+      height: 329
+relationships:
+  productLabels:
+    versionControl:
+      id: versionControl
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

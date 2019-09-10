@@ -1,0 +1,38 @@
+id: wifi
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Wi-Fi
+  url: 'http://www.wi-fi.org/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: wifi
+      relativeUrl: products/w/wifi/logos/wifi.svg
+      width: 256
+      height: 192
+  icons:
+    - id: wifi
+      relativeUrl: products/w/wifi/icons/wifi.svg
+      width: 256
+      height: 192
+relationships:
+  productLabels:
+    wireless:
+      id: wireless
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    protocol:
+      id: protocol
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

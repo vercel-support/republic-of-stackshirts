@@ -1,0 +1,33 @@
+id: zulip
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Zulip
+  url: 'https://zulip.com/'
+  colors:
+    - hex: '#1c834e'
+      rgb:
+        r: 28
+        g: 131
+        b: 78
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: zulip
+      relativeUrl: products/z/zulip/logos/zulip.svg
+      width: 256
+      height: 298
+  icons:
+    - id: zulip
+      relativeUrl: products/z/zulip/icons/zulip.svg
+      width: 256
+      height: 298
+relationships:
+  productLabels:
+    groupChat:
+      id: groupChat
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: disqus
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Disqus
+  url: 'https://disqus.com/'
+  colors:
+    - hex: '#2c9cfc'
+      rgb:
+        r: 44
+        g: 156
+        b: 252
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: disqus
+      relativeUrl: products/d/disqus/logos/disqus.svg
+      width: 256
+      height: 249
+  icons:
+    - id: disqus
+      relativeUrl: products/d/disqus/icons/disqus.svg
+      width: 256
+      height: 249
+relationships:
+  productLabels:
+    commentSystem:
+      id: commentSystem
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

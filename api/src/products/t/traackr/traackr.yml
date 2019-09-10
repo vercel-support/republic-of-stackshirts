@@ -1,0 +1,38 @@
+id: traackr
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Traackr
+  url: 'http://traackr.com/'
+  colors:
+    - hex: '#f34c3c'
+      rgb:
+        r: 243
+        g: 76
+        b: 60
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: traackr
+      relativeUrl: products/t/traackr/logos/traackr.svg
+      width: 256
+      height: 256
+  icons:
+    - id: traackr
+      relativeUrl: products/t/traackr/icons/traackr.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    influencerManager:
+      id: influencerManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    marketing:
+      id: marketing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

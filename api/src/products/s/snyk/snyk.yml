@@ -1,0 +1,38 @@
+id: snyk
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Snyk
+  url: 'https://snyk.io/'
+  colors:
+    - hex: '#d0c7c2'
+      rgb:
+        r: 208
+        g: 199
+        b: 194
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: snyk
+      relativeUrl: products/s/snyk/logos/snyk.svg
+      width: 256
+      height: 419
+  icons:
+    - id: snyk
+      relativeUrl: products/s/snyk/icons/snyk.svg
+      width: 256
+      height: 419
+relationships:
+  productLabels:
+    continuousIntegration:
+      id: continuousIntegration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    dependencyMonitoring:
+      id: dependencyMonitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

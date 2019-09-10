@@ -1,0 +1,33 @@
+id: pipedrive
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: pipedrive
+  url: 'https://www.pipedrive.com/'
+  colors:
+    - hex: '#241c1c'
+      rgb:
+        r: 36
+        g: 28
+        b: 28
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: pipedrive
+      relativeUrl: products/p/pipedrive/logos/pipedrive.svg
+      width: 512
+      height: 117
+  icons:
+    - id: pipedrive
+      relativeUrl: products/p/pipedrive/icons/pipedrive.svg
+      width: 512
+      height: 117
+relationships:
+  productLabels:
+    crm:
+      id: crm
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

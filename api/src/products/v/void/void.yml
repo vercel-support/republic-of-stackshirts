@@ -1,0 +1,38 @@
+id: void
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Void
+  url: 'http://www.voidlinux.eu/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: void
+      relativeUrl: products/v/void/logos/void.svg
+      width: 256
+      height: 211
+  icons:
+    - id: void
+      relativeUrl: products/v/void/icons/void.svg
+      width: 256
+      height: 211
+relationships:
+  productLabels:
+    operationalSystem:
+      id: operationalSystem
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    linux:
+      id: linux
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

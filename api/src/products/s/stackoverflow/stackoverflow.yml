@@ -1,0 +1,38 @@
+id: stackoverflow
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Stack Overflow
+  url: 'http://stackoverflow.com/'
+  colors:
+    - hex: '#7c7c7c'
+      rgb:
+        r: 124
+        g: 124
+        b: 124
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: stackoverflow
+      relativeUrl: products/s/stackoverflow/logos/stackoverflow.svg
+      width: 512
+      height: 114
+  icons:
+    - id: stackoverflow
+      relativeUrl: products/s/stackoverflow/icons/stackoverflow.svg
+      width: 512
+      height: 114
+relationships:
+  productLabels:
+    community:
+      id: community
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    reference:
+      id: reference
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

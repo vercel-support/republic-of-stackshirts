@@ -1,0 +1,38 @@
+id: clojure
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Clojure
+  url: 'http://clojure.org/'
+  colors:
+    - hex: '#71bf39'
+      rgb:
+        r: 113
+        g: 191
+        b: 57
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: clojure
+      relativeUrl: products/c/clojure/logos/clojure.svg
+      width: 256
+      height: 256
+  icons:
+    - id: clojure
+      relativeUrl: products/c/clojure/icons/clojure.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    lisp:
+      id: lisp
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    dialect:
+      id: dialect
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

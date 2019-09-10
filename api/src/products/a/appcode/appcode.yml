@@ -1,0 +1,48 @@
+id: appcode
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AppCode
+  url: 'https://www.jetbrains.com/appcode/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: appcode
+      relativeUrl: products/a/appcode/logos/appcode.svg
+      width: 256
+      height: 256
+  icons:
+    - id: appcode
+      relativeUrl: products/a/appcode/icons/appcode.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    codeEditor:
+      id: codeEditor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ide:
+      id: ide
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    objectiveC:
+      id: objectiveC
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    jetbrains:
+      id: jetbrains
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

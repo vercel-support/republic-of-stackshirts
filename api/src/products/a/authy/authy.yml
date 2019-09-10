@@ -1,0 +1,43 @@
+id: authy
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Authy
+  url: 'https://www.authy.com/'
+  colors:
+    - hex: '#ec1c24'
+      rgb:
+        r: 236
+        g: 28
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: authy
+      relativeUrl: products/a/authy/logos/authy.svg
+      width: 256
+      height: 256
+  icons:
+    - id: authy
+      relativeUrl: products/a/authy/icons/authy.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    twoFactorAuthentication:
+      id: twoFactorAuthentication
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    authentication:
+      id: authentication
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    security:
+      id: security
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

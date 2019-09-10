@@ -1,0 +1,33 @@
+id: patreon
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Patreon
+  url: 'https://www.patreon.com/'
+  colors:
+    - hex: '#fc5c04'
+      rgb:
+        r: 252
+        g: 92
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: patreon
+      relativeUrl: products/p/patreon/logos/patreon.svg
+      width: 256
+      height: 256
+  icons:
+    - id: patreon
+      relativeUrl: products/p/patreon/icons/patreon.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    crowdfunding:
+      id: crowdfunding
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

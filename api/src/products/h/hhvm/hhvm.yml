@@ -1,0 +1,48 @@
+id: hhvm
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: HHVM
+  url: 'http://hhvm.com/'
+  colors:
+    - hex: '#848484'
+      rgb:
+        r: 132
+        g: 132
+        b: 132
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: hhvm
+      relativeUrl: products/h/hhvm/logos/hhvm.svg
+      width: 256
+      height: 382
+  icons:
+    - id: hhvm
+      relativeUrl: products/h/hhvm/icons/hhvm.svg
+      width: 256
+      height: 382
+relationships:
+  productLabels:
+    php:
+      id: php
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    hack:
+      id: hack
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    virtualMachine:
+      id: virtualMachine
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    facebook:
+      id: facebook
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

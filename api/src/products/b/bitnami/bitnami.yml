@@ -1,0 +1,43 @@
+id: bitnami
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Bitnami
+  url: 'https://bitnami.com/'
+  colors:
+    - hex: '#2c5c83'
+      rgb:
+        r: 44
+        g: 92
+        b: 131
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: bitnami
+      relativeUrl: products/b/bitnami/logos/bitnami.svg
+      width: 256
+      height: 287
+  icons:
+    - id: bitnami
+      relativeUrl: products/b/bitnami/icons/bitnami.svg
+      width: 256
+      height: 287
+relationships:
+  productLabels:
+    appDeployment:
+      id: appDeployment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    virtualMachine:
+      id: virtualMachine
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    paas:
+      id: paas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

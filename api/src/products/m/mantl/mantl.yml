@@ -1,0 +1,43 @@
+id: mantl
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Mantl
+  url: 'https://mantl.io/'
+  colors:
+    - hex: '#241c1c'
+      rgb:
+        r: 36
+        g: 28
+        b: 28
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mantl
+      relativeUrl: products/m/mantl/logos/mantl.svg
+      width: 256
+      height: 256
+  icons:
+    - id: mantl
+      relativeUrl: products/m/mantl/icons/mantl.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    containers:
+      id: containers
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    docker:
+      id: docker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    microservices:
+      id: microservices
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: sitepoint
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: SitePoint
+  url: 'http://www.sitepoint.com/'
+  colors:
+    - hex: '#e47c24'
+      rgb:
+        r: 228
+        g: 124
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: sitepoint
+      relativeUrl: products/s/sitepoint/logos/sitepoint.svg
+      width: 256
+      height: 307
+  icons:
+    - id: sitepoint
+      relativeUrl: products/s/sitepoint/icons/sitepoint.svg
+      width: 256
+      height: 307
+relationships:
+  productLabels:
+    community:
+      id: community
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    reference:
+      id: reference
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

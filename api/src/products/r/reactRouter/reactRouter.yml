@@ -1,0 +1,38 @@
+id: reactRouter
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: React/Router
+  url: 'https://github.com/rackt/react-router'
+  colors:
+    - hex: '#64dcfc'
+      rgb:
+        r: 100
+        g: 220
+        b: 252
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: reactRouter
+      relativeUrl: products/r/reactRouter/logos/reactRouter.svg
+      width: 256
+      height: 140
+  icons:
+    - id: reactRouter
+      relativeUrl: products/r/reactRouter/icons/reactRouter.svg
+      width: 256
+      height: 140
+relationships:
+  productLabels:
+    router:
+      id: router
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    react:
+      id: react
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

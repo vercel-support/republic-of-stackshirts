@@ -1,0 +1,33 @@
+id: tsu
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: tsū˜
+  url: 'http://www.tsu.co/'
+  colors:
+    - hex: '#5cd49c'
+      rgb:
+        r: 92
+        g: 212
+        b: 156
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: tsu
+      relativeUrl: products/t/tsu/logos/tsu.svg
+      width: 256
+      height: 171
+  icons:
+    - id: tsu
+      relativeUrl: products/t/tsu/icons/tsu.svg
+      width: 256
+      height: 171
+relationships:
+  productLabels:
+    socialNetwork:
+      id: socialNetwork
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

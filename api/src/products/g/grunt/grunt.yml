@@ -1,0 +1,43 @@
+id: grunt
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Grunt
+  url: 'http://gruntjs.com/'
+  colors:
+    - hex: '#fcac1c'
+      rgb:
+        r: 252
+        g: 172
+        b: 28
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: grunt
+      relativeUrl: products/g/grunt/logos/grunt.svg
+      width: 256
+      height: 344
+  icons:
+    - id: grunt
+      relativeUrl: products/g/grunt/icons/grunt.svg
+      width: 256
+      height: 344
+relationships:
+  productLabels:
+    buildTool:
+      id: buildTool
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: perfRocks
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Perf Rocks
+  url: 'http://perf.rocks/'
+  colors:
+    - hex: '#3c4c64'
+      rgb:
+        r: 60
+        g: 76
+        b: 100
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: perfRocks
+      relativeUrl: products/p/perfRocks/logos/perfRocks.svg
+      width: 512
+      height: 99
+  icons:
+    - id: perfRocks
+      relativeUrl: products/p/perfRocks/icons/perfRocks.svg
+      width: 512
+      height: 99
+relationships:
+  productLabels:
+    webPerformance:
+      id: webPerformance
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    optimization:
+      id: optimization
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    community:
+      id: community
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: sketchapp
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Sketch
+  url: 'http://bohemiancoding.com/sketch/'
+  colors:
+    - hex: '#32c5f2'
+      rgb:
+        r: 50
+        g: 197
+        b: 242
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: sketchapp
+      relativeUrl: products/s/sketchapp/logos/sketchapp.svg
+      width: 256
+      height: 256
+  icons:
+    - id: sketchapp
+      relativeUrl: products/s/sketchapp/icons/sketchapp.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    desktopApp:
+      id: desktopApp
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    prototyping:
+      id: prototyping
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ui:
+      id: ui
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

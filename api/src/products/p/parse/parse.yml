@@ -1,0 +1,43 @@
+id: parse
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Parse
+  url: 'https://parse.com/'
+  colors:
+    - hex: '#149cec'
+      rgb:
+        r: 20
+        g: 156
+        b: 236
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: parse
+      relativeUrl: products/p/parse/logos/parse.svg
+      width: 256
+      height: 256
+  icons:
+    - id: parse
+      relativeUrl: products/p/parse/icons/parse.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    realTime:
+      id: realTime
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mbaas:
+      id: mbaas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: strider
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Strider
+  url: 'http://stridercd.com/'
+  colors:
+    - hex: '#18ace5'
+      rgb:
+        r: 24
+        g: 172
+        b: 229
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: strider
+      relativeUrl: products/s/strider/logos/strider.svg
+      width: 256
+      height: 256
+  icons:
+    - id: strider
+      relativeUrl: products/s/strider/icons/strider.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    continuousIntegration:
+      id: continuousIntegration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    codeDeployment:
+      id: codeDeployment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    openSource:
+      id: openSource
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

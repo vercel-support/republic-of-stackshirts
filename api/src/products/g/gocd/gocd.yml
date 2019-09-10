@@ -1,0 +1,38 @@
+id: gocd
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: GoCD
+  url: 'https://www.go.cd/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: gocd
+      relativeUrl: products/g/gocd/logos/gocd.svg
+      width: 512
+      height: 257
+  icons:
+    - id: gocd
+      relativeUrl: products/g/gocd/icons/gocd.svg
+      width: 512
+      height: 257
+relationships:
+  productLabels:
+    contentDelivery:
+      id: contentDelivery
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    continuousIntegration:
+      id: continuousIntegration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

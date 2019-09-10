@@ -1,0 +1,38 @@
+id: visaelectron
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Visa Electron
+  url: 'https://www.visa.com'
+  colors:
+    - hex: '#1a1f71'
+      rgb:
+        r: 26
+        g: 31
+        b: 113
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: visaelectron
+      relativeUrl: products/v/visaelectron/logos/visaelectron.svg
+      width: 256
+      height: 114
+  icons:
+    - id: visaelectron
+      relativeUrl: products/v/visaelectron/icons/visaelectron.svg
+      width: 256
+      height: 114
+relationships:
+  productLabels:
+    creditCard:
+      id: creditCard
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    finance:
+      id: finance
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

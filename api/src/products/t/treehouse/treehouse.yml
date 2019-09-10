@@ -1,0 +1,38 @@
+id: treehouse
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: treehouse
+  url: 'https://teamtreehouse.com/'
+  colors:
+    - hex: '#5ccc84'
+      rgb:
+        r: 92
+        g: 204
+        b: 132
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: treehouse
+      relativeUrl: products/t/treehouse/logos/treehouse.svg
+      width: 256
+      height: 274
+  icons:
+    - id: treehouse
+      relativeUrl: products/t/treehouse/icons/treehouse.svg
+      width: 256
+      height: 274
+relationships:
+  productLabels:
+    learning:
+      id: learning
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    courses:
+      id: courses
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

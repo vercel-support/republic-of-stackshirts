@@ -1,0 +1,38 @@
+id: promises
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Promises/A+
+  url: 'https://promisesaplus.com/'
+  colors:
+    - hex: '#fbdb34'
+      rgb:
+        r: 251
+        g: 219
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: promises
+      relativeUrl: products/p/promises/logos/promises.svg
+      width: 256
+      height: 256
+  icons:
+    - id: promises
+      relativeUrl: products/p/promises/icons/promises.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    spec:
+      id: spec
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

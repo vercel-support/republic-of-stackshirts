@@ -1,0 +1,33 @@
+id: bakerStreet
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Baker Street
+  url: 'http://bakerstreet.io/'
+  colors:
+    - hex: '#fa9b5c'
+      rgb:
+        r: 250
+        g: 155
+        b: 92
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: bakerStreet
+      relativeUrl: products/b/bakerStreet/logos/bakerStreet.svg
+      width: 256
+      height: 256
+  icons:
+    - id: bakerStreet
+      relativeUrl: products/b/bakerStreet/icons/bakerStreet.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    loadBalancer:
+      id: loadBalancer
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

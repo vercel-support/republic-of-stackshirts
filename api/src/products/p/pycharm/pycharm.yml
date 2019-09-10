@@ -1,0 +1,48 @@
+id: pycharm
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: PyCharm
+  url: 'https://www.jetbrains.com/pycharm/'
+  colors:
+    - hex: '#29d494'
+      rgb:
+        r: 41
+        g: 212
+        b: 148
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: pycharm
+      relativeUrl: products/p/pycharm/logos/pycharm.svg
+      width: 256
+      height: 256
+  icons:
+    - id: pycharm
+      relativeUrl: products/p/pycharm/icons/pycharm.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    codeEditor:
+      id: codeEditor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ide:
+      id: ide
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    python:
+      id: python
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    jetbrains:
+      id: jetbrains
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

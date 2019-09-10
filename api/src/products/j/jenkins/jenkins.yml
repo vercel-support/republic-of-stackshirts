@@ -1,0 +1,38 @@
+id: jenkins
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Jenkins
+  url: 'https://jenkins-ci.org/'
+  colors:
+    - hex: '#2d2d36'
+      rgb:
+        r: 45
+        g: 45
+        b: 54
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: jenkins
+      relativeUrl: products/j/jenkins/logos/jenkins.svg
+      width: 256
+      height: 417
+  icons:
+    - id: jenkins
+      relativeUrl: products/j/jenkins/icons/jenkins.svg
+      width: 256
+      height: 417
+relationships:
+  productLabels:
+    continuousIntegration:
+      id: continuousIntegration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    java:
+      id: java
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

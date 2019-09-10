@@ -1,0 +1,43 @@
+id: saucelabs
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Sauce Labs
+  url: 'https://saucelabs.com/'
+  colors:
+    - hex: '#2c3c3c'
+      rgb:
+        r: 44
+        g: 60
+        b: 60
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: saucelabs
+      relativeUrl: products/s/saucelabs/logos/saucelabs.svg
+      width: 256
+      height: 284
+  icons:
+    - id: saucelabs
+      relativeUrl: products/s/saucelabs/icons/saucelabs.svg
+      width: 256
+      height: 284
+relationships:
+  productLabels:
+    crossBrowserTesting:
+      id: crossBrowserTesting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    browserAutomation:
+      id: browserAutomation
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    selenium:
+      id: selenium
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

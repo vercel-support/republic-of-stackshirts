@@ -1,0 +1,38 @@
+id: crittercism
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Crittercism
+  url: 'https://www.crittercism.com/'
+  colors:
+    - hex: '#3c4c5c'
+      rgb:
+        r: 60
+        g: 76
+        b: 92
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: crittercism
+      relativeUrl: products/c/crittercism/logos/crittercism.svg
+      width: 256
+      height: 295
+  icons:
+    - id: crittercism
+      relativeUrl: products/c/crittercism/icons/crittercism.svg
+      width: 256
+      height: 295
+relationships:
+  productLabels:
+    mobileCrashReporter:
+      id: mobileCrashReporter
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

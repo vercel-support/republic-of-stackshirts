@@ -1,0 +1,38 @@
+id: cloudacademy
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: CloudAcademy
+  url: 'https://cloudacademy.com/'
+  colors:
+    - hex: '#1c74bc'
+      rgb:
+        r: 28
+        g: 116
+        b: 188
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: cloudacademy
+      relativeUrl: products/c/cloudacademy/logos/cloudacademy.svg
+      width: 256
+      height: 278
+  icons:
+    - id: cloudacademy
+      relativeUrl: products/c/cloudacademy/icons/cloudacademy.svg
+      width: 256
+      height: 278
+relationships:
+  productLabels:
+    learning:
+      id: learning
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    courses:
+      id: courses
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

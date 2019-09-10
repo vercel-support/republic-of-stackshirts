@@ -1,0 +1,38 @@
+id: milligram
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Milligram.svg
+  url: 'http://milligram.github.io/'
+  colors:
+    - hex: '#9b4dca'
+      rgb:
+        r: 155
+        g: 77
+        b: 202
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: milligram
+      relativeUrl: products/m/milligram/logos/milligram.svg
+      width: 256
+      height: 370
+  icons:
+    - id: milligram
+      relativeUrl: products/m/milligram/icons/milligram.svg
+      width: 256
+      height: 370
+relationships:
+  productLabels:
+    css:
+      id: css
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    frontEndFramework:
+      id: frontEndFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

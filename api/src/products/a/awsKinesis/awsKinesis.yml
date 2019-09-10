@@ -1,0 +1,38 @@
+id: awsKinesis
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AWS Kinesis
+  url: 'https://aws.amazon.com/kinesis/'
+  colors:
+    - hex: '#fcbf92'
+      rgb:
+        r: 252
+        g: 191
+        b: 146
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: awsKinesis
+      relativeUrl: products/a/awsKinesis/logos/awsKinesis.svg
+      width: 256
+      height: 309
+  icons:
+    - id: awsKinesis
+      relativeUrl: products/a/awsKinesis/icons/awsKinesis.svg
+      width: 256
+      height: 309
+relationships:
+  productLabels:
+    realTime:
+      id: realTime
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    dataProcessing:
+      id: dataProcessing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

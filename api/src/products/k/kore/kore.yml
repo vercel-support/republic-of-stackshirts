@@ -1,0 +1,33 @@
+id: kore
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: kore
+  url: 'https://www.kore.com/'
+  colors:
+    - hex: '#6cc44c'
+      rgb:
+        r: 108
+        g: 196
+        b: 76
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: kore
+      relativeUrl: products/k/kore/logos/kore.svg
+      width: 256
+      height: 273
+  icons:
+    - id: kore
+      relativeUrl: products/k/kore/icons/kore.svg
+      width: 256
+      height: 273
+relationships:
+  productLabels:
+    teamCollaboration:
+      id: teamCollaboration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

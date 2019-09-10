@@ -1,0 +1,38 @@
+id: elo
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Elo
+  url: 'https://www.cartaoelo.com.br/'
+  colors:
+    - hex: '#0e0e11'
+      rgb:
+        r: 14
+        g: 14
+        b: 17
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: elo
+      relativeUrl: products/e/elo/logos/elo.svg
+      width: 256
+      height: 256
+  icons:
+    - id: elo
+      relativeUrl: products/e/elo/icons/elo.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    creditCard:
+      id: creditCard
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    finance:
+      id: finance
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

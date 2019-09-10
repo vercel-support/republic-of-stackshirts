@@ -1,0 +1,38 @@
+id: harrow
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Harrow
+  url: 'https://www.harrow.io/'
+  colors:
+    - hex: '#2c1434'
+      rgb:
+        r: 44
+        g: 20
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: harrow
+      relativeUrl: products/h/harrow/logos/harrow.svg
+      width: 256
+      height: 244
+  icons:
+    - id: harrow
+      relativeUrl: products/h/harrow/icons/harrow.svg
+      width: 256
+      height: 244
+relationships:
+  productLabels:
+    continuousIntegration:
+      id: continuousIntegration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    capistrano:
+      id: capistrano
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

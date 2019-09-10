@@ -1,0 +1,48 @@
+id: buck
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Buck
+  url: 'https://buckbuild.com/'
+  colors:
+    - hex: '#4c6ca4'
+      rgb:
+        r: 76
+        g: 108
+        b: 164
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: buck
+      relativeUrl: products/b/buck/logos/buck.svg
+      width: 256
+      height: 223
+  icons:
+    - id: buck
+      relativeUrl: products/b/buck/icons/buck.svg
+      width: 256
+      height: 223
+relationships:
+  productLabels:
+    buildTool:
+      id: buildTool
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    android:
+      id: android
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    facebook:
+      id: facebook
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

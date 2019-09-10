@@ -1,0 +1,38 @@
+id: awsSes
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AWS SES (Simple Email Service)
+  url: 'https://aws.amazon.com/ses/'
+  colors:
+    - hex: '#dba343'
+      rgb:
+        r: 219
+        g: 163
+        b: 67
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: awsSes
+      relativeUrl: products/a/awsSes/logos/awsSes.svg
+      width: 256
+      height: 299
+  icons:
+    - id: awsSes
+      relativeUrl: products/a/awsSes/icons/awsSes.svg
+      width: 256
+      height: 299
+relationships:
+  productLabels:
+    transactionalEmail:
+      id: transactionalEmail
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

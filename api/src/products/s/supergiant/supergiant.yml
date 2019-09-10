@@ -1,0 +1,48 @@
+id: supergiant
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Supergiant
+  url: 'http://supergiant.io/'
+  colors:
+    - hex: '#3c9bfb'
+      rgb:
+        r: 60
+        g: 155
+        b: 251
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: supergiant
+      relativeUrl: products/s/supergiant/logos/supergiant.svg
+      width: 256
+      height: 258
+  icons:
+    - id: supergiant
+      relativeUrl: products/s/supergiant/icons/supergiant.svg
+      width: 256
+      height: 258
+relationships:
+  productLabels:
+    docker:
+      id: docker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    containers:
+      id: containers
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    kubernetes:
+      id: kubernetes
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    caas:
+      id: caas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

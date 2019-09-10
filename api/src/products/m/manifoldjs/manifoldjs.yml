@@ -1,0 +1,48 @@
+id: manifoldjs
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: manifoldJS
+  url: 'http://www.manifoldjs.com/'
+  colors:
+    - hex: '#f42c2c'
+      rgb:
+        r: 244
+        g: 44
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: manifoldjs
+      relativeUrl: products/m/manifoldjs/logos/manifoldjs.svg
+      width: 256
+      height: 423
+  icons:
+    - id: manifoldjs
+      relativeUrl: products/m/manifoldjs/icons/manifoldjs.svg
+      width: 256
+      height: 423
+relationships:
+  productLabels:
+    crossPlatform:
+      id: crossPlatform
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    applicationFramework:
+      id: applicationFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cordova:
+      id: cordova
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

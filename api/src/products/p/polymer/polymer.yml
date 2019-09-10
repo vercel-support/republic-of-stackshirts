@@ -1,0 +1,43 @@
+id: polymer
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Polymer
+  url: 'https://www.polymer-project.org/1.0/'
+  colors:
+    - hex: '#6073d5'
+      rgb:
+        r: 96
+        g: 115
+        b: 213
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: polymer
+      relativeUrl: products/p/polymer/logos/polymer.svg
+      width: 256
+      height: 178
+  icons:
+    - id: polymer
+      relativeUrl: products/p/polymer/icons/polymer.svg
+      width: 256
+      height: 178
+relationships:
+  productLabels:
+    frontEnd:
+      id: frontEnd
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    components:
+      id: components
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    polyfill:
+      id: polyfill
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

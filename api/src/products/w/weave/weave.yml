@@ -1,0 +1,33 @@
+id: weave
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Weave
+  url: 'http://weave.works/'
+  colors:
+    - hex: '#546c94'
+      rgb:
+        r: 84
+        g: 108
+        b: 148
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: weave
+      relativeUrl: products/w/weave/logos/weave.svg
+      width: 256
+      height: 261
+  icons:
+    - id: weave
+      relativeUrl: products/w/weave/icons/weave.svg
+      width: 256
+      height: 261
+relationships:
+  productLabels:
+    docker:
+      id: docker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

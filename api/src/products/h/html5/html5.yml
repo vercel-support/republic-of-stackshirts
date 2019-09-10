@@ -1,0 +1,33 @@
+id: html5
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: HTML5
+  url: 'http://www.w3.org/TR/html5/'
+  colors:
+    - hex: '#e85326'
+      rgb:
+        r: 232
+        g: 83
+        b: 38
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: html5
+      relativeUrl: products/h/html5/logos/html5.svg
+      width: 256
+      height: 361
+  icons:
+    - id: html5
+      relativeUrl: products/h/html5/icons/html5.svg
+      width: 256
+      height: 361
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

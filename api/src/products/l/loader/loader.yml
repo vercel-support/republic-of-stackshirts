@@ -1,0 +1,33 @@
+id: loader
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: loader
+  url: 'https://loader.io/'
+  colors:
+    - hex: '#4c7cbc'
+      rgb:
+        r: 76
+        g: 124
+        b: 188
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: loader
+      relativeUrl: products/l/loader/logos/loader.svg
+      width: 256
+      height: 247
+  icons:
+    - id: loader
+      relativeUrl: products/l/loader/icons/loader.svg
+      width: 256
+      height: 247
+relationships:
+  productLabels:
+    loadTesting:
+      id: loadTesting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

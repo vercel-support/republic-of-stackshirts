@@ -1,0 +1,33 @@
+id: bing
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Bing
+  url: 'https://www.bing.com/'
+  colors:
+    - hex: '#f4bc24'
+      rgb:
+        r: 244
+        g: 188
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: bing
+      relativeUrl: products/b/bing/logos/bing.svg
+      width: 256
+      height: 320
+  icons:
+    - id: bing
+      relativeUrl: products/b/bing/icons/bing.svg
+      width: 256
+      height: 320
+relationships:
+  productLabels:
+    searchEngine:
+      id: searchEngine
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

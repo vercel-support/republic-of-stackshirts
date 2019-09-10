@@ -1,0 +1,38 @@
+id: mattermost
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Mattermost
+  url: 'http://www.mattermost.org/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mattermost
+      relativeUrl: products/m/mattermost/logos/mattermost.svg
+      width: 256
+      height: 256
+  icons:
+    - id: mattermost
+      relativeUrl: products/m/mattermost/icons/mattermost.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    groupChat:
+      id: groupChat
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    teamCollaboration:
+      id: teamCollaboration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

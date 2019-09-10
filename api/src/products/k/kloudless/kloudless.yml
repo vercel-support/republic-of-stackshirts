@@ -1,0 +1,38 @@
+id: kloudless
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Kloudless
+  url: 'https://developers.kloudless.com/'
+  colors:
+    - hex: '#eb8f04'
+      rgb:
+        r: 235
+        g: 143
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: kloudless
+      relativeUrl: products/k/kloudless/logos/kloudless.svg
+      width: 256
+      height: 256
+  icons:
+    - id: kloudless
+      relativeUrl: products/k/kloudless/icons/kloudless.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    cloudStorage:
+      id: cloudStorage
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    apiTools:
+      id: apiTools
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

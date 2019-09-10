@@ -1,0 +1,43 @@
+id: riak
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Riak
+  url: 'http://basho.com/products/#riak'
+  colors:
+    - hex: '#3c4c64'
+      rgb:
+        r: 60
+        g: 76
+        b: 100
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: riak
+      relativeUrl: products/r/riak/logos/riak.svg
+      width: 256
+      height: 254
+  icons:
+    - id: riak
+      relativeUrl: products/r/riak/icons/riak.svg
+      width: 256
+      height: 254
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nosql:
+      id: nosql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    storage:
+      id: storage
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

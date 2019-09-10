@@ -1,0 +1,33 @@
+id: youtube
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: YouTube
+  url: 'https://www.youtube.com/'
+  colors:
+    - hex: '#d22222'
+      rgb:
+        r: 210
+        g: 34
+        b: 34
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: youtube
+      relativeUrl: products/y/youtube/logos/youtube.svg
+      width: 256
+      height: 180
+  icons:
+    - id: youtube
+      relativeUrl: products/y/youtube/icons/youtube.svg
+      width: 256
+      height: 180
+relationships:
+  productLabels:
+    videoSharing:
+      id: videoSharing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

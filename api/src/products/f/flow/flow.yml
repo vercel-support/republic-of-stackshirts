@@ -1,0 +1,48 @@
+id: flow
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Flow
+  url: 'http://flowtype.org/'
+  colors:
+    - hex: '#f6ae14'
+      rgb:
+        r: 246
+        g: 174
+        b: 20
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: flow
+      relativeUrl: products/f/flow/logos/flow.svg
+      width: 256
+      height: 317
+  icons:
+    - id: flow
+      relativeUrl: products/f/flow/icons/flow.svg
+      width: 256
+      height: 317
+relationships:
+  productLabels:
+    staticTypeChecker:
+      id: staticTypeChecker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    facebook:
+      id: facebook
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

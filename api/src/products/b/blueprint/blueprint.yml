@@ -1,0 +1,38 @@
+id: blueprint
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Blueprint
+  url: 'http://blueprintjs.com/'
+  colors:
+    - hex: '#00b46f'
+      rgb:
+        r: 0
+        g: 180
+        b: 111
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: blueprint
+      relativeUrl: products/b/blueprint/logos/blueprint.svg
+      width: 256
+      height: 298
+  icons:
+    - id: blueprint
+      relativeUrl: products/b/blueprint/icons/blueprint.svg
+      width: 256
+      height: 298
+relationships:
+  productLabels:
+    uiFramework:
+      id: uiFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    react:
+      id: react
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

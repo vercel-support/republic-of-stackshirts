@@ -1,0 +1,43 @@
+id: krakenjs
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Krakenjs
+  url: 'http://krakenjs.com/'
+  colors:
+    - hex: '#0484c4'
+      rgb:
+        r: 4
+        g: 132
+        b: 196
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: krakenjs
+      relativeUrl: products/k/krakenjs/logos/krakenjs.svg
+      width: 256
+      height: 274
+  icons:
+    - id: krakenjs
+      relativeUrl: products/k/krakenjs/icons/krakenjs.svg
+      width: 256
+      height: 274
+relationships:
+  productLabels:
+    express:
+      id: express
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    library:
+      id: library
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

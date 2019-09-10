@@ -1,0 +1,43 @@
+id: raphael
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Raphaël
+  url: 'http://raphaeljs.com/'
+  colors:
+    - hex: '#fb9b3c'
+      rgb:
+        r: 251
+        g: 155
+        b: 60
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: raphael
+      relativeUrl: products/r/raphael/logos/raphael.svg
+      width: 256
+      height: 256
+  icons:
+    - id: raphael
+      relativeUrl: products/r/raphael/icons/raphael.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    library:
+      id: library
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    svg:
+      id: svg
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: xtend
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Xtend
+  url: 'http://www.eclipse.org/xtend/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: xtend
+      relativeUrl: products/x/xtend/logos/xtend.svg
+      width: 256
+      height: 212
+  icons:
+    - id: xtend
+      relativeUrl: products/x/xtend/icons/xtend.svg
+      width: 256
+      height: 212
+relationships:
+  productLabels:
+    java:
+      id: java
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    dialect:
+      id: dialect
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: swift
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Swift
+  url: 'https://developer.apple.com/swift/'
+  colors:
+    - hex: '#e96934'
+      rgb:
+        r: 233
+        g: 105
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: swift
+      relativeUrl: products/s/swift/logos/swift.svg
+      width: 256
+      height: 256
+  icons:
+    - id: swift
+      relativeUrl: products/s/swift/icons/swift.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

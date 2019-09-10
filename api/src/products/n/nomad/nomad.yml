@@ -1,0 +1,43 @@
+id: nomad
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Nomad
+  url: 'https://www.nomadproject.io/'
+  colors:
+    - hex: '#4cb598'
+      rgb:
+        r: 76
+        g: 181
+        b: 152
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: nomad
+      relativeUrl: products/n/nomad/logos/nomad.svg
+      width: 256
+      height: 300
+  icons:
+    - id: nomad
+      relativeUrl: products/n/nomad/icons/nomad.svg
+      width: 256
+      height: 300
+relationships:
+  productLabels:
+    clusterManagement:
+      id: clusterManagement
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    serverManagement:
+      id: serverManagement
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    docker:
+      id: docker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: mern
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Mern
+  url: 'http://mern.io/'
+  colors:
+    - hex: '#cececf'
+      rgb:
+        r: 206
+        g: 206
+        b: 207
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mern
+      relativeUrl: products/m/mern/logos/mern.svg
+      width: 256
+      height: 256
+  icons:
+    - id: mern
+      relativeUrl: products/m/mern/icons/mern.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    boilerplate:
+      id: boilerplate
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    scaffolding:
+      id: scaffolding
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

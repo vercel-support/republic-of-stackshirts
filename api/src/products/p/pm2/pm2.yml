@@ -1,0 +1,43 @@
+id: pm2
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: PM2
+  url: 'https://github.com/Unitech/pm2'
+  colors:
+    - hex: '#1cd4ec'
+      rgb:
+        r: 28
+        g: 212
+        b: 236
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: pm2
+      relativeUrl: products/p/pm2/logos/pm2.svg
+      width: 512
+      height: 88
+  icons:
+    - id: pm2
+      relativeUrl: products/p/pm2/icons/pm2.svg
+      width: 512
+      height: 88
+relationships:
+  productLabels:
+    processManager:
+      id: processManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

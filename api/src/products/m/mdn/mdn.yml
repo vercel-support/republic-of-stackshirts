@@ -1,0 +1,33 @@
+id: mdn
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: MDN
+  url: 'https://developer.mozilla.org/'
+  colors:
+    - hex: '#1a88c2'
+      rgb:
+        r: 26
+        g: 136
+        b: 194
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mdn
+      relativeUrl: products/m/mdn/logos/mdn.svg
+      width: 256
+      height: 226
+  icons:
+    - id: mdn
+      relativeUrl: products/m/mdn/icons/mdn.svg
+      width: 256
+      height: 226
+relationships:
+  productLabels:
+    reference:
+      id: reference
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

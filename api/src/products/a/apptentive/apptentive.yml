@@ -1,0 +1,38 @@
+id: apptentive
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Apptentive
+  url: 'http://apptentive.com/'
+  colors:
+    - hex: '#dc2434'
+      rgb:
+        r: 220
+        g: 36
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: apptentive
+      relativeUrl: products/a/apptentive/logos/apptentive.svg
+      width: 256
+      height: 256
+  icons:
+    - id: apptentive
+      relativeUrl: products/a/apptentive/icons/apptentive.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    customerSupport:
+      id: customerSupport
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    liveChat:
+      id: liveChat
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

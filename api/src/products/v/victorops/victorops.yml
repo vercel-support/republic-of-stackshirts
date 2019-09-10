@@ -1,0 +1,38 @@
+id: victorops
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: VictorOps
+  url: 'https://victorops.com/'
+  colors:
+    - hex: '#454444'
+      rgb:
+        r: 69
+        g: 68
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: victorops
+      relativeUrl: products/v/victorops/logos/victorops.svg
+      width: 256
+      height: 256
+  icons:
+    - id: victorops
+      relativeUrl: products/v/victorops/icons/victorops.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    monitoring:
+      id: monitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    monitoringAggregation:
+      id: monitoringAggregation
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

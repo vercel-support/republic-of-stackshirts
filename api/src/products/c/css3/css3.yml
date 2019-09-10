@@ -1,0 +1,41 @@
+id: css3
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: CSS3
+  url: 'http://www.w3.org/TR/CSS/'
+  colors:
+    - hex: '#2652e8'
+      rgb:
+        r: 38
+        g: 82
+        b: 232
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: css3
+      relativeUrl: products/c/css3/logos/css3.svg
+      width: 256
+      height: 361
+    - id: css3Official
+      relativeUrl: products/c/css3/logos/css3Official.svg
+      width: 256
+      height: 232
+  icons:
+    - id: css3
+      relativeUrl: products/c/css3/icons/css3.svg
+      width: 256
+      height: 361
+    - id: css3Official
+      relativeUrl: products/c/css3/icons/css3Official.svg
+      width: 256
+      height: 232
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

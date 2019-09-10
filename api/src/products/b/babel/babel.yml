@@ -1,0 +1,48 @@
+id: babel
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Babel
+  url: 'https://babeljs.io/'
+  colors:
+    - hex: '#0f0e06'
+      rgb:
+        r: 15
+        g: 14
+        b: 6
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: babel
+      relativeUrl: products/b/babel/logos/babel.svg
+      width: 512
+      height: 200
+  icons:
+    - id: babel
+      relativeUrl: products/b/babel/icons/babel.svg
+      width: 512
+      height: 200
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    compiler:
+      id: compiler
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    transformer:
+      id: transformer
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

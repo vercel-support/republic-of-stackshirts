@@ -1,0 +1,33 @@
+id: zapier
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Zapier
+  url: 'https://zapier.com/'
+  colors:
+    - hex: '#fc4c04'
+      rgb:
+        r: 252
+        g: 76
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: zapier
+      relativeUrl: products/z/zapier/logos/zapier.svg
+      width: 256
+      height: 256
+  icons:
+    - id: zapier
+      relativeUrl: products/z/zapier/icons/zapier.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    serviceIntegration:
+      id: serviceIntegration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: esdoc
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: ESDoc
+  url: 'https://esdoc.org/'
+  colors:
+    - hex: '#e55151'
+      rgb:
+        r: 229
+        g: 81
+        b: 81
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: esdoc
+      relativeUrl: products/e/esdoc/logos/esdoc.svg
+      width: 256
+      height: 256
+  icons:
+    - id: esdoc
+      relativeUrl: products/e/esdoc/icons/esdoc.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    documentation:
+      id: documentation
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

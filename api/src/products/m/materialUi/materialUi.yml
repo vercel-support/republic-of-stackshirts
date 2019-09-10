@@ -1,0 +1,53 @@
+id: materialUi
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Material UI
+  url: 'http://material-ui.com/'
+  colors:
+    - hex: '#dfdfdf'
+      rgb:
+        r: 223
+        g: 223
+        b: 223
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: materialUi
+      relativeUrl: products/m/materialUi/logos/materialUi.svg
+      width: 256
+      height: 208
+  icons:
+    - id: materialUi
+      relativeUrl: products/m/materialUi/icons/materialUi.svg
+      width: 256
+      height: 208
+relationships:
+  productLabels:
+    frontEndFramework:
+      id: frontEndFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ui:
+      id: ui
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    css:
+      id: css
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    react:
+      id: react
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

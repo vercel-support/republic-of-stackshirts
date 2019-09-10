@@ -1,0 +1,33 @@
+id: fsharp
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: 'F#'
+  url: 'http://fsharp.org/'
+  colors:
+    - hex: '#33bcdc'
+      rgb:
+        r: 51
+        g: 188
+        b: 220
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: fsharp
+      relativeUrl: products/f/fsharp/logos/fsharp.svg
+      width: 256
+      height: 243
+  icons:
+    - id: fsharp
+      relativeUrl: products/f/fsharp/icons/fsharp.svg
+      width: 256
+      height: 243
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

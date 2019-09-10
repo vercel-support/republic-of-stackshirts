@@ -1,0 +1,43 @@
+id: gulp
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Gulp
+  url: 'http://gulpjs.com/'
+  colors:
+    - hex: '#d44c44'
+      rgb:
+        r: 212
+        g: 76
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: gulp
+      relativeUrl: products/g/gulp/logos/gulp.svg
+      width: 256
+      height: 566
+  icons:
+    - id: gulp
+      relativeUrl: products/g/gulp/icons/gulp.svg
+      width: 256
+      height: 566
+relationships:
+  productLabels:
+    buildTool:
+      id: buildTool
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

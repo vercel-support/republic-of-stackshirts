@@ -1,0 +1,33 @@
+id: slides
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: slides
+  url: 'https://slides.com/'
+  colors:
+    - hex: '#e3637b'
+      rgb:
+        r: 227
+        g: 99
+        b: 123
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: slides
+      relativeUrl: products/s/slides/logos/slides.svg
+      width: 256
+      height: 248
+  icons:
+    - id: slides
+      relativeUrl: products/s/slides/icons/slides.svg
+      width: 256
+      height: 248
+relationships:
+  productLabels:
+    presentation:
+      id: presentation
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: pouchdb
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: PouchDB
+  url: 'http://pouchdb.com/'
+  colors:
+    - hex: '#60c188'
+      rgb:
+        r: 96
+        g: 193
+        b: 136
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: pouchdb
+      relativeUrl: products/p/pouchdb/logos/pouchdb.svg
+      width: 256
+      height: 330
+  icons:
+    - id: pouchdb
+      relativeUrl: products/p/pouchdb/icons/pouchdb.svg
+      width: 256
+      height: 330
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nosql:
+      id: nosql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

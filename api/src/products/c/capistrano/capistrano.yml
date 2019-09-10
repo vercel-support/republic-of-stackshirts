@@ -1,0 +1,38 @@
+id: capistrano
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Capistrano
+  url: 'http://capistranorb.com/'
+  colors:
+    - hex: '#3c548c'
+      rgb:
+        r: 60
+        g: 84
+        b: 140
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: capistrano
+      relativeUrl: products/c/capistrano/logos/capistrano.svg
+      width: 256
+      height: 269
+  icons:
+    - id: capistrano
+      relativeUrl: products/c/capistrano/icons/capistrano.svg
+      width: 256
+      height: 269
+relationships:
+  productLabels:
+    configurationManager:
+      id: configurationManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    automationTool:
+      id: automationTool
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,48 @@
+id: apphub
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AppHub
+  url: 'https://apphub.io/'
+  colors:
+    - hex: '#04a4d4'
+      rgb:
+        r: 4
+        g: 164
+        b: 212
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: apphub
+      relativeUrl: products/a/apphub/logos/apphub.svg
+      width: 256
+      height: 188
+  icons:
+    - id: apphub
+      relativeUrl: products/a/apphub/icons/apphub.svg
+      width: 256
+      height: 188
+relationships:
+  productLabels:
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    distributionPlatform:
+      id: distributionPlatform
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    react:
+      id: react
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    reactNative:
+      id: reactNative
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

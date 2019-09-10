@@ -1,0 +1,33 @@
+id: medium
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Medium
+  url: 'https://medium.com/'
+  colors:
+    - hex: '#0ce373'
+      rgb:
+        r: 12
+        g: 227
+        b: 115
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: medium
+      relativeUrl: products/m/medium/logos/medium.svg
+      width: 256
+      height: 208
+  icons:
+    - id: medium
+      relativeUrl: products/m/medium/icons/medium.svg
+      width: 256
+      height: 208
+relationships:
+  productLabels:
+    blogPlatform:
+      id: blogPlatform
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

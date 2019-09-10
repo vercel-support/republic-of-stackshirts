@@ -1,0 +1,38 @@
+id: opsmatic
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Opsmatic
+  url: 'https://opsmatic.com/'
+  colors:
+    - hex: '#161617'
+      rgb:
+        r: 22
+        g: 22
+        b: 23
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: opsmatic
+      relativeUrl: products/o/opsmatic/logos/opsmatic.svg
+      width: 256
+      height: 227
+  icons:
+    - id: opsmatic
+      relativeUrl: products/o/opsmatic/icons/opsmatic.svg
+      width: 256
+      height: 227
+relationships:
+  productLabels:
+    monitoring:
+      id: monitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    performanceMonitoring:
+      id: performanceMonitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: shipit
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Shipit
+  url: 'https://github.com/shipitjs/shipit'
+  colors:
+    - hex: '#ed9222'
+      rgb:
+        r: 237
+        g: 146
+        b: 34
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: shipit
+      relativeUrl: products/s/shipit/logos/shipit.svg
+      width: 512
+      height: 135
+  icons:
+    - id: shipit
+      relativeUrl: products/s/shipit/icons/shipit.svg
+      width: 512
+      height: 135
+relationships:
+  productLabels:
+    codeDeployment:
+      id: codeDeployment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

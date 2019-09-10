@@ -1,0 +1,43 @@
+id: fabric
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Fabric
+  url: 'http://www.fabfile.org/'
+  colors:
+    - hex: '#fcc42c'
+      rgb:
+        r: 252
+        g: 196
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: fabric
+      relativeUrl: products/f/fabric/logos/fabric.svg
+      width: 256
+      height: 195
+  icons:
+    - id: fabric
+      relativeUrl: products/f/fabric/icons/fabric.svg
+      width: 256
+      height: 195
+relationships:
+  productLabels:
+    configurationManager:
+      id: configurationManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    codeDeployment:
+      id: codeDeployment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    python:
+      id: python
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

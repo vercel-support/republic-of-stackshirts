@@ -1,0 +1,38 @@
+id: sparkpost
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: SparkPost
+  url: 'https://www.sparkpost.com/'
+  colors:
+    - hex: '#fc6424'
+      rgb:
+        r: 252
+        g: 100
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: sparkpost
+      relativeUrl: products/s/sparkpost/logos/sparkpost.svg
+      width: 512
+      height: 134
+  icons:
+    - id: sparkpost
+      relativeUrl: products/s/sparkpost/icons/sparkpost.svg
+      width: 512
+      height: 134
+relationships:
+  productLabels:
+    transactionalEmail:
+      id: transactionalEmail
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    marketing:
+      id: marketing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

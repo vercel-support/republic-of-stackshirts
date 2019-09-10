@@ -1,0 +1,33 @@
+id: jekyll
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Jekyll
+  url: 'http://jekyllrb.com/'
+  colors:
+    - hex: '#3d3a3c'
+      rgb:
+        r: 61
+        g: 58
+        b: 60
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: jekyll
+      relativeUrl: products/j/jekyll/logos/jekyll.svg
+      width: 512
+      height: 209
+  icons:
+    - id: jekyll
+      relativeUrl: products/j/jekyll/icons/jekyll.svg
+      width: 512
+      height: 209
+relationships:
+  productLabels:
+    staticSiteGenerator:
+      id: staticSiteGenerator
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

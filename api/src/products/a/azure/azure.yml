@@ -1,0 +1,38 @@
+id: azure
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Microsoft Azure
+  url: 'https://azure.microsoft.com/'
+  colors:
+    - hex: '#008cdb'
+      rgb:
+        r: 0
+        g: 140
+        b: 219
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: azure
+      relativeUrl: products/a/azure/logos/azure.svg
+      width: 256
+      height: 169
+  icons:
+    - id: azure
+      relativeUrl: products/a/azure/icons/azure.svg
+      width: 256
+      height: 169
+relationships:
+  productLabels:
+    cloudComputing:
+      id: cloudComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    paas:
+      id: paas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

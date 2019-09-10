@@ -1,0 +1,49 @@
+id: google
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Google
+  url: 'http://www.google.com/'
+  colors:
+    - hex: '#3484f4'
+      rgb:
+        r: 52
+        g: 132
+        b: 244
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: googleShort
+      relativeUrl: products/g/google/logos/googleShort.svg
+      width: 256
+      height: 262
+    - id: google
+      relativeUrl: products/g/google/logos/google.svg
+      width: 512
+      height: 168
+    - id: google2014
+      relativeUrl: products/g/google/logos/google2014.svg
+      width: 512
+      height: 178
+  icons:
+    - id: googleShort
+      relativeUrl: products/g/google/icons/googleShort.svg
+      width: 256
+      height: 262
+    - id: google
+      relativeUrl: products/g/google/icons/google.svg
+      width: 512
+      height: 168
+    - id: google2014
+      relativeUrl: products/g/google/icons/google2014.svg
+      width: 512
+      height: 178
+relationships:
+  productLabels:
+    searchEngine:
+      id: searchEngine
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: aurora
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Aurora
+  url: 'http://aurora.apache.org/'
+  colors:
+    - hex: '#64c4b4'
+      rgb:
+        r: 100
+        g: 196
+        b: 180
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: aurora
+      relativeUrl: products/a/aurora/logos/aurora.svg
+      width: 256
+      height: 226
+  icons:
+    - id: aurora
+      relativeUrl: products/a/aurora/icons/aurora.svg
+      width: 256
+      height: 226
+relationships:
+  productLabels:
+    serverManagement:
+      id: serverManagement
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mesos:
+      id: mesos
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

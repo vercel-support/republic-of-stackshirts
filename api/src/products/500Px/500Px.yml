@@ -1,0 +1,38 @@
+id: 500Px
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: 500px
+  url: 'https://500px.com/'
+  colors:
+    - hex: '#0c0c0c'
+      rgb:
+        r: 12
+        g: 12
+        b: 12
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: 500Px
+      relativeUrl: 'products/#/500Px/logos/500Px.svg'
+      width: 256
+      height: 330
+  icons:
+    - id: 500Px
+      relativeUrl: 'products/#/500Px/icons/500Px.svg'
+      width: 256
+      height: 330
+relationships:
+  productLabels:
+    photos:
+      id: photos
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    socialNetwork:
+      id: socialNetwork
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

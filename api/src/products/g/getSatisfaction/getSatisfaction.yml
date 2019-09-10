@@ -1,0 +1,38 @@
+id: getSatisfaction
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Get Satisfaction
+  url: 'https://getsatisfaction.com/'
+  colors:
+    - hex: '#f47c34'
+      rgb:
+        r: 244
+        g: 124
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: getSatisfaction
+      relativeUrl: products/g/getSatisfaction/logos/getSatisfaction.svg
+      width: 512
+      height: 122
+  icons:
+    - id: getSatisfaction
+      relativeUrl: products/g/getSatisfaction/icons/getSatisfaction.svg
+      width: 512
+      height: 122
+relationships:
+  productLabels:
+    customerSupport:
+      id: customerSupport
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    userFeedback:
+      id: userFeedback
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

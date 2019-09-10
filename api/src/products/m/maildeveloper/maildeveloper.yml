@@ -1,0 +1,43 @@
+id: maildeveloper
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: MailDeveloper
+  url: 'https://maildeveloper.com/'
+  colors:
+    - hex: '#b4bac1'
+      rgb:
+        r: 180
+        g: 186
+        b: 193
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: maildeveloper
+      relativeUrl: products/m/maildeveloper/logos/maildeveloper.svg
+      width: 256
+      height: 163
+  icons:
+    - id: maildeveloper
+      relativeUrl: products/m/maildeveloper/icons/maildeveloper.svg
+      width: 256
+      height: 163
+relationships:
+  productLabels:
+    ui:
+      id: ui
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    emailEditor:
+      id: emailEditor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    template:
+      id: template
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

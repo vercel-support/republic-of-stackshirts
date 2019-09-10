@@ -1,0 +1,48 @@
+id: serveless
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Serverless
+  url: 'https://github.com/serverless/serverless'
+  colors:
+    - hex: '#fcd424'
+      rgb:
+        r: 252
+        g: 212
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: serveless
+      relativeUrl: products/s/serveless/logos/serveless.svg
+      width: 256
+      height: 375
+  icons:
+    - id: serveless
+      relativeUrl: products/s/serveless/icons/serveless.svg
+      width: 256
+      height: 375
+relationships:
+  productLabels:
+    taskProcessor:
+      id: taskProcessor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    lambda:
+      id: lambda
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    aws:
+      id: aws
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    microservices:
+      id: microservices
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

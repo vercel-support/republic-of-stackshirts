@@ -1,0 +1,38 @@
+id: apacheCloudstack
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Apache CloudStack
+  url: 'https://cloudstack.apache.org/'
+  colors:
+    - hex: '#bbdbeb'
+      rgb:
+        r: 187
+        g: 219
+        b: 235
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: apacheCloudstack
+      relativeUrl: products/a/apacheCloudstack/logos/apacheCloudstack.svg
+      width: 257
+      height: 208
+  icons:
+    - id: apacheCloudstack
+      relativeUrl: products/a/apacheCloudstack/icons/apacheCloudstack.svg
+      width: 257
+      height: 208
+relationships:
+  productLabels:
+    cloudComputing:
+      id: cloudComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

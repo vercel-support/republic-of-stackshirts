@@ -1,0 +1,43 @@
+id: influxdb
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: InfluxDB
+  url: 'https://influxdb.com/'
+  colors:
+    - hex: '#bee8f2'
+      rgb:
+        r: 190
+        g: 232
+        b: 242
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: influxdb
+      relativeUrl: products/i/influxdb/logos/influxdb.svg
+      width: 256
+      height: 265
+  icons:
+    - id: influxdb
+      relativeUrl: products/i/influxdb/icons/influxdb.svg
+      width: 256
+      height: 265
+relationships:
+  productLabels:
+    distributedComputing:
+      id: distributedComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    timeSeries:
+      id: timeSeries
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

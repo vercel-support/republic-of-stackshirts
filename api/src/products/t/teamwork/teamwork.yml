@@ -1,0 +1,33 @@
+id: teamwork
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: teamwork
+  url: 'https://www.teamwork.com/'
+  colors:
+    - hex: '#4cacfc'
+      rgb:
+        r: 76
+        g: 172
+        b: 252
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: teamwork
+      relativeUrl: products/t/teamwork/logos/teamwork.svg
+      width: 256
+      height: 221
+  icons:
+    - id: teamwork
+      relativeUrl: products/t/teamwork/icons/teamwork.svg
+      width: 256
+      height: 221
+relationships:
+  productLabels:
+    projectManager:
+      id: projectManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

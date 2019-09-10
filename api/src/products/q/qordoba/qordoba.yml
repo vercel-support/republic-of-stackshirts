@@ -1,0 +1,33 @@
+id: qordoba
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Qordoba
+  url: 'https://www.qordoba.com/'
+  colors:
+    - hex: '#5454ac'
+      rgb:
+        r: 84
+        g: 84
+        b: 172
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: qordoba
+      relativeUrl: products/q/qordoba/logos/qordoba.svg
+      width: 256
+      height: 256
+  icons:
+    - id: qordoba
+      relativeUrl: products/q/qordoba/icons/qordoba.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    translationService:
+      id: translationService
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

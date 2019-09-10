@@ -1,0 +1,43 @@
+id: flocker
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Flocker
+  url: 'https://clusterhq.com/flocker/'
+  colors:
+    - hex: '#6cb4b4'
+      rgb:
+        r: 108
+        g: 180
+        b: 180
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: flocker
+      relativeUrl: products/f/flocker/logos/flocker.svg
+      width: 256
+      height: 223
+  icons:
+    - id: flocker
+      relativeUrl: products/f/flocker/icons/flocker.svg
+      width: 256
+      height: 223
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    docker:
+      id: docker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    contentDelivery:
+      id: contentDelivery
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

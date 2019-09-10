@@ -1,0 +1,33 @@
+id: firefox
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Firefox
+  url: 'https://firefox.com/'
+  colors:
+    - hex: '#d45a24'
+      rgb:
+        r: 212
+        g: 90
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: firefox
+      relativeUrl: products/f/firefox/logos/firefox.svg
+      width: 256
+      height: 271
+  icons:
+    - id: firefox
+      relativeUrl: products/f/firefox/icons/firefox.svg
+      width: 256
+      height: 271
+relationships:
+  productLabels:
+    browser:
+      id: browser
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

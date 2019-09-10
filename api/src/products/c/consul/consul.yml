@@ -1,0 +1,33 @@
+id: consul
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Consul
+  url: 'https://www.consul.io/'
+  colors:
+    - hex: '#6c4c9c'
+      rgb:
+        r: 108
+        g: 76
+        b: 156
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: consul
+      relativeUrl: products/c/consul/logos/consul.svg
+      width: 256
+      height: 255
+  icons:
+    - id: consul
+      relativeUrl: products/c/consul/icons/consul.svg
+      width: 256
+      height: 255
+relationships:
+  productLabels:
+    serviceDiscovery:
+      id: serviceDiscovery
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

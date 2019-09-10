@@ -1,0 +1,38 @@
+id: hipercard
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Hipercard
+  url: 'https://www.hipercard.com.br/'
+  colors:
+    - hex: '#b82126'
+      rgb:
+        r: 184
+        g: 33
+        b: 38
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: hipercard
+      relativeUrl: products/h/hipercard/logos/hipercard.svg
+      width: 512
+      height: 223
+  icons:
+    - id: hipercard
+      relativeUrl: products/h/hipercard/icons/hipercard.svg
+      width: 512
+      height: 223
+relationships:
+  productLabels:
+    creditCard:
+      id: creditCard
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    finance:
+      id: finance
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

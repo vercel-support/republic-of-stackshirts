@@ -1,0 +1,33 @@
+id: macosx
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Mac OS X
+  url: 'http://www.apple.com/osx/'
+  colors:
+    - hex: '#9a8a97'
+      rgb:
+        r: 154
+        g: 138
+        b: 151
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: macosx
+      relativeUrl: products/m/macosx/logos/macosx.svg
+      width: 256
+      height: 256
+  icons:
+    - id: macosx
+      relativeUrl: products/m/macosx/icons/macosx.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    operationalSystem:
+      id: operationalSystem
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

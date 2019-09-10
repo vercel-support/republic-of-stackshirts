@@ -1,0 +1,38 @@
+id: chartblocks
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Chartblocks
+  url: 'http://aws.amazon.com/mobile/'
+  colors:
+    - hex: '#2f98d3'
+      rgb:
+        r: 47
+        g: 152
+        b: 211
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: chartblocks
+      relativeUrl: products/c/chartblocks/logos/chartblocks.svg
+      width: 256
+      height: 256
+  icons:
+    - id: chartblocks
+      relativeUrl: products/c/chartblocks/icons/chartblocks.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    businessIntelligence:
+      id: businessIntelligence
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    charts:
+      id: charts
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

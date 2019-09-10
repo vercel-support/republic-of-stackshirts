@@ -1,0 +1,38 @@
+id: knockout
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Knockout
+  url: 'http://knockoutjs.com/'
+  colors:
+    - hex: '#e42c14'
+      rgb:
+        r: 228
+        g: 44
+        b: 20
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: knockout
+      relativeUrl: products/k/knockout/logos/knockout.svg
+      width: 512
+      height: 124
+  icons:
+    - id: knockout
+      relativeUrl: products/k/knockout/icons/knockout.svg
+      width: 512
+      height: 124
+relationships:
+  productLabels:
+    mvcFramework:
+      id: mvcFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

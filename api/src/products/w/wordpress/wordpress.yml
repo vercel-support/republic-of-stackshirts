@@ -1,0 +1,51 @@
+id: wordpress
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Wordpress
+  url: 'https://wordpress.org/'
+  colors:
+    - hex: '#444444'
+      rgb:
+        r: 68
+        g: 68
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: wordpressShort
+      relativeUrl: products/w/wordpress/logos/wordpressShort.svg
+      width: 256
+      height: 255
+    - id: wordpress
+      relativeUrl: products/w/wordpress/logos/wordpress.svg
+      width: 512
+      height: 117
+  icons:
+    - id: wordpressShort
+      relativeUrl: products/w/wordpress/icons/wordpressShort.svg
+      width: 256
+      height: 255
+    - id: wordpress
+      relativeUrl: products/w/wordpress/icons/wordpress.svg
+      width: 512
+      height: 117
+relationships:
+  productLabels:
+    contentManager:
+      id: contentManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    php:
+      id: php
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mysql:
+      id: mysql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

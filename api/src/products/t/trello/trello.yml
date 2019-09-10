@@ -1,0 +1,33 @@
+id: trello
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Trello
+  url: 'https://trello.com/'
+  colors:
+    - hex: '#0484d1'
+      rgb:
+        r: 4
+        g: 132
+        b: 209
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: trello
+      relativeUrl: products/t/trello/logos/trello.svg
+      width: 256
+      height: 256
+  icons:
+    - id: trello
+      relativeUrl: products/t/trello/icons/trello.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    projectManager:
+      id: projectManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

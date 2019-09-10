@@ -1,0 +1,33 @@
+id: skype
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Skype
+  url: 'http://www.skype.com/'
+  colors:
+    - hex: '#04acf4'
+      rgb:
+        r: 4
+        g: 172
+        b: 244
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: skype
+      relativeUrl: products/s/skype/logos/skype.svg
+      width: 256
+      height: 256
+  icons:
+    - id: skype
+      relativeUrl: products/s/skype/icons/skype.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    videoConference:
+      id: videoConference
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

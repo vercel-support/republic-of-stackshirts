@@ -1,0 +1,53 @@
+id: hadoop
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Hadoop
+  url: 'http://hadoop.apache.org/'
+  colors:
+    - hex: '#f3f304'
+      rgb:
+        r: 243
+        g: 243
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: hadoop
+      relativeUrl: products/h/hadoop/logos/hadoop.svg
+      width: 256
+      height: 192
+  icons:
+    - id: hadoop
+      relativeUrl: products/h/hadoop/icons/hadoop.svg
+      width: 256
+      height: 192
+relationships:
+  productLabels:
+    distributedComputing:
+      id: distributedComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    distributedStorage:
+      id: distributedStorage
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    bigData:
+      id: bigData
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    java:
+      id: java
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: awsGlacier
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AWS Glacier
+  url: 'https://aws.amazon.com/glacier/'
+  colors:
+    - hex: '#e35444'
+      rgb:
+        r: 227
+        g: 84
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: awsGlacier
+      relativeUrl: products/a/awsGlacier/logos/awsGlacier.svg
+      width: 256
+      height: 309
+  icons:
+    - id: awsGlacier
+      relativeUrl: products/a/awsGlacier/icons/awsGlacier.svg
+      width: 256
+      height: 309
+relationships:
+  productLabels:
+    dataBackup:
+      id: dataBackup
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

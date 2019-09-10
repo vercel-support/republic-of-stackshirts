@@ -1,0 +1,51 @@
+id: dribbble
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: dribbble
+  url: 'https://www.dribbble.com/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: dribbbleShort
+      relativeUrl: products/d/dribbble/logos/dribbbleShort.svg
+      width: 256
+      height: 256
+    - id: dribbble
+      relativeUrl: products/d/dribbble/logos/dribbble.svg
+      width: 512
+      height: 126
+  icons:
+    - id: dribbbleShort
+      relativeUrl: products/d/dribbble/icons/dribbbleShort.svg
+      width: 256
+      height: 256
+    - id: dribbble
+      relativeUrl: products/d/dribbble/icons/dribbble.svg
+      width: 512
+      height: 126
+relationships:
+  productLabels:
+    socialNetwork:
+      id: socialNetwork
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    portfolio:
+      id: portfolio
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    showcase:
+      id: showcase
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

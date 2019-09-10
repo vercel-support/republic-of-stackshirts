@@ -1,0 +1,38 @@
+id: pinterest
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Pinterest
+  url: 'https://www.pinterest.com/'
+  colors:
+    - hex: '#cc1c24'
+      rgb:
+        r: 204
+        g: 28
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: pinterest
+      relativeUrl: products/p/pinterest/logos/pinterest.svg
+      width: 256
+      height: 256
+  icons:
+    - id: pinterest
+      relativeUrl: products/p/pinterest/icons/pinterest.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    imageSharing:
+      id: imageSharing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    socialNetwork:
+      id: socialNetwork
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

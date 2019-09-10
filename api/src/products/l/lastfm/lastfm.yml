@@ -1,0 +1,33 @@
+id: lastfm
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: last.fm
+  url: 'http://www.last.fm/'
+  colors:
+    - hex: '#d41404'
+      rgb:
+        r: 212
+        g: 20
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: lastfm
+      relativeUrl: products/l/lastfm/logos/lastfm.svg
+      width: 512
+      height: 131
+  icons:
+    - id: lastfm
+      relativeUrl: products/l/lastfm/icons/lastfm.svg
+      width: 512
+      height: 131
+relationships:
+  productLabels:
+    musicSharing:
+      id: musicSharing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

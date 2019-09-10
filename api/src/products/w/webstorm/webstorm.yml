@@ -1,0 +1,53 @@
+id: webstorm
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: WebStorm
+  url: 'https://www.jetbrains.com/webstorm/'
+  colors:
+    - hex: '#0dbed1'
+      rgb:
+        r: 13
+        g: 190
+        b: 209
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: webstorm
+      relativeUrl: products/w/webstorm/logos/webstorm.svg
+      width: 256
+      height: 256
+  icons:
+    - id: webstorm
+      relativeUrl: products/w/webstorm/icons/webstorm.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    codeEditor:
+      id: codeEditor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ide:
+      id: ide
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    jetbrains:
+      id: jetbrains
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

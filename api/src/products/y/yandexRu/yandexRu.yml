@@ -1,0 +1,33 @@
+id: yandexRu
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Yandex
+  url: 'https://www.yandex.ru/'
+  colors:
+    - hex: '#fc0404'
+      rgb:
+        r: 252
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: yandexRu
+      relativeUrl: products/y/yandexRu/logos/yandexRu.svg
+      width: 512
+      height: 201
+  icons:
+    - id: yandexRu
+      relativeUrl: products/y/yandexRu/icons/yandexRu.svg
+      width: 512
+      height: 201
+relationships:
+  productLabels:
+    searchEngine:
+      id: searchEngine
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

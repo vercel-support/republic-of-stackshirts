@@ -1,0 +1,38 @@
+id: stacksmith
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Stacksmith
+  url: 'https://stacksmith.bitnami.com/'
+  colors:
+    - hex: '#2c4454'
+      rgb:
+        r: 44
+        g: 68
+        b: 84
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: stacksmith
+      relativeUrl: products/s/stacksmith/logos/stacksmith.svg
+      width: 256
+      height: 280
+  icons:
+    - id: stacksmith
+      relativeUrl: products/s/stacksmith/icons/stacksmith.svg
+      width: 256
+      height: 280
+relationships:
+  productLabels:
+    docker:
+      id: docker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    containers:
+      id: containers
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: ghost
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Ghost
+  url: 'https://ghost.org/'
+  colors:
+    - hex: '#444444'
+      rgb:
+        r: 68
+        g: 68
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: ghost
+      relativeUrl: products/g/ghost/logos/ghost.svg
+      width: 512
+      height: 165
+  icons:
+    - id: ghost
+      relativeUrl: products/g/ghost/icons/ghost.svg
+      width: 512
+      height: 165
+relationships:
+  productLabels:
+    contentManager:
+      id: contentManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    blogPlatform:
+      id: blogPlatform
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

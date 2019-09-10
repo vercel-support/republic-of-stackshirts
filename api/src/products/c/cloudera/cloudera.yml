@@ -1,0 +1,43 @@
+id: cloudera
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Cloudera
+  url: 'http://www.cloudera.com/'
+  colors:
+    - hex: '#044c6c'
+      rgb:
+        r: 4
+        g: 76
+        b: 108
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: cloudera
+      relativeUrl: products/c/cloudera/logos/cloudera.svg
+      width: 512
+      height: 100
+  icons:
+    - id: cloudera
+      relativeUrl: products/c/cloudera/icons/cloudera.svg
+      width: 512
+      height: 100
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    hadoop:
+      id: hadoop
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    bigData:
+      id: bigData
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

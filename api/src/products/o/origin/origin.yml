@@ -1,0 +1,43 @@
+id: origin
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Origin
+  url: 'https://www.origin.com/'
+  colors:
+    - hex: '#F26A2D'
+      rgb:
+        r: 242
+        g: 106
+        b: 45
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: origin
+      relativeUrl: products/o/origin/logos/origin.svg
+      width: 256
+      height: 344
+  icons:
+    - id: origin
+      relativeUrl: products/o/origin/icons/origin.svg
+      width: 256
+      height: 344
+relationships:
+  productLabels:
+    games:
+      id: games
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    onlineGaming:
+      id: onlineGaming
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    digitalDistribuiton:
+      id: digitalDistribuiton
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: bitballoon
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: BitBalloon
+  url: 'https://www.bitballoon.com/'
+  colors:
+    - hex: '#14344c'
+      rgb:
+        r: 20
+        g: 52
+        b: 76
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: bitballoon
+      relativeUrl: products/b/bitballoon/logos/bitballoon.svg
+      width: 256
+      height: 442
+  icons:
+    - id: bitballoon
+      relativeUrl: products/b/bitballoon/icons/bitballoon.svg
+      width: 256
+      height: 442
+relationships:
+  productLabels:
+    codeHosting:
+      id: codeHosting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

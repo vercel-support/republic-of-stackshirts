@@ -1,0 +1,38 @@
+id: weebly
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Weebly
+  url: 'http://www.weebly.com/'
+  colors:
+    - hex: '#3494e4'
+      rgb:
+        r: 52
+        g: 148
+        b: 228
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: weebly
+      relativeUrl: products/w/weebly/logos/weebly.svg
+      width: 256
+      height: 197
+  icons:
+    - id: weebly
+      relativeUrl: products/w/weebly/icons/weebly.svg
+      width: 256
+      height: 197
+relationships:
+  productLabels:
+    contentManager:
+      id: contentManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    websiteBuilder:
+      id: websiteBuilder
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

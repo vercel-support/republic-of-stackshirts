@@ -1,0 +1,48 @@
+id: gomix
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Gomix
+  url: 'https://gomix.com/'
+  colors:
+    - hex: '#3458d0'
+      rgb:
+        r: 52
+        g: 88
+        b: 208
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: hyperdev
+      relativeUrl: products/g/gomix/logos/hyperdev.svg
+      width: 256
+      height: 194
+  icons:
+    - id: hyperdev
+      relativeUrl: products/g/gomix/icons/hyperdev.svg
+      width: 256
+      height: 194
+relationships:
+  productLabels:
+    sandbox:
+      id: sandbox
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    playground:
+      id: playground
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    hosting:
+      id: hosting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

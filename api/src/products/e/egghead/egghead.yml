@@ -1,0 +1,38 @@
+id: egghead
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: egghead
+  url: 'https://egghead.io/'
+  colors:
+    - hex: '#ffffff'
+      rgb:
+        r: 255
+        g: 255
+        b: 255
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: egghead
+      relativeUrl: products/e/egghead/logos/egghead.svg
+      width: 256
+      height: 263
+  icons:
+    - id: egghead
+      relativeUrl: products/e/egghead/icons/egghead.svg
+      width: 256
+      height: 263
+relationships:
+  productLabels:
+    learning:
+      id: learning
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    courses:
+      id: courses
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: terraform
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Terraform
+  url: 'https://www.terraform.io/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: terraform
+      relativeUrl: products/t/terraform/logos/terraform.svg
+      width: 256
+      height: 288
+  icons:
+    - id: terraform
+      relativeUrl: products/t/terraform/icons/terraform.svg
+      width: 256
+      height: 288
+relationships:
+  productLabels:
+    infrastructure:
+      id: infrastructure
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    buildTool:
+      id: buildTool
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: zeit
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Zeit
+  url: 'https://zeit.co/'
+  colors:
+    - hex: '#000000'
+      rgb:
+        r: 0
+        g: 0
+        b: 0
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: zeit
+      relativeUrl: products/z/zeit/logos/zeit.svg
+      width: 256
+      height: 227
+  icons:
+    - id: zeit
+      relativeUrl: products/z/zeit/icons/zeit.svg
+      width: 256
+      height: 227
+relationships:
+  productLabels:
+    technology:
+      id: technology
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: leafjet
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Leafjet
+  url: 'http://leafletjs.com/'
+  colors:
+    - hex: '#74746c'
+      rgb:
+        r: 116
+        g: 116
+        b: 108
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: leafjet
+      relativeUrl: products/l/leafjet/logos/leafjet.svg
+      width: 512
+      height: 136
+  icons:
+    - id: leafjet
+      relativeUrl: products/l/leafjet/icons/leafjet.svg
+      width: 512
+      height: 136
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    library:
+      id: library
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    maps:
+      id: maps
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

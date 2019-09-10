@@ -1,0 +1,43 @@
+id: opencart
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: OpenCart
+  url: 'http://www.opencart.com/'
+  colors:
+    - hex: '#19bdf3'
+      rgb:
+        r: 25
+        g: 189
+        b: 243
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: opencart
+      relativeUrl: products/o/opencart/logos/opencart.svg
+      width: 512
+      height: 100
+  icons:
+    - id: opencart
+      relativeUrl: products/o/opencart/icons/opencart.svg
+      width: 512
+      height: 100
+relationships:
+  productLabels:
+    eCommerce:
+      id: eCommerce
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    openSource:
+      id: openSource
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    php:
+      id: php
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

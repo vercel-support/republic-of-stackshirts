@@ -1,0 +1,38 @@
+id: zendesk
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Zendesk
+  url: 'https://www.zendesk.com/'
+  colors:
+    - hex: '#749c44'
+      rgb:
+        r: 116
+        g: 156
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: zendesk
+      relativeUrl: products/z/zendesk/logos/zendesk.svg
+      width: 256
+      height: 253
+  icons:
+    - id: zendesk
+      relativeUrl: products/z/zendesk/icons/zendesk.svg
+      width: 256
+      height: 253
+relationships:
+  productLabels:
+    customerSupport:
+      id: customerSupport
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    helpDesk:
+      id: helpDesk
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

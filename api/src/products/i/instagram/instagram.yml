@@ -1,0 +1,56 @@
+id: instagram
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Instagram
+  url: 'https://instagram.com/'
+  colors:
+    - hex: '#343434'
+      rgb:
+        r: 52
+        g: 52
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: instagramShort
+      relativeUrl: products/i/instagram/logos/instagramShort.svg
+      width: 256
+      height: 256
+    - id: instagram
+      relativeUrl: products/i/instagram/logos/instagram.svg
+      width: 512
+      height: 146
+  icons:
+    - id: instagramShort
+      relativeUrl: products/i/instagram/icons/instagramShort.svg
+      width: 256
+      height: 256
+    - id: instagram
+      relativeUrl: products/i/instagram/icons/instagram.svg
+      width: 512
+      height: 146
+relationships:
+  productLabels:
+    photos:
+      id: photos
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    videos:
+      id: videos
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    selfies:
+      id: selfies
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    socialNetwork:
+      id: socialNetwork
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

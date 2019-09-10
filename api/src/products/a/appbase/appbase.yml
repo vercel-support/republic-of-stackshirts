@@ -1,0 +1,43 @@
+id: appbase
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Appbase
+  url: 'http://appbase.io/'
+  colors:
+    - hex: '#3cc4f4'
+      rgb:
+        r: 60
+        g: 196
+        b: 244
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: appbase
+      relativeUrl: products/a/appbase/logos/appbase.svg
+      width: 256
+      height: 256
+  icons:
+    - id: appbase
+      relativeUrl: products/a/appbase/icons/appbase.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    elasticsearch:
+      id: elasticsearch
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    api:
+      id: api
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    json:
+      id: json
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

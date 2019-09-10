@@ -1,0 +1,43 @@
+id: awsSns
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AWS SNS (Simple Notification Service)
+  url: 'https://aws.amazon.com/sns/'
+  colors:
+    - hex: '#c37b9b'
+      rgb:
+        r: 195
+        g: 123
+        b: 155
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: awsSns
+      relativeUrl: products/a/awsSns/logos/awsSns.svg
+      width: 256
+      height: 257
+  icons:
+    - id: awsSns
+      relativeUrl: products/a/awsSns/icons/awsSns.svg
+      width: 256
+      height: 257
+relationships:
+  productLabels:
+    pushNotification:
+      id: pushNotification
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

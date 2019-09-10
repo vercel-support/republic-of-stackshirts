@@ -1,0 +1,38 @@
+id: meanio
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Mean
+  url: 'http://mean.io/'
+  colors:
+    - hex: '#047890'
+      rgb:
+        r: 4
+        g: 120
+        b: 144
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: meanio
+      relativeUrl: products/m/meanio/logos/meanio.svg
+      width: 256
+      height: 274
+  icons:
+    - id: meanio
+      relativeUrl: products/m/meanio/icons/meanio.svg
+      width: 256
+      height: 274
+relationships:
+  productLabels:
+    fullStackFramework:
+      id: fullStackFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

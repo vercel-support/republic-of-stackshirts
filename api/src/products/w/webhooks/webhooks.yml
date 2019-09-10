@@ -1,0 +1,33 @@
+id: webhooks
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: webhooks
+  url: 'http://www.webhooks.org/'
+  colors:
+    - hex: '#c43c64'
+      rgb:
+        r: 196
+        g: 60
+        b: 100
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: webhooks
+      relativeUrl: products/w/webhooks/logos/webhooks.svg
+      width: 256
+      height: 239
+  icons:
+    - id: webhooks
+      relativeUrl: products/w/webhooks/icons/webhooks.svg
+      width: 256
+      height: 239
+relationships:
+  productLabels:
+    architecture:
+      id: architecture
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

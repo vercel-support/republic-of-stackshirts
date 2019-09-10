@@ -1,0 +1,38 @@
+id: rsmq
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: RSMQ
+  url: 'http://smrchy.github.io/rsmq/'
+  colors:
+    - hex: '#dc2c1c'
+      rgb:
+        r: 220
+        g: 44
+        b: 28
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: rsmq
+      relativeUrl: products/r/rsmq/logos/rsmq.svg
+      width: 256
+      height: 176
+  icons:
+    - id: rsmq
+      relativeUrl: products/r/rsmq/icons/rsmq.svg
+      width: 256
+      height: 176
+relationships:
+  productLabels:
+    messageQueue:
+      id: messageQueue
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    redis:
+      id: redis
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

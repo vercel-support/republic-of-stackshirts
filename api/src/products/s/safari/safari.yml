@@ -1,0 +1,33 @@
+id: safari
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Safari
+  url: 'https://www.apple.com/safari/'
+  colors:
+    - hex: '#2f8cdb'
+      rgb:
+        r: 47
+        g: 140
+        b: 219
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: safari
+      relativeUrl: products/s/safari/logos/safari.svg
+      width: 256
+      height: 256
+  icons:
+    - id: safari
+      relativeUrl: products/s/safari/icons/safari.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    browser:
+      id: browser
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

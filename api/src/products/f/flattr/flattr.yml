@@ -1,0 +1,38 @@
+id: flattr
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Flattr
+  url: 'https://flattr.com/'
+  colors:
+    - hex: '#83bc35'
+      rgb:
+        r: 131
+        g: 188
+        b: 53
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: flattr
+      relativeUrl: products/f/flattr/logos/flattr.svg
+      width: 256
+      height: 257
+  icons:
+    - id: flattr
+      relativeUrl: products/f/flattr/icons/flattr.svg
+      width: 256
+      height: 257
+relationships:
+  productLabels:
+    micropayment:
+      id: micropayment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    donation:
+      id: donation
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

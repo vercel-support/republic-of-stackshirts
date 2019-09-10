@@ -1,0 +1,38 @@
+id: losant
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Losant
+  url: 'https://www.losant.com/'
+  colors:
+    - hex: '#fb4c5c'
+      rgb:
+        r: 251
+        g: 76
+        b: 92
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: losant
+      relativeUrl: products/l/losant/logos/losant.svg
+      width: 256
+      height: 146
+  icons:
+    - id: losant
+      relativeUrl: products/l/losant/icons/losant.svg
+      width: 256
+      height: 146
+relationships:
+  productLabels:
+    iot:
+      id: iot
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    hardware:
+      id: hardware
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

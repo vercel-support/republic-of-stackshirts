@@ -1,0 +1,33 @@
+id: hackerOne
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: HackerOne
+  url: 'https://hackerone.com/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: hackerOne
+      relativeUrl: products/h/hackerOne/logos/hackerOne.svg
+      width: 256
+      height: 478
+  icons:
+    - id: hackerOne
+      relativeUrl: products/h/hackerOne/icons/hackerOne.svg
+      width: 256
+      height: 478
+relationships:
+  productLabels:
+    bugBounty:
+      id: bugBounty
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

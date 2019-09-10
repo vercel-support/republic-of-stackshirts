@@ -1,0 +1,38 @@
+id: productboard
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: ProductBoard
+  url: 'https://www.productboard.com/'
+  colors:
+    - hex: '#35abdb'
+      rgb:
+        r: 53
+        g: 171
+        b: 219
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: productboard
+      relativeUrl: products/p/productboard/logos/productboard.svg
+      width: 256
+      height: 171
+  icons:
+    - id: productboard
+      relativeUrl: products/p/productboard/icons/productboard.svg
+      width: 256
+      height: 171
+relationships:
+  productLabels:
+    projectManager:
+      id: projectManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cdn:
+      id: cdn
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

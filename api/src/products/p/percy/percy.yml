@@ -1,0 +1,43 @@
+id: percy
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Percy
+  url: 'https://percy.io/'
+  colors:
+    - hex: '#b355b3'
+      rgb:
+        r: 179
+        g: 85
+        b: 179
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: percy
+      relativeUrl: products/p/percy/logos/percy.svg
+      width: 256
+      height: 162
+  icons:
+    - id: percy
+      relativeUrl: products/p/percy/icons/percy.svg
+      width: 256
+      height: 162
+relationships:
+  productLabels:
+    continuousIntegration:
+      id: continuousIntegration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    versionControl:
+      id: versionControl
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ui:
+      id: ui
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

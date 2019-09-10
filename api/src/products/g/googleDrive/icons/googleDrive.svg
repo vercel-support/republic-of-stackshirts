@@ -1,0 +1,5 @@
+<svg viewBox="0 0 256 222" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
+    <path d="M83.3 0h89L256 144.3h-89.2L83.3 0zM256 144.3l-44.6 77.1h-167l44.7-77.1H256z" fill="#fff"/>
+    <path d="M44.4 221.4L0 144.3 83.3 0 128 77.3 44.4 221.4z" fill="#fff"/>
+    <path d="M44.4 221.4l83.1-77.1H89.1l-44.7 77.1zM256 144.3h-89.1l-19.6-33.8L256 144.3zM83.3 0L109 110l19-32.7L83.3 0z" opacity=".1" fill="#fff"/>
+</svg>

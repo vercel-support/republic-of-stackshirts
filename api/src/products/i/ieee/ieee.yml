@@ -1,0 +1,33 @@
+id: ieee
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: IEEE
+  url: 'https://www.ieee.org/'
+  colors:
+    - hex: '#1c1c1c'
+      rgb:
+        r: 28
+        g: 28
+        b: 28
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: ieee
+      relativeUrl: products/i/ieee/logos/ieee.svg
+      width: 512
+      height: 150
+  icons:
+    - id: ieee
+      relativeUrl: products/i/ieee/icons/ieee.svg
+      width: 512
+      height: 150
+relationships:
+  productLabels:
+    association:
+      id: association
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

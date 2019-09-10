@@ -1,0 +1,43 @@
+id: knex
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Knex.js
+  url: 'http://knexjs.org/'
+  colors:
+    - hex: '#e46424'
+      rgb:
+        r: 228
+        g: 100
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: knex
+      relativeUrl: products/k/knex/logos/knex.svg
+      width: 256
+      height: 256
+  icons:
+    - id: knex
+      relativeUrl: products/k/knex/icons/knex.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    library:
+      id: library
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

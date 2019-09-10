@@ -1,0 +1,38 @@
+id: flarum
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Flarum
+  url: 'http://flarum.org/'
+  colors:
+    - hex: '#e3662b'
+      rgb:
+        r: 227
+        g: 102
+        b: 43
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: flarum
+      relativeUrl: products/f/flarum/logos/flarum.svg
+      width: 512
+      height: 116
+  icons:
+    - id: flarum
+      relativeUrl: products/f/flarum/icons/flarum.svg
+      width: 512
+      height: 116
+relationships:
+  productLabels:
+    forum:
+      id: forum
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    php:
+      id: php
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

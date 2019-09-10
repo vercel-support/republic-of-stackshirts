@@ -1,0 +1,33 @@
+id: logentries
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: logentries
+  url: 'https://logentries.com/'
+  colors:
+    - hex: '#f47324'
+      rgb:
+        r: 244
+        g: 115
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: logentries
+      relativeUrl: products/l/logentries/logos/logentries.svg
+      width: 256
+      height: 256
+  icons:
+    - id: logentries
+      relativeUrl: products/l/logentries/icons/logentries.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    logManager:
+      id: logManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,48 @@
+id: stetho
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Stetho
+  url: 'http://facebook.github.io/stetho/'
+  colors:
+    - hex: '#4cac53'
+      rgb:
+        r: 76
+        g: 172
+        b: 83
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: stetho
+      relativeUrl: products/s/stetho/logos/stetho.svg
+      width: 256
+      height: 256
+  icons:
+    - id: stetho
+      relativeUrl: products/s/stetho/icons/stetho.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    debug:
+      id: debug
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    android:
+      id: android
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    facebook:
+      id: facebook
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

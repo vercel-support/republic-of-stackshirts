@@ -1,0 +1,33 @@
+id: vim
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Vim
+  url: 'http://www.vim.org/'
+  colors:
+    - hex: '#c9cac9'
+      rgb:
+        r: 201
+        g: 202
+        b: 201
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: vim
+      relativeUrl: products/v/vim/logos/vim.svg
+      width: 256
+      height: 257
+  icons:
+    - id: vim
+      relativeUrl: products/v/vim/icons/vim.svg
+      width: 256
+      height: 257
+relationships:
+  productLabels:
+    codeEditor:
+      id: codeEditor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

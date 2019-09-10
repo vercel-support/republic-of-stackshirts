@@ -1,0 +1,38 @@
+id: rollbar
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Rollbar
+  url: 'https://rollbar.com/'
+  colors:
+    - hex: '#d2ba2a'
+      rgb:
+        r: 210
+        g: 186
+        b: 42
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: rollbar
+      relativeUrl: products/r/rollbar/logos/rollbar.svg
+      width: 256
+      height: 201
+  icons:
+    - id: rollbar
+      relativeUrl: products/r/rollbar/icons/rollbar.svg
+      width: 256
+      height: 201
+relationships:
+  productLabels:
+    exceptionTracker:
+      id: exceptionTracker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    monitoring:
+      id: monitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

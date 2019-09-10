@@ -1,0 +1,48 @@
+id: chef
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Chef
+  url: 'https://www.chef.io/'
+  colors:
+    - hex: '#445464'
+      rgb:
+        r: 68
+        g: 84
+        b: 100
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: chef
+      relativeUrl: products/c/chef/logos/chef.svg
+      width: 256
+      height: 274
+  icons:
+    - id: chef
+      relativeUrl: products/c/chef/icons/chef.svg
+      width: 256
+      height: 274
+relationships:
+  productLabels:
+    configurationManager:
+      id: configurationManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    codeDeployment:
+      id: codeDeployment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ruby:
+      id: ruby
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

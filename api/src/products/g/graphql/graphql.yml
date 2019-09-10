@@ -1,0 +1,33 @@
+id: graphql
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: GraphQL
+  url: 'http://graphql.org/'
+  colors:
+    - hex: '#e434ac'
+      rgb:
+        r: 228
+        g: 52
+        b: 172
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: graphql
+      relativeUrl: products/g/graphql/logos/graphql.svg
+      width: 256
+      height: 288
+  icons:
+    - id: graphql
+      relativeUrl: products/g/graphql/icons/graphql.svg
+      width: 256
+      height: 288
+relationships:
+  productLabels:
+    queryLanguage:
+      id: queryLanguage
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

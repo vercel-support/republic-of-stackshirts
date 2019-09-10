@@ -1,0 +1,48 @@
+id: yeoman
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Yeoman
+  url: 'http://yeoman.io/'
+  colors:
+    - hex: '#f0c682'
+      rgb:
+        r: 240
+        g: 198
+        b: 130
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: yeoman
+      relativeUrl: products/y/yeoman/logos/yeoman.svg
+      width: 256
+      height: 278
+  icons:
+    - id: yeoman
+      relativeUrl: products/y/yeoman/icons/yeoman.svg
+      width: 256
+      height: 278
+relationships:
+  productLabels:
+    boilerplate:
+      id: boilerplate
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    scaffolding:
+      id: scaffolding
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    generator:
+      id: generator
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

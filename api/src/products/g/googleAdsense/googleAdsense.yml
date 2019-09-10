@@ -1,0 +1,33 @@
+id: googleAdsense
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Google AdSense
+  url: 'http://www.google.com/adsense/'
+  colors:
+    - hex: '#f3b70e'
+      rgb:
+        r: 243
+        g: 183
+        b: 14
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: googleAdsense
+      relativeUrl: products/g/googleAdsense/logos/googleAdsense.svg
+      width: 256
+      height: 252
+  icons:
+    - id: googleAdsense
+      relativeUrl: products/g/googleAdsense/icons/googleAdsense.svg
+      width: 256
+      height: 252
+relationships:
+  productLabels:
+    ads:
+      id: ads
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

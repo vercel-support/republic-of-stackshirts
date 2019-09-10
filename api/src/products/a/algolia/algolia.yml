@@ -1,0 +1,33 @@
+id: algolia
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Algolia
+  url: 'https://www.algolia.com/'
+  colors:
+    - hex: '#44acdc'
+      rgb:
+        r: 68
+        g: 172
+        b: 220
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: algolia
+      relativeUrl: products/a/algolia/logos/algolia.svg
+      width: 512
+      height: 162
+  icons:
+    - id: algolia
+      relativeUrl: products/a/algolia/icons/algolia.svg
+      width: 512
+      height: 162
+relationships:
+  productLabels:
+    searchService:
+      id: searchService
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

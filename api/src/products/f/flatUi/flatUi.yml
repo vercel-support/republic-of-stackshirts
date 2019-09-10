@@ -1,0 +1,48 @@
+id: flatUi
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Flat UI
+  url: 'http://designmodo.github.io/Flat-UI/'
+  colors:
+    - hex: '#389bdb'
+      rgb:
+        r: 56
+        g: 155
+        b: 219
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: flatUi
+      relativeUrl: products/f/flatUi/logos/flatUi.svg
+      width: 256
+      height: 194
+  icons:
+    - id: flatUi
+      relativeUrl: products/f/flatUi/icons/flatUi.svg
+      width: 256
+      height: 194
+relationships:
+  productLabels:
+    frontEndFramework:
+      id: frontEndFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    css:
+      id: css
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    bootstrap:
+      id: bootstrap
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ui:
+      id: ui
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

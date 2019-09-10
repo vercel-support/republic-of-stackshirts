@@ -1,0 +1,41 @@
+id: vimeo
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Vimeo
+  url: 'https://vimeo.com/'
+  colors:
+    - hex: '#1cb4ec'
+      rgb:
+        r: 28
+        g: 180
+        b: 236
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: vimeoShort
+      relativeUrl: products/v/vimeo/logos/vimeoShort.svg
+      width: 256
+      height: 223
+    - id: vimeo
+      relativeUrl: products/v/vimeo/logos/vimeo.svg
+      width: 512
+      height: 146
+  icons:
+    - id: vimeoShort
+      relativeUrl: products/v/vimeo/icons/vimeoShort.svg
+      width: 256
+      height: 223
+    - id: vimeo
+      relativeUrl: products/v/vimeo/icons/vimeo.svg
+      width: 512
+      height: 146
+relationships:
+  productLabels:
+    videoSharing:
+      id: videoSharing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

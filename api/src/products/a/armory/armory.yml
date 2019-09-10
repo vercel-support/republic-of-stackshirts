@@ -1,0 +1,33 @@
+id: armory
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Armory
+  url: 'http://www.armory.io/'
+  colors:
+    - hex: '#5bc5df'
+      rgb:
+        r: 91
+        g: 197
+        b: 223
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: armory
+      relativeUrl: products/a/armory/logos/armory.svg
+      width: 256
+      height: 308
+  icons:
+    - id: armory
+      relativeUrl: products/a/armory/icons/armory.svg
+      width: 256
+      height: 308
+relationships:
+  productLabels:
+    continuousDeployment:
+      id: continuousDeployment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

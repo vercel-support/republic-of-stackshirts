@@ -1,0 +1,33 @@
+id: cobalt
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Cobalt
+  url: 'https://cobalt.io/'
+  colors:
+    - hex: '#248cd4'
+      rgb:
+        r: 36
+        g: 140
+        b: 212
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: cobalt
+      relativeUrl: products/c/cobalt/logos/cobalt.svg
+      width: 256
+      height: 294
+  icons:
+    - id: cobalt
+      relativeUrl: products/c/cobalt/icons/cobalt.svg
+      width: 256
+      height: 294
+relationships:
+  productLabels:
+    bugBounty:
+      id: bugBounty
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

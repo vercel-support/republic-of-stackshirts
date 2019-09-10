@@ -1,0 +1,38 @@
+id: protonet
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Protonet
+  url: 'https://protonet.info'
+  colors:
+    - hex: '#e45c2c'
+      rgb:
+        r: 228
+        g: 92
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: protonet
+      relativeUrl: products/p/protonet/logos/protonet.svg
+      width: 512
+      height: 120
+  icons:
+    - id: protonet
+      relativeUrl: products/p/protonet/icons/protonet.svg
+      width: 512
+      height: 120
+relationships:
+  productLabels:
+    projectManager:
+      id: projectManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    hardware:
+      id: hardware
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: dropmark
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: dropmark
+  url: 'http://www.dropmark.com/'
+  colors:
+    - hex: '#3bdcdc'
+      rgb:
+        r: 59
+        g: 220
+        b: 220
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: dropmark
+      relativeUrl: products/d/dropmark/logos/dropmark.svg
+      width: 256
+      height: 348
+  icons:
+    - id: dropmark
+      relativeUrl: products/d/dropmark/icons/dropmark.svg
+      width: 256
+      height: 348
+relationships:
+  productLabels:
+    cloudStorage:
+      id: cloudStorage
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    teamCollaboration:
+      id: teamCollaboration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

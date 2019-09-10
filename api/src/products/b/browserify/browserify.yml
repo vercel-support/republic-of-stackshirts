@@ -1,0 +1,56 @@
+id: browserify
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Browserify
+  url: 'http://browserify.org/'
+  colors:
+    - hex: '#e4b45c'
+      rgb:
+        r: 228
+        g: 180
+        b: 92
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: browserifyShort
+      relativeUrl: products/b/browserify/logos/browserifyShort.svg
+      width: 256
+      height: 216
+    - id: browserify
+      relativeUrl: products/b/browserify/logos/browserify.svg
+      width: 512
+      height: 152
+  icons:
+    - id: browserifyShort
+      relativeUrl: products/b/browserify/icons/browserifyShort.svg
+      width: 256
+      height: 216
+    - id: browserify
+      relativeUrl: products/b/browserify/icons/browserify.svg
+      width: 512
+      height: 152
+relationships:
+  productLabels:
+    frontEnd:
+      id: frontEnd
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    moduleBundler:
+      id: moduleBundler
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

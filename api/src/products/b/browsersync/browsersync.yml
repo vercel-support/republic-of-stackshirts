@@ -1,0 +1,33 @@
+id: browsersync
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Browsersync
+  url: 'http://www.browsersync.io/'
+  colors:
+    - hex: '#f44444'
+      rgb:
+        r: 244
+        g: 68
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: browsersync
+      relativeUrl: products/b/browsersync/logos/browsersync.svg
+      width: 256
+      height: 387
+  icons:
+    - id: browsersync
+      relativeUrl: products/b/browsersync/icons/browsersync.svg
+      width: 256
+      height: 387
+relationships:
+  productLabels:
+    liveReloading:
+      id: liveReloading
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

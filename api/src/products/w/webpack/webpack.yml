@@ -1,0 +1,43 @@
+id: webpack
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: webpack
+  url: 'http://webpack.github.io/'
+  colors:
+    - hex: '#b2c9ef'
+      rgb:
+        r: 178
+        g: 201
+        b: 239
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: webpack
+      relativeUrl: products/w/webpack/logos/webpack.svg
+      width: 256
+      height: 296
+  icons:
+    - id: webpack
+      relativeUrl: products/w/webpack/icons/webpack.svg
+      width: 256
+      height: 296
+relationships:
+  productLabels:
+    buildTool:
+      id: buildTool
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

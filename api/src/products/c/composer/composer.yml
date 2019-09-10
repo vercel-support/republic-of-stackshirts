@@ -1,0 +1,38 @@
+id: composer
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Composer
+  url: 'https://getcomposer.org/'
+  colors:
+    - hex: '#f2e2cb'
+      rgb:
+        r: 242
+        g: 226
+        b: 203
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: composer
+      relativeUrl: products/c/composer/logos/composer.svg
+      width: 256
+      height: 339
+  icons:
+    - id: composer
+      relativeUrl: products/c/composer/icons/composer.svg
+      width: 256
+      height: 339
+relationships:
+  productLabels:
+    packageManager:
+      id: packageManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    php:
+      id: php
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

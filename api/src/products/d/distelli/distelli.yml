@@ -1,0 +1,33 @@
+id: distelli
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: distelli
+  url: 'http://distelli.com/'
+  colors:
+    - hex: '#3c94d4'
+      rgb:
+        r: 60
+        g: 148
+        b: 212
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: distelli
+      relativeUrl: products/d/distelli/logos/distelli.svg
+      width: 256
+      height: 236
+  icons:
+    - id: distelli
+      relativeUrl: products/d/distelli/icons/distelli.svg
+      width: 256
+      height: 236
+relationships:
+  productLabels:
+    codeDeployment:
+      id: codeDeployment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

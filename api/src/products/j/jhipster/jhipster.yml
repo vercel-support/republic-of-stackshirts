@@ -1,0 +1,53 @@
+id: jhipster
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Jhipster
+  url: 'https://jhipster.github.io/'
+  colors:
+    - hex: '#466889'
+      rgb:
+        r: 70
+        g: 104
+        b: 137
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: jhipster
+      relativeUrl: products/j/jhipster/logos/jhipster.svg
+      width: 256
+      height: 325
+  icons:
+    - id: jhipster
+      relativeUrl: products/j/jhipster/icons/jhipster.svg
+      width: 256
+      height: 325
+relationships:
+  productLabels:
+    yeoman:
+      id: yeoman
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    generator:
+      id: generator
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    java:
+      id: java
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    spring:
+      id: spring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    angular:
+      id: angular
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

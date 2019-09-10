@@ -1,0 +1,53 @@
+id: pepperoni
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Pepperoni
+  url: 'http://getpepperoni.com/'
+  colors:
+    - hex: '#fbd404'
+      rgb:
+        r: 251
+        g: 212
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: pepperoni
+      relativeUrl: products/p/pepperoni/logos/pepperoni.svg
+      width: 256
+      height: 245
+  icons:
+    - id: pepperoni
+      relativeUrl: products/p/pepperoni/icons/pepperoni.svg
+      width: 256
+      height: 245
+relationships:
+  productLabels:
+    reactNative:
+      id: reactNative
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    boilerplate:
+      id: boilerplate
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    scaffolding:
+      id: scaffolding
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

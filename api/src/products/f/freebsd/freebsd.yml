@@ -1,0 +1,38 @@
+id: freebsd
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: FreeBSD
+  url: 'https://www.freebsd.org/'
+  colors:
+    - hex: '#b4040c'
+      rgb:
+        r: 180
+        g: 4
+        b: 12
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: freebsd
+      relativeUrl: products/f/freebsd/logos/freebsd.svg
+      width: 256
+      height: 252
+  icons:
+    - id: freebsd
+      relativeUrl: products/f/freebsd/icons/freebsd.svg
+      width: 256
+      height: 252
+relationships:
+  productLabels:
+    operationalSystem:
+      id: operationalSystem
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    linux:
+      id: linux
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

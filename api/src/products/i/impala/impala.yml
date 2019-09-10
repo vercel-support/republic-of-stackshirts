@@ -1,0 +1,43 @@
+id: impala
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Impala
+  url: 'http://impala.io/'
+  colors:
+    - hex: '#2c6494'
+      rgb:
+        r: 44
+        g: 100
+        b: 148
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: impala
+      relativeUrl: products/i/impala/logos/impala.svg
+      width: 256
+      height: 613
+  icons:
+    - id: impala
+      relativeUrl: products/i/impala/icons/impala.svg
+      width: 256
+      height: 613
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    bigData:
+      id: bigData
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    hadoop:
+      id: hadoop
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

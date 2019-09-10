@@ -1,0 +1,38 @@
+id: saltstack
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: SaltStack
+  url: 'http://saltstack.com/'
+  colors:
+    - hex: '#74bcd4'
+      rgb:
+        r: 116
+        g: 188
+        b: 212
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: saltstack
+      relativeUrl: products/s/saltstack/logos/saltstack.svg
+      width: 256
+      height: 233
+  icons:
+    - id: saltstack
+      relativeUrl: products/s/saltstack/icons/saltstack.svg
+      width: 256
+      height: 233
+relationships:
+  productLabels:
+    configurationManager:
+      id: configurationManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    python:
+      id: python
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

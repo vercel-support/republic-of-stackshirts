@@ -1,0 +1,38 @@
+id: tomcat
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Apache Tomcat
+  url: 'http://tomcat.apache.org/'
+  colors:
+    - hex: '#e4bc43'
+      rgb:
+        r: 228
+        g: 188
+        b: 67
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: tomcat
+      relativeUrl: products/t/tomcat/logos/tomcat.svg
+      width: 256
+      height: 182
+  icons:
+    - id: tomcat
+      relativeUrl: products/t/tomcat/icons/tomcat.svg
+      width: 256
+      height: 182
+relationships:
+  productLabels:
+    webServer:
+      id: webServer
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    java:
+      id: java
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

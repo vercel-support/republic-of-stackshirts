@@ -1,0 +1,43 @@
+id: gordon
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Gordon
+  url: 'https://github.com/jorgebastida/gordon'
+  colors:
+    - hex: '#3c444c'
+      rgb:
+        r: 60
+        g: 68
+        b: 76
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: gordon
+      relativeUrl: products/g/gordon/logos/gordon.svg
+      width: 256
+      height: 256
+  icons:
+    - id: gordon
+      relativeUrl: products/g/gordon/icons/gordon.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    developmentToolkit:
+      id: developmentToolkit
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    lambda:
+      id: lambda
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    aws:
+      id: aws
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

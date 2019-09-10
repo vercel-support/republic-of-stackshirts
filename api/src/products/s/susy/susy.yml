@@ -1,0 +1,48 @@
+id: susy
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Susy
+  url: 'http://susy.oddbird.net/'
+  colors:
+    - hex: '#fc0484'
+      rgb:
+        r: 252
+        g: 4
+        b: 132
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: susy
+      relativeUrl: products/s/susy/logos/susy.svg
+      width: 256
+      height: 228
+  icons:
+    - id: susy
+      relativeUrl: products/s/susy/icons/susy.svg
+      width: 256
+      height: 228
+relationships:
+  productLabels:
+    frontEndFramework:
+      id: frontEndFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    sass:
+      id: sass
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    grid:
+      id: grid
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ui:
+      id: ui
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: restLi
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: rest.li
+  url: 'https://github.com/linkedin/rest.li'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: restLi
+      relativeUrl: products/r/restLi/logos/restLi.svg
+      width: 512
+      height: 224
+  icons:
+    - id: restLi
+      relativeUrl: products/r/restLi/icons/restLi.svg
+      width: 512
+      height: 224
+relationships:
+  productLabels:
+    restFramework:
+      id: restFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    apiTools:
+      id: apiTools
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    java:
+      id: java
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

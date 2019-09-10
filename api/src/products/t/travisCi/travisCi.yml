@@ -1,0 +1,33 @@
+id: travisCi
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Travis CI
+  url: 'https://travis-ci.org/'
+  colors:
+    - hex: '#100f0e'
+      rgb:
+        r: 16
+        g: 15
+        b: 14
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: travisCi
+      relativeUrl: products/t/travisCi/logos/travisCi.svg
+      width: 256
+      height: 254
+  icons:
+    - id: travisCi
+      relativeUrl: products/t/travisCi/icons/travisCi.svg
+      width: 256
+      height: 254
+relationships:
+  productLabels:
+    continuousIntegration:
+      id: continuousIntegration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: cssnext
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: cssnext
+  url: 'http://cssnext.io/'
+  colors:
+    - hex: '#5379bc'
+      rgb:
+        r: 83
+        g: 121
+        b: 188
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: cssnext
+      relativeUrl: products/c/cssnext/logos/cssnext.svg
+      width: 256
+      height: 311
+  icons:
+    - id: cssnext
+      relativeUrl: products/c/cssnext/icons/cssnext.svg
+      width: 256
+      height: 311
+relationships:
+  productLabels:
+    css:
+      id: css
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    polyfill:
+      id: polyfill
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    transformer:
+      id: transformer
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

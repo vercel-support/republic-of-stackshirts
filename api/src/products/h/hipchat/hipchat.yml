@@ -1,0 +1,38 @@
+id: hipchat
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: HipChat
+  url: 'https://www.hipchat.com/'
+  colors:
+    - hex: '#244c74'
+      rgb:
+        r: 36
+        g: 76
+        b: 116
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: hipchat
+      relativeUrl: products/h/hipchat/logos/hipchat.svg
+      width: 256
+      height: 239
+  icons:
+    - id: hipchat
+      relativeUrl: products/h/hipchat/icons/hipchat.svg
+      width: 256
+      height: 239
+relationships:
+  productLabels:
+    groupChat:
+      id: groupChat
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    teamCollaboration:
+      id: teamCollaboration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

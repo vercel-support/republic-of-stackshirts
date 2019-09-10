@@ -1,0 +1,43 @@
+id: redux
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Redux
+  url: 'http://redux.js.org/'
+  colors:
+    - hex: '#744cbc'
+      rgb:
+        r: 116
+        g: 76
+        b: 188
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: redux
+      relativeUrl: products/r/redux/logos/redux.svg
+      width: 256
+      height: 244
+  icons:
+    - id: redux
+      relativeUrl: products/r/redux/icons/redux.svg
+      width: 256
+      height: 244
+relationships:
+  productLabels:
+    stateContainer:
+      id: stateContainer
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    react:
+      id: react
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

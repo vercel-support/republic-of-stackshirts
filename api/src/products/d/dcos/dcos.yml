@@ -1,0 +1,38 @@
+id: dcos
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: DC/OS
+  url: 'https://dcos.io/'
+  colors:
+    - hex: '#8A52D5'
+      rgb:
+        r: 138
+        g: 82
+        b: 213
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: dcos
+      relativeUrl: products/d/dcos/logos/dcos.svg
+      width: 256
+      height: 320
+  icons:
+    - id: dcos
+      relativeUrl: products/d/dcos/icons/dcos.svg
+      width: 256
+      height: 320
+relationships:
+  productLabels:
+    distributedComputing:
+      id: distributedComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    serverManagement:
+      id: serverManagement
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

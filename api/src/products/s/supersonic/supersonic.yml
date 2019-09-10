@@ -1,0 +1,43 @@
+id: supersonic
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Supersonic
+  url: 'http://www.appgyver.com/supersonic'
+  colors:
+    - hex: '#343c4c'
+      rgb:
+        r: 52
+        g: 60
+        b: 76
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: supersonic
+      relativeUrl: products/s/supersonic/logos/supersonic.svg
+      width: 256
+      height: 318
+  icons:
+    - id: supersonic
+      relativeUrl: products/s/supersonic/icons/supersonic.svg
+      width: 256
+      height: 318
+relationships:
+  productLabels:
+    uiFramework:
+      id: uiFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    angular:
+      id: angular
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

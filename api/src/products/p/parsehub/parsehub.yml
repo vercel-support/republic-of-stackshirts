@@ -1,0 +1,33 @@
+id: parsehub
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: parsehub
+  url: 'https://www.parsehub.com/'
+  colors:
+    - hex: '#24bcd4'
+      rgb:
+        r: 36
+        g: 188
+        b: 212
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: parsehub
+      relativeUrl: products/p/parsehub/logos/parsehub.svg
+      width: 256
+      height: 256
+  icons:
+    - id: parsehub
+      relativeUrl: products/p/parsehub/icons/parsehub.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    dataScraping:
+      id: dataScraping
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

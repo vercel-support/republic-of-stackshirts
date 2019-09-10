@@ -1,0 +1,38 @@
+id: gaugeio
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Gauge
+  url: 'http://getgauge.io/'
+  colors:
+    - hex: '#141414'
+      rgb:
+        r: 20
+        g: 20
+        b: 20
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: gaugeio
+      relativeUrl: products/g/gaugeio/logos/gaugeio.svg
+      width: 256
+      height: 248
+  icons:
+    - id: gaugeio
+      relativeUrl: products/g/gaugeio/icons/gaugeio.svg
+      width: 256
+      height: 248
+relationships:
+  productLabels:
+    mobileTestAutomation:
+      id: mobileTestAutomation
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

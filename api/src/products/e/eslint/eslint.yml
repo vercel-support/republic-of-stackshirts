@@ -1,0 +1,43 @@
+id: eslint
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: ESLint
+  url: 'http://eslint.org/'
+  colors:
+    - hex: '#8484f4'
+      rgb:
+        r: 132
+        g: 132
+        b: 244
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: eslint
+      relativeUrl: products/e/eslint/logos/eslint.svg
+      width: 256
+      height: 225
+  icons:
+    - id: eslint
+      relativeUrl: products/e/eslint/icons/eslint.svg
+      width: 256
+      height: 225
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    linter:
+      id: linter
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

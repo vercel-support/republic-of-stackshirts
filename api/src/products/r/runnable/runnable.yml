@@ -1,0 +1,33 @@
+id: runnable
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Runnable
+  url: 'https://runnable.io/'
+  colors:
+    - hex: '#ccacd4'
+      rgb:
+        r: 204
+        g: 172
+        b: 212
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: runnable
+      relativeUrl: products/r/runnable/logos/runnable.svg
+      width: 256
+      height: 217
+  icons:
+    - id: runnable
+      relativeUrl: products/r/runnable/icons/runnable.svg
+      width: 256
+      height: 217
+relationships:
+  productLabels:
+    sandboxEnvironment:
+      id: sandboxEnvironment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

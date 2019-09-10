@@ -1,0 +1,33 @@
+id: coveralls
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Coveralls
+  url: 'https://coveralls.io/'
+  colors:
+    - hex: '#d7dfdf'
+      rgb:
+        r: 215
+        g: 223
+        b: 223
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: coveralls
+      relativeUrl: products/c/coveralls/logos/coveralls.svg
+      width: 512
+      height: 89
+  icons:
+    - id: coveralls
+      relativeUrl: products/c/coveralls/icons/coveralls.svg
+      width: 512
+      height: 89
+relationships:
+  productLabels:
+    codeCoverage:
+      id: codeCoverage
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,48 @@
+id: componentkit
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: ComponentKit
+  url: 'http://componentkit.org/'
+  colors:
+    - hex: '#23c1da'
+      rgb:
+        r: 35
+        g: 193
+        b: 218
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: componentkit
+      relativeUrl: products/c/componentkit/logos/componentkit.svg
+      width: 256
+      height: 256
+  icons:
+    - id: componentkit
+      relativeUrl: products/c/componentkit/icons/componentkit.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    mobileFramework:
+      id: mobileFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ios:
+      id: ios
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    facebook:
+      id: facebook
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: redspread
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Redspread
+  url: 'https://redspread.com/'
+  colors:
+    - hex: '#fc341c'
+      rgb:
+        r: 252
+        g: 52
+        b: 28
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: redspread
+      relativeUrl: products/r/redspread/logos/redspread.svg
+      width: 512
+      height: 187
+  icons:
+    - id: redspread
+      relativeUrl: products/r/redspread/icons/redspread.svg
+      width: 512
+      height: 187
+relationships:
+  productLabels:
+    containers:
+      id: containers
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    docker:
+      id: docker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    kubbernets:
+      id: kubbernets
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

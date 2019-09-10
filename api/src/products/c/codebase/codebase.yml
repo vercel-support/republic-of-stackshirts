@@ -1,0 +1,53 @@
+id: codebase
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Codebase
+  url: 'https://www.codebasehq.com/'
+  colors:
+    - hex: '#1c6cb4'
+      rgb:
+        r: 28
+        g: 108
+        b: 180
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: codebase
+      relativeUrl: products/c/codebase/logos/codebase.svg
+      width: 512
+      height: 93
+  icons:
+    - id: codebase
+      relativeUrl: products/c/codebase/icons/codebase.svg
+      width: 512
+      height: 93
+relationships:
+  productLabels:
+    git:
+      id: git
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mercurial:
+      id: mercurial
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    subversion:
+      id: subversion
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    codeManager:
+      id: codeManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    issueTracker:
+      id: issueTracker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

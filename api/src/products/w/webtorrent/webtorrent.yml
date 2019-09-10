@@ -1,0 +1,48 @@
+id: webtorrent
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: WebTorrent
+  url: 'https://webtorrent.io/'
+  colors:
+    - hex: '#303840'
+      rgb:
+        r: 48
+        g: 56
+        b: 64
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: webtorrent
+      relativeUrl: products/w/webtorrent/logos/webtorrent.svg
+      width: 256
+      height: 295
+  icons:
+    - id: webtorrent
+      relativeUrl: products/w/webtorrent/icons/webtorrent.svg
+      width: 256
+      height: 295
+relationships:
+  productLabels:
+    p2P:
+      id: p2P
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    torrent:
+      id: torrent
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    streaming:
+      id: streaming
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    desktopApp:
+      id: desktopApp
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

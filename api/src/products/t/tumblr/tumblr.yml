@@ -1,0 +1,51 @@
+id: tumblr
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: tumblr
+  url: 'https://tumblr.com/'
+  colors:
+    - hex: '#343c4c'
+      rgb:
+        r: 52
+        g: 60
+        b: 76
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: tumblrShort
+      relativeUrl: products/t/tumblr/logos/tumblrShort.svg
+      width: 256
+      height: 446
+    - id: tumblr
+      relativeUrl: products/t/tumblr/logos/tumblr.svg
+      width: 512
+      height: 108
+  icons:
+    - id: tumblrShort
+      relativeUrl: products/t/tumblr/icons/tumblrShort.svg
+      width: 256
+      height: 446
+    - id: tumblr
+      relativeUrl: products/t/tumblr/icons/tumblr.svg
+      width: 512
+      height: 108
+relationships:
+  productLabels:
+    imageSharing:
+      id: imageSharing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    microblog:
+      id: microblog
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    socialNetwork:
+      id: socialNetwork
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

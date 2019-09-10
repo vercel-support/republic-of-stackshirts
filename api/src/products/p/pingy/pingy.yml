@@ -1,0 +1,38 @@
+id: pingy
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Pingy
+  url: 'https://pin.gy/'
+  colors:
+    - hex: '#ffffff'
+      rgb:
+        r: 255
+        g: 255
+        b: 255
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: pingy
+      relativeUrl: products/p/pingy/logos/pingy.svg
+      width: 256
+      height: 383
+  icons:
+    - id: pingy
+      relativeUrl: products/p/pingy/icons/pingy.svg
+      width: 256
+      height: 383
+relationships:
+  productLabels:
+    buildTool:
+      id: buildTool
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: sourcetree
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: SourceTree
+  url: 'https://www.sourcetreeapp.com/'
+  colors:
+    - hex: '#244c74'
+      rgb:
+        r: 36
+        g: 76
+        b: 116
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: sourcetree
+      relativeUrl: products/s/sourcetree/logos/sourcetree.svg
+      width: 256
+      height: 256
+  icons:
+    - id: sourcetree
+      relativeUrl: products/s/sourcetree/icons/sourcetree.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    git:
+      id: git
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mercurial:
+      id: mercurial
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    desktopApp:
+      id: desktopApp
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

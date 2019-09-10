@@ -1,0 +1,43 @@
+id: campfire
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Campfire
+  url: 'https://campfirenow.com/'
+  colors:
+    - hex: '#ace0e8'
+      rgb:
+        r: 172
+        g: 224
+        b: 232
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: campfire
+      relativeUrl: products/c/campfire/logos/campfire.svg
+      width: 256
+      height: 214
+  icons:
+    - id: campfire
+      relativeUrl: products/c/campfire/icons/campfire.svg
+      width: 256
+      height: 214
+relationships:
+  productLabels:
+    projectManager:
+      id: projectManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    groupChat:
+      id: groupChat
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    teamCollaboration:
+      id: teamCollaboration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

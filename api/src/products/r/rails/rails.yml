@@ -1,0 +1,38 @@
+id: rails
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Rails
+  url: 'http://rubyonrails.org/'
+  colors:
+    - hex: '#8d2a34'
+      rgb:
+        r: 141
+        g: 42
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: rails
+      relativeUrl: products/r/rails/logos/rails.svg
+      width: 256
+      height: 330
+  icons:
+    - id: rails
+      relativeUrl: products/r/rails/icons/rails.svg
+      width: 256
+      height: 330
+relationships:
+  productLabels:
+    fullStackFramework:
+      id: fullStackFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ruby:
+      id: ruby
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

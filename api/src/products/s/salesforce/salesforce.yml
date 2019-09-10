@@ -1,0 +1,33 @@
+id: salesforce
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Salesforce
+  url: 'http://www.salesforce.com/'
+  colors:
+    - hex: '#04a4e3'
+      rgb:
+        r: 4
+        g: 164
+        b: 227
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: salesforce
+      relativeUrl: products/s/salesforce/logos/salesforce.svg
+      width: 256
+      height: 180
+  icons:
+    - id: salesforce
+      relativeUrl: products/s/salesforce/icons/salesforce.svg
+      width: 256
+      height: 180
+relationships:
+  productLabels:
+    crm:
+      id: crm
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

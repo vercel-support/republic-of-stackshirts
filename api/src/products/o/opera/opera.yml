@@ -1,0 +1,33 @@
+id: opera
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Opera
+  url: 'http://www.opera.com/'
+  colors:
+    - hex: '#e91a28'
+      rgb:
+        r: 233
+        g: 26
+        b: 40
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: opera
+      relativeUrl: products/o/opera/logos/opera.svg
+      width: 256
+      height: 256
+  icons:
+    - id: opera
+      relativeUrl: products/o/opera/icons/opera.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    browser:
+      id: browser
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

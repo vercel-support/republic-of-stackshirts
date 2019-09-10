@@ -1,0 +1,33 @@
+id: drone
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Drone
+  url: 'https://drone.io/'
+  colors:
+    - hex: '#24242c'
+      rgb:
+        r: 36
+        g: 36
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: drone
+      relativeUrl: products/d/drone/logos/drone.svg
+      width: 256
+      height: 218
+  icons:
+    - id: drone
+      relativeUrl: products/d/drone/icons/drone.svg
+      width: 256
+      height: 218
+relationships:
+  productLabels:
+    continuousIntegration:
+      id: continuousIntegration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

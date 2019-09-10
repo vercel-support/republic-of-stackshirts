@@ -1,0 +1,38 @@
+id: linkerd
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: linkerd
+  url: 'https://linkerd.io/'
+  colors:
+    - hex: '#45b1b3'
+      rgb:
+        r: 69
+        g: 177
+        b: 179
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: linkerd
+      relativeUrl: products/l/linkerd/logos/linkerd.svg
+      width: 256
+      height: 239
+  icons:
+    - id: linkerd
+      relativeUrl: products/l/linkerd/icons/linkerd.svg
+      width: 256
+      height: 239
+relationships:
+  productLabels:
+    microservices:
+      id: microservices
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    rpc:
+      id: rpc
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

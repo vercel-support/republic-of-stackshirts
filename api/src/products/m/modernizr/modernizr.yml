@@ -1,0 +1,43 @@
+id: modernizr
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Modernizr
+  url: 'http://modernizr.com/'
+  colors:
+    - hex: '#dc1c74'
+      rgb:
+        r: 220
+        g: 28
+        b: 116
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: modernizr
+      relativeUrl: products/m/modernizr/logos/modernizr.svg
+      width: 256
+      height: 123
+  icons:
+    - id: modernizr
+      relativeUrl: products/m/modernizr/icons/modernizr.svg
+      width: 256
+      height: 123
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    library:
+      id: library
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    featureDetection:
+      id: featureDetection
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

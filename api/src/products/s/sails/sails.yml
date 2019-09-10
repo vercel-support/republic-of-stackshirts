@@ -1,0 +1,43 @@
+id: sails
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Sails
+  url: 'http://sailsjs.org/'
+  colors:
+    - hex: '#2ca4b4'
+      rgb:
+        r: 44
+        g: 164
+        b: 180
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: sails
+      relativeUrl: products/s/sails/logos/sails.svg
+      width: 256
+      height: 256
+  icons:
+    - id: sails
+      relativeUrl: products/s/sails/icons/sails.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    webAppFramework:
+      id: webAppFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    microframework:
+      id: microframework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

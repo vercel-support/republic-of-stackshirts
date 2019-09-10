@@ -1,0 +1,43 @@
+id: lumen
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Lumen
+  url: 'http://lumen.laravel.com/'
+  colors:
+    - hex: '#e44434'
+      rgb:
+        r: 228
+        g: 68
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: lumen
+      relativeUrl: products/l/lumen/logos/lumen.svg
+      width: 256
+      height: 515
+  icons:
+    - id: lumen
+      relativeUrl: products/l/lumen/icons/lumen.svg
+      width: 256
+      height: 515
+relationships:
+  productLabels:
+    apiFramework:
+      id: apiFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    microframework:
+      id: microframework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    php:
+      id: php
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: envato
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Envato
+  url: 'http://www.envato.com/'
+  colors:
+    - hex: '#84b444'
+      rgb:
+        r: 132
+        g: 180
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: envato
+      relativeUrl: products/e/envato/logos/envato.svg
+      width: 512
+      height: 97
+  icons:
+    - id: envato
+      relativeUrl: products/e/envato/icons/envato.svg
+      width: 512
+      height: 97
+relationships:
+  productLabels:
+    marketplace:
+      id: marketplace
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

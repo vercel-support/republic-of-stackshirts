@@ -1,0 +1,38 @@
+id: certbot
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Certbot
+  url: 'https://certbot.eff.org/'
+  colors:
+    - hex: '#000000'
+      rgb:
+        r: 0
+        g: 0
+        b: 0
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: certbot
+      relativeUrl: products/c/certbot/logos/certbot.svg
+      width: 512
+      height: 176
+  icons:
+    - id: certbot
+      relativeUrl: products/c/certbot/icons/certbot.svg
+      width: 512
+      height: 176
+relationships:
+  productLabels:
+    webServer:
+      id: webServer
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    security:
+      id: security
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: rsa
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: RSA
+  url: 'http://www.emc.com/domains/rsa/index.htm'
+  colors:
+    - hex: '#dc242c'
+      rgb:
+        r: 220
+        g: 36
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: rsa
+      relativeUrl: products/r/rsa/logos/rsa.svg
+      width: 256
+      height: 129
+  icons:
+    - id: rsa
+      relativeUrl: products/r/rsa/icons/rsa.svg
+      width: 256
+      height: 129
+relationships:
+  productLabels:
+    authentication:
+      id: authentication
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    security:
+      id: security
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

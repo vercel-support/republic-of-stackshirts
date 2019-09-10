@@ -1,0 +1,33 @@
+id: pushbullet
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Pushbullet
+  url: 'https://www.pushbullet.com/'
+  colors:
+    - hex: '#59b576'
+      rgb:
+        r: 89
+        g: 181
+        b: 118
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: pushbullet
+      relativeUrl: products/p/pushbullet/logos/pushbullet.svg
+      width: 256
+      height: 256
+  icons:
+    - id: pushbullet
+      relativeUrl: products/p/pushbullet/icons/pushbullet.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    deviceIntegration:
+      id: deviceIntegration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

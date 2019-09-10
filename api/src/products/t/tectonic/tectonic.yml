@@ -1,0 +1,48 @@
+id: tectonic
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Tecnotic
+  url: 'https://tectonic.com/'
+  colors:
+    - hex: '#6bc38b'
+      rgb:
+        r: 107
+        g: 195
+        b: 139
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: tectonic
+      relativeUrl: products/t/tectonic/logos/tectonic.svg
+      width: 256
+      height: 278
+  icons:
+    - id: tectonic
+      relativeUrl: products/t/tectonic/icons/tectonic.svg
+      width: 256
+      height: 278
+relationships:
+  productLabels:
+    containers:
+      id: containers
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    coreos:
+      id: coreos
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    kubernetes:
+      id: kubernetes
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    caas:
+      id: caas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

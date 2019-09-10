@@ -1,0 +1,43 @@
+id: reactivex
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: ReactiveX
+  url: 'http://reactivex.io/'
+  colors:
+    - hex: '#ef0491'
+      rgb:
+        r: 239
+        g: 4
+        b: 145
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: reactivex
+      relativeUrl: products/r/reactivex/logos/reactivex.svg
+      width: 256
+      height: 247
+  icons:
+    - id: reactivex
+      relativeUrl: products/r/reactivex/icons/reactivex.svg
+      width: 256
+      height: 247
+relationships:
+  productLabels:
+    architecture:
+      id: architecture
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    observer:
+      id: observer
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    pattern:
+      id: pattern
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

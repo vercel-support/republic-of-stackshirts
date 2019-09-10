@@ -1,0 +1,50 @@
+{
+  "name": "@republic-of-stackshirts/api",
+  "version": "1.1.7",
+  "private": false,
+  "description": "The api for public resources used on stackshirts.com",
+  "author": "Morgan Intrator",
+  "scripts": {
+    "test": "jest test",
+    "build": "babel-node scripts/build",
+    "upload:staging": "NODE_PATH=../ node scripts/upload",
+    "upload:production": "NODE_PATH=../ NODE_ENV=production node scripts/upload"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.6.1",
+    "@babel/preset-env": "^7.4.3",
+    "@lerna/child-process": "^3.13.3",
+    "@stackshirts/firebase": "^1.18.2",
+    "@stackshirts/sdk": "^1.17.2",
+    "algoliasearch": "^3.32.1",
+    "babel-jest": "^24.9.0",
+    "babel-plugin-convert-to-json": "^0.1.0",
+    "babel-plugin-dynamic-import-node": "^2.3.0",
+    "bluebird": "^3.5.3",
+    "dotenv": "^7.0.0",
+    "fs-extra": "^8.1.0",
+    "glob": "^7.1.4",
+    "gulp": "^4.0.0",
+    "gulp-manifest-replace": "^1.0.1-rc.1",
+    "gulp-rev": "^9.0.0",
+    "gulp-rev-rewrite": "^1.1.4",
+    "immutability-helper": "^3.0.0",
+    "js-yaml": "^3.13.1",
+    "lerna": "^3.13.1",
+    "lodash": "^4.17.11",
+    "mkdirp": "^0.5.1",
+    "mri": "^1.1.4",
+    "npmlog": "^4.1.2",
+    "p-queue": "^4.0.0",
+    "path-to-regexp": "^3.0.0",
+    "react-scripts": "^3.0.1",
+    "through2": "^3.0.1"
+  }
+}

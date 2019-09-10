@@ -1,0 +1,43 @@
+id: bitbucket
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Bitbucket
+  url: 'https://bitbucket.org/'
+  colors:
+    - hex: '#245484'
+      rgb:
+        r: 36
+        g: 84
+        b: 132
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: bitbucket
+      relativeUrl: products/b/bitbucket/logos/bitbucket.svg
+      width: 256
+      height: 295
+  icons:
+    - id: bitbucket
+      relativeUrl: products/b/bitbucket/icons/bitbucket.svg
+      width: 256
+      height: 295
+relationships:
+  productLabels:
+    git:
+      id: git
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mercurial:
+      id: mercurial
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    codeManager:
+      id: codeManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

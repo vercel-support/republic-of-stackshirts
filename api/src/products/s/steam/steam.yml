@@ -1,0 +1,43 @@
+id: steam
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Steam
+  url: 'http://store.steampowered.com/'
+  colors:
+    - hex: '#1a1918'
+      rgb:
+        r: 26
+        g: 25
+        b: 24
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: steam
+      relativeUrl: products/s/steam/logos/steam.svg
+      width: 256
+      height: 259
+  icons:
+    - id: steam
+      relativeUrl: products/s/steam/icons/steam.svg
+      width: 256
+      height: 259
+relationships:
+  productLabels:
+    games:
+      id: games
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    onlineGaming:
+      id: onlineGaming
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    digitalDistribuiton:
+      id: digitalDistribuiton
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

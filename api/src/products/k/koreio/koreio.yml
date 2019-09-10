@@ -1,0 +1,38 @@
+id: koreio
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Kore
+  url: 'https://kore.io/'
+  colors:
+    - hex: '#99c0da'
+      rgb:
+        r: 153
+        g: 192
+        b: 218
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: koreio
+      relativeUrl: products/k/koreio/logos/koreio.svg
+      width: 256
+      height: 297
+  icons:
+    - id: koreio
+      relativeUrl: products/k/koreio/icons/koreio.svg
+      width: 256
+      height: 297
+relationships:
+  productLabels:
+    webServer:
+      id: webServer
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    c:
+      id: c
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

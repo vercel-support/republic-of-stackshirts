@@ -1,0 +1,43 @@
+id: couchbase
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Couchbase
+  url: 'http://www.couchbase.com/'
+  colors:
+    - hex: '#ec2424'
+      rgb:
+        r: 236
+        g: 36
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: couchbase
+      relativeUrl: products/c/couchbase/logos/couchbase.svg
+      width: 256
+      height: 256
+  icons:
+    - id: couchbase
+      relativeUrl: products/c/couchbase/icons/couchbase.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nosql:
+      id: nosql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    dbaas:
+      id: dbaas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: mastercard
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Mastercard
+  url: 'http://www.mastercard.com/'
+  colors:
+    - hex: '#000000'
+      rgb:
+        r: 0
+        g: 0
+        b: 0
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mastercard
+      relativeUrl: products/m/mastercard/logos/mastercard.svg
+      width: 256
+      height: 199
+  icons:
+    - id: mastercard
+      relativeUrl: products/m/mastercard/icons/mastercard.svg
+      width: 256
+      height: 199
+relationships:
+  productLabels:
+    creditCard:
+      id: creditCard
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    finance:
+      id: finance
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

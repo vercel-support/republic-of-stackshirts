@@ -1,0 +1,38 @@
+id: elm
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: elm
+  url: 'http://elm-lang.org/'
+  colors:
+    - hex: '#8cd434'
+      rgb:
+        r: 140
+        g: 212
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: elm
+      relativeUrl: products/e/elm/logos/elm.svg
+      width: 256
+      height: 256
+  icons:
+    - id: elm
+      relativeUrl: products/e/elm/icons/elm.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    functional:
+      id: functional
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

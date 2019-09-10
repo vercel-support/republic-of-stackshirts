@@ -1,0 +1,38 @@
+id: rethinkdb
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: RethinkDB
+  url: 'http://www.rethinkdb.com/'
+  colors:
+    - hex: '#244c54'
+      rgb:
+        r: 36
+        g: 76
+        b: 84
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: rethinkdb
+      relativeUrl: products/r/rethinkdb/logos/rethinkdb.svg
+      width: 512
+      height: 82
+  icons:
+    - id: rethinkdb
+      relativeUrl: products/r/rethinkdb/icons/rethinkdb.svg
+      width: 512
+      height: 82
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    realTime:
+      id: realTime
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

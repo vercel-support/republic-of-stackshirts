@@ -1,0 +1,38 @@
+id: etaLang
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Eta
+  url: 'http://eta-lang.org/'
+  colors:
+    - hex: '#32bebe'
+      rgb:
+        r: 50
+        g: 190
+        b: 190
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: etaLang
+      relativeUrl: products/e/etaLang/logos/etaLang.svg
+      width: 256
+      height: 282
+  icons:
+    - id: etaLang
+      relativeUrl: products/e/etaLang/icons/etaLang.svg
+      width: 256
+      height: 282
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    java:
+      id: java
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: woopra
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Woopra
+  url: 'https://www.woopra.com/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: woopra
+      relativeUrl: products/w/woopra/logos/woopra.svg
+      width: 256
+      height: 152
+  icons:
+    - id: woopra
+      relativeUrl: products/w/woopra/icons/woopra.svg
+      width: 256
+      height: 152
+relationships:
+  productLabels:
+    customerAnalytics:
+      id: customerAnalytics
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    analytics:
+      id: analytics
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

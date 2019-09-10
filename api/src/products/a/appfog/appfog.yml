@@ -1,0 +1,38 @@
+id: appfog
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AppFog
+  url: 'https://www.ctl.io/appfog/'
+  colors:
+    - hex: '#047c3c'
+      rgb:
+        r: 4
+        g: 124
+        b: 60
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: appfog
+      relativeUrl: products/a/appfog/logos/appfog.svg
+      width: 256
+      height: 159
+  icons:
+    - id: appfog
+      relativeUrl: products/a/appfog/icons/appfog.svg
+      width: 256
+      height: 159
+relationships:
+  productLabels:
+    appDeployment:
+      id: appDeployment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    paas:
+      id: paas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

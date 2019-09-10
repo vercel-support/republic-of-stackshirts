@@ -1,0 +1,38 @@
+id: visualStudio
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Visual Studio
+  url: 'https://www.visualstudio.com/'
+  colors:
+    - hex: '#6c247c'
+      rgb:
+        r: 108
+        g: 36
+        b: 124
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: visualStudio
+      relativeUrl: products/v/visualStudio/logos/visualStudio.svg
+      width: 256
+      height: 264
+  icons:
+    - id: visualStudio
+      relativeUrl: products/v/visualStudio/icons/visualStudio.svg
+      width: 256
+      height: 264
+relationships:
+  productLabels:
+    codeEditor:
+      id: codeEditor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ide:
+      id: ide
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

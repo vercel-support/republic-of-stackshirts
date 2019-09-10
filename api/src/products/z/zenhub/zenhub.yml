@@ -1,0 +1,53 @@
+id: zenhub
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Zenhub
+  url: 'https://www.zenhub.io/'
+  colors:
+    - hex: '#3c4c9c'
+      rgb:
+        r: 60
+        g: 76
+        b: 156
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: zenhub
+      relativeUrl: products/z/zenhub/logos/zenhub.svg
+      width: 256
+      height: 257
+  icons:
+    - id: zenhub
+      relativeUrl: products/z/zenhub/icons/zenhub.svg
+      width: 256
+      height: 257
+relationships:
+  productLabels:
+    projectManager:
+      id: projectManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    agile:
+      id: agile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    kanban:
+      id: kanban
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    github:
+      id: github
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    githubTools:
+      id: githubTools
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

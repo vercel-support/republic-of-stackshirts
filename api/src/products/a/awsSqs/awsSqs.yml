@@ -1,0 +1,38 @@
+id: awsSqs
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AWS SQS (Simple Queue Service)
+  url: 'https://aws.amazon.com/sqs/'
+  colors:
+    - hex: '#dba343'
+      rgb:
+        r: 219
+        g: 163
+        b: 67
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: awsSqs
+      relativeUrl: products/a/awsSqs/logos/awsSqs.svg
+      width: 256
+      height: 309
+  icons:
+    - id: awsSqs
+      relativeUrl: products/a/awsSqs/icons/awsSqs.svg
+      width: 256
+      height: 309
+relationships:
+  productLabels:
+    messageQueue:
+      id: messageQueue
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: codefund
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Codefund
+  url: 'https://www.codefund.io/'
+  colors:
+    - hex: '#10ac60'
+      rgb:
+        r: 16
+        g: 172
+        b: 96
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: codefund
+      relativeUrl: products/c/codefund/logos/codefund.svg
+      width: 256
+      height: 256
+  icons:
+    - id: codefund
+      relativeUrl: products/c/codefund/icons/codefund.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    openSource:
+      id: openSource
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    funding:
+      id: funding
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    donation:
+      id: donation
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

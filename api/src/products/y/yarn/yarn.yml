@@ -1,0 +1,38 @@
+id: yarn
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Yarn
+  url: 'https://yarnpkg.com/'
+  colors:
+    - hex: '#368fb9'
+      rgb:
+        r: 54
+        g: 143
+        b: 185
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: yarn
+      relativeUrl: products/y/yarn/logos/yarn.svg
+      width: 256
+      height: 256
+  icons:
+    - id: yarn
+      relativeUrl: products/y/yarn/icons/yarn.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    dependencyManager:
+      id: dependencyManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    packageManager:
+      id: packageManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

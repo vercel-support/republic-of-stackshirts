@@ -1,0 +1,33 @@
+id: sentry
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Sentry
+  url: 'https://getsentry.com/welcome/'
+  colors:
+    - hex: '#fc2c24'
+      rgb:
+        r: 252
+        g: 44
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: sentry
+      relativeUrl: products/s/sentry/logos/sentry.svg
+      width: 256
+      height: 230
+  icons:
+    - id: sentry
+      relativeUrl: products/s/sentry/icons/sentry.svg
+      width: 256
+      height: 230
+relationships:
+  productLabels:
+    exceptionTracker:
+      id: exceptionTracker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

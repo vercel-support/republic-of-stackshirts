@@ -1,0 +1,43 @@
+id: appium
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Appium
+  url: 'http://appium.io/'
+  colors:
+    - hex: '#cbebeb'
+      rgb:
+        r: 203
+        g: 235
+        b: 235
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: appium
+      relativeUrl: products/a/appium/logos/appium.svg
+      width: 256
+      height: 257
+  icons:
+    - id: appium
+      relativeUrl: products/a/appium/icons/appium.svg
+      width: 256
+      height: 257
+relationships:
+  productLabels:
+    testingFramework:
+      id: testingFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobileTestAutomation:
+      id: mobileTestAutomation
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

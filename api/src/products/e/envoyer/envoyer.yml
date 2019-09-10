@@ -1,0 +1,48 @@
+id: envoyer
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Envoyer
+  url: 'https://envoyer.io/'
+  colors:
+    - hex: '#f46c54'
+      rgb:
+        r: 244
+        g: 108
+        b: 84
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: envoyer
+      relativeUrl: products/e/envoyer/logos/envoyer.svg
+      width: 256
+      height: 304
+  icons:
+    - id: envoyer
+      relativeUrl: products/e/envoyer/icons/envoyer.svg
+      width: 256
+      height: 304
+relationships:
+  productLabels:
+    cloudComputing:
+      id: cloudComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    paas:
+      id: paas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    laravel:
+      id: laravel
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    php:
+      id: php
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

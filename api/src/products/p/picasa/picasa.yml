@@ -1,0 +1,33 @@
+id: picasa
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Picasa
+  url: 'https://picasa.google.com/'
+  colors:
+    - hex: '#ebeaea'
+      rgb:
+        r: 235
+        g: 234
+        b: 234
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: picasa
+      relativeUrl: products/p/picasa/logos/picasa.svg
+      width: 256
+      height: 257
+  icons:
+    - id: picasa
+      relativeUrl: products/p/picasa/icons/picasa.svg
+      width: 256
+      height: 257
+relationships:
+  productLabels:
+    imageSharing:
+      id: imageSharing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

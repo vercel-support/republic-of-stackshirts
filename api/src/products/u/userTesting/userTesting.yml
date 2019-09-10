@@ -1,0 +1,38 @@
+id: userTesting
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: UserTesting
+  url: 'http://www.usertesting.com/'
+  colors:
+    - hex: '#66ab49'
+      rgb:
+        r: 102
+        g: 171
+        b: 73
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: userTesting
+      relativeUrl: products/u/userTesting/logos/userTesting.svg
+      width: 512
+      height: 132
+  icons:
+    - id: userTesting
+      relativeUrl: products/u/userTesting/icons/userTesting.svg
+      width: 512
+      height: 132
+relationships:
+  productLabels:
+    uxTesting:
+      id: uxTesting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    userFeedback:
+      id: userFeedback
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

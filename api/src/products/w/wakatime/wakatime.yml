@@ -1,0 +1,38 @@
+id: wakatime
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: WakaTime
+  url: 'https://wakatime.com/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: wakatime
+      relativeUrl: products/w/wakatime/logos/wakatime.svg
+      width: 256
+      height: 256
+  icons:
+    - id: wakatime
+      relativeUrl: products/w/wakatime/icons/wakatime.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    timeTracking:
+      id: timeTracking
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    codingMetrics:
+      id: codingMetrics
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: feathersjs
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: feathersjs
+  url: 'http://feathersjs.com/'
+  colors:
+    - hex: '#343434'
+      rgb:
+        r: 52
+        g: 52
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: feathersjs
+      relativeUrl: products/f/feathersjs/logos/feathersjs.svg
+      width: 256
+      height: 256
+  icons:
+    - id: feathersjs
+      relativeUrl: products/f/feathersjs/icons/feathersjs.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    webAppFramework:
+      id: webAppFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    microframework:
+      id: microframework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

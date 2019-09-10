@@ -1,0 +1,43 @@
+id: customerio
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Customer.io
+  url: 'http://customer.io/'
+  colors:
+    - hex: '#2c7c7c'
+      rgb:
+        r: 44
+        g: 124
+        b: 124
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: customerio
+      relativeUrl: products/c/customerio/logos/customerio.svg
+      width: 256
+      height: 172
+  icons:
+    - id: customerio
+      relativeUrl: products/c/customerio/icons/customerio.svg
+      width: 256
+      height: 172
+relationships:
+  productLabels:
+    emailMarketing:
+      id: emailMarketing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    lifecycleMarketing:
+      id: lifecycleMarketing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    marketing:
+      id: marketing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

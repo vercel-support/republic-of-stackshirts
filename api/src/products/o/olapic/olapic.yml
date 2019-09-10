@@ -1,0 +1,43 @@
+id: olapic
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: olapic
+  url: 'http://www.olapic.com/'
+  colors:
+    - hex: '#31b6a1'
+      rgb:
+        r: 49
+        g: 182
+        b: 161
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: olapic
+      relativeUrl: products/o/olapic/logos/olapic.svg
+      width: 256
+      height: 255
+  icons:
+    - id: olapic
+      relativeUrl: products/o/olapic/icons/olapic.svg
+      width: 256
+      height: 255
+relationships:
+  productLabels:
+    eCommerce:
+      id: eCommerce
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    userGenerated:
+      id: userGenerated
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    socialMediaTools:
+      id: socialMediaTools
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: dreamfactory
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: DreamFactory
+  url: 'https://www.dreamfactory.com/'
+  colors:
+    - hex: '#bb3c24'
+      rgb:
+        r: 187
+        g: 60
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: dreamfactory
+      relativeUrl: products/d/dreamfactory/logos/dreamfactory.svg
+      width: 256
+      height: 237
+  icons:
+    - id: dreamfactory
+      relativeUrl: products/d/dreamfactory/icons/dreamfactory.svg
+      width: 256
+      height: 237
+relationships:
+  productLabels:
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    dbaas:
+      id: dbaas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    api:
+      id: api
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

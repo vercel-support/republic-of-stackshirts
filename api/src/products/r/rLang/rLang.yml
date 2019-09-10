@@ -1,0 +1,33 @@
+id: rLang
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: R
+  url: 'https://www.r-project.org/'
+  colors:
+    - hex: '#babbbe'
+      rgb:
+        r: 186
+        g: 187
+        b: 190
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: rLang
+      relativeUrl: products/r/rLang/logos/rLang.svg
+      width: 256
+      height: 193
+  icons:
+    - id: rLang
+      relativeUrl: products/r/rLang/icons/rLang.svg
+      width: 256
+      height: 193
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

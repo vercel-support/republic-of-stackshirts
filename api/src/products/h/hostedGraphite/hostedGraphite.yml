@@ -1,0 +1,38 @@
+id: hostedGraphite
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Hosted Graphite
+  url: 'https://www.hostedgraphite.com/'
+  colors:
+    - hex: '#ec7c54'
+      rgb:
+        r: 236
+        g: 124
+        b: 84
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: hostedGraphite
+      relativeUrl: products/h/hostedGraphite/logos/hostedGraphite.svg
+      width: 256
+      height: 294
+  icons:
+    - id: hostedGraphite
+      relativeUrl: products/h/hostedGraphite/icons/hostedGraphite.svg
+      width: 256
+      height: 294
+relationships:
+  productLabels:
+    monitoring:
+      id: monitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    serverMonitoring:
+      id: serverMonitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

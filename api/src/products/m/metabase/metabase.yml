@@ -1,0 +1,38 @@
+id: metabase
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Metabase
+  url: 'http://www.metabase.com/'
+  colors:
+    - hex: '#549ce4'
+      rgb:
+        r: 84
+        g: 156
+        b: 228
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: metabase
+      relativeUrl: products/m/metabase/logos/metabase.svg
+      width: 256
+      height: 324
+  icons:
+    - id: metabase
+      relativeUrl: products/m/metabase/icons/metabase.svg
+      width: 256
+      height: 324
+relationships:
+  productLabels:
+    businessIntelligence:
+      id: businessIntelligence
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    analytics:
+      id: analytics
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

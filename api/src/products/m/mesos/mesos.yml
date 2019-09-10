@@ -1,0 +1,38 @@
+id: mesos
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Mesos
+  url: 'http://mesos.apache.org/'
+  colors:
+    - hex: '#04acdc'
+      rgb:
+        r: 4
+        g: 172
+        b: 220
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mesos
+      relativeUrl: products/m/mesos/logos/mesos.svg
+      width: 256
+      height: 291
+  icons:
+    - id: mesos
+      relativeUrl: products/m/mesos/icons/mesos.svg
+      width: 256
+      height: 291
+relationships:
+  productLabels:
+    distributedComputing:
+      id: distributedComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    serverManagement:
+      id: serverManagement
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

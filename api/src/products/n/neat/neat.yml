@@ -1,0 +1,43 @@
+id: neat
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Neat
+  url: 'http://neat.bourbon.io/'
+  colors:
+    - hex: '#3c83a4'
+      rgb:
+        r: 60
+        g: 131
+        b: 164
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: neat
+      relativeUrl: products/n/neat/logos/neat.svg
+      width: 256
+      height: 258
+  icons:
+    - id: neat
+      relativeUrl: products/n/neat/icons/neat.svg
+      width: 256
+      height: 258
+relationships:
+  productLabels:
+    sass:
+      id: sass
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    bourbon:
+      id: bourbon
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    library:
+      id: library
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

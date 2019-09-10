@@ -1,0 +1,33 @@
+id: apigee
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Apigee
+  url: 'http://apigee.com/'
+  colors:
+    - hex: '#545b5c'
+      rgb:
+        r: 84
+        g: 91
+        b: 92
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: apigee
+      relativeUrl: products/a/apigee/logos/apigee.svg
+      width: 512
+      height: 174
+  icons:
+    - id: apigee
+      relativeUrl: products/a/apigee/icons/apigee.svg
+      width: 512
+      height: 174
+relationships:
+  productLabels:
+    apiTools:
+      id: apiTools
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: logmatic
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Logmatic
+  url: 'http://logmatic.io/'
+  colors:
+    - hex: '#355e72'
+      rgb:
+        r: 53
+        g: 94
+        b: 114
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: logmatic
+      relativeUrl: products/l/logmatic/logos/logmatic.svg
+      width: 512
+      height: 64
+  icons:
+    - id: logmatic
+      relativeUrl: products/l/logmatic/icons/logmatic.svg
+      width: 512
+      height: 64
+relationships:
+  productLabels:
+    logManager:
+      id: logManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

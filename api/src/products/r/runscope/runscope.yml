@@ -1,0 +1,43 @@
+id: runscope
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: runscope
+  url: 'https://www.runscope.com/'
+  colors:
+    - hex: '#3c64a3'
+      rgb:
+        r: 60
+        g: 100
+        b: 163
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: runscope
+      relativeUrl: products/r/runscope/logos/runscope.svg
+      width: 256
+      height: 267
+  icons:
+    - id: runscope
+      relativeUrl: products/r/runscope/icons/runscope.svg
+      width: 256
+      height: 267
+relationships:
+  productLabels:
+    monitoring:
+      id: monitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    apiMonitoring:
+      id: apiMonitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    apiTools:
+      id: apiTools
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

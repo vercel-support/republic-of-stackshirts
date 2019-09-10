@@ -1,0 +1,43 @@
+id: crateio
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: CrateIO
+  url: 'https://crate.io/'
+  colors:
+    - hex: '#54d4f4'
+      rgb:
+        r: 84
+        g: 212
+        b: 244
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: crateio
+      relativeUrl: products/c/crateio/logos/crateio.svg
+      width: 256
+      height: 193
+  icons:
+    - id: crateio
+      relativeUrl: products/c/crateio/icons/crateio.svg
+      width: 256
+      height: 193
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    storage:
+      id: storage
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    docker:
+      id: docker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

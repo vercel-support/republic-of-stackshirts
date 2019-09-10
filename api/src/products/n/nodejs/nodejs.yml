@@ -1,0 +1,51 @@
+id: nodejs
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Node.js
+  url: 'https://nodejs.org/'
+  colors:
+    - hex: '#509941'
+      rgb:
+        r: 80
+        g: 153
+        b: 65
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: nodejsShort
+      relativeUrl: products/n/nodejs/logos/nodejsShort.svg
+      width: 256
+      height: 289
+    - id: nodejs
+      relativeUrl: products/n/nodejs/logos/nodejs.svg
+      width: 512
+      height: 314
+  icons:
+    - id: nodejsShort
+      relativeUrl: products/n/nodejs/icons/nodejsShort.svg
+      width: 256
+      height: 289
+    - id: nodejs
+      relativeUrl: products/n/nodejs/icons/nodejs.svg
+      width: 512
+      height: 314
+relationships:
+  productLabels:
+    fullStackFramework:
+      id: fullStackFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

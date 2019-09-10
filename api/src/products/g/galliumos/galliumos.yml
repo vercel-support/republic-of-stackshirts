@@ -1,0 +1,43 @@
+id: galliumos
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: GalliumOS
+  url: 'https://galliumos.org/'
+  colors:
+    - hex: '#68a5c6'
+      rgb:
+        r: 104
+        g: 165
+        b: 198
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: galliumos
+      relativeUrl: products/g/galliumos/logos/galliumos.svg
+      width: 256
+      height: 256
+  icons:
+    - id: galliumos
+      relativeUrl: products/g/galliumos/icons/galliumos.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    operationalSystem:
+      id: operationalSystem
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    linux:
+      id: linux
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    chromeos:
+      id: chromeos
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

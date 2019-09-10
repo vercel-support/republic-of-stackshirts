@@ -1,0 +1,38 @@
+id: netlify
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Netlify
+  url: 'https://www.netlify.com/'
+  colors:
+    - hex: '#24c4b4'
+      rgb:
+        r: 36
+        g: 196
+        b: 180
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: netlify
+      relativeUrl: products/n/netlify/logos/netlify.svg
+      width: 256
+      height: 256
+  icons:
+    - id: netlify
+      relativeUrl: products/n/netlify/icons/netlify.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    codeHosting:
+      id: codeHosting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    codeDeployment:
+      id: codeDeployment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

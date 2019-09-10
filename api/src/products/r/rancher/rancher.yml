@@ -1,0 +1,38 @@
+id: rancher
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Rancher
+  url: 'http://rancher.com/'
+  colors:
+    - hex: '#5c5c5c'
+      rgb:
+        r: 92
+        g: 92
+        b: 92
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: rancher
+      relativeUrl: products/r/rancher/logos/rancher.svg
+      width: 256
+      height: 120
+  icons:
+    - id: rancher
+      relativeUrl: products/r/rancher/icons/rancher.svg
+      width: 256
+      height: 120
+relationships:
+  productLabels:
+    cloudComputing:
+      id: cloudComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    docker:
+      id: docker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

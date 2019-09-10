@@ -1,0 +1,38 @@
+id: linuxTux
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Linux Tux
+  url: 'https://en.wikipedia.org/wiki/Tux'
+  colors:
+    - hex: '#000000'
+      rgb:
+        r: 0
+        g: 0
+        b: 0
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: linuxTux
+      relativeUrl: products/l/linuxTux/logos/linuxTux.svg
+      width: 256
+      height: 295
+  icons:
+    - id: linuxTux
+      relativeUrl: products/l/linuxTux/icons/linuxTux.svg
+      width: 256
+      height: 295
+relationships:
+  productLabels:
+    mascot:
+      id: mascot
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    linux:
+      id: linux
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

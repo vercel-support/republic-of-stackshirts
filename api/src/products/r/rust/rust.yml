@@ -1,0 +1,33 @@
+id: rust
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Rust
+  url: 'http://www.rust-lang.org/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: rust
+      relativeUrl: products/r/rust/logos/rust.svg
+      width: 256
+      height: 256
+  icons:
+    - id: rust
+      relativeUrl: products/r/rust/icons/rust.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

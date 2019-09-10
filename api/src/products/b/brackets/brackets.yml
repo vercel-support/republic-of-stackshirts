@@ -1,0 +1,33 @@
+id: brackets
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Brackets
+  url: 'http://brackets.io/'
+  colors:
+    - hex: '#1d8dc9'
+      rgb:
+        r: 29
+        g: 141
+        b: 201
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: brackets
+      relativeUrl: products/b/brackets/logos/brackets.svg
+      width: 256
+      height: 256
+  icons:
+    - id: brackets
+      relativeUrl: products/b/brackets/icons/brackets.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    codeEditor:
+      id: codeEditor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

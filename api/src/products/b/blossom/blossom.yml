@@ -1,0 +1,38 @@
+id: blossom
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Blossom
+  url: 'https://www.blossom.co/'
+  colors:
+    - hex: '#142c44'
+      rgb:
+        r: 20
+        g: 44
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: blossom
+      relativeUrl: products/b/blossom/logos/blossom.svg
+      width: 256
+      height: 256
+  icons:
+    - id: blossom
+      relativeUrl: products/b/blossom/icons/blossom.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    projectManager:
+      id: projectManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    agile:
+      id: agile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

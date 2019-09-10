@@ -1,0 +1,38 @@
+id: floydhub
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: FloydHub
+  url: 'https://www.floydhub.com/'
+  colors:
+    - hex: '#3b99ed'
+      rgb:
+        r: 59
+        g: 153
+        b: 237
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: floydhub
+      relativeUrl: products/f/floydhub/logos/floydhub.svg
+      width: 256
+      height: 256
+  icons:
+    - id: floydhub
+      relativeUrl: products/f/floydhub/icons/floydhub.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    mlaas:
+      id: mlaas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    dataProcessing:
+      id: dataProcessing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

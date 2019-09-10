@@ -1,0 +1,33 @@
+id: todoist
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Todoist
+  url: 'https://en.todoist.com/'
+  colors:
+    - hex: '#dc4c3c'
+      rgb:
+        r: 220
+        g: 76
+        b: 60
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: todoist
+      relativeUrl: products/t/todoist/logos/todoist.svg
+      width: 256
+      height: 185
+  icons:
+    - id: todoist
+      relativeUrl: products/t/todoist/icons/todoist.svg
+      width: 256
+      height: 185
+relationships:
+  productLabels:
+    taskManager:
+      id: taskManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

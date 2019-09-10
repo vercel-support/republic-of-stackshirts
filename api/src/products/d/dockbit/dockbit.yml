@@ -1,0 +1,33 @@
+id: dockbit
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Dockbit
+  url: 'https://dockbit.com/'
+  colors:
+    - hex: '#6D3FD5'
+      rgb:
+        r: 109
+        g: 63
+        b: 213
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: dockbit
+      relativeUrl: products/d/dockbit/logos/dockbit.svg
+      width: 256
+      height: 286
+  icons:
+    - id: dockbit
+      relativeUrl: products/d/dockbit/icons/dockbit.svg
+      width: 256
+      height: 286
+relationships:
+  productLabels:
+    codeDeployment:
+      id: codeDeployment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

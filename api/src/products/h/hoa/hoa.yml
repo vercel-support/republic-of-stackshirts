@@ -1,0 +1,38 @@
+id: hoa
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Hoa
+  url: 'http://hoa-project.net/'
+  colors:
+    - hex: '#fc8c74'
+      rgb:
+        r: 252
+        g: 140
+        b: 116
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: hoa
+      relativeUrl: products/h/hoa/logos/hoa.svg
+      width: 512
+      height: 184
+  icons:
+    - id: hoa
+      relativeUrl: products/h/hoa/icons/hoa.svg
+      width: 512
+      height: 184
+relationships:
+  productLabels:
+    library:
+      id: library
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    php:
+      id: php
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

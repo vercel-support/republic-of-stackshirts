@@ -1,0 +1,43 @@
+id: heron
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Heron
+  url: 'http://twitter.github.io/heron/'
+  colors:
+    - hex: '#048991'
+      rgb:
+        r: 4
+        g: 137
+        b: 145
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: heron
+      relativeUrl: products/h/heron/logos/heron.svg
+      width: 256
+      height: 256
+  icons:
+    - id: heron
+      relativeUrl: products/h/heron/icons/heron.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    realTime:
+      id: realTime
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    analytics:
+      id: analytics
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    streamProcessing:
+      id: streamProcessing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

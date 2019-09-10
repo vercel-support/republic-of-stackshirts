@@ -1,0 +1,38 @@
+id: airbrake
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Airbrake
+  url: 'https://airbrake.io/'
+  colors:
+    - hex: '#f78848'
+      rgb:
+        r: 247
+        g: 136
+        b: 72
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: airbrake
+      relativeUrl: products/a/airbrake/logos/airbrake.svg
+      width: 256
+      height: 255
+  icons:
+    - id: airbrake
+      relativeUrl: products/a/airbrake/icons/airbrake.svg
+      width: 256
+      height: 255
+relationships:
+  productLabels:
+    exceptionTracker:
+      id: exceptionTracker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    monitoring:
+      id: monitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

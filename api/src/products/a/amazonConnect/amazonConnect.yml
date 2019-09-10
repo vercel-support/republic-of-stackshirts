@@ -1,0 +1,43 @@
+id: amazonConnect
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Amazon Connect
+  url: 'https://aws.amazon.com/connect/'
+  colors:
+    - hex: '#26bf95'
+      rgb:
+        r: 38
+        g: 191
+        b: 149
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: amazonConnect
+      relativeUrl: products/a/amazonConnect/logos/amazonConnect.svg
+      width: 256
+      height: 235
+  icons:
+    - id: amazonConnect
+      relativeUrl: products/a/amazonConnect/icons/amazonConnect.svg
+      width: 256
+      height: 235
+relationships:
+  productLabels:
+    callCenterManagement:
+      id: callCenterManagement
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    marketing:
+      id: marketing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    customerSupport:
+      id: customerSupport
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

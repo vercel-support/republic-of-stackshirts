@@ -1,0 +1,38 @@
+id: pagekit
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: pagekit
+  url: 'https://pagekit.com/'
+  colors:
+    - hex: '#212121'
+      rgb:
+        r: 33
+        g: 33
+        b: 33
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: pagekit
+      relativeUrl: products/p/pagekit/logos/pagekit.svg
+      width: 256
+      height: 320
+  icons:
+    - id: pagekit
+      relativeUrl: products/p/pagekit/icons/pagekit.svg
+      width: 256
+      height: 320
+relationships:
+  productLabels:
+    cms:
+      id: cms
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    openSource:
+      id: openSource
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

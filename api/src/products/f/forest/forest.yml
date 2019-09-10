@@ -1,0 +1,38 @@
+id: forest
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Forest
+  url: 'http://www.forestadmin.com/'
+  colors:
+    - hex: '#70bf85'
+      rgb:
+        r: 112
+        g: 191
+        b: 133
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: forest
+      relativeUrl: products/f/forest/logos/forest.svg
+      width: 256
+      height: 256
+  icons:
+    - id: forest
+      relativeUrl: products/f/forest/icons/forest.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    databaseTools:
+      id: databaseTools
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cms:
+      id: cms
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

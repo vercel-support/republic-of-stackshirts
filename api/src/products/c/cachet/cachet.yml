@@ -1,0 +1,33 @@
+id: cachet
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Cachet
+  url: 'https://cachethq.io/'
+  colors:
+    - hex: '#7cd424'
+      rgb:
+        r: 124
+        g: 212
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: cachet
+      relativeUrl: products/c/cachet/logos/cachet.svg
+      width: 512
+      height: 130
+  icons:
+    - id: cachet
+      relativeUrl: products/c/cachet/icons/cachet.svg
+      width: 512
+      height: 130
+relationships:
+  productLabels:
+    serverStatus:
+      id: serverStatus
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: kotlin
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Kotlin
+  url: 'http://kotlinlang.org/'
+  colors:
+    - hex: '#4c74ac'
+      rgb:
+        r: 76
+        g: 116
+        b: 172
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: kotlin
+      relativeUrl: products/k/kotlin/logos/kotlin.svg
+      width: 256
+      height: 264
+  icons:
+    - id: kotlin
+      relativeUrl: products/k/kotlin/icons/kotlin.svg
+      width: 256
+      height: 264
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    java:
+      id: java
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

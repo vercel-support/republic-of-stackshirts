@@ -1,0 +1,48 @@
+id: nightwatch
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Nightwatch.js
+  url: 'http://nightwatchjs.org/'
+  colors:
+    - hex: '#552d15'
+      rgb:
+        r: 85
+        g: 45
+        b: 21
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: nightwatch
+      relativeUrl: products/n/nightwatch/logos/nightwatch.svg
+      width: 256
+      height: 328
+  icons:
+    - id: nightwatch
+      relativeUrl: products/n/nightwatch/icons/nightwatch.svg
+      width: 256
+      height: 328
+relationships:
+  productLabels:
+    crossBrowserTesting:
+      id: crossBrowserTesting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    browserAutomation:
+      id: browserAutomation
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    selenium:
+      id: selenium
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

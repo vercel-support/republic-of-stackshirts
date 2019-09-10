@@ -1,0 +1,38 @@
+id: prometheus
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Prometheus
+  url: 'http://prometheus.io/'
+  colors:
+    - hex: '#dc4c34'
+      rgb:
+        r: 220
+        g: 76
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: prometheus
+      relativeUrl: products/p/prometheus/logos/prometheus.svg
+      width: 256
+      height: 257
+  icons:
+    - id: prometheus
+      relativeUrl: products/p/prometheus/icons/prometheus.svg
+      width: 256
+      height: 257
+relationships:
+  productLabels:
+    monitoring:
+      id: monitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    serverMonitoring:
+      id: serverMonitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

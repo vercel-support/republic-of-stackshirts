@@ -1,0 +1,38 @@
+id: spring
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Spring
+  url: 'https://spring.io/'
+  colors:
+    - hex: '#6cb43c'
+      rgb:
+        r: 108
+        g: 180
+        b: 60
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: spring
+      relativeUrl: products/s/spring/logos/spring.svg
+      width: 256
+      height: 254
+  icons:
+    - id: spring
+      relativeUrl: products/s/spring/icons/spring.svg
+      width: 256
+      height: 254
+relationships:
+  productLabels:
+    fullStackFramework:
+      id: fullStackFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    java:
+      id: java
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

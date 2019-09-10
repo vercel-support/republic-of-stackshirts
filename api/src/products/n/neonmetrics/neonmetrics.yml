@@ -1,0 +1,38 @@
+id: neonmetrics
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Neonmetrics
+  url: 'http://neonmetrics.com/'
+  colors:
+    - hex: '#444444'
+      rgb:
+        r: 68
+        g: 68
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: neonmetrics
+      relativeUrl: products/n/neonmetrics/logos/neonmetrics.svg
+      width: 256
+      height: 296
+  icons:
+    - id: neonmetrics
+      relativeUrl: products/n/neonmetrics/icons/neonmetrics.svg
+      width: 256
+      height: 296
+relationships:
+  productLabels:
+    businessIntelligence:
+      id: businessIntelligence
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    dataAggregation:
+      id: dataAggregation
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

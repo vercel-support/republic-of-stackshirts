@@ -1,0 +1,38 @@
+id: sparkcentral
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Sparkcentral
+  url: 'http://www.sparkcentral.com/'
+  colors:
+    - hex: '#4494dc'
+      rgb:
+        r: 68
+        g: 148
+        b: 220
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: sparkcentral
+      relativeUrl: products/s/sparkcentral/logos/sparkcentral.svg
+      width: 256
+      height: 292
+  icons:
+    - id: sparkcentral
+      relativeUrl: products/s/sparkcentral/icons/sparkcentral.svg
+      width: 256
+      height: 292
+relationships:
+  productLabels:
+    socialMediaTools:
+      id: socialMediaTools
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    helpDesk:
+      id: helpDesk
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

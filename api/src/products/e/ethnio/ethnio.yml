@@ -1,0 +1,38 @@
+id: ethnio
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Ethnio
+  url: 'https://ethn.io/'
+  colors:
+    - hex: '#2f4047'
+      rgb:
+        r: 47
+        g: 64
+        b: 71
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: ethnio
+      relativeUrl: products/e/ethnio/logos/ethnio.svg
+      width: 256
+      height: 256
+  icons:
+    - id: ethnio
+      relativeUrl: products/e/ethnio/icons/ethnio.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    uxTesting:
+      id: uxTesting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    userFeedback:
+      id: userFeedback
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: erlang
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Erlang
+  url: 'http://www.erlang.org/'
+  colors:
+    - hex: '#ad0938'
+      rgb:
+        r: 173
+        g: 9
+        b: 56
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: erlang
+      relativeUrl: products/e/erlang/logos/erlang.svg
+      width: 256
+      height: 225
+  icons:
+    - id: erlang
+      relativeUrl: products/e/erlang/icons/erlang.svg
+      width: 256
+      height: 225
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

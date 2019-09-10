@@ -1,0 +1,38 @@
+id: cloudlinux
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: CloudLinux
+  url: 'https://cloudlinux.com/'
+  colors:
+    - hex: '#245494'
+      rgb:
+        r: 36
+        g: 84
+        b: 148
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: cloudlinux
+      relativeUrl: products/c/cloudlinux/logos/cloudlinux.svg
+      width: 256
+      height: 255
+  icons:
+    - id: cloudlinux
+      relativeUrl: products/c/cloudlinux/icons/cloudlinux.svg
+      width: 256
+      height: 255
+relationships:
+  productLabels:
+    webHosting:
+      id: webHosting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    virtualEnvironment:
+      id: virtualEnvironment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

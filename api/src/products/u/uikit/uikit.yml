@@ -1,0 +1,48 @@
+id: uikit
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: uikit
+  url: 'http://getuikit.com/'
+  colors:
+    - hex: '#2c94bc'
+      rgb:
+        r: 44
+        g: 148
+        b: 188
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: uikit
+      relativeUrl: products/u/uikit/logos/uikit.svg
+      width: 256
+      height: 297
+  icons:
+    - id: uikit
+      relativeUrl: products/u/uikit/icons/uikit.svg
+      width: 256
+      height: 297
+relationships:
+  productLabels:
+    frontEndFramework:
+      id: frontEndFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    css:
+      id: css
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    less:
+      id: less
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ui:
+      id: ui
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

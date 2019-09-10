@@ -1,0 +1,38 @@
+id: frontapp
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Front
+  url: 'https://frontapp.com/'
+  colors:
+    - hex: '#fc6c6c'
+      rgb:
+        r: 252
+        g: 108
+        b: 108
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: frontapp
+      relativeUrl: products/f/frontapp/logos/frontapp.svg
+      width: 256
+      height: 217
+  icons:
+    - id: frontapp
+      relativeUrl: products/f/frontapp/icons/frontapp.svg
+      width: 256
+      height: 217
+relationships:
+  productLabels:
+    eMail:
+      id: eMail
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    teamCollaboration:
+      id: teamCollaboration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

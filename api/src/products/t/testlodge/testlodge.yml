@@ -1,0 +1,38 @@
+id: testlodge
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: TestLodge
+  url: 'http://www.testlodge.com/'
+  colors:
+    - hex: '#74b444'
+      rgb:
+        r: 116
+        g: 180
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: testlodge
+      relativeUrl: products/t/testlodge/logos/testlodge.svg
+      width: 256
+      height: 219
+  icons:
+    - id: testlodge
+      relativeUrl: products/t/testlodge/icons/testlodge.svg
+      width: 256
+      height: 219
+relationships:
+  productLabels:
+    testManagement:
+      id: testManagement
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    testing:
+      id: testing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

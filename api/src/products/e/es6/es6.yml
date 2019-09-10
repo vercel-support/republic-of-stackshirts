@@ -1,0 +1,33 @@
+id: es6
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: ES6
+  url: 'http://www.ecmascript.org/'
+  colors:
+    - hex: '#f46424'
+      rgb:
+        r: 244
+        g: 100
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: es6
+      relativeUrl: products/e/es6/logos/es6.svg
+      width: 256
+      height: 256
+  icons:
+    - id: es6
+      relativeUrl: products/e/es6/icons/es6.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

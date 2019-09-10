@@ -1,0 +1,53 @@
+id: cordova
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Cordova
+  url: 'https://cordova.apache.org/'
+  colors:
+    - hex: '#444444'
+      rgb:
+        r: 68
+        g: 68
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: cordova
+      relativeUrl: products/c/cordova/logos/cordova.svg
+      width: 256
+      height: 245
+  icons:
+    - id: cordova
+      relativeUrl: products/c/cordova/icons/cordova.svg
+      width: 256
+      height: 245
+relationships:
+  productLabels:
+    crossPlatform:
+      id: crossPlatform
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    applicationFramework:
+      id: applicationFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: relay
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Relay
+  url: 'https://facebook.github.io/relay/'
+  colors:
+    - hex: '#f46c04'
+      rgb:
+        r: 244
+        g: 108
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: relay
+      relativeUrl: products/r/relay/logos/relay.svg
+      width: 256
+      height: 151
+  icons:
+    - id: relay
+      relativeUrl: products/r/relay/icons/relay.svg
+      width: 256
+      height: 151
+relationships:
+  productLabels:
+    graphql:
+      id: graphql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    react:
+      id: react
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

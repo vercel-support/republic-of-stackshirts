@@ -1,0 +1,48 @@
+id: foundation
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Foundation
+  url: 'http://foundation.zurb.com/'
+  colors:
+    - hex: '#e4f1f8'
+      rgb:
+        r: 228
+        g: 241
+        b: 248
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: foundation
+      relativeUrl: products/f/foundation/logos/foundation.svg
+      width: 256
+      height: 380
+  icons:
+    - id: foundation
+      relativeUrl: products/f/foundation/icons/foundation.svg
+      width: 256
+      height: 380
+relationships:
+  productLabels:
+    frontEndFramework:
+      id: frontEndFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    css:
+      id: css
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    sass:
+      id: sass
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ui:
+      id: ui
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

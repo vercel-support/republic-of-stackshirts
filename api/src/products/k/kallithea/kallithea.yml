@@ -1,0 +1,33 @@
+id: kallithea
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Kallithea
+  url: 'https://kallithea-scm.org/'
+  colors:
+    - hex: '#5c7434'
+      rgb:
+        r: 92
+        g: 116
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: kallithea
+      relativeUrl: products/k/kallithea/logos/kallithea.svg
+      width: 256
+      height: 709
+  icons:
+    - id: kallithea
+      relativeUrl: products/k/kallithea/icons/kallithea.svg
+      width: 256
+      height: 709
+relationships:
+  productLabels:
+    versionControl:
+      id: versionControl
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

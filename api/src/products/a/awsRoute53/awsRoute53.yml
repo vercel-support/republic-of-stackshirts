@@ -1,0 +1,38 @@
+id: awsRoute53
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AWS Route 53
+  url: 'https://aws.amazon.com/route53/'
+  colors:
+    - hex: '#9c5424'
+      rgb:
+        r: 156
+        g: 84
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: awsRoute53
+      relativeUrl: products/a/awsRoute53/logos/awsRoute53.svg
+      width: 256
+      height: 310
+  icons:
+    - id: awsRoute53
+      relativeUrl: products/a/awsRoute53/icons/awsRoute53.svg
+      width: 256
+      height: 310
+relationships:
+  productLabels:
+    dns:
+      id: dns
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

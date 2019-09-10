@@ -1,0 +1,38 @@
+id: q
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Q
+  url: 'https://github.com/kriskowal/q'
+  colors:
+    - hex: '#fbdb34'
+      rgb:
+        r: 251
+        g: 219
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: q
+      relativeUrl: products/q/q/logos/q.svg
+      width: 256
+      height: 295
+  icons:
+    - id: q
+      relativeUrl: products/q/q/icons/q.svg
+      width: 256
+      height: 295
+relationships:
+  productLabels:
+    promises:
+      id: promises
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

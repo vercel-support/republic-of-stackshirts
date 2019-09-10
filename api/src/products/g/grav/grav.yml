@@ -1,0 +1,33 @@
+id: grav
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Grav
+  url: 'https://getgrav.org/'
+  colors:
+    - hex: '#241c1c'
+      rgb:
+        r: 36
+        g: 28
+        b: 28
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: grav
+      relativeUrl: products/g/grav/logos/grav.svg
+      width: 256
+      height: 256
+  icons:
+    - id: grav
+      relativeUrl: products/g/grav/icons/grav.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    contentManager:
+      id: contentManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

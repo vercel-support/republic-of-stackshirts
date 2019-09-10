@@ -1,0 +1,33 @@
+id: speakerdeck
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Speaker Deck
+  url: 'https://speakerdeck.com/'
+  colors:
+    - hex: '#1d785c'
+      rgb:
+        r: 29
+        g: 120
+        b: 92
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: speakerdeck
+      relativeUrl: products/s/speakerdeck/logos/speakerdeck.svg
+      width: 256
+      height: 207
+  icons:
+    - id: speakerdeck
+      relativeUrl: products/s/speakerdeck/icons/speakerdeck.svg
+      width: 256
+      height: 207
+relationships:
+  productLabels:
+    presentations:
+      id: presentations
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,48 @@
+id: infer
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Infer
+  url: 'http://fbinfer.com/'
+  colors:
+    - hex: '#7c2ce4'
+      rgb:
+        r: 124
+        g: 44
+        b: 228
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: infer
+      relativeUrl: products/i/infer/logos/infer.svg
+      width: 256
+      height: 256
+  icons:
+    - id: infer
+      relativeUrl: products/i/infer/icons/infer.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    staticAnalysis:
+      id: staticAnalysis
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    java:
+      id: java
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    objectiveC:
+      id: objectiveC
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    facebook:
+      id: facebook
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

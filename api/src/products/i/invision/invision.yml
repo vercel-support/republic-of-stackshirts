@@ -1,0 +1,38 @@
+id: invision
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Invision
+  url: 'http://www.invisionapp.com/'
+  colors:
+    - hex: '#dc3c5c'
+      rgb:
+        r: 220
+        g: 60
+        b: 92
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: invision
+      relativeUrl: products/i/invision/logos/invision.svg
+      width: 256
+      height: 256
+  icons:
+    - id: invision
+      relativeUrl: products/i/invision/icons/invision.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    prototyping:
+      id: prototyping
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ui:
+      id: ui
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

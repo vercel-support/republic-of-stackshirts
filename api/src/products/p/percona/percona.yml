@@ -1,0 +1,38 @@
+id: percona
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Percona
+  url: 'https://www.percona.com/'
+  colors:
+    - hex: '#f4a029'
+      rgb:
+        r: 244
+        g: 160
+        b: 41
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: percona
+      relativeUrl: products/p/percona/logos/percona.svg
+      width: 256
+      height: 250
+  icons:
+    - id: percona
+      relativeUrl: products/p/percona/icons/percona.svg
+      width: 256
+      height: 250
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    performance:
+      id: performance
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

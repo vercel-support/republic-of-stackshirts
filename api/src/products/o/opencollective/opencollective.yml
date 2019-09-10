@@ -1,0 +1,43 @@
+id: opencollective
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: open collective
+  url: 'https://opencollective.com/'
+  colors:
+    - hex: '#b8d3f4'
+      rgb:
+        r: 184
+        g: 211
+        b: 244
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: opencollective
+      relativeUrl: products/o/opencollective/logos/opencollective.svg
+      width: 256
+      height: 256
+  icons:
+    - id: opencollective
+      relativeUrl: products/o/opencollective/icons/opencollective.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    micropayment:
+      id: micropayment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    donation:
+      id: donation
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    openSource:
+      id: openSource
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

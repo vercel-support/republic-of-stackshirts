@@ -1,0 +1,43 @@
+id: myth
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Myth
+  url: 'http://www.myth.io/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: myth
+      relativeUrl: products/m/myth/logos/myth.svg
+      width: 256
+      height: 113
+  icons:
+    - id: myth
+      relativeUrl: products/m/myth/icons/myth.svg
+      width: 256
+      height: 113
+relationships:
+  productLabels:
+    css:
+      id: css
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    preprocessor:
+      id: preprocessor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    polyfill:
+      id: polyfill
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

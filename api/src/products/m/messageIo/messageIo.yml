@@ -1,0 +1,33 @@
+id: messageIo
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Message.io
+  url: 'http://message.io/'
+  colors:
+    - hex: '#e2231a'
+      rgb:
+        r: 226
+        g: 35
+        b: 26
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: messageIo
+      relativeUrl: products/m/messageIo/logos/messageIo.svg
+      width: 512
+      height: 76
+  icons:
+    - id: messageIo
+      relativeUrl: products/m/messageIo/icons/messageIo.svg
+      width: 512
+      height: 76
+relationships:
+  productLabels:
+    chatbot:
+      id: chatbot
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

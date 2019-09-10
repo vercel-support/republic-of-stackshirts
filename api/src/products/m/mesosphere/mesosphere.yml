@@ -1,0 +1,33 @@
+id: mesosphere
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Mesosphere
+  url: 'https://mesosphere.com/'
+  colors:
+    - hex: '#a34fd5'
+      rgb:
+        r: 163
+        g: 79
+        b: 213
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mesosphere
+      relativeUrl: products/m/mesosphere/logos/mesosphere.svg
+      width: 256
+      height: 187
+  icons:
+    - id: mesosphere
+      relativeUrl: products/m/mesosphere/icons/mesosphere.svg
+      width: 256
+      height: 187
+relationships:
+  productLabels:
+    serverManagement:
+      id: serverManagement
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

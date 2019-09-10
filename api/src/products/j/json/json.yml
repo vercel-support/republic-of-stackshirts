@@ -1,0 +1,33 @@
+id: json
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: JSON
+  url: 'http://json.org/'
+  colors:
+    - hex: '#2f2f2f'
+      rgb:
+        r: 47
+        g: 47
+        b: 47
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: json
+      relativeUrl: products/j/json/logos/json.svg
+      width: 256
+      height: 256
+  icons:
+    - id: json
+      relativeUrl: products/j/json/icons/json.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

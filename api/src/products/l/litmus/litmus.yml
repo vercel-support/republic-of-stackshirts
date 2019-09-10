@@ -1,0 +1,33 @@
+id: litmus
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Litmus
+  url: 'http://litmus.com/'
+  colors:
+    - hex: '#566459'
+      rgb:
+        r: 86
+        g: 100
+        b: 89
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: litmus
+      relativeUrl: products/l/litmus/logos/litmus.svg
+      width: 256
+      height: 256
+  icons:
+    - id: litmus
+      relativeUrl: products/l/litmus/icons/litmus.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    emailTesting:
+      id: emailTesting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: doubleclick
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: DoubleClick
+  url: 'https://www.doubleclickbygoogle.com/'
+  colors:
+    - hex: '#369647'
+      rgb:
+        r: 54
+        g: 150
+        b: 71
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: doubleclick
+      relativeUrl: products/d/doubleclick/logos/doubleclick.svg
+      width: 256
+      height: 205
+  icons:
+    - id: doubleclick
+      relativeUrl: products/d/doubleclick/icons/doubleclick.svg
+      width: 256
+      height: 205
+relationships:
+  productLabels:
+    marketing:
+      id: marketing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    advertising:
+      id: advertising
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    revenue:
+      id: revenue
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

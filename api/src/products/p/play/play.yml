@@ -1,0 +1,38 @@
+id: play
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Play
+  url: 'https://www.playframework.com/'
+  colors:
+    - hex: '#4c6c1c'
+      rgb:
+        r: 76
+        g: 108
+        b: 28
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: play
+      relativeUrl: products/p/play/logos/play.svg
+      width: 512
+      height: 266
+  icons:
+    - id: play
+      relativeUrl: products/p/play/icons/play.svg
+      width: 512
+      height: 266
+relationships:
+  productLabels:
+    fullStackFramework:
+      id: fullStackFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    java:
+      id: java
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

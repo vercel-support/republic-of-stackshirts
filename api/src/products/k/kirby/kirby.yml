@@ -1,0 +1,43 @@
+id: kirby
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: kirby
+  url: 'http://getkirby.com/'
+  colors:
+    - hex: '#fc0404'
+      rgb:
+        r: 252
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: kirby
+      relativeUrl: products/k/kirby/logos/kirby.svg
+      width: 256
+      height: 291
+  icons:
+    - id: kirby
+      relativeUrl: products/k/kirby/icons/kirby.svg
+      width: 256
+      height: 291
+relationships:
+  productLabels:
+    cotentManager:
+      id: cotentManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    fileBased:
+      id: fileBased
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    php:
+      id: php
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

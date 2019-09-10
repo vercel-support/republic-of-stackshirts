@@ -1,0 +1,43 @@
+id: awsDynamodb
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AWS DynamoDB
+  url: 'https://aws.amazon.com/dynamodb/'
+  colors:
+    - hex: '#1c446c'
+      rgb:
+        r: 28
+        g: 68
+        b: 108
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: awsDynamodb
+      relativeUrl: products/a/awsDynamodb/logos/awsDynamodb.svg
+      width: 256
+      height: 289
+  icons:
+    - id: awsDynamodb
+      relativeUrl: products/a/awsDynamodb/icons/awsDynamodb.svg
+      width: 256
+      height: 289
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nosql:
+      id: nosql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    dbaas:
+      id: dbaas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

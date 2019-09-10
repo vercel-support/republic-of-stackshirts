@@ -1,0 +1,38 @@
+id: drupal
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Drupal
+  url: 'https://www.drupal.org/'
+  colors:
+    - hex: '#0982c2'
+      rgb:
+        r: 9
+        g: 130
+        b: 194
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: drupal
+      relativeUrl: products/d/drupal/logos/drupal.svg
+      width: 256
+      height: 295
+  icons:
+    - id: drupal
+      relativeUrl: products/d/drupal/icons/drupal.svg
+      width: 256
+      height: 295
+relationships:
+  productLabels:
+    php:
+      id: php
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    contentManager:
+      id: contentManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

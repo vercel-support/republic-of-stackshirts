@@ -1,0 +1,38 @@
+id: upwork
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Upwork
+  url: 'https://www.upwork.com/'
+  colors:
+    - hex: '#6cdc44'
+      rgb:
+        r: 108
+        g: 220
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: upwork
+      relativeUrl: products/u/upwork/logos/upwork.svg
+      width: 512
+      height: 153
+  icons:
+    - id: upwork
+      relativeUrl: products/u/upwork/icons/upwork.svg
+      width: 512
+      height: 153
+relationships:
+  productLabels:
+    jobs:
+      id: jobs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    freelancers:
+      id: freelancers
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

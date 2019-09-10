@@ -1,0 +1,43 @@
+id: drip
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Drip
+  url: 'https://www.getdrip.com/'
+  colors:
+    - hex: '#444344'
+      rgb:
+        r: 68
+        g: 67
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: drip
+      relativeUrl: products/d/drip/logos/drip.svg
+      width: 512
+      height: 245
+  icons:
+    - id: drip
+      relativeUrl: products/d/drip/icons/drip.svg
+      width: 512
+      height: 245
+relationships:
+  productLabels:
+    emailMarketing:
+      id: emailMarketing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    lifecycleMarketing:
+      id: lifecycleMarketing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    marketing:
+      id: marketing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

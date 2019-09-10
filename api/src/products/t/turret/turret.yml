@@ -1,0 +1,48 @@
+id: turret
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Turret
+  url: 'http://bigfishtv.github.io/turret/'
+  colors:
+    - hex: '#04bcd4'
+      rgb:
+        r: 4
+        g: 188
+        b: 212
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: turret
+      relativeUrl: products/t/turret/logos/turret.svg
+      width: 256
+      height: 373
+  icons:
+    - id: turret
+      relativeUrl: products/t/turret/icons/turret.svg
+      width: 256
+      height: 373
+relationships:
+  productLabels:
+    frontEndFramework:
+      id: frontEndFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    css:
+      id: css
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    less:
+      id: less
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ui:
+      id: ui
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

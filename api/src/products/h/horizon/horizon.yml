@@ -1,0 +1,48 @@
+id: horizon
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Horizon
+  url: 'https://horizon.io/'
+  colors:
+    - hex: '#65b4c4'
+      rgb:
+        r: 101
+        g: 180
+        b: 196
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: horizon
+      relativeUrl: products/h/horizon/logos/horizon.svg
+      width: 256
+      height: 256
+  icons:
+    - id: horizon
+      relativeUrl: products/h/horizon/icons/horizon.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    realTime:
+      id: realTime
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    rethinkdb:
+      id: rethinkdb
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: highcharts
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Highcharts
+  url: 'http://www.highcharts.com/'
+  colors:
+    - hex: '#718696'
+      rgb:
+        r: 113
+        g: 134
+        b: 150
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: highcharts
+      relativeUrl: products/h/highcharts/logos/highcharts.svg
+      width: 256
+      height: 243
+  icons:
+    - id: highcharts
+      relativeUrl: products/h/highcharts/icons/highcharts.svg
+      width: 256
+      height: 243
+relationships:
+  productLabels:
+    charts:
+      id: charts
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    library:
+      id: library
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

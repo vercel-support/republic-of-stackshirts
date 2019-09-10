@@ -1,0 +1,33 @@
+id: pipefy
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Pipefy
+  url: 'http://www.pipefy.com/'
+  colors:
+    - hex: '#029aff'
+      rgb:
+        r: 2
+        g: 154
+        b: 255
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: pipefy
+      relativeUrl: products/p/pipefy/logos/pipefy.svg
+      width: 256
+      height: 140
+  icons:
+    - id: pipefy
+      relativeUrl: products/p/pipefy/icons/pipefy.svg
+      width: 256
+      height: 140
+relationships:
+  productLabels:
+    projectManager:
+      id: projectManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

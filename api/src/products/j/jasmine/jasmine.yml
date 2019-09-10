@@ -1,0 +1,48 @@
+id: jasmine
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Jasmine
+  url: 'http://jasmine.github.io/'
+  colors:
+    - hex: '#8c4484'
+      rgb:
+        r: 140
+        g: 68
+        b: 132
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: jasmine
+      relativeUrl: products/j/jasmine/logos/jasmine.svg
+      width: 256
+      height: 255
+  icons:
+    - id: jasmine
+      relativeUrl: products/j/jasmine/icons/jasmine.svg
+      width: 256
+      height: 255
+relationships:
+  productLabels:
+    testingFramework:
+      id: testingFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    unitTesting:
+      id: unitTesting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    bdd:
+      id: bdd
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,48 @@
+id: pusher
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Pusher
+  url: 'https://pusher.com/'
+  colors:
+    - hex: '#3c444c'
+      rgb:
+        r: 60
+        g: 68
+        b: 76
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: pusher
+      relativeUrl: products/p/pusher/logos/pusher.svg
+      width: 256
+      height: 350
+  icons:
+    - id: pusher
+      relativeUrl: products/p/pusher/icons/pusher.svg
+      width: 256
+      height: 350
+relationships:
+  productLabels:
+    cloudComputing:
+      id: cloudComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    api:
+      id: api
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    realTime:
+      id: realTime
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

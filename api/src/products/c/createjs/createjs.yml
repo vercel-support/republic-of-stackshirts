@@ -1,0 +1,38 @@
+id: createjs
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: CreateJS
+  url: 'http://www.createjs.com/'
+  colors:
+    - hex: '#445464'
+      rgb:
+        r: 68
+        g: 84
+        b: 100
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: createjs
+      relativeUrl: products/c/createjs/logos/createjs.svg
+      width: 256
+      height: 293
+  icons:
+    - id: createjs
+      relativeUrl: products/c/createjs/icons/createjs.svg
+      width: 256
+      height: 293
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    library:
+      id: library
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

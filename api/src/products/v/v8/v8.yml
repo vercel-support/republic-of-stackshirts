@@ -1,0 +1,38 @@
+id: v8
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: V8
+  url: 'https://developers.google.com/v8/'
+  colors:
+    - hex: '#3c8beb'
+      rgb:
+        r: 60
+        g: 139
+        b: 235
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: v8
+      relativeUrl: products/v/v8/logos/v8.svg
+      width: 256
+      height: 224
+  icons:
+    - id: v8
+      relativeUrl: products/v/v8/icons/v8.svg
+      width: 256
+      height: 224
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    engine:
+      id: engine
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: vue
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Vue.js
+  url: 'http://vuejs.org/'
+  colors:
+    - hex: '#344c5c'
+      rgb:
+        r: 52
+        g: 76
+        b: 92
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: vue
+      relativeUrl: products/v/vue/logos/vue.svg
+      width: 256
+      height: 221
+  icons:
+    - id: vue
+      relativeUrl: products/v/vue/icons/vue.svg
+      width: 256
+      height: 221
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    uiFramework:
+      id: uiFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

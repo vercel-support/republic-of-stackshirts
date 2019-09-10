@@ -1,0 +1,43 @@
+id: jspm
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: JSPM
+  url: 'http://jspm.io/'
+  colors:
+    - hex: '#ebdb8c'
+      rgb:
+        r: 235
+        g: 219
+        b: 140
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: jspm
+      relativeUrl: products/j/jspm/logos/jspm.svg
+      width: 256
+      height: 254
+  icons:
+    - id: jspm
+      relativeUrl: products/j/jspm/icons/jspm.svg
+      width: 256
+      height: 254
+relationships:
+  productLabels:
+    packageManager:
+      id: packageManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

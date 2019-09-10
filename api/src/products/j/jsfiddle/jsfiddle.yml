@@ -1,0 +1,43 @@
+id: jsfiddle
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: JSFiddle
+  url: 'https://jsfiddle.net/'
+  colors:
+    - hex: '#447ca4'
+      rgb:
+        r: 68
+        g: 124
+        b: 164
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: jsfiddle
+      relativeUrl: products/j/jsfiddle/logos/jsfiddle.svg
+      width: 256
+      height: 175
+  icons:
+    - id: jsfiddle
+      relativeUrl: products/j/jsfiddle/icons/jsfiddle.svg
+      width: 256
+      height: 175
+relationships:
+  productLabels:
+    playground:
+      id: playground
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    codeEditor:
+      id: codeEditor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    service:
+      id: service
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

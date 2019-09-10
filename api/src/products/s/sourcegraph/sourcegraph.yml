@@ -1,0 +1,48 @@
+id: sourcegraph
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Sourcegraph
+  url: 'https://sourcegraph.com/'
+  colors:
+    - hex: '#f96316'
+      rgb:
+        r: 249
+        g: 99
+        b: 22
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: sourcegraph
+      relativeUrl: products/s/sourcegraph/logos/sourcegraph.svg
+      width: 256
+      height: 262
+  icons:
+    - id: sourcegraph
+      relativeUrl: products/s/sourcegraph/icons/sourcegraph.svg
+      width: 256
+      height: 262
+relationships:
+  productLabels:
+    codeSearch:
+      id: codeSearch
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    go:
+      id: go
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    typescript:
+      id: typescript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    c:
+      id: c
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: yammer
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Yammer
+  url: 'https://www.yammer.com/'
+  colors:
+    - hex: '#245494'
+      rgb:
+        r: 36
+        g: 84
+        b: 148
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: yammer
+      relativeUrl: products/y/yammer/logos/yammer.svg
+      width: 256
+      height: 218
+  icons:
+    - id: yammer
+      relativeUrl: products/y/yammer/icons/yammer.svg
+      width: 256
+      height: 218
+relationships:
+  productLabels:
+    socialNetwork:
+      id: socialNetwork
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    enterpriseTools:
+      id: enterpriseTools
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

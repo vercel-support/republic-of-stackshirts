@@ -1,0 +1,38 @@
+id: momentjs
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Moment.js
+  url: 'http://momentjs.com/'
+  colors:
+    - hex: '#346464'
+      rgb:
+        r: 52
+        g: 100
+        b: 100
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: momentjs
+      relativeUrl: products/m/momentjs/logos/momentjs.svg
+      width: 256
+      height: 256
+  icons:
+    - id: momentjs
+      relativeUrl: products/m/momentjs/icons/momentjs.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    library:
+      id: library
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

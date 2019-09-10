@@ -1,0 +1,33 @@
+id: middleman
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Middleman
+  url: 'https://middlemanapp.com/'
+  colors:
+    - hex: '#f3c364'
+      rgb:
+        r: 243
+        g: 195
+        b: 100
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: middleman
+      relativeUrl: products/m/middleman/logos/middleman.svg
+      width: 256
+      height: 256
+  icons:
+    - id: middleman
+      relativeUrl: products/m/middleman/icons/middleman.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    staticSiteGenerator:
+      id: staticSiteGenerator
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

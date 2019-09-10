@@ -1,0 +1,38 @@
+id: humongous
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Humongous
+  url: 'https://humongous.io/'
+  colors:
+    - hex: '#343434'
+      rgb:
+        r: 52
+        g: 52
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: humongous
+      relativeUrl: products/h/humongous/logos/humongous.svg
+      width: 256
+      height: 257
+  icons:
+    - id: humongous
+      relativeUrl: products/h/humongous/icons/humongous.svg
+      width: 256
+      height: 257
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mongodb:
+      id: mongodb
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

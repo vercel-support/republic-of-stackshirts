@@ -1,0 +1,43 @@
+id: broccoli
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Broccoli
+  url: 'https://github.com/broccolijs/broccoli'
+  colors:
+    - hex: '#5c8424'
+      rgb:
+        r: 92
+        g: 132
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: broccoli
+      relativeUrl: products/b/broccoli/logos/broccoli.svg
+      width: 256
+      height: 266
+  icons:
+    - id: broccoli
+      relativeUrl: products/b/broccoli/icons/broccoli.svg
+      width: 256
+      height: 266
+relationships:
+  productLabels:
+    buildTool:
+      id: buildTool
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

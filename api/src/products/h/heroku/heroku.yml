@@ -1,0 +1,43 @@
+id: heroku
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Heroku
+  url: 'https://www.heroku.com/'
+  colors:
+    - hex: '#6464a4'
+      rgb:
+        r: 100
+        g: 100
+        b: 164
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: heroku
+      relativeUrl: products/h/heroku/logos/heroku.svg
+      width: 256
+      height: 400
+  icons:
+    - id: heroku
+      relativeUrl: products/h/heroku/icons/heroku.svg
+      width: 256
+      height: 400
+relationships:
+  productLabels:
+    cloudComputing:
+      id: cloudComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    paas:
+      id: paas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

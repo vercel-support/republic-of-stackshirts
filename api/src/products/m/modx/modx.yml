@@ -1,0 +1,33 @@
+id: modx
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: MODX
+  url: 'http://modx.com/'
+  colors:
+    - hex: '#73bc4f'
+      rgb:
+        r: 115
+        g: 188
+        b: 79
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: modx
+      relativeUrl: products/m/modx/logos/modx.svg
+      width: 256
+      height: 329
+  icons:
+    - id: modx
+      relativeUrl: products/m/modx/icons/modx.svg
+      width: 256
+      height: 329
+relationships:
+  productLabels:
+    contentManager:
+      id: contentManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

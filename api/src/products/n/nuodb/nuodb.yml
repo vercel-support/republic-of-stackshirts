@@ -1,0 +1,38 @@
+id: nuodb
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: NuoDB
+  url: 'http://www.kinto-storage.org/'
+  colors:
+    - hex: '#b4d41c'
+      rgb:
+        r: 180
+        g: 212
+        b: 28
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: nuodb
+      relativeUrl: products/n/nuodb/logos/nuodb.svg
+      width: 256
+      height: 179
+  icons:
+    - id: nuodb
+      relativeUrl: products/n/nuodb/icons/nuodb.svg
+      width: 256
+      height: 179
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    sql:
+      id: sql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

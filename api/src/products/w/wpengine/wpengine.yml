@@ -1,0 +1,38 @@
+id: wpengine
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: WP engine
+  url: 'http://wpengine.com/'
+  colors:
+    - hex: '#44bccc'
+      rgb:
+        r: 68
+        g: 188
+        b: 204
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: wpengine
+      relativeUrl: products/w/wpengine/logos/wpengine.svg
+      width: 256
+      height: 256
+  icons:
+    - id: wpengine
+      relativeUrl: products/w/wpengine/icons/wpengine.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    webHosting:
+      id: webHosting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    wordpress:
+      id: wordpress
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

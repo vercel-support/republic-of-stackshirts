@@ -1,0 +1,38 @@
+id: clusterhq
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: ClusterHQ
+  url: 'https://clusterhq.com/'
+  colors:
+    - hex: '#e0433a'
+      rgb:
+        r: 224
+        g: 67
+        b: 58
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: clusterhq
+      relativeUrl: products/c/clusterhq/logos/clusterhq.svg
+      width: 256
+      height: 285
+  icons:
+    - id: clusterhq
+      relativeUrl: products/c/clusterhq/icons/clusterhq.svg
+      width: 256
+      height: 285
+relationships:
+  productLabels:
+    docker:
+      id: docker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    containers:
+      id: containers
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

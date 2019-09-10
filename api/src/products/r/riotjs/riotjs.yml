@@ -1,0 +1,38 @@
+id: riotjs
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Riot
+  url: 'http://riotjs.com/'
+  colors:
+    - hex: '#ff0044'
+      rgb:
+        r: 255
+        g: 0
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: riot
+      relativeUrl: products/r/riotjs/logos/riot.svg
+      width: 512
+      height: 248
+  icons:
+    - id: riot
+      relativeUrl: products/r/riotjs/icons/riot.svg
+      width: 512
+      height: 248
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    uiFramework:
+      id: uiFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

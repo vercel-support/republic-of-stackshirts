@@ -1,0 +1,38 @@
+id: codeschool
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Code School
+  url: 'https://www.codeschool.com/'
+  colors:
+    - hex: '#54acc4'
+      rgb:
+        r: 84
+        g: 172
+        b: 196
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: codeschool
+      relativeUrl: products/c/codeschool/logos/codeschool.svg
+      width: 256
+      height: 256
+  icons:
+    - id: codeschool
+      relativeUrl: products/c/codeschool/icons/codeschool.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    learning:
+      id: learning
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    courses:
+      id: courses
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

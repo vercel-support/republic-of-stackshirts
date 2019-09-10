@@ -1,0 +1,38 @@
+id: symfony
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Symfony
+  url: 'https://symfony.com/'
+  colors:
+    - hex: '#1c141c'
+      rgb:
+        r: 28
+        g: 20
+        b: 28
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: symfony
+      relativeUrl: products/s/symfony/logos/symfony.svg
+      width: 256
+      height: 257
+  icons:
+    - id: symfony
+      relativeUrl: products/s/symfony/icons/symfony.svg
+      width: 256
+      height: 257
+relationships:
+  productLabels:
+    fullStackFramework:
+      id: fullStackFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    php:
+      id: php
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: cloudflare
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: CloudFlare
+  url: 'https://www.cloudflare.com/'
+  colors:
+    - hex: '#ef8b1f'
+      rgb:
+        r: 239
+        g: 139
+        b: 31
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: cloudflare
+      relativeUrl: products/c/cloudflare/logos/cloudflare.svg
+      width: 256
+      height: 116
+  icons:
+    - id: cloudflare
+      relativeUrl: products/c/cloudflare/icons/cloudflare.svg
+      width: 256
+      height: 116
+relationships:
+  productLabels:
+    cdn:
+      id: cdn
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

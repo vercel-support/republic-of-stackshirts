@@ -1,0 +1,43 @@
+id: positionly
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Positionly
+  url: 'https://positionly.com/'
+  colors:
+    - hex: '#149454'
+      rgb:
+        r: 20
+        g: 148
+        b: 84
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: positionly
+      relativeUrl: products/p/positionly/logos/positionly.svg
+      width: 256
+      height: 350
+  icons:
+    - id: positionly
+      relativeUrl: products/p/positionly/icons/positionly.svg
+      width: 256
+      height: 350
+relationships:
+  productLabels:
+    seo:
+      id: seo
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    inboundMarketing:
+      id: inboundMarketing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    marketing:
+      id: marketing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

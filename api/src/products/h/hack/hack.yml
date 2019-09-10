@@ -1,0 +1,43 @@
+id: hack
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: hack
+  url: 'http://hacklang.org/'
+  colors:
+    - hex: '#848484'
+      rgb:
+        r: 132
+        g: 132
+        b: 132
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: hack
+      relativeUrl: products/h/hack/logos/hack.svg
+      width: 256
+      height: 381
+  icons:
+    - id: hack
+      relativeUrl: products/h/hack/icons/hack.svg
+      width: 256
+      height: 381
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    php:
+      id: php
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    facebook:
+      id: facebook
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: base
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Base
+  url: 'https://getbase.com/'
+  colors:
+    - hex: '#34dcc4'
+      rgb:
+        r: 52
+        g: 220
+        b: 196
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: base
+      relativeUrl: products/b/base/logos/base.svg
+      width: 256
+      height: 174
+  icons:
+    - id: base
+      relativeUrl: products/b/base/icons/base.svg
+      width: 256
+      height: 174
+relationships:
+  productLabels:
+    crm:
+      id: crm
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

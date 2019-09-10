@@ -1,0 +1,38 @@
+id: cljs
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: ClojureScript
+  url: 'http://cljs.info/'
+  colors:
+    - hex: '#94cc4c'
+      rgb:
+        r: 148
+        g: 204
+        b: 76
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: cljs
+      relativeUrl: products/c/cljs/logos/cljs.svg
+      width: 256
+      height: 256
+  icons:
+    - id: cljs
+      relativeUrl: products/c/cljs/icons/cljs.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    clojure:
+      id: clojure
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: vivaldi
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Vivaldi
+  url: 'https://vivaldi.com/'
+  colors:
+    - hex: '#e73a3a'
+      rgb:
+        r: 231
+        g: 58
+        b: 58
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: vivaldi
+      relativeUrl: products/v/vivaldi/logos/vivaldi.svg
+      width: 256
+      height: 256
+  icons:
+    - id: vivaldi
+      relativeUrl: products/v/vivaldi/icons/vivaldi.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    browser:
+      id: browser
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: juju
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Juju
+  url: 'http://juju.ubuntu.com/'
+  colors:
+    - hex: '#dc4c14'
+      rgb:
+        r: 220
+        g: 76
+        b: 20
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: juju
+      relativeUrl: products/j/juju/logos/juju.svg
+      width: 256
+      height: 256
+  icons:
+    - id: juju
+      relativeUrl: products/j/juju/icons/juju.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    serviceOrchestration:
+      id: serviceOrchestration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

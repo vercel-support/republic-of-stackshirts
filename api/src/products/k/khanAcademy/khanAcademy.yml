@@ -1,0 +1,38 @@
+id: khanAcademy
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Khan Academy
+  url: 'https://www.khanacademy.org/'
+  colors:
+    - hex: '#9ca857'
+      rgb:
+        r: 156
+        g: 168
+        b: 87
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: khanAcademy
+      relativeUrl: products/k/khanAcademy/logos/khanAcademy.svg
+      width: 256
+      height: 361
+  icons:
+    - id: khanAcademy
+      relativeUrl: products/k/khanAcademy/icons/khanAcademy.svg
+      width: 256
+      height: 361
+relationships:
+  productLabels:
+    learning:
+      id: learning
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    courses:
+      id: courses
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: mention
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: mention
+  url: 'https://mention.com/'
+  colors:
+    - hex: '#04a3dc'
+      rgb:
+        r: 4
+        g: 163
+        b: 220
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mention
+      relativeUrl: products/m/mention/logos/mention.svg
+      width: 512
+      height: 100
+  icons:
+    - id: mention
+      relativeUrl: products/m/mention/icons/mention.svg
+      width: 512
+      height: 100
+relationships:
+  productLabels:
+    socialMediaTools:
+      id: socialMediaTools
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

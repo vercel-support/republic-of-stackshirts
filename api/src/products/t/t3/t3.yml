@@ -1,0 +1,38 @@
+id: t3
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: T3
+  url: 'http://t3js.org/'
+  colors:
+    - hex: '#4c33bc'
+      rgb:
+        r: 76
+        g: 51
+        b: 188
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: t3
+      relativeUrl: products/t/t3/logos/t3.svg
+      width: 256
+      height: 257
+  icons:
+    - id: t3
+      relativeUrl: products/t/t3/icons/t3.svg
+      width: 256
+      height: 257
+relationships:
+  productLabels:
+    uiFramework:
+      id: uiFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

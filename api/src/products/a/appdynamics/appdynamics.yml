@@ -1,0 +1,38 @@
+id: appdynamics
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AppDynamics
+  url: 'http://www.appdynamics.com/'
+  colors:
+    - hex: '#44ac4c'
+      rgb:
+        r: 68
+        g: 172
+        b: 76
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: appdynamics
+      relativeUrl: products/a/appdynamics/logos/appdynamics.svg
+      width: 256
+      height: 256
+  icons:
+    - id: appdynamics
+      relativeUrl: products/a/appdynamics/icons/appdynamics.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    monitoring:
+      id: monitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    performanceMonitoring:
+      id: performanceMonitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

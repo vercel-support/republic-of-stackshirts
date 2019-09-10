@@ -1,0 +1,48 @@
+id: intercom
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Intercom
+  url: 'https://www.intercom.io/'
+  colors:
+    - hex: '#1c8cec'
+      rgb:
+        r: 28
+        g: 140
+        b: 236
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: intercom
+      relativeUrl: products/i/intercom/logos/intercom.svg
+      width: 256
+      height: 256
+  icons:
+    - id: intercom
+      relativeUrl: products/i/intercom/icons/intercom.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    customerSupport:
+      id: customerSupport
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    emailMarketing:
+      id: emailMarketing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    lifecycleMarketing:
+      id: lifecycleMarketing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    marketing:
+      id: marketing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

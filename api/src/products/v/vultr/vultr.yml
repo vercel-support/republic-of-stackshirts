@@ -1,0 +1,38 @@
+id: vultr
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Vultr
+  url: 'https://www.vultr.com/'
+  colors:
+    - hex: '#1e88e5'
+      rgb:
+        r: 30
+        g: 136
+        b: 229
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: vultr
+      relativeUrl: products/v/vultr/logos/vultr.svg
+      width: 512
+      height: 102
+  icons:
+    - id: vultr
+      relativeUrl: products/v/vultr/icons/vultr.svg
+      width: 512
+      height: 102
+relationships:
+  productLabels:
+    hosting:
+      id: hosting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    paas:
+      id: paas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

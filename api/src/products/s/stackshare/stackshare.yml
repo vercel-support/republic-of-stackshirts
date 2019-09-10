@@ -1,0 +1,33 @@
+id: stackshare
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: stackshare
+  url: 'http://stackshare.io/'
+  colors:
+    - hex: '#0494fc'
+      rgb:
+        r: 4
+        g: 148
+        b: 252
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: stackshare
+      relativeUrl: products/s/stackshare/logos/stackshare.svg
+      width: 256
+      height: 228
+  icons:
+    - id: stackshare
+      relativeUrl: products/s/stackshare/icons/stackshare.svg
+      width: 256
+      height: 228
+relationships:
+  productLabels:
+    developerStack:
+      id: developerStack
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

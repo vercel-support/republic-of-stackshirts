@@ -1,0 +1,38 @@
+id: codepicnic
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: CodePicnic
+  url: 'https://codepicnic.com/'
+  colors:
+    - hex: '#20A2CB'
+      rgb:
+        r: 32
+        g: 162
+        b: 203
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: codepicnic
+      relativeUrl: products/c/codepicnic/logos/codepicnic.svg
+      width: 256
+      height: 270
+  icons:
+    - id: codepicnic
+      relativeUrl: products/c/codepicnic/icons/codepicnic.svg
+      width: 256
+      height: 270
+relationships:
+  productLabels:
+    sandbox:
+      id: sandbox
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    codeEditor:
+      id: codeEditor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

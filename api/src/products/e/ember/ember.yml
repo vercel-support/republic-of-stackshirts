@@ -1,0 +1,46 @@
+id: ember
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Ember
+  url: 'http://emberjs.com/'
+  colors:
+    - hex: '#e44c34'
+      rgb:
+        r: 228
+        g: 76
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: emberTomster
+      relativeUrl: products/e/ember/logos/emberTomster.svg
+      width: 256
+      height: 244.5
+    - id: ember
+      relativeUrl: products/e/ember/logos/ember.svg
+      width: 512
+      height: 213
+  icons:
+    - id: emberTomster
+      relativeUrl: products/e/ember/icons/emberTomster.svg
+      width: 256
+      height: 244.5
+    - id: ember
+      relativeUrl: products/e/ember/icons/ember.svg
+      width: 512
+      height: 213
+relationships:
+  productLabels:
+    mvcFramework:
+      id: mvcFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

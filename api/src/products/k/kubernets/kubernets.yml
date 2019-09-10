@@ -1,0 +1,43 @@
+id: kubernets
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Kubernetes
+  url: 'http://kubernetes.io/'
+  colors:
+    - hex: '#346ce4'
+      rgb:
+        r: 52
+        g: 108
+        b: 228
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: kubernets
+      relativeUrl: products/k/kubernets/logos/kubernets.svg
+      width: 256
+      height: 249
+  icons:
+    - id: kubernets
+      relativeUrl: products/k/kubernets/icons/kubernets.svg
+      width: 256
+      height: 249
+relationships:
+  productLabels:
+    linux:
+      id: linux
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    containers:
+      id: containers
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    docker:
+      id: docker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

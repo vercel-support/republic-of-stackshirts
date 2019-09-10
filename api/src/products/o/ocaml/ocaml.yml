@@ -1,0 +1,38 @@
+id: ocaml
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: OCaml
+  url: 'https://ocaml.org/'
+  colors:
+    - hex: '#f08007'
+      rgb:
+        r: 240
+        g: 128
+        b: 7
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: ocaml
+      relativeUrl: products/o/ocaml/logos/ocaml.svg
+      width: 512
+      height: 141
+  icons:
+    - id: ocaml
+      relativeUrl: products/o/ocaml/icons/ocaml.svg
+      width: 512
+      height: 141
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    dialect:
+      id: dialect
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

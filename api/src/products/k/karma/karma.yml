@@ -1,0 +1,53 @@
+id: karma
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Karma
+  url: 'http://karma-runner.github.io/'
+  colors:
+    - hex: '#54c3ab'
+      rgb:
+        r: 84
+        g: 195
+        b: 171
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: karma
+      relativeUrl: products/k/karma/logos/karma.svg
+      width: 256
+      height: 198
+  icons:
+    - id: karma
+      relativeUrl: products/k/karma/icons/karma.svg
+      width: 256
+      height: 198
+relationships:
+  productLabels:
+    testingFramework:
+      id: testingFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    unitTesting:
+      id: unitTesting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    tdd:
+      id: tdd
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    angular:
+      id: angular
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

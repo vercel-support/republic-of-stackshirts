@@ -1,0 +1,43 @@
+id: haml
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Haml
+  url: 'http://haml.info/'
+  colors:
+    - hex: '#3f3f2e'
+      rgb:
+        r: 63
+        g: 63
+        b: 46
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: haml
+      relativeUrl: products/h/haml/logos/haml.svg
+      width: 256
+      height: 316
+  icons:
+    - id: haml
+      relativeUrl: products/h/haml/icons/haml.svg
+      width: 256
+      height: 316
+relationships:
+  productLabels:
+    html:
+      id: html
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    template:
+      id: template
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    preprocessor:
+      id: preprocessor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

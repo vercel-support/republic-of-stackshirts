@@ -1,0 +1,38 @@
+id: akamai
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Akamai
+  url: 'https://www.akamai.com/'
+  colors:
+    - hex: '#049bcc'
+      rgb:
+        r: 4
+        g: 155
+        b: 204
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: akamai
+      relativeUrl: products/a/akamai/logos/akamai.svg
+      width: 512
+      height: 209
+  icons:
+    - id: akamai
+      relativeUrl: products/a/akamai/icons/akamai.svg
+      width: 512
+      height: 209
+relationships:
+  productLabels:
+    cdn:
+      id: cdn
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

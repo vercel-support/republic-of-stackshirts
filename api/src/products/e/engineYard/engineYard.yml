@@ -1,0 +1,43 @@
+id: engineYard
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Engine Yard
+  url: 'https://www.engineyard.com/'
+  colors:
+    - hex: '#ec242c'
+      rgb:
+        r: 236
+        g: 36
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: engineYard
+      relativeUrl: products/e/engineYard/logos/engineYard.svg
+      width: 253
+      height: 187
+  icons:
+    - id: engineYard
+      relativeUrl: products/e/engineYard/icons/engineYard.svg
+      width: 253
+      height: 187
+relationships:
+  productLabels:
+    codeDeployment:
+      id: codeDeployment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    codeManager:
+      id: codeManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    paas:
+      id: paas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

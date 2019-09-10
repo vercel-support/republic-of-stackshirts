@@ -1,0 +1,38 @@
+id: digitalocean
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: DigitalOcean
+  url: 'https://www.digitalocean.com/'
+  colors:
+    - hex: '#58b0e1'
+      rgb:
+        r: 88
+        g: 176
+        b: 225
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: digitalocean
+      relativeUrl: products/d/digitalocean/logos/digitalocean.svg
+      width: 256
+      height: 164
+  icons:
+    - id: digitalocean
+      relativeUrl: products/d/digitalocean/icons/digitalocean.svg
+      width: 256
+      height: 164
+relationships:
+  productLabels:
+    cloudComputing:
+      id: cloudComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

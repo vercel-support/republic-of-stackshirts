@@ -1,0 +1,38 @@
+id: cakephp
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: CakePHP
+  url: 'http://cakephp.org/'
+  colors:
+    - hex: '#ddc974'
+      rgb:
+        r: 221
+        g: 201
+        b: 116
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: cakephp
+      relativeUrl: products/c/cakephp/logos/cakephp.svg
+      width: 256
+      height: 255
+  icons:
+    - id: cakephp
+      relativeUrl: products/c/cakephp/icons/cakephp.svg
+      width: 256
+      height: 255
+relationships:
+  productLabels:
+    fullStackFramework:
+      id: fullStackFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    php:
+      id: php
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

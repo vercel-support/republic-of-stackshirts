@@ -1,0 +1,33 @@
+id: discord
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Discord
+  url: 'https://discordapp.com/'
+  colors:
+    - hex: '#748cdc'
+      rgb:
+        r: 116
+        g: 140
+        b: 220
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: discord
+      relativeUrl: products/d/discord/logos/discord.svg
+      width: 256
+      height: 293
+  icons:
+    - id: discord
+      relativeUrl: products/d/discord/icons/discord.svg
+      width: 256
+      height: 293
+relationships:
+  productLabels:
+    groupChat:
+      id: groupChat
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

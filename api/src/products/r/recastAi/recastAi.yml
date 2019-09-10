@@ -1,0 +1,38 @@
+id: recastAi
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Recast.AI
+  url: 'https://recast.ai/'
+  colors:
+    - hex: '#ffe082'
+      rgb:
+        r: 255
+        g: 224
+        b: 130
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: recastAi
+      relativeUrl: products/r/recastAi/logos/recastAi.svg
+      width: 256
+      height: 276
+  icons:
+    - id: recastAi
+      relativeUrl: products/r/recastAi/icons/recastAi.svg
+      width: 256
+      height: 276
+relationships:
+  productLabels:
+    chatbot:
+      id: chatbot
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    bot:
+      id: bot
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

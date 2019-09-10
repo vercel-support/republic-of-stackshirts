@@ -1,0 +1,43 @@
+id: hexo
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Hexo
+  url: 'https://hexo.io/'
+  colors:
+    - hex: '#0c84cc'
+      rgb:
+        r: 12
+        g: 132
+        b: 204
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: hexo
+      relativeUrl: products/h/hexo/logos/hexo.svg
+      width: 256
+      height: 295
+  icons:
+    - id: hexo
+      relativeUrl: products/h/hexo/icons/hexo.svg
+      width: 256
+      height: 295
+relationships:
+  productLabels:
+    blogFramework:
+      id: blogFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    staticSiteGenerator:
+      id: staticSiteGenerator
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

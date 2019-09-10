@@ -1,0 +1,38 @@
+id: pingdom
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Pingdom
+  url: 'https://www.pingdom.com/'
+  colors:
+    - hex: '#fcf404'
+      rgb:
+        r: 252
+        g: 244
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: pingdom
+      relativeUrl: products/p/pingdom/logos/pingdom.svg
+      width: 512
+      height: 134
+  icons:
+    - id: pingdom
+      relativeUrl: products/p/pingdom/icons/pingdom.svg
+      width: 512
+      height: 134
+relationships:
+  productLabels:
+    monitoring:
+      id: monitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    serverMonitoring:
+      id: serverMonitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

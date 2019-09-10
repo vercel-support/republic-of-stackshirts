@@ -1,0 +1,38 @@
+id: nodemon
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: nodemon
+  url: 'http://nodemon.io/'
+  colors:
+    - hex: '#4c4c3c'
+      rgb:
+        r: 76
+        g: 76
+        b: 60
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: nodemon
+      relativeUrl: products/n/nodemon/logos/nodemon.svg
+      width: 256
+      height: 292
+  icons:
+    - id: nodemon
+      relativeUrl: products/n/nodemon/icons/nodemon.svg
+      width: 256
+      height: 292
+relationships:
+  productLabels:
+    scriptRunner:
+      id: scriptRunner
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

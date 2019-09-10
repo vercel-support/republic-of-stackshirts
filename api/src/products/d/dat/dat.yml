@@ -1,0 +1,38 @@
+id: dat
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: dat
+  url: 'http://dat-data.com/'
+  colors:
+    - hex: '#5cba5a'
+      rgb:
+        r: 92
+        g: 186
+        b: 90
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: dat
+      relativeUrl: products/d/dat/logos/dat.svg
+      width: 256
+      height: 296
+  icons:
+    - id: dat
+      relativeUrl: products/d/dat/icons/dat.svg
+      width: 256
+      height: 296
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    versionControl:
+      id: versionControl
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

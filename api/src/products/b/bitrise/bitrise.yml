@@ -1,0 +1,38 @@
+id: bitrise
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Bitrise
+  url: 'https://www.bitrise.io/'
+  colors:
+    - hex: '#1c1c1c'
+      rgb:
+        r: 28
+        g: 28
+        b: 28
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: bitrise
+      relativeUrl: products/b/bitrise/logos/bitrise.svg
+      width: 256
+      height: 254
+  icons:
+    - id: bitrise
+      relativeUrl: products/b/bitrise/icons/bitrise.svg
+      width: 256
+      height: 254
+relationships:
+  productLabels:
+    continuousIntegration:
+      id: continuousIntegration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ios:
+      id: ios
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

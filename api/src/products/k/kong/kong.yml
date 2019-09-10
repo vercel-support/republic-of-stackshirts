@@ -1,0 +1,43 @@
+id: kong
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Kong
+  url: 'http://netflix.github.io/falcor/'
+  colors:
+    - hex: '#16353e'
+      rgb:
+        r: 22
+        g: 53
+        b: 62
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: kong
+      relativeUrl: products/k/kong/logos/kong.svg
+      width: 256
+      height: 256
+  icons:
+    - id: kong
+      relativeUrl: products/k/kong/icons/kong.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    apiTools:
+      id: apiTools
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    apiManager:
+      id: apiManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

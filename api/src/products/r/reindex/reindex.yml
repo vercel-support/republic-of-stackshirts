@@ -1,0 +1,38 @@
+id: reindex
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Reindex
+  url: 'https://www.reindex.io/'
+  colors:
+    - hex: '#7ccccb'
+      rgb:
+        r: 124
+        g: 204
+        b: 203
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: reindex
+      relativeUrl: products/r/reindex/logos/reindex.svg
+      width: 256
+      height: 266
+  icons:
+    - id: reindex
+      relativeUrl: products/r/reindex/icons/reindex.svg
+      width: 256
+      height: 266
+relationships:
+  productLabels:
+    graphql:
+      id: graphql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    saas:
+      id: saas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

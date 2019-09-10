@@ -1,0 +1,33 @@
+id: freedomdefined
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Free Cultural Works
+  url: 'http://freedomdefined.org/'
+  colors:
+    - hex: '#f9c02a'
+      rgb:
+        r: 249
+        g: 192
+        b: 42
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: freedomdefined
+      relativeUrl: products/f/freedomdefined/logos/freedomdefined.svg
+      width: 256
+      height: 256
+  icons:
+    - id: freedomdefined
+      relativeUrl: products/f/freedomdefined/icons/freedomdefined.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    licensing:
+      id: licensing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: dropzone
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Dropzone
+  url: 'http://www.dropzonejs.com/'
+  colors:
+    - hex: '#048cf4'
+      rgb:
+        r: 4
+        g: 140
+        b: 244
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: dropzone
+      relativeUrl: products/d/dropzone/logos/dropzone.svg
+      width: 256
+      height: 256
+  icons:
+    - id: dropzone
+      relativeUrl: products/d/dropzone/icons/dropzone.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    library:
+      id: library
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

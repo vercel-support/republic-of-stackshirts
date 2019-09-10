@@ -1,0 +1,43 @@
+id: zwave
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Z-Wave
+  url: 'http://www.z-wave.com/'
+  colors:
+    - hex: '#043c6c'
+      rgb:
+        r: 4
+        g: 60
+        b: 108
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: zwave
+      relativeUrl: products/z/zwave/logos/zwave.svg
+      width: 256
+      height: 113.7
+  icons:
+    - id: zwave
+      relativeUrl: products/z/zwave/icons/zwave.svg
+      width: 256
+      height: 113.7
+relationships:
+  productLabels:
+    wireless:
+      id: wireless
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    protocol:
+      id: protocol
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    homeControl:
+      id: homeControl
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

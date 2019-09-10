@@ -1,0 +1,33 @@
+id: arduino
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Arduino
+  url: 'https://www.arduino.cc/'
+  colors:
+    - hex: '#04949c'
+      rgb:
+        r: 4
+        g: 148
+        b: 156
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: arduino
+      relativeUrl: products/a/arduino/logos/arduino.svg
+      width: 256
+      height: 174
+  icons:
+    - id: arduino
+      relativeUrl: products/a/arduino/icons/arduino.svg
+      width: 256
+      height: 174
+relationships:
+  productLabels:
+    hardware:
+      id: hardware
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

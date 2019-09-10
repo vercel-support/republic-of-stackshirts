@@ -1,0 +1,33 @@
+id: ifttt
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: IFTTT
+  url: 'https://ifttt.com/'
+  colors:
+    - hex: '#33cbfb'
+      rgb:
+        r: 51
+        g: 203
+        b: 251
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: ifttt
+      relativeUrl: products/i/ifttt/logos/ifttt.svg
+      width: 512
+      height: 136
+  icons:
+    - id: ifttt
+      relativeUrl: products/i/ifttt/icons/ifttt.svg
+      width: 512
+      height: 136
+relationships:
+  productLabels:
+    serviceIntegration:
+      id: serviceIntegration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

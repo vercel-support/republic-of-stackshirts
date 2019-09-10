@@ -1,0 +1,43 @@
+id: gitboard
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Gitboard
+  url: 'http://adewes.github.io/gitboard/'
+  colors:
+    - hex: '#f29a04'
+      rgb:
+        r: 242
+        g: 154
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: gitboard
+      relativeUrl: products/g/gitboard/logos/gitboard.svg
+      width: 256
+      height: 249
+  icons:
+    - id: gitboard
+      relativeUrl: products/g/gitboard/icons/gitboard.svg
+      width: 256
+      height: 249
+relationships:
+  productLabels:
+    projectManager:
+      id: projectManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    kanban:
+      id: kanban
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    github:
+      id: github
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

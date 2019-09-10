@@ -1,0 +1,43 @@
+id: inferno
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Inferno
+  url: 'https://github.com/trueadm/inferno'
+  colors:
+    - hex: '#494949'
+      rgb:
+        r: 73
+        g: 73
+        b: 73
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: inferno
+      relativeUrl: products/i/inferno/logos/inferno.svg
+      width: 256
+      height: 266
+  icons:
+    - id: inferno
+      relativeUrl: products/i/inferno/icons/inferno.svg
+      width: 256
+      height: 266
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    react:
+      id: react
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    frontEnd:
+      id: frontEnd
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

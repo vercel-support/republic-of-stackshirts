@@ -1,0 +1,38 @@
+id: fastly
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Fastly
+  url: 'https://www.fastly.com/'
+  colors:
+    - hex: '#d42c2c'
+      rgb:
+        r: 212
+        g: 44
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: fastly
+      relativeUrl: products/f/fastly/logos/fastly.svg
+      width: 512
+      height: 199
+  icons:
+    - id: fastly
+      relativeUrl: products/f/fastly/icons/fastly.svg
+      width: 512
+      height: 199
+relationships:
+  productLabels:
+    cdn:
+      id: cdn
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

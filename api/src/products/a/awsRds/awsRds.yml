@@ -1,0 +1,43 @@
+id: awsRds
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AWS RDS (Relational Database Service)
+  url: 'https://aws.amazon.com/rds/'
+  colors:
+    - hex: '#1c5c9b'
+      rgb:
+        r: 28
+        g: 92
+        b: 155
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: awsRds
+      relativeUrl: products/a/awsRds/logos/awsRds.svg
+      width: 256
+      height: 289
+  icons:
+    - id: awsRds
+      relativeUrl: products/a/awsRds/icons/awsRds.svg
+      width: 256
+      height: 289
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    sql:
+      id: sql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    dbaas:
+      id: dbaas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

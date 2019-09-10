@@ -1,0 +1,38 @@
+id: onesignal
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: OneSignal
+  url: 'https://onesignal.com/'
+  colors:
+    - hex: '#e44c4c'
+      rgb:
+        r: 228
+        g: 76
+        b: 76
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: onesignal
+      relativeUrl: products/o/onesignal/logos/onesignal.svg
+      width: 256
+      height: 236
+  icons:
+    - id: onesignal
+      relativeUrl: products/o/onesignal/icons/onesignal.svg
+      width: 256
+      height: 236
+relationships:
+  productLabels:
+    pushNotification:
+      id: pushNotification
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

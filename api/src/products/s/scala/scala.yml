@@ -1,0 +1,33 @@
+id: scala
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Scala
+  url: 'http://www.scala-lang.org/'
+  colors:
+    - hex: '#232222'
+      rgb:
+        r: 35
+        g: 34
+        b: 34
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: scala
+      relativeUrl: products/s/scala/logos/scala.svg
+      width: 256
+      height: 416
+  icons:
+    - id: scala
+      relativeUrl: products/s/scala/icons/scala.svg
+      width: 256
+      height: 416
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

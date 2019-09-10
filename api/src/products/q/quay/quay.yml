@@ -1,0 +1,38 @@
+id: quay
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Quay
+  url: 'https://quay.io/'
+  colors:
+    - hex: '#43b3e3'
+      rgb:
+        r: 67
+        g: 179
+        b: 227
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: quay
+      relativeUrl: products/q/quay/logos/quay.svg
+      width: 256
+      height: 236
+  icons:
+    - id: quay
+      relativeUrl: products/q/quay/icons/quay.svg
+      width: 256
+      height: 236
+relationships:
+  productLabels:
+    docker:
+      id: docker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    privateStorage:
+      id: privateStorage
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: udemy
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Udemy
+  url: 'https://www.udemy.com/'
+  colors:
+    - hex: '#4cb44c'
+      rgb:
+        r: 76
+        g: 180
+        b: 76
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: udemy
+      relativeUrl: products/u/udemy/logos/udemy.svg
+      width: 256
+      height: 256
+  icons:
+    - id: udemy
+      relativeUrl: products/u/udemy/icons/udemy.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    learning:
+      id: learning
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    courses:
+      id: courses
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

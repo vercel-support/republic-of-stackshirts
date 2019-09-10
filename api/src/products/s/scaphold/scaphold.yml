@@ -1,0 +1,38 @@
+id: scaphold
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Scaphold
+  url: 'https://scaphold.io/'
+  colors:
+    - hex: '#04aca4'
+      rgb:
+        r: 4
+        g: 172
+        b: 164
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: scaphold
+      relativeUrl: products/s/scaphold/logos/scaphold.svg
+      width: 256
+      height: 274
+  icons:
+    - id: scaphold
+      relativeUrl: products/s/scaphold/icons/scaphold.svg
+      width: 256
+      height: 274
+relationships:
+  productLabels:
+    graphql:
+      id: graphql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    saas:
+      id: saas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

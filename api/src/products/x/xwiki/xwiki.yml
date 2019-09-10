@@ -1,0 +1,33 @@
+id: xwiki
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: XWiki
+  url: 'http://www.xwiki.org/'
+  colors:
+    - hex: '#fc6b04'
+      rgb:
+        r: 252
+        g: 107
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: xwiki
+      relativeUrl: products/x/xwiki/logos/xwiki.svg
+      width: 512
+      height: 184
+  icons:
+    - id: xwiki
+      relativeUrl: products/x/xwiki/icons/xwiki.svg
+      width: 512
+      height: 184
+relationships:
+  productLabels:
+    wiki:
+      id: wiki
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

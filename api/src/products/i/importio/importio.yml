@@ -1,0 +1,33 @@
+id: importio
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: import.io
+  url: 'https://import.io/'
+  colors:
+    - hex: '#dc3c74'
+      rgb:
+        r: 220
+        g: 60
+        b: 116
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: importio
+      relativeUrl: products/i/importio/logos/importio.svg
+      width: 512
+      height: 152
+  icons:
+    - id: importio
+      relativeUrl: products/i/importio/icons/importio.svg
+      width: 512
+      height: 152
+relationships:
+  productLabels:
+    dataScraping:
+      id: dataScraping
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

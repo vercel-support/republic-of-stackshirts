@@ -1,0 +1,38 @@
+id: kissmetrics
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: kissmetrics
+  url: 'https://kissmetrics.com/'
+  colors:
+    - hex: '#1c241c'
+      rgb:
+        r: 28
+        g: 36
+        b: 28
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: kissmetrics
+      relativeUrl: products/k/kissmetrics/logos/kissmetrics.svg
+      width: 256
+      height: 256
+  icons:
+    - id: kissmetrics
+      relativeUrl: products/k/kissmetrics/icons/kissmetrics.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    funnelAnalytics:
+      id: funnelAnalytics
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    analytics:
+      id: analytics
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

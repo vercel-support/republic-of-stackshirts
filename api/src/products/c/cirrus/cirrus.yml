@@ -1,0 +1,38 @@
+id: cirrus
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Cirrus
+  url: 'http://www.mastercard.com/ie/consumer/cirrus-card.html'
+  colors:
+    - hex: '#2271ce'
+      rgb:
+        r: 34
+        g: 113
+        b: 206
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: cirrus
+      relativeUrl: products/c/cirrus/logos/cirrus.svg
+      width: 256
+      height: 199
+  icons:
+    - id: cirrus
+      relativeUrl: products/c/cirrus/icons/cirrus.svg
+      width: 256
+      height: 199
+relationships:
+  productLabels:
+    debitCard:
+      id: debitCard
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    finance:
+      id: finance
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

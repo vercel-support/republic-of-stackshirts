@@ -1,0 +1,38 @@
+id: prospect
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Prospect
+  url: 'https://prospect.io/'
+  colors:
+    - hex: '#946ccc'
+      rgb:
+        r: 148
+        g: 108
+        b: 204
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: prospect
+      relativeUrl: products/p/prospect/logos/prospect.svg
+      width: 256
+      height: 256
+  icons:
+    - id: prospect
+      relativeUrl: products/p/prospect/icons/prospect.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    crm:
+      id: crm
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    slaesProspect:
+      id: slaesProspect
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

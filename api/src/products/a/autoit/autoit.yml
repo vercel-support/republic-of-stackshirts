@@ -1,0 +1,38 @@
+id: autoit
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AutoIt
+  url: 'https://www.autoitscript.com/'
+  colors:
+    - hex: '#f3f3f3'
+      rgb:
+        r: 243
+        g: 243
+        b: 243
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: autoit
+      relativeUrl: products/a/autoit/logos/autoit.svg
+      width: 256
+      height: 256
+  icons:
+    - id: autoit
+      relativeUrl: products/a/autoit/icons/autoit.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    basic:
+      id: basic
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    scripting:
+      id: scripting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

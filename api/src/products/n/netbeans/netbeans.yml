@@ -1,0 +1,38 @@
+id: netbeans
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Netbeans
+  url: 'https://netbeans.org/'
+  colors:
+    - hex: '#ec2404'
+      rgb:
+        r: 236
+        g: 36
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: netbeans
+      relativeUrl: products/n/netbeans/logos/netbeans.svg
+      width: 256
+      height: 271
+  icons:
+    - id: netbeans
+      relativeUrl: products/n/netbeans/icons/netbeans.svg
+      width: 256
+      height: 271
+relationships:
+  productLabels:
+    codeEditor:
+      id: codeEditor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ide:
+      id: ide
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

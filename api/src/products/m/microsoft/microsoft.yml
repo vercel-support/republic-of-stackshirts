@@ -1,0 +1,38 @@
+id: microsoft
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Microsoft
+  url: 'http://www.microsoft.com/'
+  colors:
+    - hex: '#f78714'
+      rgb:
+        r: 247
+        g: 135
+        b: 20
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: microsoft
+      relativeUrl: products/m/microsoft/logos/microsoft.svg
+      width: 512
+      height: 110
+  icons:
+    - id: microsoft
+      relativeUrl: products/m/microsoft/icons/microsoft.svg
+      width: 512
+      height: 110
+relationships:
+  productLabels:
+    technology:
+      id: technology
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    company:
+      id: company
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

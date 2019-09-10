@@ -1,0 +1,43 @@
+id: lateral
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Lateral
+  url: 'https://lateral.io/'
+  colors:
+    - hex: '#dcf0fb'
+      rgb:
+        r: 220
+        g: 240
+        b: 251
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: lateral
+      relativeUrl: products/l/lateral/logos/lateral.svg
+      width: 256
+      height: 243
+  icons:
+    - id: lateral
+      relativeUrl: products/l/lateral/icons/lateral.svg
+      width: 256
+      height: 243
+relationships:
+  productLabels:
+    recommendation:
+      id: recommendation
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    api:
+      id: api
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mlaas:
+      id: mlaas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: producthunt
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Product Hunt
+  url: 'http://www.producthunt.com/'
+  colors:
+    - hex: '#d5502a'
+      rgb:
+        r: 213
+        g: 80
+        b: 42
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: producthunt
+      relativeUrl: products/p/producthunt/logos/producthunt.svg
+      width: 256
+      height: 256
+  icons:
+    - id: producthunt
+      relativeUrl: products/p/producthunt/icons/producthunt.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    socialNews:
+      id: socialNews
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

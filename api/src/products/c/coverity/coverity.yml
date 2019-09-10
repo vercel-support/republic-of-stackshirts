@@ -1,0 +1,43 @@
+id: coverity
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Coverity
+  url: 'http://www.coverity.com/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: coverity
+      relativeUrl: products/c/coverity/logos/coverity.svg
+      width: 256
+      height: 252
+  icons:
+    - id: coverity
+      relativeUrl: products/c/coverity/icons/coverity.svg
+      width: 256
+      height: 252
+relationships:
+  productLabels:
+    staticAnalysis:
+      id: staticAnalysis
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    java:
+      id: java
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    c:
+      id: c
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

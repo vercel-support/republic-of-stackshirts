@@ -1,0 +1,43 @@
+id: mariadb
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: MariaDB
+  url: 'https://mariadb.org/'
+  colors:
+    - hex: '#c9d2de'
+      rgb:
+        r: 201
+        g: 210
+        b: 222
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mariadb
+      relativeUrl: products/m/mariadb/logos/mariadb.svg
+      width: 256
+      height: 170
+  icons:
+    - id: mariadb
+      relativeUrl: products/m/mariadb/icons/mariadb.svg
+      width: 256
+      height: 170
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    sql:
+      id: sql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mysql:
+      id: mysql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

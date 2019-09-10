@@ -1,0 +1,38 @@
+id: airtable
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Airtable
+  url: 'https://airtable.com/'
+  colors:
+    - hex: '#ffbf00'
+      rgb:
+        r: 255
+        g: 191
+        b: 0
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: airtable
+      relativeUrl: products/a/airtable/logos/airtable.svg
+      width: 256
+      height: 215
+  icons:
+    - id: airtable
+      relativeUrl: products/a/airtable/icons/airtable.svg
+      width: 256
+      height: 215
+relationships:
+  productLabels:
+    spreadsheets:
+      id: spreadsheets
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

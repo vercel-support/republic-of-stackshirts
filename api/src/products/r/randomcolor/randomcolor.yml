@@ -1,0 +1,38 @@
+id: randomcolor
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: randomColor
+  url: 'http://llllll.li/randomColor/'
+  colors:
+    - hex: '#e1a49d'
+      rgb:
+        r: 225
+        g: 164
+        b: 157
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: randomcolor
+      relativeUrl: products/r/randomcolor/logos/randomcolor.svg
+      width: 256
+      height: 258
+  icons:
+    - id: randomcolor
+      relativeUrl: products/r/randomcolor/icons/randomcolor.svg
+      width: 256
+      height: 258
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    library:
+      id: library
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: floodio
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Flood IO
+  url: 'https://flood.io/'
+  colors:
+    - hex: '#2c8cec'
+      rgb:
+        r: 44
+        g: 140
+        b: 236
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: floodio
+      relativeUrl: products/f/floodio/logos/floodio.svg
+      width: 256
+      height: 256
+  icons:
+    - id: floodio
+      relativeUrl: products/f/floodio/icons/floodio.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    loadTesting:
+      id: loadTesting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: socketIo
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Socket.io
+  url: 'http://socket.io/'
+  colors:
+    - hex: '#010101'
+      rgb:
+        r: 1
+        g: 1
+        b: 1
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: socket
+      relativeUrl: products/s/socketIo/logos/socket.svg
+      width: 256
+      height: 256
+  icons:
+    - id: socket
+      relativeUrl: products/s/socketIo/icons/socket.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    realTimeCommunication:
+      id: realTimeCommunication
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

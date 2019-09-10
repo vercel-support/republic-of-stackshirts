@@ -1,0 +1,33 @@
+id: hashnode
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Hashnode
+  url: 'https://hashnode.com/'
+  colors:
+    - hex: '#04b4d4'
+      rgb:
+        r: 4
+        g: 180
+        b: 212
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: hashnode
+      relativeUrl: products/h/hashnode/logos/hashnode.svg
+      width: 256
+      height: 278
+  icons:
+    - id: hashnode
+      relativeUrl: products/h/hashnode/icons/hashnode.svg
+      width: 256
+      height: 278
+relationships:
+  productLabels:
+    community:
+      id: community
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

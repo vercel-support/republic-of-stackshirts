@@ -1,0 +1,43 @@
+id: prott
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Prott
+  url: 'https://prottapp.com/'
+  colors:
+    - hex: '#3c3c3c'
+      rgb:
+        r: 60
+        g: 60
+        b: 60
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: prott
+      relativeUrl: products/p/prott/logos/prott.svg
+      width: 512
+      height: 197
+  icons:
+    - id: prott
+      relativeUrl: products/p/prott/icons/prott.svg
+      width: 512
+      height: 197
+relationships:
+  productLabels:
+    prototyping:
+      id: prototyping
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ui:
+      id: ui
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

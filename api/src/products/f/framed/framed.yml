@@ -1,0 +1,38 @@
+id: framed
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Framed
+  url: 'http://framed.io/'
+  colors:
+    - hex: '#d45454'
+      rgb:
+        r: 212
+        g: 84
+        b: 84
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: framed
+      relativeUrl: products/f/framed/logos/framed.svg
+      width: 256
+      height: 266
+  icons:
+    - id: framed
+      relativeUrl: products/f/framed/icons/framed.svg
+      width: 256
+      height: 266
+relationships:
+  productLabels:
+    customerAnalytics:
+      id: customerAnalytics
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    analytics:
+      id: analytics
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

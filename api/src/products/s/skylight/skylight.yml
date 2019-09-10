@@ -1,0 +1,38 @@
+id: skylight
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Skylight
+  url: 'https://www.skylight.io/'
+  colors:
+    - hex: '#bbc4c3'
+      rgb:
+        r: 187
+        g: 196
+        b: 195
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: skylight
+      relativeUrl: products/s/skylight/logos/skylight.svg
+      width: 256
+      height: 289
+  icons:
+    - id: skylight
+      relativeUrl: products/s/skylight/icons/skylight.svg
+      width: 256
+      height: 289
+relationships:
+  productLabels:
+    monitoring:
+      id: monitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    performanceMonitoring:
+      id: performanceMonitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

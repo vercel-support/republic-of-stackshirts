@@ -1,0 +1,38 @@
+id: pumpkindb
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: PumpkinDB
+  url: 'http://pumpkindb.org/'
+  colors:
+    - hex: '#d04b06'
+      rgb:
+        r: 208
+        g: 75
+        b: 6
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: pumpkindb
+      relativeUrl: products/p/pumpkindb/logos/pumpkindb.svg
+      width: 256
+      height: 326
+  icons:
+    - id: pumpkindb
+      relativeUrl: products/p/pumpkindb/icons/pumpkindb.svg
+      width: 256
+      height: 326
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    eventBased:
+      id: eventBased
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

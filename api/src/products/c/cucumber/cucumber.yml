@@ -1,0 +1,43 @@
+id: cucumber
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Cucumber
+  url: 'https://cucumber.io/'
+  colors:
+    - hex: '#04ab1c'
+      rgb:
+        r: 4
+        g: 171
+        b: 28
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: cucumber
+      relativeUrl: products/c/cucumber/logos/cucumber.svg
+      width: 256
+      height: 295
+  icons:
+    - id: cucumber
+      relativeUrl: products/c/cucumber/icons/cucumber.svg
+      width: 256
+      height: 295
+relationships:
+  productLabels:
+    testingFramework:
+      id: testingFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    bdd:
+      id: bdd
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ruby:
+      id: ruby
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

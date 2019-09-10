@@ -1,0 +1,38 @@
+id: testmunk
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Testmunk
+  url: 'https://testmunk.com/'
+  colors:
+    - hex: '#c8a98a'
+      rgb:
+        r: 200
+        g: 169
+        b: 138
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: testmunk
+      relativeUrl: products/t/testmunk/logos/testmunk.svg
+      width: 256
+      height: 258
+  icons:
+    - id: testmunk
+      relativeUrl: products/t/testmunk/icons/testmunk.svg
+      width: 256
+      height: 258
+relationships:
+  productLabels:
+    mobileTestAutomation:
+      id: mobileTestAutomation
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: awsOpsworks
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AWS Opworks
+  url: 'https://aws.amazon.com/opsworks/'
+  colors:
+    - hex: '#4c642c'
+      rgb:
+        r: 76
+        g: 100
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: awsOpsworks
+      relativeUrl: products/a/awsOpsworks/logos/awsOpsworks.svg
+      width: 256
+      height: 309
+  icons:
+    - id: awsOpsworks
+      relativeUrl: products/a/awsOpsworks/icons/awsOpsworks.svg
+      width: 256
+      height: 309
+relationships:
+  productLabels:
+    configurationManager:
+      id: configurationManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    chef:
+      id: chef
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: whalar
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Whalar
+  url: 'https://whalar.com/'
+  colors:
+    - hex: '#03cacf'
+      rgb:
+        r: 3
+        g: 202
+        b: 207
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: whalar
+      relativeUrl: products/w/whalar/logos/whalar.svg
+      width: 256
+      height: 252
+  icons:
+    - id: whalar
+      relativeUrl: products/w/whalar/icons/whalar.svg
+      width: 256
+      height: 252
+relationships:
+  productLabels:
+    contentCreators:
+      id: contentCreators
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    branding:
+      id: branding
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

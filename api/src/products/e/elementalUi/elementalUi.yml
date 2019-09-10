@@ -1,0 +1,48 @@
+id: elementalUi
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Elemental UI
+  url: 'http://elemental-ui.com/'
+  colors:
+    - hex: '#34acbc'
+      rgb:
+        r: 52
+        g: 172
+        b: 188
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: elementalUi
+      relativeUrl: products/e/elementalUi/logos/elementalUi.svg
+      width: 256
+      height: 229
+  icons:
+    - id: elementalUi
+      relativeUrl: products/e/elementalUi/icons/elementalUi.svg
+      width: 256
+      height: 229
+relationships:
+  productLabels:
+    frontEndFramework:
+      id: frontEndFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    css:
+      id: css
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ui:
+      id: ui
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    react:
+      id: react
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

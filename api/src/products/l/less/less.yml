@@ -1,0 +1,38 @@
+id: less
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Less
+  url: 'http://lesscss.org/'
+  colors:
+    - hex: '#264169'
+      rgb:
+        r: 38
+        g: 65
+        b: 105
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: less
+      relativeUrl: products/l/less/logos/less.svg
+      width: 256
+      height: 110
+  icons:
+    - id: less
+      relativeUrl: products/l/less/icons/less.svg
+      width: 256
+      height: 110
+relationships:
+  productLabels:
+    css:
+      id: css
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    preprocessor:
+      id: preprocessor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

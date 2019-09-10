@@ -1,0 +1,33 @@
+id: subversion
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Subversion
+  url: 'https://subversion.apache.org/'
+  colors:
+    - hex: '#849ccc'
+      rgb:
+        r: 132
+        g: 156
+        b: 204
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: subversion
+      relativeUrl: products/s/subversion/logos/subversion.svg
+      width: 256
+      height: 186
+  icons:
+    - id: subversion
+      relativeUrl: products/s/subversion/icons/subversion.svg
+      width: 256
+      height: 186
+relationships:
+  productLabels:
+    versionControl:
+      id: versionControl
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

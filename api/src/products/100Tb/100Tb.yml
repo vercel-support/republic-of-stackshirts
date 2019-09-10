@@ -1,0 +1,38 @@
+id: 100Tb
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: 100tb
+  url: 'https://www.100tb.com'
+  colors:
+    - hex: '#949ca4'
+      rgb:
+        r: 148
+        g: 156
+        b: 164
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: 100Tb
+      relativeUrl: 'products/#/100Tb/logos/100Tb.svg'
+      width: 512
+      height: 190
+  icons:
+    - id: 100Tb
+      relativeUrl: 'products/#/100Tb/icons/100Tb.svg'
+      width: 512
+      height: 190
+relationships:
+  productLabels:
+    webHosting:
+      id: webHosting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cdn:
+      id: cdn
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

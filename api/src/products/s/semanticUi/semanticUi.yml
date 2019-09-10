@@ -1,0 +1,48 @@
+id: semanticUi
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Semantic UI
+  url: 'http://semantic-ui.com/'
+  colors:
+    - hex: '#34bcb4'
+      rgb:
+        r: 52
+        g: 188
+        b: 180
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: semanticUi
+      relativeUrl: products/s/semanticUi/logos/semanticUi.svg
+      width: 256
+      height: 256
+  icons:
+    - id: semanticUi
+      relativeUrl: products/s/semanticUi/icons/semanticUi.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    frontEndFramework:
+      id: frontEndFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    css:
+      id: css
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    less:
+      id: less
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ui:
+      id: ui
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: concrete5
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: concrete5
+  url: 'http://www.concrete5.org/'
+  colors:
+    - hex: '#2c2c2c'
+      rgb:
+        r: 44
+        g: 44
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: concrete5
+      relativeUrl: products/c/concrete5/logos/concrete5.svg
+      width: 256
+      height: 256
+  icons:
+    - id: concrete5
+      relativeUrl: products/c/concrete5/icons/concrete5.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    contentManager:
+      id: contentManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    php:
+      id: php
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mysql:
+      id: mysql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

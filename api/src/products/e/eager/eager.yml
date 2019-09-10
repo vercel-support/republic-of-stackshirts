@@ -1,0 +1,38 @@
+id: eager
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Eager
+  url: 'https://eager.io/'
+  colors:
+    - hex: '#a60c8f'
+      rgb:
+        r: 166
+        g: 12
+        b: 143
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: eager
+      relativeUrl: products/e/eager/logos/eager.svg
+      width: 256
+      height: 113
+  icons:
+    - id: eager
+      relativeUrl: products/e/eager/icons/eager.svg
+      width: 256
+      height: 113
+relationships:
+  productLabels:
+    appStore:
+      id: appStore
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: deppbot
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: deppbot
+  url: 'https://www.deppbot.com/'
+  colors:
+    - hex: '#04ace4'
+      rgb:
+        r: 4
+        g: 172
+        b: 228
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: deppbot
+      relativeUrl: products/d/deppbot/logos/deppbot.svg
+      width: 256
+      height: 270
+  icons:
+    - id: deppbot
+      relativeUrl: products/d/deppbot/icons/deppbot.svg
+      width: 256
+      height: 270
+relationships:
+  productLabels:
+    security:
+      id: security
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ruby:
+      id: ruby
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

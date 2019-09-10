@@ -1,0 +1,38 @@
+id: wicket
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Wicket
+  url: 'https://wicket.apache.org/'
+  colors:
+    - hex: '#f34404'
+      rgb:
+        r: 243
+        g: 68
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: wicket
+      relativeUrl: products/w/wicket/logos/wicket.svg
+      width: 256
+      height: 256
+  icons:
+    - id: wicket
+      relativeUrl: products/w/wicket/icons/wicket.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    webAppFramework:
+      id: webAppFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    java:
+      id: java
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

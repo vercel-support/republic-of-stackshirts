@@ -1,0 +1,38 @@
+id: sugarss
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: SugarSS
+  url: 'https://github.com/postcss/sugarss'
+  colors:
+    - hex: '#2dcc9f'
+      rgb:
+        r: 45
+        g: 204
+        b: 159
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: sugarss
+      relativeUrl: products/s/sugarss/logos/sugarss.svg
+      width: 256
+      height: 256
+  icons:
+    - id: sugarss
+      relativeUrl: products/s/sugarss/icons/sugarss.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    css:
+      id: css
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    postcss:
+      id: postcss
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

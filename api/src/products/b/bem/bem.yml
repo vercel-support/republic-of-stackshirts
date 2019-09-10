@@ -1,0 +1,38 @@
+id: bem
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Bem
+  url: 'https://en.bem.info/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: bem
+      relativeUrl: products/b/bem/logos/bem.svg
+      width: 256
+      height: 212
+  icons:
+    - id: bem
+      relativeUrl: products/b/bem/icons/bem.svg
+      width: 256
+      height: 212
+relationships:
+  productLabels:
+    css:
+      id: css
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    methodology:
+      id: methodology
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

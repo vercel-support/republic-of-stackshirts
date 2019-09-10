@@ -1,0 +1,53 @@
+id: zube
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Zube
+  url: 'https://zube.io/'
+  colors:
+    - hex: '#0c84dc'
+      rgb:
+        r: 12
+        g: 132
+        b: 220
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: zube
+      relativeUrl: products/z/zube/logos/zube.svg
+      width: 256
+      height: 178
+  icons:
+    - id: zube
+      relativeUrl: products/z/zube/icons/zube.svg
+      width: 256
+      height: 178
+relationships:
+  productLabels:
+    projectManager:
+      id: projectManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    agile:
+      id: agile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    kanban:
+      id: kanban
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    github:
+      id: github
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    githubTools:
+      id: githubTools
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

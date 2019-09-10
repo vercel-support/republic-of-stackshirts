@@ -1,0 +1,38 @@
+id: tastejs
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: TasteJS
+  url: 'http://tastejs.com/'
+  colors:
+    - hex: '#b22b1f'
+      rgb:
+        r: 178
+        g: 43
+        b: 31
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: tastejs
+      relativeUrl: products/t/tastejs/logos/tastejs.svg
+      width: 256
+      height: 389
+  icons:
+    - id: tastejs
+      relativeUrl: products/t/tastejs/icons/tastejs.svg
+      width: 256
+      height: 389
+relationships:
+  productLabels:
+    todomvc:
+      id: todomvc
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    learning:
+      id: learning
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: appcelerator
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Appcelerator
+  url: 'http://www.appcelerator.com/'
+  colors:
+    - hex: '#b31c34'
+      rgb:
+        r: 179
+        g: 28
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: appcelerator
+      relativeUrl: products/a/appcelerator/logos/appcelerator.svg
+      width: 256
+      height: 224
+  icons:
+    - id: appcelerator
+      relativeUrl: products/a/appcelerator/icons/appcelerator.svg
+      width: 256
+      height: 224
+relationships:
+  productLabels:
+    mbaas:
+      id: mbaas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

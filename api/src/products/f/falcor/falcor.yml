@@ -1,0 +1,43 @@
+id: falcor
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Falcor
+  url: 'http://netflix.github.io/falcor/'
+  colors:
+    - hex: '#6cb62c'
+      rgb:
+        r: 108
+        g: 182
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: falcor
+      relativeUrl: products/f/falcor/logos/falcor.svg
+      width: 256
+      height: 299
+  icons:
+    - id: falcor
+      relativeUrl: products/f/falcor/icons/falcor.svg
+      width: 256
+      height: 299
+relationships:
+  productLabels:
+    apiTools:
+      id: apiTools
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    dataFetch:
+      id: dataFetch
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

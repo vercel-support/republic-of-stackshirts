@@ -1,0 +1,33 @@
+id: namecheap
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Namecheap
+  url: 'https://www.namecheap.com/'
+  colors:
+    - hex: '#fc8b43'
+      rgb:
+        r: 252
+        g: 139
+        b: 67
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: namecheap
+      relativeUrl: products/n/namecheap/logos/namecheap.svg
+      width: 256
+      height: 142
+  icons:
+    - id: namecheap
+      relativeUrl: products/n/namecheap/icons/namecheap.svg
+      width: 256
+      height: 142
+relationships:
+  productLabels:
+    domainRegistration:
+      id: domainRegistration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: pivotalTracker
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Pivotal Tracker
+  url: 'http://www.pivotaltracker.com/'
+  colors:
+    - hex: '#ec7c1c'
+      rgb:
+        r: 236
+        g: 124
+        b: 28
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: pivotalTracker
+      relativeUrl: products/p/pivotalTracker/logos/pivotalTracker.svg
+      width: 256
+      height: 256
+  icons:
+    - id: pivotalTracker
+      relativeUrl: products/p/pivotalTracker/icons/pivotalTracker.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    projectManager:
+      id: projectManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    agile:
+      id: agile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

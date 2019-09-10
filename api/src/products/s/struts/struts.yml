@@ -1,0 +1,38 @@
+id: struts
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Struts
+  url: 'https://struts.apache.org/'
+  colors:
+    - hex: '#3f6db5'
+      rgb:
+        r: 63
+        g: 109
+        b: 181
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: struts
+      relativeUrl: products/s/struts/logos/struts.svg
+      width: 256
+      height: 290
+  icons:
+    - id: struts
+      relativeUrl: products/s/struts/icons/struts.svg
+      width: 256
+      height: 290
+relationships:
+  productLabels:
+    mvcFramework:
+      id: mvcFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    java:
+      id: java
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

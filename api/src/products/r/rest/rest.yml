@@ -1,0 +1,33 @@
+id: rest
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Rest
+  url: 'http://www.w3.org/2001/sw/wiki/REST'
+  colors:
+    - hex: '#3b434e'
+      rgb:
+        r: 59
+        g: 67
+        b: 78
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: rest
+      relativeUrl: products/r/rest/logos/rest.svg
+      width: 256
+      height: 256
+  icons:
+    - id: rest
+      relativeUrl: products/r/rest/icons/rest.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    architecture:
+      id: architecture
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

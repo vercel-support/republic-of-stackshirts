@@ -1,0 +1,38 @@
+id: jade
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Jade
+  url: 'http://jade-lang.com/'
+  colors:
+    - hex: '#c4242c'
+      rgb:
+        r: 196
+        g: 36
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: jade
+      relativeUrl: products/j/jade/logos/jade.svg
+      width: 256
+      height: 388
+  icons:
+    - id: jade
+      relativeUrl: products/j/jade/icons/jade.svg
+      width: 256
+      height: 388
+relationships:
+  productLabels:
+    template:
+      id: template
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    preprocessor:
+      id: preprocessor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

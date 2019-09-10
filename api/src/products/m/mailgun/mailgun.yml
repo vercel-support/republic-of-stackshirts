@@ -1,0 +1,33 @@
+id: mailgun
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Mailgun
+  url: 'http://www.mailgun.com/'
+  colors:
+    - hex: '#ac242c'
+      rgb:
+        r: 172
+        g: 36
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mailgun
+      relativeUrl: products/m/mailgun/logos/mailgun.svg
+      width: 256
+      height: 256
+  icons:
+    - id: mailgun
+      relativeUrl: products/m/mailgun/icons/mailgun.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    transactionalEmail:
+      id: transactionalEmail
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

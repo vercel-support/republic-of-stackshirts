@@ -1,0 +1,38 @@
+id: adroll
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AdRoll
+  url: 'https://www.adroll.com/'
+  colors:
+    - hex: '#04acf3'
+      rgb:
+        r: 4
+        g: 172
+        b: 243
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: adroll
+      relativeUrl: products/a/adroll/logos/adroll.svg
+      width: 512
+      height: 116
+  icons:
+    - id: adroll
+      relativeUrl: products/a/adroll/icons/adroll.svg
+      width: 512
+      height: 116
+relationships:
+  productLabels:
+    ads:
+      id: ads
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    adRetargeting:
+      id: adRetargeting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

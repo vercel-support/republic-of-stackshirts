@@ -1,0 +1,33 @@
+id: monero
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Monero
+  url: 'https://getmonero.org/'
+  colors:
+    - hex: '#fc6404'
+      rgb:
+        r: 252
+        g: 100
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: monero
+      relativeUrl: products/m/monero/logos/monero.svg
+      width: 256
+      height: 256
+  icons:
+    - id: monero
+      relativeUrl: products/m/monero/icons/monero.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    virtualCurrency:
+      id: virtualCurrency
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

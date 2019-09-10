@@ -1,0 +1,38 @@
+id: gravatar
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Gravatar
+  url: 'https://gravatar.com/'
+  colors:
+    - hex: '#1c8cbc'
+      rgb:
+        r: 28
+        g: 140
+        b: 188
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: gravatar
+      relativeUrl: products/g/gravatar/logos/gravatar.svg
+      width: 256
+      height: 256
+  icons:
+    - id: gravatar
+      relativeUrl: products/g/gravatar/icons/gravatar.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    images:
+      id: images
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    avatars:
+      id: avatars
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

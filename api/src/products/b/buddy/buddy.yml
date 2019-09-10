@@ -1,0 +1,38 @@
+id: buddy
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Buddy
+  url: 'https://buddy.works/'
+  colors:
+    - hex: '#e9d8d1'
+      rgb:
+        r: 233
+        g: 216
+        b: 209
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: buddy
+      relativeUrl: products/b/buddy/logos/buddy.svg
+      width: 256
+      height: 274
+  icons:
+    - id: buddy
+      relativeUrl: products/b/buddy/icons/buddy.svg
+      width: 256
+      height: 274
+relationships:
+  productLabels:
+    codeDeployment:
+      id: codeDeployment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    continuousIntegration:
+      id: continuousIntegration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

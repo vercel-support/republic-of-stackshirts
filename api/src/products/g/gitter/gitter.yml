@@ -1,0 +1,38 @@
+id: gitter
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Gitter
+  url: 'https://gitter.im/'
+  colors:
+    - hex: '#e00957'
+      rgb:
+        r: 224
+        g: 9
+        b: 87
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: gitter
+      relativeUrl: products/g/gitter/logos/gitter.svg
+      width: 256
+      height: 256
+  icons:
+    - id: gitter
+      relativeUrl: products/g/gitter/icons/gitter.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    groupChat:
+      id: groupChat
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    teamCollaboration:
+      id: teamCollaboration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

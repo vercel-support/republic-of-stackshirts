@@ -1,0 +1,38 @@
+id: jquery
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: jQuery
+  url: 'https://jquery.com/'
+  colors:
+    - hex: '#1c1c1c'
+      rgb:
+        r: 28
+        g: 28
+        b: 28
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: jquery
+      relativeUrl: products/j/jquery/logos/jquery.svg
+      width: 512
+      height: 116
+  icons:
+    - id: jquery
+      relativeUrl: products/j/jquery/icons/jquery.svg
+      width: 512
+      height: 116
+relationships:
+  productLabels:
+    library:
+      id: library
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: grove
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Grove
+  url: 'https://grove.io/'
+  colors:
+    - hex: '#93ca3c'
+      rgb:
+        r: 147
+        g: 202
+        b: 60
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: grove
+      relativeUrl: products/g/grove/logos/grove.svg
+      width: 256
+      height: 267
+  icons:
+    - id: grove
+      relativeUrl: products/g/grove/icons/grove.svg
+      width: 256
+      height: 267
+relationships:
+  productLabels:
+    groupChat:
+      id: groupChat
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    teamCollaboration:
+      id: teamCollaboration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ircServer:
+      id: ircServer
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

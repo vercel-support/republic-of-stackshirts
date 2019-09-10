@@ -1,0 +1,33 @@
+id: perl
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Perl
+  url: 'https://www.perl.org/'
+  colors:
+    - hex: '#3c3c5c'
+      rgb:
+        r: 60
+        g: 60
+        b: 92
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: perl
+      relativeUrl: products/p/perl/logos/perl.svg
+      width: 256
+      height: 256
+  icons:
+    - id: perl
+      relativeUrl: products/p/perl/icons/perl.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

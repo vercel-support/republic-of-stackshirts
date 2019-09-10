@@ -1,0 +1,33 @@
+id: crowdprocess
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: CrowdProcess
+  url: 'https://crowdprocess.com/'
+  colors:
+    - hex: '#1ca4d4'
+      rgb:
+        r: 28
+        g: 164
+        b: 212
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: crowdprocess
+      relativeUrl: products/c/crowdprocess/logos/crowdprocess.svg
+      width: 256
+      height: 283
+  icons:
+    - id: crowdprocess
+      relativeUrl: products/c/crowdprocess/icons/crowdprocess.svg
+      width: 256
+      height: 283
+relationships:
+  productLabels:
+    distributedComputing:
+      id: distributedComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

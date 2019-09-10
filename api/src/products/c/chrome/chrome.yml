@@ -1,0 +1,33 @@
+id: chrome
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Chrome
+  url: 'http://www.google.com/chrome/'
+  colors:
+    - hex: '#63bb5b'
+      rgb:
+        r: 99
+        g: 187
+        b: 91
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: chrome
+      relativeUrl: products/c/chrome/logos/chrome.svg
+      width: 256
+      height: 257
+  icons:
+    - id: chrome
+      relativeUrl: products/c/chrome/icons/chrome.svg
+      width: 256
+      height: 257
+relationships:
+  productLabels:
+    browser:
+      id: browser
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

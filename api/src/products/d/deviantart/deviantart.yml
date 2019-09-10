@@ -1,0 +1,43 @@
+id: deviantart
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: DeviantArt
+  url: 'http://www.deviantart.com/'
+  colors:
+    - hex: '#44ac44'
+      rgb:
+        r: 68
+        g: 172
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: deviantart
+      relativeUrl: products/d/deviantart/logos/deviantart.svg
+      width: 512
+      height: 130
+  icons:
+    - id: deviantart
+      relativeUrl: products/d/deviantart/icons/deviantart.svg
+      width: 512
+      height: 130
+relationships:
+  productLabels:
+    socialNetwork:
+      id: socialNetwork
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    portfolio:
+      id: portfolio
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    showcase:
+      id: showcase
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

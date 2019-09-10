@@ -1,0 +1,38 @@
+id: codecademy
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: codecademy
+  url: 'https://www.codecademy.com/'
+  colors:
+    - hex: '#244454'
+      rgb:
+        r: 36
+        g: 68
+        b: 84
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: codecademy
+      relativeUrl: products/c/codecademy/logos/codecademy.svg
+      width: 512
+      height: 108
+  icons:
+    - id: codecademy
+      relativeUrl: products/c/codecademy/icons/codecademy.svg
+      width: 512
+      height: 108
+relationships:
+  productLabels:
+    learning:
+      id: learning
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    courses:
+      id: courses
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

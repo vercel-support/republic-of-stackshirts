@@ -1,0 +1,43 @@
+id: flyjs
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Fly
+  url: 'https://github.com/flyjs/fly'
+  colors:
+    - hex: '#04ccfc'
+      rgb:
+        r: 4
+        g: 204
+        b: 252
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: flyjs
+      relativeUrl: products/f/flyjs/logos/flyjs.svg
+      width: 256
+      height: 157
+  icons:
+    - id: flyjs
+      relativeUrl: products/f/flyjs/icons/flyjs.svg
+      width: 256
+      height: 157
+relationships:
+  productLabels:
+    buildTool:
+      id: buildTool
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

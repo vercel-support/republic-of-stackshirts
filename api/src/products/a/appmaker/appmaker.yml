@@ -1,0 +1,43 @@
+id: appmaker
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Appmaker
+  url: 'https://webmaker.org/appmaker'
+  colors:
+    - hex: '#2caea0'
+      rgb:
+        r: 44
+        g: 174
+        b: 160
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: appmaker
+      relativeUrl: products/a/appmaker/logos/appmaker.svg
+      width: 256
+      height: 327
+  icons:
+    - id: appmaker
+      relativeUrl: products/a/appmaker/icons/appmaker.svg
+      width: 256
+      height: 327
+relationships:
+  productLabels:
+    applicationFramework:
+      id: applicationFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mozilla:
+      id: mozilla
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,48 @@
+id: origami
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Origami
+  url: 'http://facebook.github.io/origami/'
+  colors:
+    - hex: '#0c94fc'
+      rgb:
+        r: 12
+        g: 148
+        b: 252
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: origami
+      relativeUrl: products/o/origami/logos/origami.svg
+      width: 256
+      height: 261
+  icons:
+    - id: origami
+      relativeUrl: products/o/origami/icons/origami.svg
+      width: 256
+      height: 261
+relationships:
+  productLabels:
+    prototyping:
+      id: prototyping
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ui:
+      id: ui
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    facebook:
+      id: facebook
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

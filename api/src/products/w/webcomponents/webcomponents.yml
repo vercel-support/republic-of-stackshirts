@@ -1,0 +1,38 @@
+id: webcomponents
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: WebComponents
+  url: 'http://webcomponents.org/'
+  colors:
+    - hex: '#dbdada'
+      rgb:
+        r: 219
+        g: 218
+        b: 218
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: webcomponents
+      relativeUrl: products/w/webcomponents/logos/webcomponents.svg
+      width: 256
+      height: 171
+  icons:
+    - id: webcomponents
+      relativeUrl: products/w/webcomponents/icons/webcomponents.svg
+      width: 256
+      height: 171
+relationships:
+  productLabels:
+    components:
+      id: components
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    shadowDom:
+      id: shadowDom
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: terminal
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Terminal
+  url: 'https://en.wikipedia.org/wiki/Terminal_emulator'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: terminal
+      relativeUrl: products/t/terminal/logos/terminal.svg
+      width: 256
+      height: 210
+  icons:
+    - id: terminal
+      relativeUrl: products/t/terminal/icons/terminal.svg
+      width: 256
+      height: 210
+relationships:
+  productLabels:
+    interface:
+      id: interface
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

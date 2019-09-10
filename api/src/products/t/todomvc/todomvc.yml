@@ -1,0 +1,43 @@
+id: todomvc
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: TodoMVC
+  url: 'http://todomvc.com/'
+  colors:
+    - hex: '#ac2c2c'
+      rgb:
+        r: 172
+        g: 44
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: todomvc
+      relativeUrl: products/t/todomvc/logos/todomvc.svg
+      width: 256
+      height: 230
+  icons:
+    - id: todomvc
+      relativeUrl: products/t/todomvc/icons/todomvc.svg
+      width: 256
+      height: 230
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    learning:
+      id: learning
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    tutorials:
+      id: tutorials
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

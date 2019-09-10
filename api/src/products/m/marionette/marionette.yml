@@ -1,0 +1,43 @@
+id: marionette
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Marionette.js
+  url: 'http://marionettejs.com/'
+  colors:
+    - hex: '#9c9ea2'
+      rgb:
+        r: 156
+        g: 158
+        b: 162
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: marionette
+      relativeUrl: products/m/marionette/logos/marionette.svg
+      width: 256
+      height: 315
+  icons:
+    - id: marionette
+      relativeUrl: products/m/marionette/icons/marionette.svg
+      width: 256
+      height: 315
+relationships:
+  productLabels:
+    mvcFramework:
+      id: mvcFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    backbone:
+      id: backbone
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

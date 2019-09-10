@@ -1,0 +1,51 @@
+id: codepen
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Codepen
+  url: 'http://codepen.io/'
+  colors:
+    - hex: '#cccccc'
+      rgb:
+        r: 204
+        g: 204
+        b: 204
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: codepenShort
+      relativeUrl: products/c/codepen/logos/codepenShort.svg
+      width: 256
+      height: 256
+    - id: codepen
+      relativeUrl: products/c/codepen/logos/codepen.svg
+      width: 512
+      height: 93
+  icons:
+    - id: codepenShort
+      relativeUrl: products/c/codepen/icons/codepenShort.svg
+      width: 256
+      height: 256
+    - id: codepen
+      relativeUrl: products/c/codepen/icons/codepen.svg
+      width: 512
+      height: 93
+relationships:
+  productLabels:
+    codePlayground:
+      id: codePlayground
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    codeEditor:
+      id: codeEditor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    service:
+      id: service
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: glint
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Glint
+  url: 'http://www.glintinc.com/'
+  colors:
+    - hex: '#74746c'
+      rgb:
+        r: 116
+        g: 116
+        b: 108
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: glint
+      relativeUrl: products/g/glint/logos/glint.svg
+      width: 512
+      height: 133
+  icons:
+    - id: glint
+      relativeUrl: products/g/glint/icons/glint.svg
+      width: 512
+      height: 133
+relationships:
+  productLabels:
+    organizationAnalysis:
+      id: organizationAnalysis
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

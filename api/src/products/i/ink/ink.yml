@@ -1,0 +1,43 @@
+id: ink
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Ink
+  url: 'http://ink.sapo.pt/'
+  colors:
+    - hex: '#d5411a'
+      rgb:
+        r: 213
+        g: 65
+        b: 26
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: ink
+      relativeUrl: products/i/ink/logos/ink.svg
+      width: 256
+      height: 256
+  icons:
+    - id: ink
+      relativeUrl: products/i/ink/icons/ink.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    frontEndFramework:
+      id: frontEndFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ui:
+      id: ui
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    css:
+      id: css
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: rubocop
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: RuboCop
+  url: 'http://batsov.com/rubocop/'
+  colors:
+    - hex: '#d2242b'
+      rgb:
+        r: 210
+        g: 36
+        b: 43
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: rubocop
+      relativeUrl: products/r/rubocop/logos/rubocop.svg
+      width: 256
+      height: 302
+  icons:
+    - id: rubocop
+      relativeUrl: products/r/rubocop/icons/rubocop.svg
+      width: 256
+      height: 302
+relationships:
+  productLabels:
+    staticAnalysis:
+      id: staticAnalysis
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ruby:
+      id: ruby
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

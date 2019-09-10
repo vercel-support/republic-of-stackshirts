@@ -1,0 +1,43 @@
+id: rollupjs
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Rollup.js
+  url: 'http://rollupjs.org/'
+  colors:
+    - hex: '#ec4c44'
+      rgb:
+        r: 236
+        g: 76
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: rollupjs
+      relativeUrl: products/r/rollupjs/logos/rollupjs.svg
+      width: 256
+      height: 295
+  icons:
+    - id: rollupjs
+      relativeUrl: products/r/rollupjs/icons/rollupjs.svg
+      width: 256
+      height: 295
+relationships:
+  productLabels:
+    frontEnd:
+      id: frontEnd
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    moduleBundler:
+      id: moduleBundler
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

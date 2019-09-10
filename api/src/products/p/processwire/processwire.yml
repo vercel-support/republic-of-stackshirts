@@ -1,0 +1,56 @@
+id: processwire
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: ProcessWire
+  url: 'http://processwire.com/'
+  colors:
+    - hex: '#6c7c7c'
+      rgb:
+        r: 108
+        g: 124
+        b: 124
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: processwireShort
+      relativeUrl: products/p/processwire/logos/processwireShort.svg
+      width: 256
+      height: 256
+    - id: processwire
+      relativeUrl: products/p/processwire/logos/processwire.svg
+      width: 512
+      height: 63
+  icons:
+    - id: processwireShort
+      relativeUrl: products/p/processwire/icons/processwireShort.svg
+      width: 256
+      height: 256
+    - id: processwire
+      relativeUrl: products/p/processwire/icons/processwire.svg
+      width: 512
+      height: 63
+relationships:
+  productLabels:
+    contentManager:
+      id: contentManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    webAppFramework:
+      id: webAppFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    api:
+      id: api
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    jquery:
+      id: jquery
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: protoio
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Proto.io
+  url: 'https://proto.io/'
+  colors:
+    - hex: '#34a4c4'
+      rgb:
+        r: 52
+        g: 164
+        b: 196
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: protoio
+      relativeUrl: products/p/protoio/logos/protoio.svg
+      width: 256
+      height: 256
+  icons:
+    - id: protoio
+      relativeUrl: products/p/protoio/icons/protoio.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    prototyping:
+      id: prototyping
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ui:
+      id: ui
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

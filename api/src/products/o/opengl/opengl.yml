@@ -1,0 +1,43 @@
+id: opengl
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Open GL
+  url: 'https://www.opengl.org/'
+  colors:
+    - hex: '#5586a4'
+      rgb:
+        r: 85
+        g: 134
+        b: 164
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: opengl
+      relativeUrl: products/o/opengl/logos/opengl.svg
+      width: 512
+      height: 224
+  icons:
+    - id: opengl
+      relativeUrl: products/o/opengl/icons/opengl.svg
+      width: 512
+      height: 224
+relationships:
+  productLabels:
+    crossPlatform:
+      id: crossPlatform
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    games:
+      id: games
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    3D:
+      id: 3D
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

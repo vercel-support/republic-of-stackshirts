@@ -1,0 +1,38 @@
+id: cockpit
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Cockpit
+  url: 'http://getcockpit.com/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: cockpit
+      relativeUrl: products/c/cockpit/logos/cockpit.svg
+      width: 256
+      height: 256
+  icons:
+    - id: cockpit
+      relativeUrl: products/c/cockpit/icons/cockpit.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    cms:
+      id: cms
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    api:
+      id: api
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: jscs
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: JSCS
+  url: 'http://jscs.info/'
+  colors:
+    - hex: '#ebdb53'
+      rgb:
+        r: 235
+        g: 219
+        b: 83
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: jscs
+      relativeUrl: products/j/jscs/logos/jscs.svg
+      width: 256
+      height: 214
+  icons:
+    - id: jscs
+      relativeUrl: products/j/jscs/icons/jscs.svg
+      width: 256
+      height: 214
+relationships:
+  productLabels:
+    linter:
+      id: linter
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

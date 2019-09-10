@@ -1,0 +1,38 @@
+id: elementary
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: elementary OS
+  url: 'https://elementary.io/'
+  colors:
+    - hex: '#343434'
+      rgb:
+        r: 52
+        g: 52
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: elementary
+      relativeUrl: products/e/elementary/logos/elementary.svg
+      width: 256
+      height: 256
+  icons:
+    - id: elementary
+      relativeUrl: products/e/elementary/icons/elementary.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    operationalSystem:
+      id: operationalSystem
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    linux:
+      id: linux
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

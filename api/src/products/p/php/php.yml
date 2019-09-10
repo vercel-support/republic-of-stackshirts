@@ -1,0 +1,33 @@
+id: php
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: PHP
+  url: 'http://php.net/'
+  colors:
+    - hex: '#6482af'
+      rgb:
+        r: 100
+        g: 130
+        b: 175
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: php
+      relativeUrl: products/p/php/logos/php.svg
+      width: 256
+      height: 135
+  icons:
+    - id: php
+      relativeUrl: products/p/php/icons/php.svg
+      width: 256
+      height: 135
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

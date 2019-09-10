@@ -1,0 +1,38 @@
+id: mockflow
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Mockflow
+  url: 'http://www.mockflow.com/'
+  colors:
+    - hex: '#fbcf3b'
+      rgb:
+        r: 251
+        g: 207
+        b: 59
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mockflow
+      relativeUrl: products/m/mockflow/logos/mockflow.svg
+      width: 256
+      height: 256
+  icons:
+    - id: mockflow
+      relativeUrl: products/m/mockflow/icons/mockflow.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    prototyping:
+      id: prototyping
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ui:
+      id: ui
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

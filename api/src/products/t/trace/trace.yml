@@ -1,0 +1,38 @@
+id: trace
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Trace
+  url: 'https://trace.risingstack.com/'
+  colors:
+    - hex: '#40aa94'
+      rgb:
+        r: 64
+        g: 170
+        b: 148
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: trace
+      relativeUrl: products/t/trace/logos/trace.svg
+      width: 256
+      height: 256
+  icons:
+    - id: trace
+      relativeUrl: products/t/trace/icons/trace.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    debug:
+      id: debug
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

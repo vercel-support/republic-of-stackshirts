@@ -1,0 +1,38 @@
+id: atom
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Atom
+  url: 'https://atom.io/'
+  colors:
+    - hex: '#70c88a'
+      rgb:
+        r: 112
+        g: 200
+        b: 138
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: atom
+      relativeUrl: products/a/atom/logos/atom.svg
+      width: 256
+      height: 256
+  icons:
+    - id: atom
+      relativeUrl: products/a/atom/icons/atom.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    codeEditor:
+      id: codeEditor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

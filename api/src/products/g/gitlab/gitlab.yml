@@ -1,0 +1,43 @@
+id: gitlab
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Gitlab
+  url: 'https://about.gitlab.com/'
+  colors:
+    - hex: '#fc6c24'
+      rgb:
+        r: 252
+        g: 108
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: gitlab
+      relativeUrl: products/g/gitlab/logos/gitlab.svg
+      width: 256
+      height: 236
+  icons:
+    - id: gitlab
+      relativeUrl: products/g/gitlab/icons/gitlab.svg
+      width: 256
+      height: 236
+relationships:
+  productLabels:
+    git:
+      id: git
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    codeManager:
+      id: codeManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    continuousIntegration:
+      id: continuousIntegration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

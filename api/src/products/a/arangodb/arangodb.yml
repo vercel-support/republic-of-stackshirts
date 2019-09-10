@@ -1,0 +1,43 @@
+id: arangodb
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: ArangoDB
+  url: 'https://www.arangodb.com/'
+  colors:
+    - hex: '#728b49'
+      rgb:
+        r: 114
+        g: 139
+        b: 73
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: arangodb
+      relativeUrl: products/a/arangodb/logos/arangodb.svg
+      width: 512
+      height: 77
+  icons:
+    - id: arangodb
+      relativeUrl: products/a/arangodb/icons/arangodb.svg
+      width: 512
+      height: 77
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nosql:
+      id: nosql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    graphDatabase:
+      id: graphDatabase
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

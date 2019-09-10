@@ -1,0 +1,38 @@
+id: squarespace
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Squarespace
+  url: 'http://www.squarespace.com/'
+  colors:
+    - hex: '#1c1c1c'
+      rgb:
+        r: 28
+        g: 28
+        b: 28
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: squarespace
+      relativeUrl: products/s/squarespace/logos/squarespace.svg
+      width: 256
+      height: 204
+  icons:
+    - id: squarespace
+      relativeUrl: products/s/squarespace/icons/squarespace.svg
+      width: 256
+      height: 204
+relationships:
+  productLabels:
+    contentManager:
+      id: contentManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    websiteBuilder:
+      id: websiteBuilder
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

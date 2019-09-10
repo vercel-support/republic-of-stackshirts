@@ -1,0 +1,48 @@
+id: jest
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Jest
+  url: 'http://facebook.github.io/jest/'
+  colors:
+    - hex: '#c43c14'
+      rgb:
+        r: 196
+        g: 60
+        b: 20
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: jest
+      relativeUrl: products/j/jest/logos/jest.svg
+      width: 256
+      height: 283
+  icons:
+    - id: jest
+      relativeUrl: products/j/jest/icons/jest.svg
+      width: 256
+      height: 283
+relationships:
+  productLabels:
+    testingFramework:
+      id: testingFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    react:
+      id: react
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    unitTesting:
+      id: unitTesting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

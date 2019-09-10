@@ -1,0 +1,38 @@
+id: visa
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Visa
+  url: 'https://www.visa.com'
+  colors:
+    - hex: '#1B226F'
+      rgb:
+        r: 27
+        g: 34
+        b: 111
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: visa
+      relativeUrl: products/v/visa/logos/visa.svg
+      width: 256
+      height: 83
+  icons:
+    - id: visa
+      relativeUrl: products/v/visa/icons/visa.svg
+      width: 256
+      height: 83
+relationships:
+  productLabels:
+    creditCard:
+      id: creditCard
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    finance:
+      id: finance
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

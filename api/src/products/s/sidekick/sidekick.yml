@@ -1,0 +1,33 @@
+id: sidekick
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Sidekick
+  url: 'http://www.getsidekick.com/'
+  colors:
+    - hex: '#e47c44'
+      rgb:
+        r: 228
+        g: 124
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: sidekick
+      relativeUrl: products/s/sidekick/logos/sidekick.svg
+      width: 256
+      height: 256
+  icons:
+    - id: sidekick
+      relativeUrl: products/s/sidekick/icons/sidekick.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    emailTools:
+      id: emailTools
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: surge
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Surge
+  url: 'http://surge.sh/'
+  colors:
+    - hex: '#c7e2cf'
+      rgb:
+        r: 199
+        g: 226
+        b: 207
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: surge
+      relativeUrl: products/s/surge/logos/surge.svg
+      width: 256
+      height: 380
+  icons:
+    - id: surge
+      relativeUrl: products/s/surge/icons/surge.svg
+      width: 256
+      height: 380
+relationships:
+  productLabels:
+    codeHosting:
+      id: codeHosting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    codeDeployment:
+      id: codeDeployment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

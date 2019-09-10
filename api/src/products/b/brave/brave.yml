@@ -1,0 +1,38 @@
+id: brave
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Brave
+  url: 'https://brave.com/'
+  colors:
+    - hex: '#f15a22'
+      rgb:
+        r: 241
+        g: 90
+        b: 34
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: brave
+      relativeUrl: products/b/brave/logos/brave.svg
+      width: 256
+      height: 301
+  icons:
+    - id: brave
+      relativeUrl: products/b/brave/icons/brave.svg
+      width: 256
+      height: 301
+relationships:
+  productLabels:
+    browser:
+      id: browser
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    openSource:
+      id: openSource
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

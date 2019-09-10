@@ -1,0 +1,33 @@
+id: googleplus
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Google +
+  url: 'https://plus.google.com/'
+  colors:
+    - hex: '#dc4e41'
+      rgb:
+        r: 220
+        g: 78
+        b: 65
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: googlePlus
+      relativeUrl: products/g/googleplus/logos/googlePlus.svg
+      width: 256
+      height: 258
+  icons:
+    - id: googlePlus
+      relativeUrl: products/g/googleplus/icons/googlePlus.svg
+      width: 256
+      height: 258
+relationships:
+  productLabels:
+    socialNetwork:
+      id: socialNetwork
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

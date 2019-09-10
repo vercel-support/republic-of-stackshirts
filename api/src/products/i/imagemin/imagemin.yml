@@ -1,0 +1,38 @@
+id: imagemin
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: imagemin
+  url: 'https://github.com/imagemin/imagemin'
+  colors:
+    - hex: '#477ead'
+      rgb:
+        r: 71
+        g: 126
+        b: 173
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: imagemin
+      relativeUrl: products/i/imagemin/logos/imagemin.svg
+      width: 256
+      height: 256
+  icons:
+    - id: imagemin
+      relativeUrl: products/i/imagemin/icons/imagemin.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    imageOptimization:
+      id: imageOptimization
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

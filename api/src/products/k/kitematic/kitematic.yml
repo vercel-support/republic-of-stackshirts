@@ -1,0 +1,38 @@
+id: kitematic
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Kitematic
+  url: 'https://kitematic.com/'
+  colors:
+    - hex: '#3cb4eb'
+      rgb:
+        r: 60
+        g: 180
+        b: 235
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: kitematic
+      relativeUrl: products/k/kitematic/logos/kitematic.svg
+      width: 256
+      height: 256
+  icons:
+    - id: kitematic
+      relativeUrl: products/k/kitematic/icons/kitematic.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    desktopApp:
+      id: desktopApp
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    docker:
+      id: docker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

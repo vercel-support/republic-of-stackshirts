@@ -1,0 +1,38 @@
+id: vaadin
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Vaadin
+  url: 'https://vaadin.com/'
+  colors:
+    - hex: '#04b4f3'
+      rgb:
+        r: 4
+        g: 180
+        b: 243
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: vaadin
+      relativeUrl: products/v/vaadin/logos/vaadin.svg
+      width: 512
+      height: 124
+  icons:
+    - id: vaadin
+      relativeUrl: products/v/vaadin/icons/vaadin.svg
+      width: 512
+      height: 124
+relationships:
+  productLabels:
+    webAppFramework:
+      id: webAppFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    java:
+      id: java
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

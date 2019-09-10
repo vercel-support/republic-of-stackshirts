@@ -1,0 +1,38 @@
+id: celluloid
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Celluloid
+  url: 'https://celluloid.io/'
+  colors:
+    - hex: '#0d0d0d'
+      rgb:
+        r: 13
+        g: 13
+        b: 13
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: celluloid
+      relativeUrl: products/c/celluloid/logos/celluloid.svg
+      width: 256
+      height: 256
+  icons:
+    - id: celluloid
+      relativeUrl: products/c/celluloid/icons/celluloid.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    framework:
+      id: framework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ruby:
+      id: ruby
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

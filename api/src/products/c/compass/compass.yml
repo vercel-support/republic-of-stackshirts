@@ -1,0 +1,43 @@
+id: compass
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Compass
+  url: 'http://compass-style.org/'
+  colors:
+    - hex: '#e3160d'
+      rgb:
+        r: 227
+        g: 22
+        b: 13
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: compass
+      relativeUrl: products/c/compass/logos/compass.svg
+      width: 256
+      height: 256
+  icons:
+    - id: compass
+      relativeUrl: products/c/compass/icons/compass.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    frontEndFramework:
+      id: frontEndFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    css:
+      id: css
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    sass:
+      id: sass
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

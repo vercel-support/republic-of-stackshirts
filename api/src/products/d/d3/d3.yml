@@ -1,0 +1,48 @@
+id: d3
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: D3
+  url: 'http://d3js.org/'
+  colors:
+    - hex: '#ef804c'
+      rgb:
+        r: 239
+        g: 128
+        b: 76
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: d3
+      relativeUrl: products/d/d3/logos/d3.svg
+      width: 256
+      height: 243
+  icons:
+    - id: d3
+      relativeUrl: products/d/d3/icons/d3.svg
+      width: 256
+      height: 243
+relationships:
+  productLabels:
+    dataVisualization:
+      id: dataVisualization
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    library:
+      id: library
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    svg:
+      id: svg
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: formkeep
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: FormKeep
+  url: 'https://formkeep.com/'
+  colors:
+    - hex: '#544c5c'
+      rgb:
+        r: 84
+        g: 76
+        b: 92
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: formkeep
+      relativeUrl: products/f/formkeep/logos/formkeep.svg
+      width: 256
+      height: 283
+  icons:
+    - id: formkeep
+      relativeUrl: products/f/formkeep/icons/formkeep.svg
+      width: 256
+      height: 283
+relationships:
+  productLabels:
+    forms:
+      id: forms
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

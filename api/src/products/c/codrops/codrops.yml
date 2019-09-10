@@ -1,0 +1,43 @@
+id: codrops
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Codrops
+  url: 'http://tympanus.net/codrops/'
+  colors:
+    - hex: '#247cac'
+      rgb:
+        r: 36
+        g: 124
+        b: 172
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: codrops
+      relativeUrl: products/c/codrops/logos/codrops.svg
+      width: 256
+      height: 256
+  icons:
+    - id: codrops
+      relativeUrl: products/c/codrops/icons/codrops.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    tutorials:
+      id: tutorials
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    blog:
+      id: blog
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    reference:
+      id: reference
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

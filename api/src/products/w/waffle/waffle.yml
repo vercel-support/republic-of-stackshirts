@@ -1,0 +1,33 @@
+id: waffle
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Waffle
+  url: 'https://waffle.io/'
+  colors:
+    - hex: '#fcd454'
+      rgb:
+        r: 252
+        g: 212
+        b: 84
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: waffle
+      relativeUrl: products/w/waffle/logos/waffle.svg
+      width: 256
+      height: 347
+  icons:
+    - id: waffle
+      relativeUrl: products/w/waffle/icons/waffle.svg
+      width: 256
+      height: 347
+relationships:
+  productLabels:
+    projectManager:
+      id: projectManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

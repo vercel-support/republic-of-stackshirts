@@ -1,0 +1,38 @@
+id: sherlock
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Sherlock
+  url: 'https://sherlock.knowtify.io/'
+  colors:
+    - hex: '#343c4c'
+      rgb:
+        r: 52
+        g: 60
+        b: 76
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: sherlock
+      relativeUrl: products/s/sherlock/logos/sherlock.svg
+      width: 256
+      height: 256
+  icons:
+    - id: sherlock
+      relativeUrl: products/s/sherlock/icons/sherlock.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    customerAnalytics:
+      id: customerAnalytics
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    analytics:
+      id: analytics
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

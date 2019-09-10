@@ -1,0 +1,43 @@
+id: wagtail
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Wagtail
+  url: 'https://wagtail.io/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: wagtail
+      relativeUrl: products/w/wagtail/logos/wagtail.svg
+      width: 256
+      height: 316
+  icons:
+    - id: wagtail
+      relativeUrl: products/w/wagtail/icons/wagtail.svg
+      width: 256
+      height: 316
+relationships:
+  productLabels:
+    contentManager:
+      id: contentManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    django:
+      id: django
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    python:
+      id: python
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

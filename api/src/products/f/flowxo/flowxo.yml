@@ -1,0 +1,33 @@
+id: flowxo
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: FlowXO
+  url: 'https://flowxo.com/'
+  colors:
+    - hex: '#6bc38b'
+      rgb:
+        r: 107
+        g: 195
+        b: 139
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: flowxo
+      relativeUrl: products/f/flowxo/logos/flowxo.svg
+      width: 256
+      height: 182
+  icons:
+    - id: flowxo
+      relativeUrl: products/f/flowxo/icons/flowxo.svg
+      width: 256
+      height: 182
+relationships:
+  productLabels:
+    serviceIntegration:
+      id: serviceIntegration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

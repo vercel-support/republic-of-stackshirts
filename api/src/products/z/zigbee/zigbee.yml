@@ -1,0 +1,43 @@
+id: zigbee
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: ZigBee
+  url: 'http://www.zigbee.org/'
+  colors:
+    - hex: '#c3061b'
+      rgb:
+        r: 195
+        g: 6
+        b: 27
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: zigbee
+      relativeUrl: products/z/zigbee/logos/zigbee.svg
+      width: 256
+      height: 256
+  icons:
+    - id: zigbee
+      relativeUrl: products/z/zigbee/icons/zigbee.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    wireless:
+      id: wireless
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    protocol:
+      id: protocol
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    deviceIntegration:
+      id: deviceIntegration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

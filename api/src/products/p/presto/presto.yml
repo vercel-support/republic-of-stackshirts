@@ -1,0 +1,43 @@
+id: presto
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Presto
+  url: 'https://prestodb.io/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: presto
+      relativeUrl: products/p/presto/logos/presto.svg
+      width: 256
+      height: 256
+  icons:
+    - id: presto
+      relativeUrl: products/p/presto/icons/presto.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    distributedComputing:
+      id: distributedComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    queryEngine:
+      id: queryEngine
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    sql:
+      id: sql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

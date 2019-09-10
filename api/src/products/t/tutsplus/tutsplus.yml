@@ -1,0 +1,38 @@
+id: tutsplus
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: tuts+
+  url: 'http://tutsplus.com/'
+  colors:
+    - hex: '#2c3444'
+      rgb:
+        r: 44
+        g: 52
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: tutsplus
+      relativeUrl: products/t/tutsplus/logos/tutsplus.svg
+      width: 512
+      height: 173
+  icons:
+    - id: tutsplus
+      relativeUrl: products/t/tutsplus/icons/tutsplus.svg
+      width: 512
+      height: 173
+relationships:
+  productLabels:
+    learning:
+      id: learning
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    courses:
+      id: courses
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

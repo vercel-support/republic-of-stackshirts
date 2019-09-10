@@ -1,0 +1,33 @@
+id: producteev
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Producteev
+  url: 'https://www.producteev.com/'
+  colors:
+    - hex: '#3892b4'
+      rgb:
+        r: 56
+        g: 146
+        b: 180
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: producteev
+      relativeUrl: products/p/producteev/logos/producteev.svg
+      width: 256
+      height: 193
+  icons:
+    - id: producteev
+      relativeUrl: products/p/producteev/icons/producteev.svg
+      width: 256
+      height: 193
+relationships:
+  productLabels:
+    taskManager:
+      id: taskManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

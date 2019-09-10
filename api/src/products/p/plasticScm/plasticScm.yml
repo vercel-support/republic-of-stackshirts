@@ -1,0 +1,38 @@
+id: plasticScm
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Plastic SCM
+  url: 'https://www.plasticscm.com/'
+  colors:
+    - hex: '#fc5c04'
+      rgb:
+        r: 252
+        g: 92
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: plasticScm
+      relativeUrl: products/p/plasticScm/logos/plasticScm.svg
+      width: 256
+      height: 285
+  icons:
+    - id: plasticScm
+      relativeUrl: products/p/plasticScm/icons/plasticScm.svg
+      width: 256
+      height: 285
+relationships:
+  productLabels:
+    versionControl:
+      id: versionControl
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    enterprise:
+      id: enterprise
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

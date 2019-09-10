@@ -1,0 +1,38 @@
+id: enyo
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Enyo
+  url: 'http://enyojs.com/'
+  colors:
+    - hex: '#3a4553'
+      rgb:
+        r: 58
+        g: 69
+        b: 83
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: enyo
+      relativeUrl: products/e/enyo/logos/enyo.svg
+      width: 256
+      height: 435
+  icons:
+    - id: enyo
+      relativeUrl: products/e/enyo/icons/enyo.svg
+      width: 256
+      height: 435
+relationships:
+  productLabels:
+    mvcFramework:
+      id: mvcFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: opencv
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: OpenCV
+  url: 'http://opencv.org/'
+  colors:
+    - hex: '#ff0101'
+      rgb:
+        r: 255
+        g: 1
+        b: 1
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: opencv
+      relativeUrl: products/o/opencv/logos/opencv.svg
+      width: 256
+      height: 317
+  icons:
+    - id: opencv
+      relativeUrl: products/o/opencv/icons/opencv.svg
+      width: 256
+      height: 317
+relationships:
+  productLabels:
+    crossPlatform:
+      id: crossPlatform
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    3D:
+      id: 3D
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

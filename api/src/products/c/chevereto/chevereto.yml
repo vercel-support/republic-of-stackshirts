@@ -1,0 +1,33 @@
+id: chevereto
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: chevereto
+  url: 'https://chevereto.com/'
+  colors:
+    - hex: '#34acdc'
+      rgb:
+        r: 52
+        g: 172
+        b: 220
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: chevereto
+      relativeUrl: products/c/chevereto/logos/chevereto.svg
+      width: 512
+      height: 79
+  icons:
+    - id: chevereto
+      relativeUrl: products/c/chevereto/icons/chevereto.svg
+      width: 512
+      height: 79
+relationships:
+  productLabels:
+    imageHosting:
+      id: imageHosting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

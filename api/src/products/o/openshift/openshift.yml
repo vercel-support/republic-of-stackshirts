@@ -1,0 +1,38 @@
+id: openshift
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: OpenShift
+  url: 'https://www.openshift.com/'
+  colors:
+    - hex: '#dc2433'
+      rgb:
+        r: 220
+        g: 36
+        b: 51
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: openshift
+      relativeUrl: products/o/openshift/logos/openshift.svg
+      width: 256
+      height: 237
+  icons:
+    - id: openshift
+      relativeUrl: products/o/openshift/icons/openshift.svg
+      width: 256
+      height: 237
+relationships:
+  productLabels:
+    cloudComputing:
+      id: cloudComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    paas:
+      id: paas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

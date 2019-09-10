@@ -1,0 +1,43 @@
+id: thimble
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Thimble
+  url: 'https://thimble.mozilla.org/'
+  colors:
+    - hex: '#aebec6'
+      rgb:
+        r: 174
+        g: 190
+        b: 198
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: thimble
+      relativeUrl: products/t/thimble/logos/thimble.svg
+      width: 256
+      height: 279
+  icons:
+    - id: thimble
+      relativeUrl: products/t/thimble/icons/thimble.svg
+      width: 256
+      height: 279
+relationships:
+  productLabels:
+    codeEditor:
+      id: codeEditor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mozilla:
+      id: mozilla
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    service:
+      id: service
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

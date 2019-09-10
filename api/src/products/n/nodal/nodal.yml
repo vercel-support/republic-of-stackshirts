@@ -1,0 +1,48 @@
+id: nodal
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Nodal
+  url: 'http://www.nodaljs.com/'
+  colors:
+    - hex: '#04e3fc'
+      rgb:
+        r: 4
+        g: 227
+        b: 252
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: nodal
+      relativeUrl: products/n/nodal/logos/nodal.svg
+      width: 256
+      height: 257
+  icons:
+    - id: nodal
+      relativeUrl: products/n/nodal/icons/nodal.svg
+      width: 256
+      height: 257
+relationships:
+  productLabels:
+    webServer:
+      id: webServer
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    webAppFramework:
+      id: webAppFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    microframework:
+      id: microframework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

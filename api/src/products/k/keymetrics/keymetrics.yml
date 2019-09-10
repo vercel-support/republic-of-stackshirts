@@ -1,0 +1,43 @@
+id: keymetrics
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Keymetrics
+  url: 'https://keymetrics.io/'
+  colors:
+    - hex: '#24939d'
+      rgb:
+        r: 36
+        g: 147
+        b: 157
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: keymetrics
+      relativeUrl: products/k/keymetrics/logos/keymetrics.svg
+      width: 256
+      height: 284
+  icons:
+    - id: keymetrics
+      relativeUrl: products/k/keymetrics/icons/keymetrics.svg
+      width: 256
+      height: 284
+relationships:
+  productLabels:
+    performanceMonitoring:
+      id: performanceMonitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    monitoring:
+      id: monitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

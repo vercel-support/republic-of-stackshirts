@@ -1,0 +1,38 @@
+id: nodejitsu
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Nodejitsu
+  url: 'https://www.nodejitsu.com/'
+  colors:
+    - hex: '#c4c4cc'
+      rgb:
+        r: 196
+        g: 196
+        b: 204
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: nodejitsu
+      relativeUrl: products/n/nodejitsu/logos/nodejitsu.svg
+      width: 256
+      height: 169
+  icons:
+    - id: nodejitsu
+      relativeUrl: products/n/nodejitsu/icons/nodejitsu.svg
+      width: 256
+      height: 169
+relationships:
+  productLabels:
+    cloudComputing:
+      id: cloudComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    paas:
+      id: paas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: locent
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Locent
+  url: 'https://locent.com/'
+  colors:
+    - hex: '#3c7cfc'
+      rgb:
+        r: 60
+        g: 124
+        b: 252
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: locent
+      relativeUrl: products/l/locent/logos/locent.svg
+      width: 256
+      height: 257
+  icons:
+    - id: locent
+      relativeUrl: products/l/locent/icons/locent.svg
+      width: 256
+      height: 257
+relationships:
+  productLabels:
+    sms:
+      id: sms
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    health:
+      id: health
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

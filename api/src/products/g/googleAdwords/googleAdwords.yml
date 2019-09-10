@@ -1,0 +1,33 @@
+id: googleAdwords
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Google AdWords
+  url: 'http://www.google.com/adwords/'
+  colors:
+    - hex: '#14a363'
+      rgb:
+        r: 20
+        g: 163
+        b: 99
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: googleAdwords
+      relativeUrl: products/g/googleAdwords/logos/googleAdwords.svg
+      width: 256
+      height: 256
+  icons:
+    - id: googleAdwords
+      relativeUrl: products/g/googleAdwords/icons/googleAdwords.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    ads:
+      id: ads
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

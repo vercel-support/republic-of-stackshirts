@@ -1,0 +1,43 @@
+id: preact
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Preact
+  url: 'https://preactjs.com/'
+  colors:
+    - hex: '#643cbc'
+      rgb:
+        r: 100
+        g: 60
+        b: 188
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: preact
+      relativeUrl: products/p/preact/logos/preact.svg
+      width: 256
+      height: 296
+  icons:
+    - id: preact
+      relativeUrl: products/p/preact/icons/preact.svg
+      width: 256
+      height: 296
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    react:
+      id: react
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    uiFramework:
+      id: uiFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

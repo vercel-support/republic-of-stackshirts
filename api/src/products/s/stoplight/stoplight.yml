@@ -1,0 +1,38 @@
+id: stoplight
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: StopLight
+  url: 'https://stoplight.io/'
+  colors:
+    - hex: '#3c84f3'
+      rgb:
+        r: 60
+        g: 132
+        b: 243
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: stoplight
+      relativeUrl: products/s/stoplight/logos/stoplight.svg
+      width: 256
+      height: 256
+  icons:
+    - id: stoplight
+      relativeUrl: products/s/stoplight/icons/stoplight.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    api:
+      id: api
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    documentation:
+      id: documentation
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

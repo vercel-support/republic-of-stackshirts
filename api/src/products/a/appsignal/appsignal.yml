@@ -1,0 +1,43 @@
+id: appsignal
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AppSignal
+  url: 'https://appsignal.com/'
+  colors:
+    - hex: '#2b6c61'
+      rgb:
+        r: 43
+        g: 108
+        b: 97
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: appsignal
+      relativeUrl: products/a/appsignal/logos/appsignal.svg
+      width: 256
+      height: 169
+  icons:
+    - id: appsignal
+      relativeUrl: products/a/appsignal/icons/appsignal.svg
+      width: 256
+      height: 169
+relationships:
+  productLabels:
+    monitoring:
+      id: monitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    performanceMonitoring:
+      id: performanceMonitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ruby:
+      id: ruby
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

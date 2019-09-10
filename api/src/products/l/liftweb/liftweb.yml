@@ -1,0 +1,43 @@
+id: liftweb
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Lift
+  url: 'http://liftweb.net/'
+  colors:
+    - hex: '#445ba6'
+      rgb:
+        r: 68
+        g: 91
+        b: 166
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: liftweb
+      relativeUrl: products/l/liftweb/logos/liftweb.svg
+      width: 256
+      height: 318
+  icons:
+    - id: liftweb
+      relativeUrl: products/l/liftweb/icons/liftweb.svg
+      width: 256
+      height: 318
+relationships:
+  productLabels:
+    fullStackFramework:
+      id: fullStackFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    java:
+      id: java
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    scala:
+      id: scala
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

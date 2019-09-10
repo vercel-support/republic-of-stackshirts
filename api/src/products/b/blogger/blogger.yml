@@ -1,0 +1,33 @@
+id: blogger
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Blogger
+  url: 'https://www.blogger.com/'
+  colors:
+    - hex: '#f47d06'
+      rgb:
+        r: 244
+        g: 125
+        b: 6
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: blogger
+      relativeUrl: products/b/blogger/logos/blogger.svg
+      width: 256
+      height: 256
+  icons:
+    - id: blogger
+      relativeUrl: products/b/blogger/icons/blogger.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    blogPlatform:
+      id: blogPlatform
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

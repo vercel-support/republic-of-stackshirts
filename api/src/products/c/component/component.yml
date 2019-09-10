@@ -1,0 +1,38 @@
+id: component
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Component
+  url: 'https://github.com/componentjs/component'
+  colors:
+    - hex: '#7c7c7c'
+      rgb:
+        r: 124
+        g: 124
+        b: 124
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: component
+      relativeUrl: products/c/component/logos/component.svg
+      width: 256
+      height: 257
+  icons:
+    - id: component
+      relativeUrl: products/c/component/icons/component.svg
+      width: 256
+      height: 257
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    packageManager:
+      id: packageManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

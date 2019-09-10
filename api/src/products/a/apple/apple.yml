@@ -1,0 +1,38 @@
+id: apple
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Apple
+  url: 'http://www.apple.com/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: apple
+      relativeUrl: products/a/apple/logos/apple.svg
+      width: 256
+      height: 315
+  icons:
+    - id: apple
+      relativeUrl: products/a/apple/icons/apple.svg
+      width: 256
+      height: 315
+relationships:
+  productLabels:
+    technology:
+      id: technology
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    company:
+      id: company
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: wire
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Wire
+  url: 'https://wire.com/'
+  colors:
+    - hex: '#000000'
+      rgb:
+        r: 0
+        g: 0
+        b: 0
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: wire
+      relativeUrl: products/w/wire/logos/wire.svg
+      width: 512
+      height: 174
+  icons:
+    - id: wire
+      relativeUrl: products/w/wire/icons/wire.svg
+      width: 512
+      height: 174
+relationships:
+  productLabels:
+    chat:
+      id: chat
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobileApp:
+      id: mobileApp
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

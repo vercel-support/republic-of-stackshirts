@@ -1,0 +1,38 @@
+id: postgresql
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: PostgreSQL
+  url: 'http://www.postgresql.org/'
+  colors:
+    - hex: '#356594'
+      rgb:
+        r: 53
+        g: 101
+        b: 148
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: postgresql
+      relativeUrl: products/p/postgresql/logos/postgresql.svg
+      width: 256
+      height: 264
+  icons:
+    - id: postgresql
+      relativeUrl: products/p/postgresql/icons/postgresql.svg
+      width: 256
+      height: 264
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    sql:
+      id: sql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

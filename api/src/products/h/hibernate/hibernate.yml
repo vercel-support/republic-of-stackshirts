@@ -1,0 +1,48 @@
+id: hibernate
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Hibernate
+  url: 'http://hibernate.org/'
+  colors:
+    - hex: '#5c646c'
+      rgb:
+        r: 92
+        g: 100
+        b: 108
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: hibernate
+      relativeUrl: products/h/hibernate/logos/hibernate.svg
+      width: 256
+      height: 267
+  icons:
+    - id: hibernate
+      relativeUrl: products/h/hibernate/icons/hibernate.svg
+      width: 256
+      height: 267
+relationships:
+  productLabels:
+    orm:
+      id: orm
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    sql:
+      id: sql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nosql:
+      id: nosql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

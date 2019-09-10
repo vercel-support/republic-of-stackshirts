@@ -1,0 +1,33 @@
+id: lighttpd
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: lighttpd
+  url: 'http://www.lighttpd.net/'
+  colors:
+    - hex: '#d6e3e6'
+      rgb:
+        r: 214
+        g: 227
+        b: 230
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: lighttpd
+      relativeUrl: products/l/lighttpd/logos/lighttpd.svg
+      width: 256
+      height: 211
+  icons:
+    - id: lighttpd
+      relativeUrl: products/l/lighttpd/icons/lighttpd.svg
+      width: 256
+      height: 211
+relationships:
+  productLabels:
+    webServer:
+      id: webServer
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: postcss
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: PostCSS
+  url: 'https://github.com/postcss/postcss'
+  colors:
+    - hex: '#dc3434'
+      rgb:
+        r: 220
+        g: 52
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: postcss
+      relativeUrl: products/p/postcss/logos/postcss.svg
+      width: 256
+      height: 256
+  icons:
+    - id: postcss
+      relativeUrl: products/p/postcss/icons/postcss.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    css:
+      id: css
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    preprocessor:
+      id: preprocessor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    transformer:
+      id: transformer
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

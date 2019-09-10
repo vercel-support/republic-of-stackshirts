@@ -1,0 +1,38 @@
+id: redsmin
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Redsmin
+  url: 'https://redsmin.com/'
+  colors:
+    - hex: '#7c1414'
+      rgb:
+        r: 124
+        g: 20
+        b: 20
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: redsmin
+      relativeUrl: products/r/redsmin/logos/redsmin.svg
+      width: 256
+      height: 344
+  icons:
+    - id: redsmin
+      relativeUrl: products/r/redsmin/icons/redsmin.svg
+      width: 256
+      height: 344
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    redis:
+      id: redis
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: pagekite
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: pagekite
+  url: 'http://pagekite.net/'
+  colors:
+    - hex: '#b4b4b4'
+      rgb:
+        r: 180
+        g: 180
+        b: 180
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: pagekite
+      relativeUrl: products/p/pagekite/logos/pagekite.svg
+      width: 256
+      height: 285
+  icons:
+    - id: pagekite
+      relativeUrl: products/p/pagekite/icons/pagekite.svg
+      width: 256
+      height: 285
+relationships:
+  productLabels:
+    localhostTools:
+      id: localhostTools
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

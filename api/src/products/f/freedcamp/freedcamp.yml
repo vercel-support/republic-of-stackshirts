@@ -1,0 +1,33 @@
+id: freedcamp
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: freedcamp
+  url: 'https://freedcamp.com/'
+  colors:
+    - hex: '#1c9c9c'
+      rgb:
+        r: 28
+        g: 156
+        b: 156
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: freedcamp
+      relativeUrl: products/f/freedcamp/logos/freedcamp.svg
+      width: 256
+      height: 233
+  icons:
+    - id: freedcamp
+      relativeUrl: products/f/freedcamp/icons/freedcamp.svg
+      width: 256
+      height: 233
+relationships:
+  productLabels:
+    projectManager:
+      id: projectManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

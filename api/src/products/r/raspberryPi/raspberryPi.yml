@@ -1,0 +1,33 @@
+id: raspberryPi
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Raspberry Pi
+  url: 'https://www.raspberrypi.org/'
+  colors:
+    - hex: '#bb1343'
+      rgb:
+        r: 187
+        g: 19
+        b: 67
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: raspberryPi
+      relativeUrl: products/r/raspberryPi/logos/raspberryPi.svg
+      width: 256
+      height: 327
+  icons:
+    - id: raspberryPi
+      relativeUrl: products/r/raspberryPi/icons/raspberryPi.svg
+      width: 256
+      height: 327
+relationships:
+  productLabels:
+    hardware:
+      id: hardware
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

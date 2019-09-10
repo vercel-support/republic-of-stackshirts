@@ -1,0 +1,43 @@
+id: stormpath
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Stormpath
+  url: 'https://stormpath.com/'
+  colors:
+    - hex: '#244cc4'
+      rgb:
+        r: 36
+        g: 76
+        b: 196
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: stormpath
+      relativeUrl: products/s/stormpath/logos/stormpath.svg
+      width: 256
+      height: 256
+  icons:
+    - id: stormpath
+      relativeUrl: products/s/stormpath/icons/stormpath.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    userManagement:
+      id: userManagement
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    authentication:
+      id: authentication
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    baas:
+      id: baas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

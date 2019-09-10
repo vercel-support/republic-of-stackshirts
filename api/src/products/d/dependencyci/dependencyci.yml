@@ -1,0 +1,38 @@
+id: dependencyci
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Dependency CI
+  url: 'https://dependencyci.com/'
+  colors:
+    - hex: '#71c7d6'
+      rgb:
+        r: 113
+        g: 199
+        b: 214
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: dependencyci
+      relativeUrl: products/d/dependencyci/logos/dependencyci.svg
+      width: 256
+      height: 256
+  icons:
+    - id: dependencyci
+      relativeUrl: products/d/dependencyci/icons/dependencyci.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    continuousIntegration:
+      id: continuousIntegration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    dependencyMonitoring:
+      id: dependencyMonitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

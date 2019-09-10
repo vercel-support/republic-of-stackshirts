@@ -1,0 +1,38 @@
+id: mongodb
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: MongoDB
+  url: 'https://www.mongodb.org/'
+  colors:
+    - hex: '#442c24'
+      rgb:
+        r: 68
+        g: 44
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mongodb
+      relativeUrl: products/m/mongodb/logos/mongodb.svg
+      width: 512
+      height: 146
+  icons:
+    - id: mongodb
+      relativeUrl: products/m/mongodb/icons/mongodb.svg
+      width: 512
+      height: 146
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nosql:
+      id: nosql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

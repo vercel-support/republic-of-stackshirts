@@ -1,0 +1,38 @@
+id: udacity
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Udacity
+  url: 'https://udacity.com'
+  colors:
+    - hex: '#02b3e4'
+      rgb:
+        r: 2
+        g: 179
+        b: 228
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: udacity
+      relativeUrl: products/u/udacity/logos/udacity.svg
+      width: 256
+      height: 256
+  icons:
+    - id: udacity
+      relativeUrl: products/u/udacity/icons/udacity.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    courses:
+      id: courses
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    learning:
+      id: learning
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

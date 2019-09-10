@@ -1,0 +1,43 @@
+id: bluemix
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Bluemix
+  url: 'https://console.ng.bluemix.net/'
+  colors:
+    - hex: '#05b0b8'
+      rgb:
+        r: 5
+        g: 176
+        b: 184
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: bluemix
+      relativeUrl: products/b/bluemix/logos/bluemix.svg
+      width: 256
+      height: 253
+  icons:
+    - id: bluemix
+      relativeUrl: products/b/bluemix/icons/bluemix.svg
+      width: 256
+      height: 253
+relationships:
+  productLabels:
+    docker:
+      id: docker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    containers:
+      id: containers
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    caas:
+      id: caas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

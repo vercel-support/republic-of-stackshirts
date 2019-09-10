@@ -1,0 +1,38 @@
+id: mapbox
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Mapbox
+  url: 'https://www.mapbox.com/'
+  colors:
+    - hex: '#4264fb'
+      rgb:
+        r: 66
+        g: 100
+        b: 251
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mapbox
+      relativeUrl: products/m/mapbox/logos/mapbox.svg
+      width: 256
+      height: 256
+  icons:
+    - id: mapbox
+      relativeUrl: products/m/mapbox/icons/mapbox.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    maps:
+      id: maps
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mappingApi:
+      id: mappingApi
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

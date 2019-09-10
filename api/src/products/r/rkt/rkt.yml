@@ -1,0 +1,48 @@
+id: rkt
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: rkt
+  url: 'https://github.com/coreos/rkt'
+  colors:
+    - hex: '#54a4dc'
+      rgb:
+        r: 84
+        g: 164
+        b: 220
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: rkt
+      relativeUrl: products/r/rkt/logos/rkt.svg
+      width: 256
+      height: 256
+  icons:
+    - id: rkt
+      relativeUrl: products/r/rkt/icons/rkt.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    containers:
+      id: containers
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    docker:
+      id: docker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    coreos:
+      id: coreos
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: haxl
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Haxl
+  url: 'https://github.com/facebook/Haxl'
+  colors:
+    - hex: '#4c6ca4'
+      rgb:
+        r: 76
+        g: 108
+        b: 164
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: haxl
+      relativeUrl: products/h/haxl/logos/haxl.svg
+      width: 256
+      height: 325
+  icons:
+    - id: haxl
+      relativeUrl: products/h/haxl/icons/haxl.svg
+      width: 256
+      height: 325
+relationships:
+  productLabels:
+    apiTools:
+      id: apiTools
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    haskell:
+      id: haskell
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    facebook:
+      id: facebook
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

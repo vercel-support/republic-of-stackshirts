@@ -1,0 +1,43 @@
+id: uservoice
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: uservoice
+  url: 'https://www.uservoice.com/'
+  colors:
+    - hex: '#fce6ca'
+      rgb:
+        r: 252
+        g: 230
+        b: 202
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: uservoice
+      relativeUrl: products/u/uservoice/logos/uservoice.svg
+      width: 256
+      height: 256
+  icons:
+    - id: uservoice
+      relativeUrl: products/u/uservoice/icons/uservoice.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    productManager:
+      id: productManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    helpDesk:
+      id: helpDesk
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    customerSupport:
+      id: customerSupport
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

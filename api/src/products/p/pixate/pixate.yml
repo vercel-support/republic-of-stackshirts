@@ -1,0 +1,43 @@
+id: pixate
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Pixate
+  url: 'http://www.pixate.com/'
+  colors:
+    - hex: '#0493dc'
+      rgb:
+        r: 4
+        g: 147
+        b: 220
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: pixate
+      relativeUrl: products/p/pixate/logos/pixate.svg
+      width: 256
+      height: 260
+  icons:
+    - id: pixate
+      relativeUrl: products/p/pixate/icons/pixate.svg
+      width: 256
+      height: 260
+relationships:
+  productLabels:
+    prototyping:
+      id: prototyping
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ui:
+      id: ui
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    desktopApp:
+      id: desktopApp
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

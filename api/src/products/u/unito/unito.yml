@@ -1,0 +1,38 @@
+id: unito
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Unito
+  url: 'https://unito.io'
+  colors:
+    - hex: '#aadd00'
+      rgb:
+        r: 170
+        g: 221
+        b: 0
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: unito
+      relativeUrl: products/u/unito/logos/unito.svg
+      width: 256
+      height: 256
+  icons:
+    - id: unito
+      relativeUrl: products/u/unito/icons/unito.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    projectManager:
+      id: projectManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    serviceIntegration:
+      id: serviceIntegration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: slack
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: slack
+  url: 'https://slack.com/'
+  colors:
+    - hex: '#d05740'
+      rgb:
+        r: 208
+        g: 87
+        b: 64
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: slack
+      relativeUrl: products/s/slack/logos/slack.svg
+      width: 256
+      height: 256
+  icons:
+    - id: slack
+      relativeUrl: products/s/slack/icons/slack.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    groupChat:
+      id: groupChat
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    teamCollaboration:
+      id: teamCollaboration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

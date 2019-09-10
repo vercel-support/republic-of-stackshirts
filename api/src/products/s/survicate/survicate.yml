@@ -1,0 +1,38 @@
+id: survicate
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: survicate
+  url: 'http://survicate.com/'
+  colors:
+    - hex: '#ebac24'
+      rgb:
+        r: 235
+        g: 172
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: survicate
+      relativeUrl: products/s/survicate/logos/survicate.svg
+      width: 256
+      height: 202
+  icons:
+    - id: survicate
+      relativeUrl: products/s/survicate/icons/survicate.svg
+      width: 256
+      height: 202
+relationships:
+  productLabels:
+    customerSupport:
+      id: customerSupport
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    userFeedback:
+      id: userFeedback
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

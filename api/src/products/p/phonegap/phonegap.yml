@@ -1,0 +1,61 @@
+id: phonegap
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: PhoneGap
+  url: 'http://phonegap.com/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: phonegap
+      relativeUrl: products/p/phonegap/logos/phonegap.svg
+      width: 256
+      height: 279
+    - id: phonegapBot
+      relativeUrl: products/p/phonegap/logos/phonegapBot.svg
+      width: 256
+      height: 216
+  icons:
+    - id: phonegap
+      relativeUrl: products/p/phonegap/icons/phonegap.svg
+      width: 256
+      height: 279
+    - id: phonegapBot
+      relativeUrl: products/p/phonegap/icons/phonegapBot.svg
+      width: 256
+      height: 216
+relationships:
+  productLabels:
+    crossPlatform:
+      id: crossPlatform
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    applicationFramework:
+      id: applicationFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

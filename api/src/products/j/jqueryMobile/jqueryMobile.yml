@@ -1,0 +1,43 @@
+id: jqueryMobile
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: jQuery Mobile
+  url: 'http://jquerymobile.com/'
+  colors:
+    - hex: '#0995bd'
+      rgb:
+        r: 9
+        g: 149
+        b: 189
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: jqueryMobile
+      relativeUrl: products/j/jqueryMobile/logos/jqueryMobile.svg
+      width: 256
+      height: 191
+  icons:
+    - id: jqueryMobile
+      relativeUrl: products/j/jqueryMobile/icons/jqueryMobile.svg
+      width: 256
+      height: 191
+relationships:
+  productLabels:
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ui:
+      id: ui
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

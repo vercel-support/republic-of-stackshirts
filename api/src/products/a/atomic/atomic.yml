@@ -1,0 +1,43 @@
+id: atomic
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: atomic
+  url: 'https://atomic.io/'
+  colors:
+    - hex: '#477af6'
+      rgb:
+        r: 71
+        g: 122
+        b: 246
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: atomic
+      relativeUrl: products/a/atomic/logos/atomic.svg
+      width: 256
+      height: 237
+  icons:
+    - id: atomic
+      relativeUrl: products/a/atomic/icons/atomic.svg
+      width: 256
+      height: 237
+relationships:
+  productLabels:
+    prototyping:
+      id: prototyping
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ui:
+      id: ui
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

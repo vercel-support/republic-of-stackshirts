@@ -1,0 +1,38 @@
+id: django
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Django
+  url: 'https://www.djangoproject.com/'
+  colors:
+    - hex: '#2cac74'
+      rgb:
+        r: 44
+        g: 172
+        b: 116
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: django
+      relativeUrl: products/d/django/logos/django.svg
+      width: 256
+      height: 326
+  icons:
+    - id: django
+      relativeUrl: products/d/django/icons/django.svg
+      width: 256
+      height: 326
+relationships:
+  productLabels:
+    fullStackFramework:
+      id: fullStackFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    python:
+      id: python
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

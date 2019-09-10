@@ -1,0 +1,33 @@
+id: delicious
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Delicious
+  url: 'https://delicious.com/'
+  colors:
+    - hex: '#ececec'
+      rgb:
+        r: 236
+        g: 236
+        b: 236
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: delicious
+      relativeUrl: products/d/delicious/logos/delicious.svg
+      width: 256
+      height: 256
+  icons:
+    - id: delicious
+      relativeUrl: products/d/delicious/icons/delicious.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    bookmarkManager:
+      id: bookmarkManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

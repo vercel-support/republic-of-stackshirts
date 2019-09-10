@@ -1,0 +1,38 @@
+id: statuspage
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: StatusPage
+  url: 'https://www.statuspage.io/'
+  colors:
+    - hex: '#84bc44'
+      rgb:
+        r: 132
+        g: 188
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: statuspage
+      relativeUrl: products/s/statuspage/logos/statuspage.svg
+      width: 256
+      height: 256
+  icons:
+    - id: statuspage
+      relativeUrl: products/s/statuspage/icons/statuspage.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    monitoring:
+      id: monitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    serverStatus:
+      id: serverStatus
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

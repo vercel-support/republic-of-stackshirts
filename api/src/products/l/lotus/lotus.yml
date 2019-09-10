@@ -1,0 +1,38 @@
+id: lotus
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Lotus
+  url: 'http://lotusrb.org/'
+  colors:
+    - hex: '#542c4c'
+      rgb:
+        r: 84
+        g: 44
+        b: 76
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: lotus
+      relativeUrl: products/l/lotus/logos/lotus.svg
+      width: 256
+      height: 296
+  icons:
+    - id: lotus
+      relativeUrl: products/l/lotus/icons/lotus.svg
+      width: 256
+      height: 296
+relationships:
+  productLabels:
+    webFramework:
+      id: webFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ruby:
+      id: ruby
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

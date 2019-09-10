@@ -1,0 +1,33 @@
+id: java
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Java
+  url: 'https://www.java.com/'
+  colors:
+    - hex: '#e46c04'
+      rgb:
+        r: 228
+        g: 108
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: java
+      relativeUrl: products/j/java/logos/java.svg
+      width: 256
+      height: 346
+  icons:
+    - id: java
+      relativeUrl: products/j/java/icons/java.svg
+      width: 256
+      height: 346
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

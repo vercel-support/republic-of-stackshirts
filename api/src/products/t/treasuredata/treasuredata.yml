@@ -1,0 +1,38 @@
+id: treasuredata
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Treasure Data
+  url: 'https://www.treasuredata.com/'
+  colors:
+    - hex: '#fc5c5c'
+      rgb:
+        r: 252
+        g: 92
+        b: 92
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: treasuredata
+      relativeUrl: products/t/treasuredata/logos/treasuredata.svg
+      width: 256
+      height: 184
+  icons:
+    - id: treasuredata
+      relativeUrl: products/t/treasuredata/icons/treasuredata.svg
+      width: 256
+      height: 184
+relationships:
+  productLabels:
+    bidData:
+      id: bidData
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    analytics:
+      id: analytics
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

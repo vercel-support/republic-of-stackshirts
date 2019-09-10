@@ -1,0 +1,33 @@
+id: kickstarter
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Kickstarter
+  url: 'https://www.kickstarter.com/'
+  colors:
+    - hex: '#141c14'
+      rgb:
+        r: 20
+        g: 28
+        b: 20
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: kickstarter
+      relativeUrl: products/k/kickstarter/logos/kickstarter.svg
+      width: 256
+      height: 256
+  icons:
+    - id: kickstarter
+      relativeUrl: products/k/kickstarter/icons/kickstarter.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    crowdfunding:
+      id: crowdfunding
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

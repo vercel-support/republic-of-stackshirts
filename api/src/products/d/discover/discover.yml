@@ -1,0 +1,38 @@
+id: discover
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Discover
+  url: 'https://www.discover.com/'
+  colors:
+    - hex: '#0b1015'
+      rgb:
+        r: 11
+        g: 16
+        b: 21
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: discover
+      relativeUrl: products/d/discover/logos/discover.svg
+      width: 512
+      height: 86
+  icons:
+    - id: discover
+      relativeUrl: products/d/discover/icons/discover.svg
+      width: 512
+      height: 86
+relationships:
+  productLabels:
+    creditCard:
+      id: creditCard
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    finance:
+      id: finance
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

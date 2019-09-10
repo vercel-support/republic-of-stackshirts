@@ -1,0 +1,38 @@
+id: loopback
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Loopback
+  url: 'http://loopback.io/'
+  colors:
+    - hex: '#6db436'
+      rgb:
+        r: 109
+        g: 180
+        b: 54
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: loopback
+      relativeUrl: products/l/loopback/logos/loopback.svg
+      width: 256
+      height: 296
+  icons:
+    - id: loopback
+      relativeUrl: products/l/loopback/icons/loopback.svg
+      width: 256
+      height: 296
+relationships:
+  productLabels:
+    apiFramework:
+      id: apiFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,51 @@
+id: meteor
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Meteor
+  url: 'https://www.meteor.com/'
+  colors:
+    - hex: '#dc4c4c'
+      rgb:
+        r: 220
+        g: 76
+        b: 76
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: meteorShort
+      relativeUrl: products/m/meteor/logos/meteorShort.svg
+      width: 256
+      height: 251
+    - id: meteor
+      relativeUrl: products/m/meteor/logos/meteor.svg
+      width: 512
+      height: 124
+  icons:
+    - id: meteorShort
+      relativeUrl: products/m/meteor/icons/meteorShort.svg
+      width: 256
+      height: 251
+    - id: meteor
+      relativeUrl: products/m/meteor/icons/meteor.svg
+      width: 512
+      height: 124
+relationships:
+  productLabels:
+    fullStackFramework:
+      id: fullStackFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

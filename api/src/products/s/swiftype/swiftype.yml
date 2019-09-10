@@ -1,0 +1,33 @@
+id: swiftype
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Swiftype
+  url: 'https://swiftype.com/'
+  colors:
+    - hex: '#f45444'
+      rgb:
+        r: 244
+        g: 84
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: swiftype
+      relativeUrl: products/s/swiftype/logos/swiftype.svg
+      width: 256
+      height: 315
+  icons:
+    - id: swiftype
+      relativeUrl: products/s/swiftype/icons/swiftype.svg
+      width: 256
+      height: 315
+relationships:
+  productLabels:
+    searchService:
+      id: searchService
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

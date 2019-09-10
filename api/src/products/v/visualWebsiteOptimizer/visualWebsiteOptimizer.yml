@@ -1,0 +1,33 @@
+id: visualWebsiteOptimizer
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Visual Website Optimizer
+  url: 'https://vwo.com/'
+  colors:
+    - hex: '#832253'
+      rgb:
+        r: 131
+        g: 34
+        b: 83
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: visualWebsiteOptimizer
+      relativeUrl: products/v/visualWebsiteOptimizer/logos/visualWebsiteOptimizer.svg
+      width: 256
+      height: 89
+  icons:
+    - id: visualWebsiteOptimizer
+      relativeUrl: products/v/visualWebsiteOptimizer/icons/visualWebsiteOptimizer.svg
+      width: 256
+      height: 89
+relationships:
+  productLabels:
+    abTesting:
+      id: abTesting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

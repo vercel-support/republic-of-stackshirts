@@ -1,0 +1,43 @@
+id: codeclimate
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Code Climate
+  url: 'https://codeclimate.com/'
+  colors:
+    - hex: '#0c2434'
+      rgb:
+        r: 12
+        g: 36
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: codeclimate
+      relativeUrl: products/c/codeclimate/logos/codeclimate.svg
+      width: 512
+      height: 58
+  icons:
+    - id: codeclimate
+      relativeUrl: products/c/codeclimate/icons/codeclimate.svg
+      width: 512
+      height: 58
+relationships:
+  productLabels:
+    ruby:
+      id: ruby
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    codeReview:
+      id: codeReview
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    staticAnalysis:
+      id: staticAnalysis
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

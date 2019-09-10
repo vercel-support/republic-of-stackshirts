@@ -1,0 +1,33 @@
+id: chalk
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Chalk
+  url: 'https://github.com/chalk/chalk'
+  colors:
+    - hex: '#74c9d5'
+      rgb:
+        r: 116
+        g: 201
+        b: 213
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: chalk
+      relativeUrl: products/c/chalk/logos/chalk.svg
+      width: 256
+      height: 118
+  icons:
+    - id: chalk
+      relativeUrl: products/c/chalk/icons/chalk.svg
+      width: 256
+      height: 118
+relationships:
+  productLabels:
+    stringStyling:
+      id: stringStyling
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

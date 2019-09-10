@@ -1,0 +1,33 @@
+id: lucene
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Lucene
+  url: 'http://lucene.apache.org/'
+  colors:
+    - hex: '#0c0d0a'
+      rgb:
+        r: 12
+        g: 13
+        b: 10
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: lucene
+      relativeUrl: products/l/lucene/logos/lucene.svg
+      width: 512
+      height: 81
+  icons:
+    - id: lucene
+      relativeUrl: products/l/lucene/icons/lucene.svg
+      width: 512
+      height: 81
+relationships:
+  productLabels:
+    searchEngine:
+      id: searchEngine
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

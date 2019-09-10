@@ -1,0 +1,38 @@
+id: bigpanda
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: bigpanda
+  url: 'https://bigpanda.io/'
+  colors:
+    - hex: '#444444'
+      rgb:
+        r: 68
+        g: 68
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: bigpanda
+      relativeUrl: products/b/bigpanda/logos/bigpanda.svg
+      width: 256
+      height: 222
+  icons:
+    - id: bigpanda
+      relativeUrl: products/b/bigpanda/icons/bigpanda.svg
+      width: 256
+      height: 222
+relationships:
+  productLabels:
+    monitoring:
+      id: monitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    monitoringAggregation:
+      id: monitoringAggregation
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

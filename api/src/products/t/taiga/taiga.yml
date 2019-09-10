@@ -1,0 +1,48 @@
+id: taiga
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Taiga
+  url: 'https://taiga.io/'
+  colors:
+    - hex: '#9ce5a6'
+      rgb:
+        r: 156
+        g: 229
+        b: 166
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: taiga
+      relativeUrl: products/t/taiga/logos/taiga.svg
+      width: 256
+      height: 256
+  icons:
+    - id: taiga
+      relativeUrl: products/t/taiga/icons/taiga.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    projectManager:
+      id: projectManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    agile:
+      id: agile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    scrum:
+      id: scrum
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    kanban:
+      id: kanban
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: mithril
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Mithril
+  url: 'https://lhorie.github.io/mithril/'
+  colors:
+    - hex: '#5cac5c'
+      rgb:
+        r: 92
+        g: 172
+        b: 92
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mithril
+      relativeUrl: products/m/mithril/logos/mithril.svg
+      width: 256
+      height: 243
+  icons:
+    - id: mithril
+      relativeUrl: products/m/mithril/icons/mithril.svg
+      width: 256
+      height: 243
+relationships:
+  productLabels:
+    mvcFramework:
+      id: mvcFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

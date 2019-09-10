@@ -1,0 +1,53 @@
+id: youtrack
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: YouTrack
+  url: 'https://www.jetbrains.com/youtrack/'
+  colors:
+    - hex: '#f8378e'
+      rgb:
+        r: 248
+        g: 55
+        b: 142
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: youtrack
+      relativeUrl: products/y/youtrack/logos/youtrack.svg
+      width: 256
+      height: 256
+  icons:
+    - id: youtrack
+      relativeUrl: products/y/youtrack/icons/youtrack.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    projectManager:
+      id: projectManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    issueTracker:
+      id: issueTracker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    agile:
+      id: agile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    scrum:
+      id: scrum
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    kanban:
+      id: kanban
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

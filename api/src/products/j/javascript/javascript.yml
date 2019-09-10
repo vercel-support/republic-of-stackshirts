@@ -1,0 +1,33 @@
+id: javascript
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Javascript (JS)
+  url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
+  colors:
+    - hex: '#060504'
+      rgb:
+        r: 6
+        g: 5
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: javascript
+      relativeUrl: products/j/javascript/logos/javascript.svg
+      width: 256
+      height: 256
+  icons:
+    - id: javascript
+      relativeUrl: products/j/javascript/icons/javascript.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

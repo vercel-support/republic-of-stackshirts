@@ -1,0 +1,33 @@
+id: googleAnalytics
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Google Analytics
+  url: 'http://www.google.com/analytics/'
+  colors:
+    - hex: '#f3f3f2'
+      rgb:
+        r: 243
+        g: 243
+        b: 242
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: googleAnalytics
+      relativeUrl: products/g/googleAnalytics/logos/googleAnalytics.svg
+      width: 256
+      height: 256
+  icons:
+    - id: googleAnalytics
+      relativeUrl: products/g/googleAnalytics/icons/googleAnalytics.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    analytics:
+      id: analytics
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

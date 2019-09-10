@@ -1,0 +1,38 @@
+id: sass
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Sass
+  url: 'http://sass-lang.com/'
+  colors:
+    - hex: '#cc649c'
+      rgb:
+        r: 204
+        g: 100
+        b: 156
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: sass
+      relativeUrl: products/s/sass/logos/sass.svg
+      width: 256
+      height: 192
+  icons:
+    - id: sass
+      relativeUrl: products/s/sass/icons/sass.svg
+      width: 256
+      height: 192
+relationships:
+  productLabels:
+    css:
+      id: css
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    preprocessor:
+      id: preprocessor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

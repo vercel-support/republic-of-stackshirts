@@ -1,0 +1,43 @@
+id: sagui
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Sagui
+  url: 'http://sagui.js.org/'
+  colors:
+    - hex: '#753f8c'
+      rgb:
+        r: 117
+        g: 63
+        b: 140
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: sagui
+      relativeUrl: products/s/sagui/logos/sagui.svg
+      width: 256
+      height: 221
+  icons:
+    - id: sagui
+      relativeUrl: products/s/sagui/icons/sagui.svg
+      width: 256
+      height: 221
+relationships:
+  productLabels:
+    scaffolding:
+      id: scaffolding
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    bootstrap:
+      id: bootstrap
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

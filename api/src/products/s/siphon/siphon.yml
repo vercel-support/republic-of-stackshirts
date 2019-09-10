@@ -1,0 +1,43 @@
+id: siphon
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Siphon
+  url: 'https://getsiphon.com/'
+  colors:
+    - hex: '#5c84a4'
+      rgb:
+        r: 92
+        g: 132
+        b: 164
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: siphon
+      relativeUrl: products/s/siphon/logos/siphon.svg
+      width: 256
+      height: 256
+  icons:
+    - id: siphon
+      relativeUrl: products/s/siphon/icons/siphon.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    crossPlatform:
+      id: crossPlatform
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    applicationFramework:
+      id: applicationFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

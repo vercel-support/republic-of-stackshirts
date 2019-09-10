@@ -1,0 +1,33 @@
+id: snupps
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Snupps
+  url: 'https://www.snupps.com/'
+  colors:
+    - hex: '#fc6c0c'
+      rgb:
+        r: 252
+        g: 108
+        b: 12
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: snupps
+      relativeUrl: products/s/snupps/logos/snupps.svg
+      width: 256
+      height: 301
+  icons:
+    - id: snupps
+      relativeUrl: products/s/snupps/icons/snupps.svg
+      width: 256
+      height: 301
+relationships:
+  productLabels:
+    socialNetwork:
+      id: socialNetwork
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

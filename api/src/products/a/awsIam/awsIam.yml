@@ -1,0 +1,43 @@
+id: awsIam
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AWS IAM (Identity and Access Management)
+  url: 'https://aws.amazon.com/iam/'
+  colors:
+    - hex: '#739b3b'
+      rgb:
+        r: 115
+        g: 155
+        b: 59
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: awsIam
+      relativeUrl: products/a/awsIam/logos/awsIam.svg
+      width: 256
+      height: 490
+  icons:
+    - id: awsIam
+      relativeUrl: products/a/awsIam/icons/awsIam.svg
+      width: 256
+      height: 490
+relationships:
+  productLabels:
+    userManagement:
+      id: userManagement
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    authentication:
+      id: authentication
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

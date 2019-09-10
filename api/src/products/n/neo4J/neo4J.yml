@@ -1,0 +1,38 @@
+id: neo4J
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Neo4j
+  url: 'http://neo4j.com/'
+  colors:
+    - hex: '#64b444'
+      rgb:
+        r: 100
+        g: 180
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: neo4J
+      relativeUrl: products/n/neo4J/logos/neo4J.svg
+      width: 256
+      height: 290
+  icons:
+    - id: neo4J
+      relativeUrl: products/n/neo4J/icons/neo4J.svg
+      width: 256
+      height: 290
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    graphDatabase:
+      id: graphDatabase
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

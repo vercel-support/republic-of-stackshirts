@@ -1,0 +1,38 @@
+id: pug
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Pug
+  url: 'https://github.com/pugjs/pug'
+  colors:
+    - hex: '#0a0908'
+      rgb:
+        r: 10
+        g: 9
+        b: 8
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: pug
+      relativeUrl: products/p/pug/logos/pug.svg
+      width: 256
+      height: 256
+  icons:
+    - id: pug
+      relativeUrl: products/p/pug/icons/pug.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    template:
+      id: template
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    preprocessor:
+      id: preprocessor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

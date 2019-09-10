@@ -1,0 +1,43 @@
+id: marvel
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Marvel
+  url: 'https://marvelapp.com/'
+  colors:
+    - hex: '#1c94ec'
+      rgb:
+        r: 28
+        g: 148
+        b: 236
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: marvel
+      relativeUrl: products/m/marvel/logos/marvel.svg
+      width: 256
+      height: 178
+  icons:
+    - id: marvel
+      relativeUrl: products/m/marvel/icons/marvel.svg
+      width: 256
+      height: 178
+relationships:
+  productLabels:
+    prototyping:
+      id: prototyping
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ui:
+      id: ui
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

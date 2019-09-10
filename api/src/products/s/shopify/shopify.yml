@@ -1,0 +1,33 @@
+id: shopify
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Shopify
+  url: 'http://shopify.com/'
+  colors:
+    - hex: '#94bc44'
+      rgb:
+        r: 148
+        g: 188
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: shopify
+      relativeUrl: products/s/shopify/logos/shopify.svg
+      width: 256
+      height: 292
+  icons:
+    - id: shopify
+      relativeUrl: products/s/shopify/icons/shopify.svg
+      width: 256
+      height: 292
+relationships:
+  productLabels:
+    eCommerce:
+      id: eCommerce
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

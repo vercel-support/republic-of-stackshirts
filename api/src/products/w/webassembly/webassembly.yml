@@ -1,0 +1,43 @@
+id: webassembly
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: WebAssembly
+  url: 'http://webassembly.org/'
+  colors:
+    - hex: '#654ff0'
+      rgb:
+        r: 101
+        g: 79
+        b: 240
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: webassembly
+      relativeUrl: products/w/webassembly/logos/webassembly.svg
+      width: 256
+      height: 256
+  icons:
+    - id: webassembly
+      relativeUrl: products/w/webassembly/icons/webassembly.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    bytecode:
+      id: bytecode
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    compiler:
+      id: compiler
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

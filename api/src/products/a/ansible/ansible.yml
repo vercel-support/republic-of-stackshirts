@@ -1,0 +1,38 @@
+id: ansible
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Ansible
+  url: 'http://www.ansible.com/'
+  colors:
+    - hex: '#1c1c1c'
+      rgb:
+        r: 28
+        g: 28
+        b: 28
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: ansible
+      relativeUrl: products/a/ansible/logos/ansible.svg
+      width: 256
+      height: 315
+  icons:
+    - id: ansible
+      relativeUrl: products/a/ansible/icons/ansible.svg
+      width: 256
+      height: 315
+relationships:
+  productLabels:
+    configurationManager:
+      id: configurationManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    python:
+      id: python
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

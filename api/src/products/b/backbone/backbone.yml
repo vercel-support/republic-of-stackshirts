@@ -1,0 +1,46 @@
+id: backbone
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Backbone
+  url: 'http://backbonejs.org/'
+  colors:
+    - hex: '#042c44'
+      rgb:
+        r: 4
+        g: 44
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: backboneShort
+      relativeUrl: products/b/backbone/logos/backboneShort.svg
+      width: 256
+      height: 318
+    - id: backbone
+      relativeUrl: products/b/backbone/logos/backbone.svg
+      width: 512
+      height: 92
+  icons:
+    - id: backboneShort
+      relativeUrl: products/b/backbone/icons/backboneShort.svg
+      width: 256
+      height: 318
+    - id: backbone
+      relativeUrl: products/b/backbone/icons/backbone.svg
+      width: 512
+      height: 92
+relationships:
+  productLabels:
+    mvcFramework:
+      id: mvcFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

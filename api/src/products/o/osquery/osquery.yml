@@ -1,0 +1,43 @@
+id: osquery
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: osquery
+  url: 'https://osquery.io/'
+  colors:
+    - hex: '#a494fc'
+      rgb:
+        r: 164
+        g: 148
+        b: 252
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: osquery
+      relativeUrl: products/o/osquery/logos/osquery.svg
+      width: 256
+      height: 255
+  icons:
+    - id: osquery
+      relativeUrl: products/o/osquery/icons/osquery.svg
+      width: 256
+      height: 255
+relationships:
+  productLabels:
+    instrumentationFramework:
+      id: instrumentationFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    sql:
+      id: sql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    facebook:
+      id: facebook
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

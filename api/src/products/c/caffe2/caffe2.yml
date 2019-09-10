@@ -1,0 +1,33 @@
+id: caffe2
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Caffe2
+  url: 'https://caffe2.ai/'
+  colors:
+    - hex: '#ffffff'
+      rgb:
+        r: 255
+        g: 255
+        b: 255
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: caffe2
+      relativeUrl: products/c/caffe2/logos/caffe2.svg
+      width: 255
+      height: 292
+  icons:
+    - id: caffe2
+      relativeUrl: products/c/caffe2/icons/caffe2.svg
+      width: 255
+      height: 292
+relationships:
+  productLabels:
+    machineLearning:
+      id: machineLearning
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

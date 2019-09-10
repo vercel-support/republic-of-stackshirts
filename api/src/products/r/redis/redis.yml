@@ -1,0 +1,38 @@
+id: redis
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Redis
+  url: 'http://redis.io/'
+  colors:
+    - hex: '#ab2b28'
+      rgb:
+        r: 171
+        g: 43
+        b: 40
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: redis
+      relativeUrl: products/r/redis/logos/redis.svg
+      width: 256
+      height: 220
+  icons:
+    - id: redis
+      relativeUrl: products/r/redis/icons/redis.svg
+      width: 256
+      height: 220
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nosql:
+      id: nosql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

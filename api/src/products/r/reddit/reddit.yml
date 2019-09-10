@@ -1,0 +1,38 @@
+id: reddit
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Reddit
+  url: 'https://www.reddit.com/'
+  colors:
+    - hex: '#070707'
+      rgb:
+        r: 7
+        g: 7
+        b: 7
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: reddit
+      relativeUrl: products/r/reddit/logos/reddit.svg
+      width: 256
+      height: 357
+  icons:
+    - id: reddit
+      relativeUrl: products/r/reddit/icons/reddit.svg
+      width: 256
+      height: 357
+relationships:
+  productLabels:
+    socialNews:
+      id: socialNews
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    community:
+      id: community
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

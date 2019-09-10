@@ -1,0 +1,38 @@
+id: modulus
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Modulus
+  url: 'https://modulus.io/'
+  colors:
+    - hex: '#c4cbcb'
+      rgb:
+        r: 196
+        g: 203
+        b: 203
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: modulus
+      relativeUrl: products/m/modulus/logos/modulus.svg
+      width: 256
+      height: 257
+  icons:
+    - id: modulus
+      relativeUrl: products/m/modulus/icons/modulus.svg
+      width: 256
+      height: 257
+relationships:
+  productLabels:
+    cloudComputing:
+      id: cloudComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    paas:
+      id: paas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

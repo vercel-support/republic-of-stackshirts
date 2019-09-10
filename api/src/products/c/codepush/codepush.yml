@@ -1,0 +1,48 @@
+id: codepush
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: CodePush
+  url: 'https://microsoft.github.io/code-push/'
+  colors:
+    - hex: '#54acdc'
+      rgb:
+        r: 84
+        g: 172
+        b: 220
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: codepush
+      relativeUrl: products/c/codepush/logos/codepush.svg
+      width: 256
+      height: 118
+  icons:
+    - id: codepush
+      relativeUrl: products/c/codepush/icons/codepush.svg
+      width: 256
+      height: 118
+relationships:
+  productLabels:
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    distributionPlatform:
+      id: distributionPlatform
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cordova:
+      id: cordova
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    reactNative:
+      id: reactNative
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

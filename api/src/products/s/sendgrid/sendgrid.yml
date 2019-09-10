@@ -1,0 +1,33 @@
+id: sendgrid
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: SendGrid
+  url: 'https://sendgrid.com/'
+  colors:
+    - hex: '#24b4e4'
+      rgb:
+        r: 36
+        g: 180
+        b: 228
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: sendgrid
+      relativeUrl: products/s/sendgrid/logos/sendgrid.svg
+      width: 256
+      height: 256
+  icons:
+    - id: sendgrid
+      relativeUrl: products/s/sendgrid/icons/sendgrid.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    transactionalEmail:
+      id: transactionalEmail
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

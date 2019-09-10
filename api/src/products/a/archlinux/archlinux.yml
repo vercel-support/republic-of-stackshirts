@@ -1,0 +1,38 @@
+id: archlinux
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Archlinux
+  url: 'https://www.archlinux.org/'
+  colors:
+    - hex: '#1793d1'
+      rgb:
+        r: 23
+        g: 147
+        b: 209
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: archlinux
+      relativeUrl: products/a/archlinux/logos/archlinux.svg
+      width: 256
+      height: 256
+  icons:
+    - id: archlinux
+      relativeUrl: products/a/archlinux/icons/archlinux.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    linux:
+      id: linux
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    operationalSystem:
+      id: operationalSystem
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

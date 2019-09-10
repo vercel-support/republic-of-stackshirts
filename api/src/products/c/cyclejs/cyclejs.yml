@@ -1,0 +1,43 @@
+id: cyclejs
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Cycle.js
+  url: 'http://cycle.js.org/'
+  colors:
+    - hex: '#58d5d7'
+      rgb:
+        r: 88
+        g: 213
+        b: 215
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: cyclejs
+      relativeUrl: products/c/cyclejs/logos/cyclejs.svg
+      width: 256
+      height: 256
+  icons:
+    - id: cyclejs
+      relativeUrl: products/c/cyclejs/icons/cyclejs.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    framework:
+      id: framework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    reactive:
+      id: reactive
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

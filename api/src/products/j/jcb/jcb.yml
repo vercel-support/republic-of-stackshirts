@@ -1,0 +1,38 @@
+id: jcb
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: JCB
+  url: 'https://www.jcbusa.com/'
+  colors:
+    - hex: '#ffffff'
+      rgb:
+        r: 255
+        g: 255
+        b: 255
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: jcb
+      relativeUrl: products/j/jcb/logos/jcb.svg
+      width: 256
+      height: 198
+  icons:
+    - id: jcb
+      relativeUrl: products/j/jcb/icons/jcb.svg
+      width: 256
+      height: 198
+relationships:
+  productLabels:
+    creditCard:
+      id: creditCard
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    finance:
+      id: finance
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

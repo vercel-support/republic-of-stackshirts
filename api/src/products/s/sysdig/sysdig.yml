@@ -1,0 +1,48 @@
+id: sysdig
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Sysdig
+  url: 'http://www.sysdig.org/'
+  colors:
+    - hex: '#ec5c4c'
+      rgb:
+        r: 236
+        g: 92
+        b: 76
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: sysdig
+      relativeUrl: products/s/sysdig/logos/sysdig.svg
+      width: 256
+      height: 256
+  icons:
+    - id: sysdig
+      relativeUrl: products/s/sysdig/icons/sysdig.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    monitoring:
+      id: monitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    serverMonitoring:
+      id: serverMonitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    docker:
+      id: docker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    containers:
+      id: containers
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

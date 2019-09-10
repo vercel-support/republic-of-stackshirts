@@ -1,0 +1,38 @@
+id: stylus
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Stylus
+  url: 'https://learnboost.github.io/stylus/'
+  colors:
+    - hex: '#343434'
+      rgb:
+        r: 52
+        g: 52
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: stylus
+      relativeUrl: products/s/stylus/logos/stylus.svg
+      width: 512
+      height: 315
+  icons:
+    - id: stylus
+      relativeUrl: products/s/stylus/icons/stylus.svg
+      width: 512
+      height: 315
+relationships:
+  productLabels:
+    css:
+      id: css
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    preprocessor:
+      id: preprocessor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

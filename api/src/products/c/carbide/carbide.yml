@@ -1,0 +1,38 @@
+id: carbide
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Carbide
+  url: 'https://alpha.trycarbide.com/'
+  colors:
+    - hex: '#4b608e'
+      rgb:
+        r: 75
+        g: 96
+        b: 142
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: carbide
+      relativeUrl: products/c/carbide/logos/carbide.svg
+      width: 256
+      height: 313
+  icons:
+    - id: carbide
+      relativeUrl: products/c/carbide/icons/carbide.svg
+      width: 256
+      height: 313
+relationships:
+  productLabels:
+    codeEditor:
+      id: codeEditor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ide:
+      id: ide
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: googleCloud
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Google Cloud
+  url: 'https://cloud.google.com/'
+  colors:
+    - hex: '#d97a30'
+      rgb:
+        r: 217
+        g: 122
+        b: 48
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: googleCloud
+      relativeUrl: products/g/googleCloud/logos/googleCloud.svg
+      width: 256
+      height: 227
+  icons:
+    - id: googleCloud
+      relativeUrl: products/g/googleCloud/icons/googleCloud.svg
+      width: 256
+      height: 227
+relationships:
+  productLabels:
+    cloudComputing:
+      id: cloudComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    paas:
+      id: paas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

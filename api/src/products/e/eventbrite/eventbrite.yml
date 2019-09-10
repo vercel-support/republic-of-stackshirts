@@ -1,0 +1,38 @@
+id: eventbrite
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Eventbrite
+  url: 'https://www.eventbrite.com/'
+  colors:
+    - hex: '#f7682f'
+      rgb:
+        r: 247
+        g: 104
+        b: 47
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: eventbrite
+      relativeUrl: products/e/eventbrite/logos/eventbrite.svg
+      width: 512
+      height: 83
+  icons:
+    - id: eventbrite
+      relativeUrl: products/e/eventbrite/icons/eventbrite.svg
+      width: 512
+      height: 83
+relationships:
+  productLabels:
+    ticketSale:
+      id: ticketSale
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    eventPlanning:
+      id: eventPlanning
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

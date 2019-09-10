@@ -1,0 +1,48 @@
+id: unitjs
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: UnitJS
+  url: 'http://unitjs.com/'
+  colors:
+    - hex: '#4f534b'
+      rgb:
+        r: 79
+        g: 83
+        b: 75
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: unitjs
+      relativeUrl: products/u/unitjs/logos/unitjs.svg
+      width: 256
+      height: 269
+  icons:
+    - id: unitjs
+      relativeUrl: products/u/unitjs/icons/unitjs.svg
+      width: 256
+      height: 269
+relationships:
+  productLabels:
+    testingFramework:
+      id: testingFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    unitTesting:
+      id: unitTesting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    bdd:
+      id: bdd
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    tdd:
+      id: tdd
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: snapSvg
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Snap.svg
+  url: 'http://snapsvg.io/'
+  colors:
+    - hex: '#04283b'
+      rgb:
+        r: 4
+        g: 40
+        b: 59
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: snapSvg
+      relativeUrl: products/s/snapSvg/logos/snapSvg.svg
+      width: 256
+      height: 425
+  icons:
+    - id: snapSvg
+      relativeUrl: products/s/snapSvg/icons/snapSvg.svg
+      width: 256
+      height: 425
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    library:
+      id: library
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    svg:
+      id: svg
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

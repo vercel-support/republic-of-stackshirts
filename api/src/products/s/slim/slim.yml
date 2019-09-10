@@ -1,0 +1,43 @@
+id: slim
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Slim
+  url: 'http://www.slimframework.com/'
+  colors:
+    - hex: '#94bc5c'
+      rgb:
+        r: 148
+        g: 188
+        b: 92
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: slim
+      relativeUrl: products/s/slim/logos/slim.svg
+      width: 256
+      height: 274
+  icons:
+    - id: slim
+      relativeUrl: products/s/slim/icons/slim.svg
+      width: 256
+      height: 274
+relationships:
+  productLabels:
+    webAppFramework:
+      id: webAppFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    microframework:
+      id: microframework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    php:
+      id: php
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

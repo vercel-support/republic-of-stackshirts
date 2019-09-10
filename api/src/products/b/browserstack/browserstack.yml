@@ -1,0 +1,43 @@
+id: browserstack
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: BrowserStack
+  url: 'https://www.browserstack.com/'
+  colors:
+    - hex: '#276375'
+      rgb:
+        r: 39
+        g: 99
+        b: 117
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: browserstack
+      relativeUrl: products/b/browserstack/logos/browserstack.svg
+      width: 256
+      height: 256
+  icons:
+    - id: browserstack
+      relativeUrl: products/b/browserstack/icons/browserstack.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    crossBrowserTesting:
+      id: crossBrowserTesting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    browserAutomation:
+      id: browserAutomation
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

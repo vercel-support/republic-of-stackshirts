@@ -1,0 +1,43 @@
+id: vagrant
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Vagrant
+  url: 'https://www.vagrantup.com/'
+  colors:
+    - hex: '#3484bb'
+      rgb:
+        r: 52
+        g: 132
+        b: 187
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: vagrant
+      relativeUrl: products/v/vagrant/logos/vagrant.svg
+      width: 256
+      height: 313
+  icons:
+    - id: vagrant
+      relativeUrl: products/v/vagrant/icons/vagrant.svg
+      width: 256
+      height: 313
+relationships:
+  productLabels:
+    codeDeployment:
+      id: codeDeployment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    virtualMachine:
+      id: virtualMachine
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ruby:
+      id: ruby
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

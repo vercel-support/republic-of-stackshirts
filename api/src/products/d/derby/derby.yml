@@ -1,0 +1,38 @@
+id: derby
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Derby
+  url: 'http://derbyjs.com/'
+  colors:
+    - hex: '#ec4c54'
+      rgb:
+        r: 236
+        g: 76
+        b: 84
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: derby
+      relativeUrl: products/d/derby/logos/derby.svg
+      width: 256
+      height: 166
+  icons:
+    - id: derby
+      relativeUrl: products/d/derby/icons/derby.svg
+      width: 256
+      height: 166
+relationships:
+  productLabels:
+    mvcFramework:
+      id: mvcFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

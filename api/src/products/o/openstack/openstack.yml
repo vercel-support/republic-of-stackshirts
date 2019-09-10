@@ -1,0 +1,38 @@
+id: openstack
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: openstack
+  url: 'https://www.openstack.org/'
+  colors:
+    - hex: '#d23128'
+      rgb:
+        r: 210
+        g: 49
+        b: 40
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: openstack
+      relativeUrl: products/o/openstack/logos/openstack.svg
+      width: 256
+      height: 251
+  icons:
+    - id: openstack
+      relativeUrl: products/o/openstack/icons/openstack.svg
+      width: 256
+      height: 251
+relationships:
+  productLabels:
+    cloudComputing:
+      id: cloudComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

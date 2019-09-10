@@ -1,0 +1,38 @@
+id: magento
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Magento
+  url: 'http://magento.com/'
+  colors:
+    - hex: '#ec6434'
+      rgb:
+        r: 236
+        g: 100
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: magento
+      relativeUrl: products/m/magento/logos/magento.svg
+      width: 256
+      height: 303
+  icons:
+    - id: magento
+      relativeUrl: products/m/magento/icons/magento.svg
+      width: 256
+      height: 303
+relationships:
+  productLabels:
+    eCommerce:
+      id: eCommerce
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    php:
+      id: php
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: apitools
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: APItools
+  url: 'https://www.apitools.com/'
+  colors:
+    - hex: '#2cb4ac'
+      rgb:
+        r: 44
+        g: 180
+        b: 172
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: apitools
+      relativeUrl: products/a/apitools/logos/apitools.svg
+      width: 256
+      height: 256
+  icons:
+    - id: apitools
+      relativeUrl: products/a/apitools/icons/apitools.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    apiTools:
+      id: apiTools
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    apiMonitoring:
+      id: apiMonitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

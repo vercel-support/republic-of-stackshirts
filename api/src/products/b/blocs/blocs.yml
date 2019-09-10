@@ -1,0 +1,43 @@
+id: blocs
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Blocs
+  url: 'http://blocsapp.com/'
+  colors:
+    - hex: '#2d8cec'
+      rgb:
+        r: 45
+        g: 140
+        b: 236
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: blocs
+      relativeUrl: products/b/blocs/logos/blocs.svg
+      width: 256
+      height: 283
+  icons:
+    - id: blocs
+      relativeUrl: products/b/blocs/icons/blocs.svg
+      width: 256
+      height: 283
+relationships:
+  productLabels:
+    desktopApp:
+      id: desktopApp
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    prototyping:
+      id: prototyping
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ui:
+      id: ui
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

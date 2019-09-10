@@ -1,0 +1,43 @@
+id: divshot
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Divshot
+  url: 'https://divshot.com/'
+  colors:
+    - hex: '#fbc505'
+      rgb:
+        r: 251
+        g: 197
+        b: 5
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: divshot
+      relativeUrl: products/d/divshot/logos/divshot.svg
+      width: 256
+      height: 227
+  icons:
+    - id: divshot
+      relativeUrl: products/d/divshot/icons/divshot.svg
+      width: 256
+      height: 227
+relationships:
+  productLabels:
+    codeHosting:
+      id: codeHosting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    prototyping:
+      id: prototyping
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

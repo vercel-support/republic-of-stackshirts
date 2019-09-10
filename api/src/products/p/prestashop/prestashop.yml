@@ -1,0 +1,38 @@
+id: prestashop
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: PrestaShop
+  url: 'https://www.prestashop.com/'
+  colors:
+    - hex: '#a7d0da'
+      rgb:
+        r: 167
+        g: 208
+        b: 218
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: prestashop
+      relativeUrl: products/p/prestashop/logos/prestashop.svg
+      width: 256
+      height: 256
+  icons:
+    - id: prestashop
+      relativeUrl: products/p/prestashop/icons/prestashop.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    eCommerce:
+      id: eCommerce
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    php:
+      id: php
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: iron
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Iron.io
+  url: 'https://www.iron.io/'
+  colors:
+    - hex: '#c42434'
+      rgb:
+        r: 196
+        g: 36
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: iron
+      relativeUrl: products/i/iron/logos/iron.svg
+      width: 512
+      height: 185
+  icons:
+    - id: iron
+      relativeUrl: products/i/iron/icons/iron.svg
+      width: 512
+      height: 185
+relationships:
+  productLabels:
+    messageQueue:
+      id: messageQueue
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    taskProcessor:
+      id: taskProcessor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

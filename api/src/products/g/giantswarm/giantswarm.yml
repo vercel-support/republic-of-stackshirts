@@ -1,0 +1,43 @@
+id: giantswarm
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Giant Swarm
+  url: 'https://giantswarm.io/'
+  colors:
+    - hex: '#ed6839'
+      rgb:
+        r: 237
+        g: 104
+        b: 57
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: giantswarm
+      relativeUrl: products/g/giantswarm/logos/giantswarm.svg
+      width: 256
+      height: 229
+  icons:
+    - id: giantswarm
+      relativeUrl: products/g/giantswarm/icons/giantswarm.svg
+      width: 256
+      height: 229
+relationships:
+  productLabels:
+    docker:
+      id: docker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    containers:
+      id: containers
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    paas:
+      id: paas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

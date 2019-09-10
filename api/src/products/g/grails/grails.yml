@@ -1,0 +1,38 @@
+id: grails
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Grails
+  url: 'https://grails.org/'
+  colors:
+    - hex: '#7cbc54'
+      rgb:
+        r: 124
+        g: 188
+        b: 84
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: grails
+      relativeUrl: products/g/grails/logos/grails.svg
+      width: 256
+      height: 175
+  icons:
+    - id: grails
+      relativeUrl: products/g/grails/icons/grails.svg
+      width: 256
+      height: 175
+relationships:
+  productLabels:
+    fullStackFramework:
+      id: fullStackFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    java:
+      id: java
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

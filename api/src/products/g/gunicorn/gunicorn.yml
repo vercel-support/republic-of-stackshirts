@@ -1,0 +1,38 @@
+id: gunicorn
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Gunicorn
+  url: 'http://gunicorn.org/'
+  colors:
+    - hex: '#4c9c4c'
+      rgb:
+        r: 76
+        g: 156
+        b: 76
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: gunicorn
+      relativeUrl: products/g/gunicorn/logos/gunicorn.svg
+      width: 256
+      height: 156
+  icons:
+    - id: gunicorn
+      relativeUrl: products/g/gunicorn/icons/gunicorn.svg
+      width: 256
+      height: 156
+relationships:
+  productLabels:
+    webServer:
+      id: webServer
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    python:
+      id: python
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

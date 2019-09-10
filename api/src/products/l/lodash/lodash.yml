@@ -1,0 +1,38 @@
+id: lodash
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Lodash
+  url: 'https://lodash.com/'
+  colors:
+    - hex: '#3494fc'
+      rgb:
+        r: 52
+        g: 148
+        b: 252
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: lodash
+      relativeUrl: products/l/lodash/logos/lodash.svg
+      width: 256
+      height: 233
+  icons:
+    - id: lodash
+      relativeUrl: products/l/lodash/icons/lodash.svg
+      width: 256
+      height: 233
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    library:
+      id: library
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: graylog
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Graylog
+  url: 'https://www.graylog.org/'
+  colors:
+    - hex: '#8c8c94'
+      rgb:
+        r: 140
+        g: 140
+        b: 148
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: graylog
+      relativeUrl: products/g/graylog/logos/graylog.svg
+      width: 256
+      height: 248
+  icons:
+    - id: graylog
+      relativeUrl: products/g/graylog/icons/graylog.svg
+      width: 256
+      height: 248
+relationships:
+  productLabels:
+    logManager:
+      id: logManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

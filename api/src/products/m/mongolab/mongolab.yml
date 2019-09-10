@@ -1,0 +1,38 @@
+id: mongolab
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: MongoLab
+  url: 'https://mongolab.com/'
+  colors:
+    - hex: '#faa52a'
+      rgb:
+        r: 250
+        g: 165
+        b: 42
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mongolab
+      relativeUrl: products/m/mongolab/logos/mongolab.svg
+      width: 512
+      height: 133
+  icons:
+    - id: mongolab
+      relativeUrl: products/m/mongolab/icons/mongolab.svg
+      width: 512
+      height: 133
+relationships:
+  productLabels:
+    mongodb:
+      id: mongodb
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    dbaas:
+      id: dbaas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,43 @@
+id: keen
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Keen IO
+  url: 'http://keen.io/'
+  colors:
+    - hex: '#29b8c3'
+      rgb:
+        r: 41
+        g: 184
+        b: 195
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: keen
+      relativeUrl: products/k/keen/logos/keen.svg
+      width: 512
+      height: 111
+  icons:
+    - id: keen
+      relativeUrl: products/k/keen/icons/keen.svg
+      width: 512
+      height: 111
+relationships:
+  productLabels:
+    customAnalytics:
+      id: customAnalytics
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    analytics:
+      id: analytics
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    serviceIntegration:
+      id: serviceIntegration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: fly
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Fly
+  url: 'https://fly.io/'
+  colors:
+    - hex: '#A048DE'
+      rgb:
+        r: 160
+        g: 72
+        b: 222
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: fly
+      relativeUrl: products/f/fly/logos/fly.svg
+      width: 256
+      height: 400
+  icons:
+    - id: fly
+      relativeUrl: products/f/fly/icons/fly.svg
+      width: 256
+      height: 400
+relationships:
+  productLabels:
+    loadBalancer:
+      id: loadBalancer
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: designernews
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Designer News
+  url: 'https://www.designernews.co/'
+  colors:
+    - hex: '#b4bcc4'
+      rgb:
+        r: 180
+        g: 188
+        b: 196
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: designernews
+      relativeUrl: products/d/designernews/logos/designernews.svg
+      width: 256
+      height: 256
+  icons:
+    - id: designernews
+      relativeUrl: products/d/designernews/icons/designernews.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    socialNews:
+      id: socialNews
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

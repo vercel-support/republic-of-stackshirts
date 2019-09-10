@@ -1,0 +1,43 @@
+id: zest
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Zest
+  url: 'http://zestdocs.org/'
+  colors:
+    - hex: '#24ccac'
+      rgb:
+        r: 36
+        g: 204
+        b: 172
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: zest
+      relativeUrl: products/z/zest/logos/zest.svg
+      width: 256
+      height: 161
+  icons:
+    - id: zest
+      relativeUrl: products/z/zest/icons/zest.svg
+      width: 256
+      height: 161
+relationships:
+  productLabels:
+    documentation:
+      id: documentation
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    offlineTools:
+      id: offlineTools
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    desktopApp:
+      id: desktopApp
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

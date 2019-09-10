@@ -1,0 +1,53 @@
+id: mocha
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Mocha
+  url: 'http://mochajs.org/'
+  colors:
+    - hex: '#8c644c'
+      rgb:
+        r: 140
+        g: 100
+        b: 76
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mocha
+      relativeUrl: products/m/mocha/logos/mocha.svg
+      width: 256
+      height: 291
+  icons:
+    - id: mocha
+      relativeUrl: products/m/mocha/icons/mocha.svg
+      width: 256
+      height: 291
+relationships:
+  productLabels:
+    testingFramework:
+      id: testingFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    unitTesting:
+      id: unitTesting
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    bdd:
+      id: bdd
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    tdd:
+      id: tdd
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

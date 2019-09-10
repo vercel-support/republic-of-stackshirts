@@ -1,0 +1,43 @@
+id: eventsentry
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: EventSentry
+  url: 'http://www.eventsentry.com/'
+  colors:
+    - hex: '#f4942c'
+      rgb:
+        r: 244
+        g: 148
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: eventsentry
+      relativeUrl: products/e/eventsentry/logos/eventsentry.svg
+      width: 256
+      height: 256
+  icons:
+    - id: eventsentry
+      relativeUrl: products/e/eventsentry/icons/eventsentry.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    logManager:
+      id: logManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    monitoring:
+      id: monitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    serverMonitoring:
+      id: serverMonitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

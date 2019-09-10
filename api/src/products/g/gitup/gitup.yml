@@ -1,0 +1,43 @@
+id: gitup
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: GitUp
+  url: 'http://gitup.co/'
+  colors:
+    - hex: '#f3f3f3'
+      rgb:
+        r: 243
+        g: 243
+        b: 243
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: gitup
+      relativeUrl: products/g/gitup/logos/gitup.svg
+      width: 256
+      height: 256
+  icons:
+    - id: gitup
+      relativeUrl: products/g/gitup/icons/gitup.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    sourceCode:
+      id: sourceCode
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    versionControl:
+      id: versionControl
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    desktopApp:
+      id: desktopApp
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

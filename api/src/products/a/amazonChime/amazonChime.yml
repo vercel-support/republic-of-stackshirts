@@ -1,0 +1,43 @@
+id: amazonChime
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Amazon Chime
+  url: 'https://chime.aws/'
+  colors:
+    - hex: '#c9ebec'
+      rgb:
+        r: 201
+        g: 235
+        b: 236
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: amazonChime
+      relativeUrl: products/a/amazonChime/logos/amazonChime.svg
+      width: 256
+      height: 256
+  icons:
+    - id: amazonChime
+      relativeUrl: products/a/amazonChime/icons/amazonChime.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    videoConference:
+      id: videoConference
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    chat:
+      id: chat
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    teamCollaboration:
+      id: teamCollaboration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

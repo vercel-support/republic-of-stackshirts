@@ -1,0 +1,33 @@
+id: linkedin
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: LinkedIn
+  url: 'https://www.linkedin.com/'
+  colors:
+    - hex: '#1b1c1b'
+      rgb:
+        r: 27
+        g: 28
+        b: 27
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: linkedin
+      relativeUrl: products/l/linkedin/logos/linkedin.svg
+      width: 512
+      height: 130
+  icons:
+    - id: linkedin
+      relativeUrl: products/l/linkedin/icons/linkedin.svg
+      width: 512
+      height: 130
+relationships:
+  productLabels:
+    professionalNetworking:
+      id: professionalNetworking
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

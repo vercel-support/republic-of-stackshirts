@@ -1,0 +1,38 @@
+id: seneca
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Seneca
+  url: 'http://senecajs.org/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: seneca
+      relativeUrl: products/s/seneca/logos/seneca.svg
+      width: 256
+      height: 200
+  icons:
+    - id: seneca
+      relativeUrl: products/s/seneca/icons/seneca.svg
+      width: 256
+      height: 200
+relationships:
+  productLabels:
+    microservices:
+      id: microservices
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

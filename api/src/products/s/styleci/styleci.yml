@@ -1,0 +1,43 @@
+id: styleci
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: StyleCI
+  url: 'https://styleci.io/'
+  colors:
+    - hex: '#e44444'
+      rgb:
+        r: 228
+        g: 68
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: styleci
+      relativeUrl: products/s/styleci/logos/styleci.svg
+      width: 256
+      height: 256
+  icons:
+    - id: styleci
+      relativeUrl: products/s/styleci/icons/styleci.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    continuousIntegration:
+      id: continuousIntegration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    codeReview:
+      id: codeReview
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    php:
+      id: php
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

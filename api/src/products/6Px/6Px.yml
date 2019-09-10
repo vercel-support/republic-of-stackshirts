@@ -1,0 +1,38 @@
+id: 6Px
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: 6px
+  url: 'https://6px.io/'
+  colors:
+    - hex: '#049cdc'
+      rgb:
+        r: 4
+        g: 156
+        b: 220
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: 6Px
+      relativeUrl: 'products/#/6Px/logos/6Px.svg'
+      width: 256
+      height: 265
+  icons:
+    - id: 6Px
+      relativeUrl: 'products/#/6Px/icons/6Px.svg'
+      width: 256
+      height: 265
+relationships:
+  productLabels:
+    imageProcessing:
+      id: imageProcessing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    saas:
+      id: saas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

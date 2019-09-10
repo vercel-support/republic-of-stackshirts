@@ -1,0 +1,33 @@
+id: googlePhotos
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Google Photos
+  url: 'https://photos.google.com/'
+  colors:
+    - hex: '#3b81c2'
+      rgb:
+        r: 59
+        g: 129
+        b: 194
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: googlePhotos
+      relativeUrl: products/g/googlePhotos/logos/googlePhotos.svg
+      width: 256
+      height: 256
+  icons:
+    - id: googlePhotos
+      relativeUrl: products/g/googlePhotos/icons/googlePhotos.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    imageOrganizer:
+      id: imageOrganizer
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

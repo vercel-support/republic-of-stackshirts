@@ -1,0 +1,33 @@
+id: teamgrid
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Teamgrid
+  url: 'http://www.teamgridapp.com/'
+  colors:
+    - hex: '#14a49c'
+      rgb:
+        r: 20
+        g: 164
+        b: 156
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: teamgrid
+      relativeUrl: products/t/teamgrid/logos/teamgrid.svg
+      width: 256
+      height: 163
+  icons:
+    - id: teamgrid
+      relativeUrl: products/t/teamgrid/icons/teamgrid.svg
+      width: 256
+      height: 163
+relationships:
+  productLabels:
+    projectManager:
+      id: projectManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

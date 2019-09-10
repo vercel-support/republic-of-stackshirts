@@ -1,0 +1,33 @@
+id: jira
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: JIRA
+  url: 'https://www.atlassian.com/software/jira'
+  colors:
+    - hex: '#244c74'
+      rgb:
+        r: 36
+        g: 76
+        b: 116
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: jira
+      relativeUrl: products/j/jira/logos/jira.svg
+      width: 512
+      height: 200
+  icons:
+    - id: jira
+      relativeUrl: products/j/jira/icons/jira.svg
+      width: 512
+      height: 200
+relationships:
+  productLabels:
+    issueTracker:
+      id: issueTracker
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

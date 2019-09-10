@@ -1,0 +1,38 @@
+id: runAbove
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: RunAbove
+  url: 'https://www.runabove.com/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: runAbove
+      relativeUrl: products/r/runAbove/logos/runAbove.svg
+      width: 256
+      height: 319
+  icons:
+    - id: runAbove
+      relativeUrl: products/r/runAbove/icons/runAbove.svg
+      width: 256
+      height: 319
+relationships:
+  productLabels:
+    cloudComputing:
+      id: cloudComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cloudStorage:
+      id: cloudStorage
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

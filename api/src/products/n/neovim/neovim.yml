@@ -1,0 +1,38 @@
+id: neovim
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Neovim
+  url: 'http://neovim.io/'
+  colors:
+    - hex: '#444443'
+      rgb:
+        r: 68
+        g: 68
+        b: 67
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: neovim
+      relativeUrl: products/n/neovim/logos/neovim.svg
+      width: 512
+      height: 148
+  icons:
+    - id: neovim
+      relativeUrl: products/n/neovim/icons/neovim.svg
+      width: 512
+      height: 148
+relationships:
+  productLabels:
+    vim:
+      id: vim
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    codeEditor:
+      id: codeEditor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

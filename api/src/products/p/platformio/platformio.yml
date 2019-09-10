@@ -1,0 +1,43 @@
+id: platformio
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: PlatformIO
+  url: 'http://platformio.org/'
+  colors:
+    - hex: '#f37904'
+      rgb:
+        r: 243
+        g: 121
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: platformio
+      relativeUrl: products/p/platformio/logos/platformio.svg
+      width: 256
+      height: 256
+  icons:
+    - id: platformio
+      relativeUrl: products/p/platformio/icons/platformio.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    ide:
+      id: ide
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iot:
+      id: iot
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    hardware:
+      id: hardware
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

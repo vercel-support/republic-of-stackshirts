@@ -1,0 +1,38 @@
+id: hoodie
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Hoodie
+  url: 'http://hood.ie/'
+  colors:
+    - hex: '#ec4c1c'
+      rgb:
+        r: 236
+        g: 76
+        b: 28
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: hoodie
+      relativeUrl: products/h/hoodie/logos/hoodie.svg
+      width: 512
+      height: 119
+  icons:
+    - id: hoodie
+      relativeUrl: products/h/hoodie/icons/hoodie.svg
+      width: 512
+      height: 119
+relationships:
+  productLabels:
+    fullStackFramework:
+      id: fullStackFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

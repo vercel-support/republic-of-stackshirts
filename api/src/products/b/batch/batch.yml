@@ -1,0 +1,48 @@
+id: batch
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: batch
+  url: 'https://batch.com/'
+  colors:
+    - hex: '#1c2c3c'
+      rgb:
+        r: 28
+        g: 44
+        b: 60
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: batch
+      relativeUrl: products/b/batch/logos/batch.svg
+      width: 256
+      height: 256
+  icons:
+    - id: batch
+      relativeUrl: products/b/batch/icons/batch.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    pushNotifications:
+      id: pushNotifications
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ads:
+      id: ads
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    marketing:
+      id: marketing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

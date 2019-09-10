@@ -1,0 +1,38 @@
+id: awsCodedeploy
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AWS CodeDeploy
+  url: 'https://aws.amazon.com/codedeploy/'
+  colors:
+    - hex: '#739b3b'
+      rgb:
+        r: 115
+        g: 155
+        b: 59
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: awsCodedeploy
+      relativeUrl: products/a/awsCodedeploy/logos/awsCodedeploy.svg
+      width: 256
+      height: 310
+  icons:
+    - id: awsCodedeploy
+      relativeUrl: products/a/awsCodedeploy/icons/awsCodedeploy.svg
+      width: 256
+      height: 310
+relationships:
+  productLabels:
+    codeDeployment:
+      id: codeDeployment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

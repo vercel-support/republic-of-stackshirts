@@ -1,0 +1,38 @@
+id: awsS3
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AWS S3 (Simple Storage Service)
+  url: 'https://aws.amazon.com/s3/'
+  colors:
+    - hex: '#8d3424'
+      rgb:
+        r: 141
+        g: 52
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: awsS3
+      relativeUrl: products/a/awsS3/logos/awsS3.svg
+      width: 256
+      height: 310
+  icons:
+    - id: awsS3
+      relativeUrl: products/a/awsS3/icons/awsS3.svg
+      width: 256
+      height: 310
+relationships:
+  productLabels:
+    cloudStorage:
+      id: cloudStorage
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

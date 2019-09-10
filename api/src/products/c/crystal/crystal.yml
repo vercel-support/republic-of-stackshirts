@@ -1,0 +1,33 @@
+id: crystal
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Crystal
+  url: 'http://crystal-lang.org/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: crystal
+      relativeUrl: products/c/crystal/logos/crystal.svg
+      width: 256
+      height: 256
+  icons:
+    - id: crystal
+      relativeUrl: products/c/crystal/icons/crystal.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

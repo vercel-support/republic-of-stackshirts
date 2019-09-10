@@ -1,0 +1,38 @@
+id: opsgenie
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: OpsGenie
+  url: 'https://www.opsgenie.com/'
+  colors:
+    - hex: '#fc8c2c'
+      rgb:
+        r: 252
+        g: 140
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: opsgenie
+      relativeUrl: products/o/opsgenie/logos/opsgenie.svg
+      width: 256
+      height: 256
+  icons:
+    - id: opsgenie
+      relativeUrl: products/o/opsgenie/icons/opsgenie.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    monitoring:
+      id: monitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    monitoringAggregation:
+      id: monitoringAggregation
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,46 @@
+id: git
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Git
+  url: 'https://git-scm.com/'
+  colors:
+    - hex: '#dc4c34'
+      rgb:
+        r: 220
+        g: 76
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: gitShort
+      relativeUrl: products/g/git/logos/gitShort.svg
+      width: 256
+      height: 256
+    - id: git
+      relativeUrl: products/g/git/logos/git.svg
+      width: 256
+      height: 108
+  icons:
+    - id: gitShort
+      relativeUrl: products/g/git/icons/gitShort.svg
+      width: 256
+      height: 256
+    - id: git
+      relativeUrl: products/g/git/icons/git.svg
+      width: 256
+      height: 108
+relationships:
+  productLabels:
+    versionControl:
+      id: versionControl
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

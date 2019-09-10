@@ -1,0 +1,38 @@
+id: basecamp
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Basecamp
+  url: 'https://basecamp.com/'
+  colors:
+    - hex: '#64cc64'
+      rgb:
+        r: 100
+        g: 204
+        b: 100
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: basecamp
+      relativeUrl: products/b/basecamp/logos/basecamp.svg
+      width: 256
+      height: 213
+  icons:
+    - id: basecamp
+      relativeUrl: products/b/basecamp/icons/basecamp.svg
+      width: 256
+      height: 213
+relationships:
+  productLabels:
+    projectManager:
+      id: projectManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    teamCollaboration:
+      id: teamCollaboration
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

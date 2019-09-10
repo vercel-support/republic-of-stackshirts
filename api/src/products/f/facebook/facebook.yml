@@ -1,0 +1,33 @@
+id: facebook
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Facebook
+  url: 'https://www.facebook.com/'
+  colors:
+    - hex: '#3c5484'
+      rgb:
+        r: 60
+        g: 84
+        b: 132
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: facebook
+      relativeUrl: products/f/facebook/logos/facebook.svg
+      width: 256
+      height: 256
+  icons:
+    - id: facebook
+      relativeUrl: products/f/facebook/icons/facebook.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    socialNetwork:
+      id: socialNetwork
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

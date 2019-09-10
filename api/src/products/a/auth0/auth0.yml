@@ -1,0 +1,38 @@
+id: auth0
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Auth0
+  url: 'https://auth0.com/'
+  colors:
+    - hex: '#ec5424'
+      rgb:
+        r: 236
+        g: 84
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: auth0
+      relativeUrl: products/a/auth0/logos/auth0.svg
+      width: 256
+      height: 287
+  icons:
+    - id: auth0
+      relativeUrl: products/a/auth0/icons/auth0.svg
+      width: 256
+      height: 287
+relationships:
+  productLabels:
+    authentication:
+      id: authentication
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    security:
+      id: security
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

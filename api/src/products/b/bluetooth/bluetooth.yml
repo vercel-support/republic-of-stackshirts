@@ -1,0 +1,43 @@
+id: bluetooth
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Bluetooth
+  url: 'http://www.bluetooth.com/'
+  colors:
+    - hex: '#0464ac'
+      rgb:
+        r: 4
+        g: 100
+        b: 172
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: bluetooth
+      relativeUrl: products/b/bluetooth/logos/bluetooth.svg
+      width: 256
+      height: 348
+  icons:
+    - id: bluetooth
+      relativeUrl: products/b/bluetooth/icons/bluetooth.svg
+      width: 256
+      height: 348
+relationships:
+  productLabels:
+    wireless:
+      id: wireless
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    protocol:
+      id: protocol
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    technology:
+      id: technology
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

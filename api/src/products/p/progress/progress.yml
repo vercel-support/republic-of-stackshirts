@@ -1,0 +1,33 @@
+id: progress
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Progess
+  url: 'https://www.progress.com/'
+  colors:
+    - hex: '#5ce500'
+      rgb:
+        r: 92
+        g: 229
+        b: 0
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: progress
+      relativeUrl: products/p/progress/logos/progress.svg
+      width: 256
+      height: 277
+  icons:
+    - id: progress
+      relativeUrl: products/p/progress/icons/progress.svg
+      width: 256
+      height: 277
+relationships:
+  productLabels:
+    cloudComputing:
+      id: cloudComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

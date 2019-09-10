@@ -1,0 +1,38 @@
+id: awsEc2
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AWS EC2 (Elastic Compute Cloud)
+  url: 'https://aws.amazon.com/ec2/'
+  colors:
+    - hex: '#9c5424'
+      rgb:
+        r: 156
+        g: 84
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: awsEc2
+      relativeUrl: products/a/awsEc2/logos/awsEc2.svg
+      width: 256
+      height: 310
+  icons:
+    - id: awsEc2
+      relativeUrl: products/a/awsEc2/icons/awsEc2.svg
+      width: 256
+      height: 310
+relationships:
+  productLabels:
+    cloudComputing:
+      id: cloudComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

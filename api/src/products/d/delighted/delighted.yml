@@ -1,0 +1,38 @@
+id: delighted
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Delighted
+  url: 'https://delighted.com/'
+  colors:
+    - hex: '#4c4c4c'
+      rgb:
+        r: 76
+        g: 76
+        b: 76
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: delighted
+      relativeUrl: products/d/delighted/logos/delighted.svg
+      width: 256
+      height: 256
+  icons:
+    - id: delighted
+      relativeUrl: products/d/delighted/icons/delighted.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    customerSupport:
+      id: customerSupport
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    userFeedback:
+      id: userFeedback
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

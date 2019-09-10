@@ -1,0 +1,38 @@
+id: jruby
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: JRuby
+  url: 'http://jruby.org/'
+  colors:
+    - hex: '#cb1c23'
+      rgb:
+        r: 203
+        g: 28
+        b: 35
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: jruby
+      relativeUrl: products/j/jruby/logos/jruby.svg
+      width: 257
+      height: 183
+  icons:
+    - id: jruby
+      relativeUrl: products/j/jruby/icons/jruby.svg
+      width: 257
+      height: 183
+relationships:
+  productLabels:
+    java:
+      id: java
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ruby:
+      id: ruby
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

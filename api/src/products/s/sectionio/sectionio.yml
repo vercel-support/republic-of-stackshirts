@@ -1,0 +1,33 @@
+id: sectionio
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: section.io
+  url: 'https://www.section.io/'
+  colors:
+    - hex: '#14abdc'
+      rgb:
+        r: 20
+        g: 171
+        b: 220
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: sectionio
+      relativeUrl: products/s/sectionio/logos/sectionio.svg
+      width: 256
+      height: 290
+  icons:
+    - id: sectionio
+      relativeUrl: products/s/sectionio/icons/sectionio.svg
+      width: 256
+      height: 290
+relationships:
+  productLabels:
+    webCache:
+      id: webCache
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

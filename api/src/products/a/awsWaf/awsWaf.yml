@@ -1,0 +1,43 @@
+id: awsWaf
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AWS WAF (Web Application Firewall)
+  url: 'https://aws.amazon.com/waf/'
+  colors:
+    - hex: '#749b3c'
+      rgb:
+        r: 116
+        g: 155
+        b: 60
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: awsWaf
+      relativeUrl: products/a/awsWaf/logos/awsWaf.svg
+      width: 256
+      height: 310
+  icons:
+    - id: awsWaf
+      relativeUrl: products/a/awsWaf/icons/awsWaf.svg
+      width: 256
+      height: 310
+relationships:
+  productLabels:
+    firewall:
+      id: firewall
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    webApp:
+      id: webApp
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: rocksdb
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: RocksDB
+  url: 'http://rocksdb.org/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: rocksdb
+      relativeUrl: products/r/rocksdb/logos/rocksdb.svg
+      width: 256
+      height: 210
+  icons:
+    - id: rocksdb
+      relativeUrl: products/r/rocksdb/icons/rocksdb.svg
+      width: 256
+      height: 210
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    storage:
+      id: storage
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

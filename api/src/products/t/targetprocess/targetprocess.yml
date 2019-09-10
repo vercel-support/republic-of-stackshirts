@@ -1,0 +1,48 @@
+id: targetprocess
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: TargetProcess
+  url: 'http://www.targetprocess.com/'
+  colors:
+    - hex: '#368390'
+      rgb:
+        r: 54
+        g: 131
+        b: 144
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: targetprocess
+      relativeUrl: products/t/targetprocess/logos/targetprocess.svg
+      width: 256
+      height: 267
+  icons:
+    - id: targetprocess
+      relativeUrl: products/t/targetprocess/icons/targetprocess.svg
+      width: 256
+      height: 267
+relationships:
+  productLabels:
+    projectManager:
+      id: projectManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    agile:
+      id: agile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    scrum:
+      id: scrum
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    kanban:
+      id: kanban
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: netuitive
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Netuitive
+  url: 'http://www.netuitive.com/'
+  colors:
+    - hex: '#2c9cec'
+      rgb:
+        r: 44
+        g: 156
+        b: 236
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: netuitive
+      relativeUrl: products/n/netuitive/logos/netuitive.svg
+      width: 256
+      height: 165
+  icons:
+    - id: netuitive
+      relativeUrl: products/n/netuitive/icons/netuitive.svg
+      width: 256
+      height: 165
+relationships:
+  productLabels:
+    monitoring:
+      id: monitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    performanceMonitoring:
+      id: performanceMonitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

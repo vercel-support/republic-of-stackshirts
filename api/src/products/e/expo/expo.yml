@@ -1,0 +1,48 @@
+id: expo
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Expo
+  url: 'https://expo.io/'
+  colors:
+    - hex: '#1173b6'
+      rgb:
+        r: 17
+        g: 115
+        b: 182
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: expo
+      relativeUrl: products/e/expo/logos/expo.svg
+      width: 256
+      height: 227
+  icons:
+    - id: expo
+      relativeUrl: products/e/expo/icons/expo.svg
+      width: 256
+      height: 227
+relationships:
+  productLabels:
+    crossPlatform:
+      id: crossPlatform
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    applicationFramework:
+      id: applicationFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    reactNative:
+      id: reactNative
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

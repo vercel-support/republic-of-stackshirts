@@ -1,0 +1,33 @@
+id: ebanx
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: EBANX
+  url: 'https://www.ebanx.com'
+  colors:
+    - hex: '#2397d4'
+      rgb:
+        r: 35
+        g: 151
+        b: 212
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: ebanx
+      relativeUrl: products/e/ebanx/logos/ebanx.svg
+      width: 512
+      height: 97
+  icons:
+    - id: ebanx
+      relativeUrl: products/e/ebanx/icons/ebanx.svg
+      width: 512
+      height: 97
+relationships:
+  productLabels:
+    finance:
+      id: finance
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

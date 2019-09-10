@@ -1,0 +1,38 @@
+id: brunch
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Brunch
+  url: 'http://brunch.io/'
+  colors:
+    - hex: '#ccceb0'
+      rgb:
+        r: 204
+        g: 206
+        b: 176
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: brunch
+      relativeUrl: products/b/brunch/logos/brunch.svg
+      width: 256
+      height: 501
+  icons:
+    - id: brunch
+      relativeUrl: products/b/brunch/icons/brunch.svg
+      width: 256
+      height: 501
+relationships:
+  productLabels:
+    buildTool:
+      id: buildTool
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

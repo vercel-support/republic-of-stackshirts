@@ -1,0 +1,56 @@
+id: npm
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: NPM
+  url: 'https://www.npmjs.com/'
+  colors:
+    - hex: '#cc3c34'
+      rgb:
+        r: 204
+        g: 60
+        b: 52
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: npm
+      relativeUrl: products/n/npm/logos/npm.svg
+      width: 256
+      height: 100
+    - id: npm2
+      relativeUrl: products/n/npm/logos/npm2.svg
+      width: 256
+      height: 287
+  icons:
+    - id: npm
+      relativeUrl: products/n/npm/icons/npm.svg
+      width: 256
+      height: 100
+    - id: npm2
+      relativeUrl: products/n/npm/icons/npm2.svg
+      width: 256
+      height: 287
+relationships:
+  productLabels:
+    packageManager:
+      id: packageManager
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

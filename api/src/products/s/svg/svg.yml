@@ -1,0 +1,33 @@
+id: svg
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: SVG
+  url: 'http://www.w3.org/Graphics/SVG/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: svg
+      relativeUrl: products/s/svg/logos/svg.svg
+      width: 256
+      height: 256
+  icons:
+    - id: svg
+      relativeUrl: products/s/svg/icons/svg.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

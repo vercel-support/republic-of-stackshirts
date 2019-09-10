@@ -1,0 +1,38 @@
+id: databaseLabs
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Database Labs
+  url: 'https://www.databaselabs.io/'
+  colors:
+    - hex: '#842c2c'
+      rgb:
+        r: 132
+        g: 44
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: databaseLabs
+      relativeUrl: products/d/databaseLabs/logos/databaseLabs.svg
+      width: 256
+      height: 256
+  icons:
+    - id: databaseLabs
+      relativeUrl: products/d/databaseLabs/icons/databaseLabs.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    postgres:
+      id: postgres
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

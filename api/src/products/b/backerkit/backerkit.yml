@@ -1,0 +1,33 @@
+id: backerkit
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: BackerKit
+  url: 'https://www.backerkit.com/'
+  colors:
+    - hex: '#2c2c2c'
+      rgb:
+        r: 44
+        g: 44
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: backerkit
+      relativeUrl: products/b/backerkit/logos/backerkit.svg
+      width: 256
+      height: 249
+  icons:
+    - id: backerkit
+      relativeUrl: products/b/backerkit/icons/backerkit.svg
+      width: 256
+      height: 249
+relationships:
+  productLabels:
+    crowdfunding:
+      id: crowdfunding
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

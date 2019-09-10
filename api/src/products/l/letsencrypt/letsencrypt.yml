@@ -1,0 +1,33 @@
+id: letsencrypt
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Let's Encrypt
+  url: 'https://letsencrypt.org/'
+  colors:
+    - hex: '#ffa400'
+      rgb:
+        r: 255
+        g: 164
+        b: 0
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: letsencrypt
+      relativeUrl: products/l/letsencrypt/logos/letsencrypt.svg
+      width: 256
+      height: 199
+  icons:
+    - id: letsencrypt
+      relativeUrl: products/l/letsencrypt/icons/letsencrypt.svg
+      width: 256
+      height: 199
+relationships:
+  productLabels:
+    security:
+      id: security
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: box
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: box
+  url: 'https://www.box.com/'
+  colors:
+    - hex: '#04acec'
+      rgb:
+        r: 4
+        g: 172
+        b: 236
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: box
+      relativeUrl: products/b/box/logos/box.svg
+      width: 256
+      height: 256
+  icons:
+    - id: box
+      relativeUrl: products/b/box/icons/box.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    cloudStorage:
+      id: cloudStorage
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

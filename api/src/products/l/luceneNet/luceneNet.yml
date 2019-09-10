@@ -1,0 +1,38 @@
+id: luceneNet
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Lucene.net
+  url: 'https://lucenenet.apache.org/'
+  colors:
+    - hex: '#c1da94'
+      rgb:
+        r: 193
+        g: 218
+        b: 148
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: lucene
+      relativeUrl: products/l/luceneNet/logos/lucene.svg
+      width: 512
+      height: 81
+  icons:
+    - id: lucene
+      relativeUrl: products/l/luceneNet/icons/lucene.svg
+      width: 512
+      height: 81
+relationships:
+  productLabels:
+    lucene:
+      id: lucene
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    searchEngine:
+      id: searchEngine
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

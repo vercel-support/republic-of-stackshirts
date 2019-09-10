@@ -1,0 +1,38 @@
+id: dinersclub
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Diners Club
+  url: 'https://www.dinersclub.com/'
+  colors:
+    - hex: '#006095'
+      rgb:
+        r: 0
+        g: 96
+        b: 149
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: dinersclub
+      relativeUrl: products/d/dinersclub/logos/dinersclub.svg
+      width: 512
+      height: 134
+  icons:
+    - id: dinersclub
+      relativeUrl: products/d/dinersclub/icons/dinersclub.svg
+      width: 512
+      height: 134
+relationships:
+  productLabels:
+    creditCard:
+      id: creditCard
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    finance:
+      id: finance
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

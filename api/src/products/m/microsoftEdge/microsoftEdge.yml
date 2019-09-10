@@ -1,0 +1,33 @@
+id: microsoftEdge
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Microsoft Edge
+  url: 'https://www.microsoft.com/en-us/windows/microsoft-edge'
+  colors:
+    - hex: '#3474bc'
+      rgb:
+        r: 52
+        g: 116
+        b: 188
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: microsoftEdge
+      relativeUrl: products/m/microsoftEdge/logos/microsoftEdge.svg
+      width: 256
+      height: 278
+  icons:
+    - id: microsoftEdge
+      relativeUrl: products/m/microsoftEdge/icons/microsoftEdge.svg
+      width: 256
+      height: 278
+relationships:
+  productLabels:
+    browser:
+      id: browser
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

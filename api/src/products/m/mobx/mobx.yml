@@ -1,0 +1,43 @@
+id: mobx
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: MobX
+  url: 'https://mobxjs.github.io/mobx/'
+  colors:
+    - hex: '#e05e16'
+      rgb:
+        r: 224
+        g: 94
+        b: 22
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mobx
+      relativeUrl: products/m/mobx/logos/mobx.svg
+      width: 256
+      height: 256
+  icons:
+    - id: mobx
+      relativeUrl: products/m/mobx/icons/mobx.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    stateContainer:
+      id: stateContainer
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    react:
+      id: react
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

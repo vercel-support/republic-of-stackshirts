@@ -1,0 +1,38 @@
+id: fomo
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Fomo
+  url: 'https://www.usefomo.com/'
+  colors:
+    - hex: '#eca16c'
+      rgb:
+        r: 236
+        g: 161
+        b: 108
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: fomo
+      relativeUrl: products/f/fomo/logos/fomo.svg
+      width: 512
+      height: 179
+  icons:
+    - id: fomo
+      relativeUrl: products/f/fomo/icons/fomo.svg
+      width: 512
+      height: 179
+relationships:
+  productLabels:
+    socialMediaTools:
+      id: socialMediaTools
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    socialProof:
+      id: socialProof
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

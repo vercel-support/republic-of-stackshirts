@@ -1,0 +1,38 @@
+id: linode
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Linode
+  url: 'https://www.linode.com/'
+  colors:
+    - hex: '#044415'
+      rgb:
+        r: 4
+        g: 68
+        b: 21
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: linode
+      relativeUrl: products/l/linode/logos/linode.svg
+      width: 256
+      height: 307
+  icons:
+    - id: linode
+      relativeUrl: products/l/linode/icons/linode.svg
+      width: 256
+      height: 307
+relationships:
+  productLabels:
+    cloudComputing:
+      id: cloudComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    paas:
+      id: paas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

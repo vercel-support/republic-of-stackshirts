@@ -1,0 +1,33 @@
+id: codecov
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Codecov
+  url: 'http://codecov.io/'
+  colors:
+    - hex: '#e4245c'
+      rgb:
+        r: 228
+        g: 36
+        b: 92
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: codecov
+      relativeUrl: products/c/codecov/logos/codecov.svg
+      width: 256
+      height: 281
+  icons:
+    - id: codecov
+      relativeUrl: products/c/codecov/icons/codecov.svg
+      width: 256
+      height: 281
+relationships:
+  productLabels:
+    codeCoverage:
+      id: codeCoverage
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

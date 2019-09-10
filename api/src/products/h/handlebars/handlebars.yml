@@ -1,0 +1,38 @@
+id: handlebars
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Handlebars
+  url: 'http://handlebarsjs.com/'
+  colors:
+    - hex: '#443424'
+      rgb:
+        r: 68
+        g: 52
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: handlebars
+      relativeUrl: products/h/handlebars/logos/handlebars.svg
+      width: 512
+      height: 124
+  icons:
+    - id: handlebars
+      relativeUrl: products/h/handlebars/icons/handlebars.svg
+      width: 512
+      height: 124
+relationships:
+  productLabels:
+    html:
+      id: html
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    template:
+      id: template
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

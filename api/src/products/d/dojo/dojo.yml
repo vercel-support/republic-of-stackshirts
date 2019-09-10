@@ -1,0 +1,38 @@
+id: dojo
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Dojo Toolkit
+  url: 'https://dojotoolkit.org/'
+  colors:
+    - hex: '#8c8c8c'
+      rgb:
+        r: 140
+        g: 140
+        b: 140
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: dojo
+      relativeUrl: products/d/dojo/logos/dojo.svg
+      width: 512
+      height: 239
+  icons:
+    - id: dojo
+      relativeUrl: products/d/dojo/icons/dojo.svg
+      width: 512
+      height: 239
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    library:
+      id: library
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

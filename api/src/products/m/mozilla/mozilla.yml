@@ -1,0 +1,38 @@
+id: mozilla
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Mozilla
+  url: 'https://www.mozilla.org/'
+  colors:
+    - hex: '#4c5454'
+      rgb:
+        r: 76
+        g: 84
+        b: 84
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mozilla
+      relativeUrl: products/m/mozilla/logos/mozilla.svg
+      width: 512
+      height: 134
+  icons:
+    - id: mozilla
+      relativeUrl: products/m/mozilla/icons/mozilla.svg
+      width: 512
+      height: 134
+relationships:
+  productLabels:
+    technology:
+      id: technology
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    company:
+      id: company
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

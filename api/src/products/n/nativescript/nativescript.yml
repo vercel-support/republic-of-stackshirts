@@ -1,0 +1,53 @@
+id: nativescript
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: NativeScript
+  url: 'https://www.nativescript.org/'
+  colors:
+    - hex: '#3c5cfc'
+      rgb:
+        r: 60
+        g: 92
+        b: 252
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: nativescript
+      relativeUrl: products/n/nativescript/logos/nativescript.svg
+      width: 256
+      height: 256
+  icons:
+    - id: nativescript
+      relativeUrl: products/n/nativescript/icons/nativescript.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    crossPlatform:
+      id: crossPlatform
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    applicationFramework:
+      id: applicationFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    cli:
+      id: cli
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

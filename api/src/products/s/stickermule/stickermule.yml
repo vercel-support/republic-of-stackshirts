@@ -1,0 +1,38 @@
+id: stickermule
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: stickermule
+  url: 'https://www.stickermule.com/'
+  colors:
+    - hex: '#e4632c'
+      rgb:
+        r: 228
+        g: 99
+        b: 44
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: stickermule
+      relativeUrl: products/s/stickermule/logos/stickermule.svg
+      width: 256
+      height: 149
+  icons:
+    - id: stickermule
+      relativeUrl: products/s/stickermule/icons/stickermule.svg
+      width: 256
+      height: 149
+relationships:
+  productLabels:
+    stickers:
+      id: stickers
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    magnets:
+      id: magnets
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

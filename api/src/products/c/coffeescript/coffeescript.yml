@@ -1,0 +1,38 @@
+id: coffeescript
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: CoffeeScript
+  url: 'http://coffeescript.org/'
+  colors:
+    - hex: '#2c344c'
+      rgb:
+        r: 44
+        g: 52
+        b: 76
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: coffeescript
+      relativeUrl: products/c/coffeescript/logos/coffeescript.svg
+      width: 256
+      height: 206
+  icons:
+    - id: coffeescript
+      relativeUrl: products/c/coffeescript/icons/coffeescript.svg
+      width: 256
+      height: 206
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

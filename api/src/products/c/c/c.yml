@@ -1,0 +1,33 @@
+id: c
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: C++
+  url: 'https://isocpp.org/'
+  colors:
+    - hex: '#acbbcb'
+      rgb:
+        r: 172
+        g: 187
+        b: 203
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: c
+      relativeUrl: products/c/c/logos/c.svg
+      width: 256
+      height: 288
+  icons:
+    - id: c
+      relativeUrl: products/c/c/icons/c.svg
+      width: 256
+      height: 288
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

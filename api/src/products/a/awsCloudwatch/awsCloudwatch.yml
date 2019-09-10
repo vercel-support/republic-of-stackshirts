@@ -1,0 +1,43 @@
+id: awsCloudwatch
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: AWS CloudWatch
+  url: 'https://aws.amazon.com/cloudwatch/'
+  colors:
+    - hex: '#749b3c'
+      rgb:
+        r: 116
+        g: 155
+        b: 60
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: awsCloudwatch
+      relativeUrl: products/a/awsCloudwatch/logos/awsCloudwatch.svg
+      width: 256
+      height: 290
+  icons:
+    - id: awsCloudwatch
+      relativeUrl: products/a/awsCloudwatch/icons/awsCloudwatch.svg
+      width: 256
+      height: 290
+relationships:
+  productLabels:
+    monitoring:
+      id: monitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    serverMonitoring:
+      id: serverMonitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    iaaS:
+      id: iaaS
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

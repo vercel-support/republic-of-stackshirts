@@ -1,0 +1,38 @@
+id: oracle
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Oracle
+  url: 'https://www.oracle.com/database/'
+  colors:
+    - hex: '#ec1c24'
+      rgb:
+        r: 236
+        g: 28
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: oracle
+      relativeUrl: products/o/oracle/logos/oracle.svg
+      width: 512
+      height: 67
+  icons:
+    - id: oracle
+      relativeUrl: products/o/oracle/icons/oracle.svg
+      width: 512
+      height: 67
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    sql:
+      id: sql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

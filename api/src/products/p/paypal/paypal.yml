@@ -1,0 +1,33 @@
+id: paypal
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: PayPal
+  url: 'https://www.paypal.com/'
+  colors:
+    - hex: '#2493c3'
+      rgb:
+        r: 36
+        g: 147
+        b: 195
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: paypal
+      relativeUrl: products/p/paypal/logos/paypal.svg
+      width: 256
+      height: 302
+  icons:
+    - id: paypal
+      relativeUrl: products/p/paypal/icons/paypal.svg
+      width: 256
+      height: 302
+relationships:
+  productLabels:
+    paymentService:
+      id: paymentService
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

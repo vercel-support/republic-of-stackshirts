@@ -1,0 +1,43 @@
+id: newRelic
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: New Relic
+  url: 'http://newrelic.com/'
+  colors:
+    - hex: '#99d2ca'
+      rgb:
+        r: 153
+        g: 210
+        b: 202
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: newRelic
+      relativeUrl: products/n/newRelic/logos/newRelic.svg
+      width: 256
+      height: 208
+  icons:
+    - id: newRelic
+      relativeUrl: products/n/newRelic/icons/newRelic.svg
+      width: 256
+      height: 208
+relationships:
+  productLabels:
+    monitoring:
+      id: monitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    performanceMonitoring:
+      id: performanceMonitoring
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    saas:
+      id: saas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

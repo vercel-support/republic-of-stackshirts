@@ -1,0 +1,38 @@
+id: looker
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Looker
+  url: 'http://www.looker.com/'
+  colors:
+    - hex: '#642c84'
+      rgb:
+        r: 100
+        g: 44
+        b: 132
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: looker
+      relativeUrl: products/l/looker/logos/looker.svg
+      width: 512
+      height: 200
+  icons:
+    - id: looker
+      relativeUrl: products/l/looker/icons/looker.svg
+      width: 512
+      height: 200
+relationships:
+  productLabels:
+    businessIntelligence:
+      id: businessIntelligence
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    analytics:
+      id: analytics
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

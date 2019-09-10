@@ -1,0 +1,53 @@
+id: apportable
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Apportable
+  url: 'http://www.apportable.com/'
+  colors:
+    - hex: '#14647c'
+      rgb:
+        r: 20
+        g: 100
+        b: 124
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: apportable
+      relativeUrl: products/a/apportable/logos/apportable.svg
+      width: 256
+      height: 286
+  icons:
+    - id: apportable
+      relativeUrl: products/a/apportable/icons/apportable.svg
+      width: 256
+      height: 286
+relationships:
+  productLabels:
+    crossPlatform:
+      id: crossPlatform
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    applicationFramework:
+      id: applicationFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    objectiveC:
+      id: objectiveC
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    swift:
+      id: swift
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

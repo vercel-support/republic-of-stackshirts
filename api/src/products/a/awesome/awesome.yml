@@ -1,0 +1,33 @@
+id: awesome
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Awesome
+  url: 'https://github.com/sindresorhus/awesome'
+  colors:
+    - hex: '#fc63ab'
+      rgb:
+        r: 252
+        g: 99
+        b: 171
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: awesome
+      relativeUrl: products/a/awesome/logos/awesome.svg
+      width: 256
+      height: 190
+  icons:
+    - id: awesome
+      relativeUrl: products/a/awesome/icons/awesome.svg
+      width: 256
+      height: 190
+relationships:
+  productLabels:
+    reference:
+      id: reference
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

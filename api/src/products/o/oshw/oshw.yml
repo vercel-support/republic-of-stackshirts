@@ -1,0 +1,38 @@
+id: oshw
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Open Source Hardware Association
+  url: 'http://www.oshwa.org/'
+  colors:
+    - hex: '#049cb4'
+      rgb:
+        r: 4
+        g: 156
+        b: 180
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: oshw
+      relativeUrl: products/o/oshw/logos/oshw.svg
+      width: 256
+      height: 269
+  icons:
+    - id: oshw
+      relativeUrl: products/o/oshw/icons/oshw.svg
+      width: 256
+      height: 269
+relationships:
+  productLabels:
+    hardware:
+      id: hardware
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    association:
+      id: association
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

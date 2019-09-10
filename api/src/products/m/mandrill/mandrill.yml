@@ -1,0 +1,41 @@
+id: mandrill
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Mandrill
+  url: 'http://mandrill.com/'
+  colors:
+    - hex: '#33768d'
+      rgb:
+        r: 51
+        g: 118
+        b: 141
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mandrillShield
+      relativeUrl: products/m/mandrill/logos/mandrillShield.svg
+      width: 256
+      height: 343
+    - id: mandrill
+      relativeUrl: products/m/mandrill/logos/mandrill.svg
+      width: 256
+      height: 227
+  icons:
+    - id: mandrillShield
+      relativeUrl: products/m/mandrill/icons/mandrillShield.svg
+      width: 256
+      height: 343
+    - id: mandrill
+      relativeUrl: products/m/mandrill/icons/mandrill.svg
+      width: 256
+      height: 227
+relationships:
+  productLabels:
+    transactionalEmail:
+      id: transactionalEmail
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,33 @@
+id: nginx
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: NGINX
+  url: 'https://www.nginx.com/'
+  colors:
+    - hex: '#049c04'
+      rgb:
+        r: 4
+        g: 156
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: nginx
+      relativeUrl: products/n/nginx/logos/nginx.svg
+      width: 512
+      height: 108
+  icons:
+    - id: nginx
+      relativeUrl: products/n/nginx/icons/nginx.svg
+      width: 512
+      height: 108
+relationships:
+  productLabels:
+    webServer:
+      id: webServer
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

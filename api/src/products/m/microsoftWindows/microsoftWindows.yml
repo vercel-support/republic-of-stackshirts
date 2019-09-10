@@ -1,0 +1,33 @@
+id: microsoftWindows
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Windows
+  url: 'https://www.microsoft.com/windows'
+  colors:
+    - hex: '#04acec'
+      rgb:
+        r: 4
+        g: 172
+        b: 236
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: microsoftWindows
+      relativeUrl: products/m/microsoftWindows/logos/microsoftWindows.svg
+      width: 256
+      height: 257
+  icons:
+    - id: microsoftWindows
+      relativeUrl: products/m/microsoftWindows/icons/microsoftWindows.svg
+      width: 256
+      height: 257
+relationships:
+  productLabels:
+    operationalSystem:
+      id: operationalSystem
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

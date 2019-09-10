@@ -1,0 +1,38 @@
+id: laravel
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Laravel
+  url: 'http://laravel.com/'
+  colors:
+    - hex: '#f45444'
+      rgb:
+        r: 244
+        g: 84
+        b: 68
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: laravel
+      relativeUrl: products/l/laravel/logos/laravel.svg
+      width: 256
+      height: 256
+  icons:
+    - id: laravel
+      relativeUrl: products/l/laravel/icons/laravel.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    fullStackFramework:
+      id: fullStackFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    php:
+      id: php
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

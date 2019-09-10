@@ -1,0 +1,43 @@
+id: firebase
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Firebase
+  url: 'https://www.firebase.com/'
+  colors:
+    - hex: '#fbcb3c'
+      rgb:
+        r: 251
+        g: 203
+        b: 60
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: firebase
+      relativeUrl: products/f/firebase/logos/firebase.svg
+      width: 256
+      height: 351
+  icons:
+    - id: firebase
+      relativeUrl: products/f/firebase/icons/firebase.svg
+      width: 256
+      height: 351
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    realTime:
+      id: realTime
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    dbaas:
+      id: dbaas
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

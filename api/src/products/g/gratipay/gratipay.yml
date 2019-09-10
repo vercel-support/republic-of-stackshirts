@@ -1,0 +1,38 @@
+id: gratipay
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Gratipay
+  url: 'https://gratipay.com/'
+  colors:
+    - hex: '#643404'
+      rgb:
+        r: 100
+        g: 52
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: gratipay
+      relativeUrl: products/g/gratipay/logos/gratipay.svg
+      width: 256
+      height: 256
+  icons:
+    - id: gratipay
+      relativeUrl: products/g/gratipay/icons/gratipay.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    micropayment:
+      id: micropayment
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    donation:
+      id: donation
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

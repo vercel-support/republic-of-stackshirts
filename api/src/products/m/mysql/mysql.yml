@@ -1,0 +1,38 @@
+id: mysql
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: MySQL
+  url: 'http://dev.mysql.com/'
+  colors:
+    - hex: '#04546c'
+      rgb:
+        r: 4
+        g: 84
+        b: 108
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: mysql
+      relativeUrl: products/m/mysql/logos/mysql.svg
+      width: 256
+      height: 252
+  icons:
+    - id: mysql
+      relativeUrl: products/m/mysql/icons/mysql.svg
+      width: 256
+      height: 252
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    sql:
+      id: sql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

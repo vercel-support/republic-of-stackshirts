@@ -1,0 +1,48 @@
+id: ethereum
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Ethereum
+  url: 'https://www.ethereum.org/'
+  colors:
+    - hex: '#2f2f2f'
+      rgb:
+        r: 47
+        g: 47
+        b: 47
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: ethereum
+      relativeUrl: products/e/ethereum/logos/ethereum.svg
+      width: 256
+      height: 417
+  icons:
+    - id: ethereum
+      relativeUrl: products/e/ethereum/icons/ethereum.svg
+      width: 256
+      height: 417
+relationships:
+  productLabels:
+    distributedComputing:
+      id: distributedComputing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    blockchain:
+      id: blockchain
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    virtualMachine:
+      id: virtualMachine
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    virtualCurrency:
+      id: virtualCurrency
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

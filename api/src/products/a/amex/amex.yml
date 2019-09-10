@@ -1,0 +1,38 @@
+id: amex
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: American Express
+  url: 'https://www.americanexpress.com/'
+  colors:
+    - hex: '#ffffff'
+      rgb:
+        r: 255
+        g: 255
+        b: 255
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: amex
+      relativeUrl: products/a/amex/logos/amex.svg
+      width: 256
+      height: 256
+  icons:
+    - id: amex
+      relativeUrl: products/a/amex/icons/amex.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    creditCard:
+      id: creditCard
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    finance:
+      id: finance
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,38 @@
+id: helpscout
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Help Scout
+  url: 'https://www.helpscout.net/'
+  colors:
+    - hex: '#1c547c'
+      rgb:
+        r: 28
+        g: 84
+        b: 124
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: helpscout
+      relativeUrl: products/h/helpscout/logos/helpscout.svg
+      width: 256
+      height: 231
+  icons:
+    - id: helpscout
+      relativeUrl: products/h/helpscout/icons/helpscout.svg
+      width: 256
+      height: 231
+relationships:
+  productLabels:
+    helpDesk:
+      id: helpDesk
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    customerSupport:
+      id: customerSupport
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

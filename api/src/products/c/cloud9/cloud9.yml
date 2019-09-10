@@ -1,0 +1,43 @@
+id: cloud9
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Cloud9
+  url: 'https://c9.io/'
+  colors:
+    - hex: '#04acec'
+      rgb:
+        r: 4
+        g: 172
+        b: 236
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: cloud9
+      relativeUrl: products/c/cloud9/logos/cloud9.svg
+      width: 256
+      height: 234
+  icons:
+    - id: cloud9
+      relativeUrl: products/c/cloud9/icons/cloud9.svg
+      width: 256
+      height: 234
+relationships:
+  productLabels:
+    codeEditor:
+      id: codeEditor
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    ide:
+      id: ide
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    service:
+      id: service
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

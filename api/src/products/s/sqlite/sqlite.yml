@@ -1,0 +1,43 @@
+id: sqlite
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: SQLite
+  url: 'http://www.sqlite.org/'
+  colors:
+    - hex: '#208ed1'
+      rgb:
+        r: 32
+        g: 142
+        b: 209
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: sqlite
+      relativeUrl: products/s/sqlite/logos/sqlite.svg
+      width: 512
+      height: 228
+  icons:
+    - id: sqlite
+      relativeUrl: products/s/sqlite/icons/sqlite.svg
+      width: 512
+      height: 228
+relationships:
+  productLabels:
+    database:
+      id: database
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    sql:
+      id: sql
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    embedded:
+      id: embedded
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

@@ -1,0 +1,46 @@
+id: typescript
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Typescript
+  url: 'https://www.typescriptlang.org/'
+  colors:
+    - hex: '#007acc'
+      rgb:
+        r: 0
+        g: 122
+        b: 204
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: typescriptShort
+      relativeUrl: products/t/typescript/logos/typescriptShort.svg
+      width: 256
+      height: 256
+    - id: typescript
+      relativeUrl: products/t/typescript/logos/typescript.svg
+      width: 512
+      height: 125
+  icons:
+    - id: typescriptShort
+      relativeUrl: products/t/typescript/icons/typescriptShort.svg
+      width: 256
+      height: 256
+    - id: typescript
+      relativeUrl: products/t/typescript/icons/typescript.svg
+      width: 512
+      height: 125
+relationships:
+  productLabels:
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

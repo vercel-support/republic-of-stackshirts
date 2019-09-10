@@ -1,0 +1,38 @@
+id: unbounce
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Unbounce
+  url: 'http://unbounce.com/'
+  colors:
+    - hex: '#248cc4'
+      rgb:
+        r: 36
+        g: 140
+        b: 196
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: unbounce
+      relativeUrl: products/u/unbounce/logos/unbounce.svg
+      width: 256
+      height: 256
+  icons:
+    - id: unbounce
+      relativeUrl: products/u/unbounce/icons/unbounce.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    landingPages:
+      id: landingPages
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    marketing:
+      id: marketing
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

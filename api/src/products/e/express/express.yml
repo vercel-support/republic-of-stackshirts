@@ -1,0 +1,43 @@
+id: express
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Express
+  url: 'http://expressjs.com/'
+  colors:
+    - hex: '#242424'
+      rgb:
+        r: 36
+        g: 36
+        b: 36
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: express
+      relativeUrl: products/e/express/logos/express.svg
+      width: 512
+      height: 149
+  icons:
+    - id: express
+      relativeUrl: products/e/express/icons/express.svg
+      width: 512
+      height: 149
+relationships:
+  productLabels:
+    webAppFramework:
+      id: webAppFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    microframework:
+      id: microframework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    nodeJs:
+      id: nodeJs
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

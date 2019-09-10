@@ -1,0 +1,33 @@
+id: markdown
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Markdown
+  url: 'http://daringfireball.net/projects/markdown/'
+  colors:
+    - hex: '#040404'
+      rgb:
+        r: 4
+        g: 4
+        b: 4
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: markdown
+      relativeUrl: products/m/markdown/logos/markdown.svg
+      width: 256
+      height: 158
+  icons:
+    - id: markdown
+      relativeUrl: products/m/markdown/icons/markdown.svg
+      width: 256
+      height: 158
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

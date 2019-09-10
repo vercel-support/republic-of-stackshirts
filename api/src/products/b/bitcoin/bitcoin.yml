@@ -1,0 +1,33 @@
+id: bitcoin
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Bitcoin
+  url: 'https://bitcoin.org/'
+  colors:
+    - hex: '#fa9e33'
+      rgb:
+        r: 250
+        g: 158
+        b: 51
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: bitcoin
+      relativeUrl: products/b/bitcoin/logos/bitcoin.svg
+      width: 256
+      height: 256
+  icons:
+    - id: bitcoin
+      relativeUrl: products/b/bitcoin/icons/bitcoin.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    virtualCurrency:
+      id: virtualCurrency
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

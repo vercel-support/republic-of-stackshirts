@@ -1,0 +1,48 @@
+id: sencha
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Sencha Touch
+  url: 'https://www.sencha.com/'
+  colors:
+    - hex: '#76b53b'
+      rgb:
+        r: 118
+        g: 181
+        b: 59
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: sencha
+      relativeUrl: products/s/sencha/logos/sencha.svg
+      width: 256
+      height: 388
+  icons:
+    - id: sencha
+      relativeUrl: products/s/sencha/icons/sencha.svg
+      width: 256
+      height: 388
+relationships:
+  productLabels:
+    crossPlatform:
+      id: crossPlatform
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    applicationFramework:
+      id: applicationFramework
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    mobile:
+      id: mobile
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
+    javascript:
+      id: javascript
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'

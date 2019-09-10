@@ -1,0 +1,33 @@
+id: lua
+type: products
+attributes:
+  createdOn: '2017-11-29T10:00:00.000Z'
+  name: Lua
+  url: 'http://www.lua.org/'
+  colors:
+    - hex: '#04047c'
+      rgb:
+        r: 4
+        g: 4
+        b: 124
+  githubUrl: ~
+  package:
+    manager: ~
+    packageId: ~
+  logos:
+    - id: lua
+      relativeUrl: products/l/lua/logos/lua.svg
+      width: 256
+      height: 256
+  icons:
+    - id: lua
+      relativeUrl: products/l/lua/icons/lua.svg
+      width: 256
+      height: 256
+relationships:
+  productLabels:
+    language:
+      id: language
+      type: productLabels
+      meta:
+        addedOn: '2017-11-29T10:00:00.000Z'
