@@ -1,5 +1,5 @@
 {
-  "name": "@republic-of-stackshirts/api",
+  "name": "@republic-of-stackshirts/db",
   "version": "1.1.7",
   "private": false,
   "description": "The api for public resources used on stackshirts.com",
@@ -23,7 +23,6 @@
     "algoliasearch": "^3.32.1",
     "babel-jest": "^24.9.0",
     "dotenv": "^7.0.0",
-    "glob": "^7.1.4",
     "gulp": "^4.0.0",
     "gulp-manifest-replace": "^1.0.1-rc.1",
     "gulp-rev": "^9.0.0",
@@ -41,10 +40,9 @@
     "@babel/core": "^7.4.3",
     "@babel/node": "^7.6.1",
     "@babel/preset-env": "^7.4.3",
-    "babel-plugin-convert-to-json": "^0.1.0",
-    "babel-plugin-dynamic-import-node": "^2.3.0",
     "bluebird": "^3.5.3",
     "fs-extra": "^8.1.0",
+    "glob": "^7.1.4",
     "js-yaml": "^3.13.1"
   }
 }

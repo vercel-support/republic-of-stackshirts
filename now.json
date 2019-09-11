@@ -10,7 +10,7 @@
   },
   "builds": [
     {
-      "src": "api/package.json",
+      "src": "db/package.json",
       "use": "@now/static-build",
       "config": {
         "distDir": "build"
@@ -20,11 +20,11 @@
   "routes": [
     {
       "src": "api/(?<type>[^\\/]+)/(?<id>\\d[^\\/]+)",
-      "dest": "api/$type/$id/$id.json"
+      "dest": "db/$type/$id/$id.json"
     },
     {
       "src": "api/(?<type>[^\\/]+)/(?<id>(?<letter>[^\\/])[^\\/]+)",
-      "dest": "api/$type/$letter/$id/$id.json"
+      "dest": "db/$type/$letter/$id/$id.json"
     }
   ]
 }

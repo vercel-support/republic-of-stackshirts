@@ -14,10 +14,7 @@ module.exports = (api) => {
         }
       ]
     ],
-    'plugins': [
-      'convert-to-json',
-      'dynamic-import-node',
-    ],
+    'plugins': [],
     'ignore': [
       '**/*.spec.js',
       '**/*.test.js',
